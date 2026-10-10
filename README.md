@@ -1,7 +1,7 @@
-# 🚀 RansomTrace AI
+# 🚀 Provenance AI
 ### AI-Assisted Cyberattack Investigation Platform
 
-RansomTrace AI is a cybersecurity investigation platform designed to help security analysts understand suspicious activities, trace potential attack paths, and investigate cyber incidents using provenance graphs and anomaly analysis.
+Provenance AI is a cybersecurity investigation platform designed to help security analysts understand suspicious activities, trace potential attack paths, and investigate cyber incidents using provenance graphs and anomaly analysis.
 
 ## 🌐 Live Demo
 
@@ -24,7 +24,7 @@ Traditional investigation workflows can make it difficult to:
 
 ## 💡 Our Solution
 
-RansomTrace AI provides a graph-based investigation workflow that organizes security events, analyzes their relationships, identifies potentially suspicious behavior, and helps investigators explore possible attack paths.
+Provenance AI provides a graph-based investigation workflow that organizes security events, analyzes their relationships, identifies potentially suspicious behavior, and helps investigators explore possible attack paths.
 
 The platform combines graph analysis, anomaly scoring, MITRE ATT&CK mapping, and investigation reporting to support cybersecurity analysis.
 
@@ -117,7 +117,7 @@ Uses MongoDB to store and retrieve investigation records when database connectiv
 
 ## 📊 Expected Impact
 
-RansomTrace AI aims to:
+Provenance AI aims to:
 
 - Simplify the investigation of complex security events.
 - Improve visibility into relationships between activities.
@@ -140,13 +140,13 @@ Detection results depend on the quality of the input data and the implemented an
 
 ## 👨‍💻 Project Information
 
-- **Project Name:** RansomTrace AI
+- **Project Name:** Provenance AI
 - **Category:** Cybersecurity and AI-Assisted Investigation
 - **Repository:** [TechNova2k26 on GitHub](https://github.com/Azadlingampalli/TechNova2k26)
 - **Dashboard:** [Open Live Dashboard](https://ransomtrace-dashboard.onrender.com)
 
 ## 🏁 Conclusion
 
-RansomTrace AI aims to make cybersecurity investigations more structured and understandable by combining security event analysis, provenance graphs, attack-path tracing, anomaly scoring, and MITRE ATT&CK mapping.
+Provenance AI aims to make cybersecurity investigations more structured and understandable by combining security event analysis, provenance graphs, attack-path tracing, anomaly scoring, and MITRE ATT&CK mapping.
 
 The project provides a foundation for exploring graph-based cyberattack investigation and improving how analysts understand relationships between suspicious activities.
