@@ -5,7 +5,7 @@ Provenance AI is a cybersecurity investigation platform designed to help securit
 
 ## 🌐 Live Demo
 
-- **Live Dashboard:** https://ransomtrace-dashboard.onrender.com
+- **Live Dashboard:** https://provenanceai.onrender.com
 - **Backend API:** https://technova2k26-1.onrender.com
 - **API Documentation:** https://technova2k26-1.onrender.com/docs
 - **GitHub Repository:** https://github.com/Azadlingampalli/TechNova2k26
@@ -143,7 +143,7 @@ Detection results depend on the quality of the input data and the implemented an
 - **Project Name:** Provenance AI
 - **Category:** Cybersecurity and AI-Assisted Investigation
 - **Repository:** [TechNova2k26 on GitHub](https://github.com/Azadlingampalli/TechNova2k26)
-- **Dashboard:** [Open Live Dashboard](https://ransomtrace-dashboard.onrender.com)
+- **Dashboard:** [Open Live Dashboard](https://provenanceai.onrender.com)
 
 ## 🏁 Conclusion
 
