@@ -1,0 +1,32 @@
+{
+  "events": 1187,
+  "ground_truth_attack_events": 7,
+  "detected_events": 7,
+  "true_positives": 7,
+  "false_positives": 0,
+  "false_negatives": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "attack_event_recall": 1.0,
+  "original_nodes": 73,
+  "reduced_nodes": 30,
+  "node_reduction_pct": 58.9,
+  "original_edges": 1187,
+  "reduced_edges": 392,
+  "edge_reduction_pct": 66.98,
+  "attack_events_retained_in_reduced_graph": 7,
+  "attack_event_retention_pct": 100.0,
+  "retained_attack_event_ids": [
+    "COL-A-001",
+    "COL-A-002",
+    "COL-A-003",
+    "COL-A-004",
+    "COL-A-005",
+    "COL-A-006",
+    "COL-A-007"
+  ],
+  "analyst_time_to_insight_seconds": null,
+  "time_to_insight_note": "Measure with a controlled analyst task; null means no user-study time was supplied.",
+  "note": "Heuristic triage only; labels are used for evaluation, never for detector scoring."
+}

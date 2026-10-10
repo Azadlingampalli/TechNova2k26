@@ -1,0 +1,1188 @@
+event_id,timestamp,source_entity,target_entity,event_type,host,process_id,parent_process_id,details,label,anomaly_score,reasons,is_suspicious
+COL-N-00461,2026-10-01 00:05:53+00:00,workstation_2,internal_domain,dns_query,college-web-03,3327,262,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00649,2026-10-01 00:17:38+00:00,web_app,course_catalog,database_query,college-web-08,1563,22,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01163,2026-10-01 00:28:41+00:00,student_10,college_portal,http_request,college-web-04,4760,631,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00424,2026-10-01 00:45:22+00:00,employee_5,shared_docs,file_read,college-web-07,7490,235,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00520,2026-10-01 00:49:34+00:00,student_7,college_portal,http_request,college-web-05,1318,476,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00416,2026-10-01 00:55:27+00:00,web_app,course_catalog,database_query,college-web-04,7996,12,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00130,2026-10-01 00:56:30+00:00,workstation_11,internal_domain,dns_query,college-web-02,1286,171,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00247,2026-10-01 00:58:00+00:00,web_server,access_log,file_write,college-web-09,8493,688,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00481,2026-10-01 01:13:46+00:00,workstation_6,browser,process_start,college-web-05,7922,444,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00679,2026-10-01 01:17:33+00:00,student_12,college_portal,http_request,college-web-01,6242,540,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00326,2026-10-01 01:35:26+00:00,workstation_6,internal_api,network_connection,college-web-09,5116,463,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00785,2026-10-01 01:57:03+00:00,employee_3,shared_docs,file_read,college-web-02,7572,538,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00772,2026-10-01 02:08:52+00:00,backup_service,backup_storage,backup_job,college-web-11,6129,751,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00937,2026-10-01 02:13:02+00:00,workstation_11,internal_domain,dns_query,college-web-01,8880,245,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00387,2026-10-01 02:14:40+00:00,backup_service,backup_storage,backup_job,college-web-06,3441,627,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-01160,2026-10-01 02:15:43+00:00,workstation_3,browser,process_start,college-web-04,4475,663,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01176,2026-10-01 02:21:26+00:00,employee_6,shared_docs,file_read,college-web-04,8697,146,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00092,2026-10-01 02:36:13+00:00,web_server,access_log,file_write,college-web-07,4622,644,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00046,2026-10-01 02:37:58+00:00,employee_8,intranet,login_success,college-web-08,5514,413,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01107,2026-10-01 02:40:36+00:00,student_3,college_portal,http_request,college-web-01,7779,500,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00358,2026-10-01 02:43:03+00:00,workstation_3,internal_domain,dns_query,college-web-12,3498,446,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00723,2026-10-01 02:46:27+00:00,employee_1,shared_docs,file_read,college-web-03,4487,124,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01151,2026-10-01 02:46:31+00:00,workstation_12,internal_domain,dns_query,college-web-06,7351,430,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00590,2026-10-01 03:19:52+00:00,workstation_11,browser,process_start,college-web-12,4575,895,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00383,2026-10-01 03:40:38+00:00,student_13,college_portal,http_request,college-web-05,2729,389,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-01126,2026-10-01 03:47:08+00:00,employee_6,shared_docs,file_read,college-web-03,618,888,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00778,2026-10-01 03:58:15+00:00,web_server,access_log,file_write,college-web-11,8784,649,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00484,2026-10-01 04:01:51+00:00,backup_service,backup_storage,backup_job,college-web-08,7009,348,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00844,2026-10-01 04:02:08+00:00,backup_service,backup_storage,backup_job,college-web-11,8900,252,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-01025,2026-10-01 04:07:08+00:00,employee_12,intranet,login_success,college-web-02,5973,30,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01033,2026-10-01 04:16:08+00:00,web_server,access_log,file_write,college-web-08,268,131,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00178,2026-10-01 04:30:16+00:00,workstation_17,browser,process_start,college-web-08,1110,192,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00025,2026-10-01 04:40:09+00:00,workstation_12,internal_domain,dns_query,college-web-12,819,403,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00252,2026-10-01 04:52:55+00:00,web_server,access_log,file_write,college-web-08,8009,825,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-01072,2026-10-01 05:06:09+00:00,web_app,course_catalog,database_query,college-web-12,5319,668,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00033,2026-10-01 05:07:24+00:00,workstation_15,internal_api,network_connection,college-web-07,8958,557,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00986,2026-10-01 05:08:34+00:00,workstation_14,internal_domain,dns_query,college-web-10,1364,325,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00147,2026-10-01 05:10:40+00:00,web_app,course_catalog,database_query,college-web-10,1448,134,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00439,2026-10-01 05:17:00+00:00,workstation_13,internal_api,network_connection,college-web-04,968,682,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00569,2026-10-01 05:21:14+00:00,workstation_10,internal_api,network_connection,college-web-07,1487,650,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00054,2026-10-01 05:39:31+00:00,backup_service,backup_storage,backup_job,college-web-11,1882,60,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00637,2026-10-01 05:48:43+00:00,employee_1,shared_docs,file_read,college-web-01,5512,283,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00204,2026-10-01 05:48:50+00:00,employee_5,shared_docs,file_read,college-web-08,6671,167,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01005,2026-10-01 06:01:42+00:00,backup_service,backup_storage,backup_job,college-web-06,7418,498,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-01124,2026-10-01 06:01:54+00:00,workstation_12,internal_domain,dns_query,college-web-06,5527,614,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00799,2026-10-01 06:02:30+00:00,student_7,college_portal,http_request,college-web-09,8349,722,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-01095,2026-10-01 06:27:31+00:00,employee_3,shared_docs,file_read,college-web-11,4246,303,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00718,2026-10-01 06:30:54+00:00,workstation_16,internal_api,network_connection,college-web-11,7071,861,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01070,2026-10-01 06:34:57+00:00,workstation_13,browser,process_start,college-web-08,4285,71,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00013,2026-10-01 06:40:28+00:00,web_app,course_catalog,database_query,college-web-08,4653,574,Routine catalog query,False,0.13,Uncommon event type,False
+COL-A-001,2026-10-01 07:00:00+00:00,unknown_ip_198.51.100.24,college_portal,http_request,college-web,9001,801,Repeated requests to upload endpoint,True,0.5800000000000001,Unusual destination; Suspicious web activity,True
+COL-N-00795,2026-10-01 07:02:16+00:00,workstation_8,internal_api,network_connection,college-web-06,5836,615,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00746,2026-10-01 07:03:01+00:00,workstation_5,internal_domain,dns_query,college-web-11,3738,640,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-A-002,2026-10-01 07:06:00+00:00,web_app,/uploads/unexpected.php,file_write,college-web,9002,802,Unexpected PHP file upload,True,0.33,Suspicious web activity,True
+COL-N-00146,2026-10-01 07:11:56+00:00,employee_15,intranet,login_success,college-web-07,6525,103,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-A-003,2026-10-01 07:12:00+00:00,web_server,php_webshell,process_start,college-web,9003,803,Possible web shell process,True,0.33,Suspicious web activity,True
+COL-N-01060,2026-10-01 07:21:30+00:00,employee_3,shared_docs,file_read,college-web-01,5788,760,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00729,2026-10-01 07:23:18+00:00,employee_5,intranet,login_success,college-web-08,8784,195,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-A-004,2026-10-01 07:30:00+00:00,php_webshell,student_records,database_query,college-web,9004,804,Sensitive student records query,True,0.66,Sensitive data/staging indicator; Suspicious web activity; Uncommon event type,True
+COL-N-00109,2026-10-01 07:43:23+00:00,employee_5,intranet,login_success,college-web-05,6957,804,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01116,2026-10-01 07:51:49+00:00,employee_15,shared_docs,file_read,college-web-11,651,694,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00127,2026-10-01 07:55:45+00:00,backup_service,backup_storage,backup_job,college-web-07,6252,13,Scheduled backup,False,0.13,Uncommon event type,False
+COL-A-005,2026-10-01 08:00:00+00:00,php_webshell,student_records_archive,archive_create,college-web,9005,805,Student record staging archive,True,0.66,Sensitive data/staging indicator; Suspicious web activity; Uncommon event type,True
+COL-N-00272,2026-10-01 08:03:35+00:00,web_server,access_log,file_write,college-web-09,1045,462,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-01069,2026-10-01 08:09:07+00:00,backup_service,backup_storage,backup_job,college-web-12,4812,163,Scheduled backup,False,0.13,Uncommon event type,False
+COL-A-006,2026-10-01 08:12:00+00:00,student_records_archive,external_unknown_ip,network_connection,college-web,9006,806,Unusual outbound connection,True,0.55,Sensitive data/staging indicator; Unusual destination,True
+COL-A-007,2026-10-01 08:24:00+00:00,web_server,service_admin,privilege_change,college-web,9007,807,Unexpected web service privilege change,True,0.41000000000000003,Privilege-related activity; Uncommon event type,True
+COL-N-00929,2026-10-01 08:26:58+00:00,employee_18,shared_docs,file_read,college-web-02,4763,31,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00717,2026-10-01 08:27:54+00:00,workstation_14,browser,process_start,college-web-03,189,172,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00234,2026-10-01 08:57:53+00:00,workstation_11,internal_domain,dns_query,college-web-03,6276,784,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00446,2026-10-01 09:22:21+00:00,student_10,college_portal,http_request,college-web-09,6310,408,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00212,2026-10-01 09:31:34+00:00,workstation_18,internal_api,network_connection,college-web-07,7874,288,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00295,2026-10-01 09:36:50+00:00,employee_6,shared_docs,file_read,college-web-08,529,117,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00930,2026-10-01 09:46:22+00:00,backup_service,backup_storage,backup_job,college-web-11,1231,388,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-01037,2026-10-01 09:47:18+00:00,workstation_11,internal_api,network_connection,college-web-07,6271,769,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00594,2026-10-01 09:52:15+00:00,workstation_4,browser,process_start,college-web-09,3885,520,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00017,2026-10-01 09:52:50+00:00,workstation_11,internal_api,network_connection,college-web-12,6240,5,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00004,2026-10-01 09:53:04+00:00,workstation_17,internal_api,network_connection,college-web-08,2849,859,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01177,2026-10-01 09:53:53+00:00,employee_7,intranet,login_success,college-web-10,7153,70,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00972,2026-10-01 09:54:51+00:00,student_8,college_portal,http_request,college-web-09,6336,811,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00567,2026-10-01 10:16:46+00:00,workstation_11,internal_domain,dns_query,college-web-11,3392,394,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00685,2026-10-01 10:21:43+00:00,employee_9,intranet,login_success,college-web-02,4955,466,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00518,2026-10-01 10:25:48+00:00,backup_service,backup_storage,backup_job,college-web-02,3292,793,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00487,2026-10-01 10:56:57+00:00,web_server,access_log,file_write,college-web-03,6151,516,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00114,2026-10-01 11:09:14+00:00,employee_17,intranet,login_success,college-web-02,3418,730,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00365,2026-10-01 11:14:19+00:00,student_11,college_portal,http_request,college-web-11,590,563,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00751,2026-10-01 11:19:24+00:00,workstation_17,browser,process_start,college-web-01,5934,420,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00608,2026-10-01 11:20:22+00:00,employee_9,shared_docs,file_read,college-web-09,6453,85,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00678,2026-10-01 11:28:10+00:00,employee_2,intranet,login_success,college-web-03,5185,285,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00727,2026-10-01 11:28:48+00:00,workstation_3,browser,process_start,college-web-07,6769,735,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00521,2026-10-01 11:29:18+00:00,workstation_18,browser,process_start,college-web-10,3352,274,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00954,2026-10-01 11:29:26+00:00,student_3,college_portal,http_request,college-web-03,8340,819,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00030,2026-10-01 11:32:59+00:00,workstation_6,browser,process_start,college-web-12,4387,160,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00786,2026-10-01 11:38:38+00:00,workstation_2,browser,process_start,college-web-04,888,188,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00452,2026-10-01 11:44:20+00:00,web_server,access_log,file_write,college-web-09,5110,211,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00553,2026-10-01 11:47:15+00:00,workstation_12,internal_domain,dns_query,college-web-06,7564,554,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01056,2026-10-01 11:49:52+00:00,workstation_9,internal_api,network_connection,college-web-02,8418,370,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00027,2026-10-01 11:56:10+00:00,student_14,college_portal,http_request,college-web-10,1045,726,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00044,2026-10-01 11:59:22+00:00,employee_5,intranet,login_success,college-web-05,6286,824,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00791,2026-10-01 12:02:05+00:00,workstation_9,browser,process_start,college-web-05,5271,351,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00974,2026-10-01 12:06:12+00:00,backup_service,backup_storage,backup_job,college-web-01,7778,685,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00097,2026-10-01 12:08:03+00:00,workstation_10,internal_api,network_connection,college-web-07,964,566,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00711,2026-10-01 12:12:58+00:00,workstation_6,browser,process_start,college-web-05,153,70,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00610,2026-10-01 12:23:09+00:00,workstation_12,internal_api,network_connection,college-web-07,7271,431,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00721,2026-10-01 12:42:34+00:00,web_app,course_catalog,database_query,college-web-01,7422,724,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00105,2026-10-01 13:01:24+00:00,workstation_17,internal_domain,dns_query,college-web-09,573,844,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00879,2026-10-01 13:15:29+00:00,student_11,college_portal,http_request,college-web-02,1368,344,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-01115,2026-10-01 13:35:43+00:00,employee_6,intranet,login_success,college-web-08,7528,787,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00936,2026-10-01 13:35:44+00:00,workstation_5,browser,process_start,college-web-08,1557,226,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00218,2026-10-01 13:37:05+00:00,web_app,course_catalog,database_query,college-web-05,6501,139,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00284,2026-10-01 13:39:00+00:00,workstation_9,browser,process_start,college-web-03,7965,312,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00601,2026-10-01 14:15:23+00:00,backup_service,backup_storage,backup_job,college-web-07,6718,155,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00989,2026-10-01 14:17:00+00:00,workstation_3,internal_domain,dns_query,college-web-11,2667,701,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01076,2026-10-01 14:27:33+00:00,employee_14,shared_docs,file_read,college-web-07,8284,881,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00646,2026-10-01 14:31:27+00:00,student_14,college_portal,http_request,college-web-02,3393,310,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00282,2026-10-01 14:39:11+00:00,workstation_16,internal_api,network_connection,college-web-05,4067,306,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00949,2026-10-01 14:40:26+00:00,web_server,access_log,file_write,college-web-03,8905,681,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00084,2026-10-01 14:44:30+00:00,student_13,college_portal,http_request,college-web-08,4481,550,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00465,2026-10-01 14:54:10+00:00,employee_16,shared_docs,file_read,college-web-10,2343,153,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00233,2026-10-01 14:57:40+00:00,web_server,access_log,file_write,college-web-04,2737,788,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00102,2026-10-01 14:59:24+00:00,backup_service,backup_storage,backup_job,college-web-06,5282,659,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00231,2026-10-01 15:04:17+00:00,employee_4,intranet,login_success,college-web-07,7125,826,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00559,2026-10-01 15:09:05+00:00,workstation_18,internal_api,network_connection,college-web-09,6226,509,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00887,2026-10-01 15:20:35+00:00,employee_14,shared_docs,file_read,college-web-10,3465,250,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00015,2026-10-01 15:27:13+00:00,workstation_14,internal_domain,dns_query,college-web-03,333,4,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01045,2026-10-01 15:30:18+00:00,workstation_17,internal_domain,dns_query,college-web-11,710,14,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00872,2026-10-01 15:31:23+00:00,employee_8,intranet,login_success,college-web-07,3296,781,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00548,2026-10-01 15:31:25+00:00,employee_9,shared_docs,file_read,college-web-07,2087,226,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00726,2026-10-01 15:34:22+00:00,workstation_16,internal_domain,dns_query,college-web-07,3046,661,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00241,2026-10-01 15:58:30+00:00,backup_service,backup_storage,backup_job,college-web-06,6138,461,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00347,2026-10-01 16:00:59+00:00,workstation_15,internal_api,network_connection,college-web-08,6585,637,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00875,2026-10-01 16:17:18+00:00,employee_5,intranet,login_success,college-web-03,5862,702,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00737,2026-10-01 16:23:25+00:00,web_app,course_catalog,database_query,college-web-10,4942,32,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00378,2026-10-01 16:29:31+00:00,workstation_16,internal_domain,dns_query,college-web-11,781,362,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00370,2026-10-01 16:39:41+00:00,employee_10,intranet,login_success,college-web-11,4215,415,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00975,2026-10-01 16:40:58+00:00,workstation_7,browser,process_start,college-web-06,4476,660,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00789,2026-10-01 16:42:50+00:00,employee_10,intranet,login_success,college-web-04,5287,162,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00059,2026-10-01 16:48:07+00:00,backup_service,backup_storage,backup_job,college-web-05,6662,581,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00238,2026-10-01 16:56:46+00:00,web_server,access_log,file_write,college-web-09,5148,496,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00268,2026-10-01 16:58:02+00:00,web_server,access_log,file_write,college-web-12,1275,728,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00808,2026-10-01 17:07:45+00:00,backup_service,backup_storage,backup_job,college-web-11,5401,408,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00269,2026-10-01 17:39:49+00:00,web_app,course_catalog,database_query,college-web-02,1468,227,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00448,2026-10-01 17:42:46+00:00,workstation_7,browser,process_start,college-web-01,1621,419,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01090,2026-10-01 17:51:32+00:00,student_5,college_portal,http_request,college-web-04,1647,298,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00970,2026-10-01 18:38:09+00:00,employee_4,shared_docs,file_read,college-web-04,1403,297,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00564,2026-10-01 18:40:29+00:00,employee_15,shared_docs,file_read,college-web-04,2743,333,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00942,2026-10-01 18:49:14+00:00,web_server,access_log,file_write,college-web-10,3833,94,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00454,2026-10-01 18:53:52+00:00,web_app,course_catalog,database_query,college-web-06,1220,119,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00829,2026-10-01 18:57:35+00:00,backup_service,backup_storage,backup_job,college-web-11,520,464,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00630,2026-10-01 19:05:41+00:00,employee_5,shared_docs,file_read,college-web-07,2091,768,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00826,2026-10-01 19:24:30+00:00,workstation_12,browser,process_start,college-web-10,8034,204,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00993,2026-10-01 19:24:41+00:00,workstation_15,internal_domain,dns_query,college-web-09,3305,662,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00372,2026-10-01 19:24:55+00:00,web_app,course_catalog,database_query,college-web-01,6182,14,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00609,2026-10-01 19:29:01+00:00,student_14,college_portal,http_request,college-web-06,1004,13,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00839,2026-10-01 19:31:38+00:00,backup_service,backup_storage,backup_job,college-web-07,7155,166,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00032,2026-10-01 19:38:37+00:00,workstation_17,internal_api,network_connection,college-web-05,553,151,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01165,2026-10-01 19:43:01+00:00,employee_17,shared_docs,file_read,college-web-12,7324,357,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00741,2026-10-01 20:02:56+00:00,web_server,access_log,file_write,college-web-07,7975,37,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00227,2026-10-01 20:05:38+00:00,backup_service,backup_storage,backup_job,college-web-04,5729,659,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00240,2026-10-01 20:05:47+00:00,web_server,access_log,file_write,college-web-12,6190,348,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00806,2026-10-01 20:05:54+00:00,web_server,access_log,file_write,college-web-01,661,517,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00689,2026-10-01 20:13:29+00:00,web_app,course_catalog,database_query,college-web-06,5882,415,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00774,2026-10-01 20:20:00+00:00,student_17,college_portal,http_request,college-web-12,3276,298,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00393,2026-10-01 20:23:55+00:00,employee_9,shared_docs,file_read,college-web-08,636,107,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00511,2026-10-01 20:28:37+00:00,employee_16,intranet,login_success,college-web-05,547,731,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00333,2026-10-01 20:36:10+00:00,employee_7,shared_docs,file_read,college-web-06,8599,731,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00315,2026-10-01 20:55:56+00:00,backup_service,backup_storage,backup_job,college-web-09,2025,730,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-01034,2026-10-01 21:28:39+00:00,web_app,course_catalog,database_query,college-web-01,3104,172,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00304,2026-10-01 21:31:24+00:00,workstation_4,browser,process_start,college-web-01,6740,149,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00599,2026-10-01 21:34:20+00:00,web_server,access_log,file_write,college-web-03,5611,65,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00431,2026-10-01 22:05:15+00:00,workstation_14,browser,process_start,college-web-02,8738,751,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00818,2026-10-01 22:08:28+00:00,workstation_17,internal_api,network_connection,college-web-03,4821,87,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00652,2026-10-01 22:18:19+00:00,employee_15,shared_docs,file_read,college-web-04,962,343,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00135,2026-10-01 22:24:34+00:00,employee_4,shared_docs,file_read,college-web-08,7166,620,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00183,2026-10-01 22:30:08+00:00,workstation_15,internal_domain,dns_query,college-web-10,7684,41,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00113,2026-10-01 22:38:07+00:00,student_15,college_portal,http_request,college-web-05,1637,248,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00622,2026-10-01 22:38:40+00:00,workstation_6,internal_api,network_connection,college-web-06,1861,465,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01016,2026-10-01 22:39:40+00:00,employee_17,intranet,login_success,college-web-02,3411,194,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00191,2026-10-01 23:00:24+00:00,backup_service,backup_storage,backup_job,college-web-02,3379,570,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00537,2026-10-01 23:05:44+00:00,web_app,course_catalog,database_query,college-web-09,2371,808,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00457,2026-10-01 23:09:00+00:00,web_server,access_log,file_write,college-web-06,2744,457,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00482,2026-10-01 23:10:24+00:00,workstation_5,internal_api,network_connection,college-web-09,4193,231,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00408,2026-10-01 23:11:09+00:00,student_8,college_portal,http_request,college-web-06,4458,171,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-01143,2026-10-01 23:20:42+00:00,employee_3,shared_docs,file_read,college-web-01,7473,453,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00426,2026-10-01 23:22:01+00:00,workstation_5,internal_api,network_connection,college-web-06,6352,101,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00770,2026-10-01 23:28:28+00:00,web_server,access_log,file_write,college-web-10,5000,34,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00892,2026-10-01 23:36:53+00:00,workstation_3,browser,process_start,college-web-07,3424,3,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00915,2026-10-01 23:41:52+00:00,workstation_18,internal_api,network_connection,college-web-06,1286,495,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00866,2026-10-01 23:41:57+00:00,backup_service,backup_storage,backup_job,college-web-09,7207,95,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00463,2026-10-01 23:52:21+00:00,employee_12,shared_docs,file_read,college-web-03,3077,287,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00832,2026-10-01 23:54:31+00:00,web_app,course_catalog,database_query,college-web-03,3729,352,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01129,2026-10-02 00:00:13+00:00,workstation_8,internal_api,network_connection,college-web-05,7118,754,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01169,2026-10-02 00:03:03+00:00,web_server,access_log,file_write,college-web-12,7766,855,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00686,2026-10-02 00:17:20+00:00,workstation_16,internal_api,network_connection,college-web-03,4752,595,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00959,2026-10-02 00:19:34+00:00,employee_5,shared_docs,file_read,college-web-09,4894,660,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00110,2026-10-02 00:45:08+00:00,employee_11,intranet,login_success,college-web-04,5494,268,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00538,2026-10-02 00:49:50+00:00,employee_4,shared_docs,file_read,college-web-10,3169,871,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00043,2026-10-02 00:58:04+00:00,employee_4,shared_docs,file_read,college-web-12,2009,770,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00151,2026-10-02 00:58:40+00:00,employee_18,shared_docs,file_read,college-web-01,3986,218,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00080,2026-10-02 01:09:15+00:00,web_app,course_catalog,database_query,college-web-11,7089,174,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00270,2026-10-02 01:20:21+00:00,workstation_3,internal_api,network_connection,college-web-06,5455,604,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00237,2026-10-02 01:39:44+00:00,employee_15,intranet,login_success,college-web-09,6498,262,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00494,2026-10-02 01:39:49+00:00,student_15,college_portal,http_request,college-web-12,1848,541,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00732,2026-10-02 01:48:00+00:00,web_app,course_catalog,database_query,college-web-12,5277,88,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00386,2026-10-02 01:59:42+00:00,backup_service,backup_storage,backup_job,college-web-04,5311,833,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00740,2026-10-02 02:17:30+00:00,web_app,course_catalog,database_query,college-web-05,3185,341,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00492,2026-10-02 02:33:43+00:00,workstation_3,internal_api,network_connection,college-web-08,917,382,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01147,2026-10-02 03:16:55+00:00,employee_7,intranet,login_success,college-web-01,3609,141,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00194,2026-10-02 03:25:37+00:00,backup_service,backup_storage,backup_job,college-web-02,8838,363,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00420,2026-10-02 03:37:58+00:00,web_server,access_log,file_write,college-web-12,3491,389,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00062,2026-10-02 03:38:34+00:00,employee_1,intranet,login_success,college-web-12,4356,394,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00754,2026-10-02 03:40:45+00:00,web_server,access_log,file_write,college-web-11,3307,320,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-01178,2026-10-02 03:54:44+00:00,backup_service,backup_storage,backup_job,college-web-12,2382,49,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00703,2026-10-02 03:55:31+00:00,backup_service,backup_storage,backup_job,college-web-04,987,429,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00804,2026-10-02 03:59:51+00:00,employee_11,intranet,login_success,college-web-10,7708,708,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00180,2026-10-02 04:01:25+00:00,student_4,college_portal,http_request,college-web-01,6454,329,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00223,2026-10-02 04:24:29+00:00,student_10,college_portal,http_request,college-web-12,5276,595,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00081,2026-10-02 04:40:37+00:00,backup_service,backup_storage,backup_job,college-web-09,6097,411,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00159,2026-10-02 04:47:12+00:00,workstation_2,browser,process_start,college-web-12,8440,78,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00346,2026-10-02 04:49:09+00:00,workstation_12,internal_domain,dns_query,college-web-10,2713,108,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00338,2026-10-02 04:59:16+00:00,workstation_17,internal_domain,dns_query,college-web-09,5189,633,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00510,2026-10-02 05:03:09+00:00,workstation_7,internal_api,network_connection,college-web-04,4423,528,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00612,2026-10-02 05:08:44+00:00,workstation_1,internal_domain,dns_query,college-web-06,2616,804,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01046,2026-10-02 05:13:07+00:00,workstation_14,browser,process_start,college-web-03,1177,497,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00336,2026-10-02 05:14:13+00:00,workstation_14,browser,process_start,college-web-08,2902,780,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01164,2026-10-02 05:14:19+00:00,backup_service,backup_storage,backup_job,college-web-06,4228,188,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00803,2026-10-02 05:24:30+00:00,web_server,access_log,file_write,college-web-04,8749,661,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00924,2026-10-02 05:26:15+00:00,student_14,college_portal,http_request,college-web-10,2652,784,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-01154,2026-10-02 05:35:41+00:00,employee_7,shared_docs,file_read,college-web-08,2371,189,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00497,2026-10-02 06:07:33+00:00,employee_8,shared_docs,file_read,college-web-09,1323,272,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00091,2026-10-02 06:10:51+00:00,backup_service,backup_storage,backup_job,college-web-10,1893,734,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00984,2026-10-02 06:18:39+00:00,employee_8,shared_docs,file_read,college-web-11,1458,823,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00401,2026-10-02 06:37:00+00:00,workstation_2,internal_api,network_connection,college-web-04,4519,479,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00249,2026-10-02 06:39:38+00:00,web_server,access_log,file_write,college-web-08,4966,869,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00811,2026-10-02 06:47:13+00:00,web_server,access_log,file_write,college-web-03,3085,488,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-01044,2026-10-02 06:48:57+00:00,employee_4,shared_docs,file_read,college-web-10,3681,470,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00604,2026-10-02 06:54:15+00:00,employee_17,intranet,login_success,college-web-01,4622,402,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00160,2026-10-02 07:01:00+00:00,workstation_4,internal_domain,dns_query,college-web-11,5279,668,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00801,2026-10-02 07:05:09+00:00,workstation_7,browser,process_start,college-web-11,6495,768,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00624,2026-10-02 07:14:40+00:00,employee_5,shared_docs,file_read,college-web-09,5447,232,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00321,2026-10-02 07:24:41+00:00,web_server,access_log,file_write,college-web-07,3287,4,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00606,2026-10-02 07:27:54+00:00,backup_service,backup_storage,backup_job,college-web-10,5209,74,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00764,2026-10-02 07:32:14+00:00,web_app,course_catalog,database_query,college-web-05,7816,608,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00888,2026-10-02 07:35:33+00:00,web_app,course_catalog,database_query,college-web-05,2601,888,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00848,2026-10-02 07:52:32+00:00,web_server,access_log,file_write,college-web-10,4320,735,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00860,2026-10-02 08:02:18+00:00,workstation_8,internal_api,network_connection,college-web-01,8881,517,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00854,2026-10-02 08:04:54+00:00,web_server,access_log,file_write,college-web-05,5367,638,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00539,2026-10-02 08:09:05+00:00,workstation_6,browser,process_start,college-web-11,1685,346,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01053,2026-10-02 08:15:55+00:00,backup_service,backup_storage,backup_job,college-web-05,7421,695,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00072,2026-10-02 08:20:08+00:00,student_14,college_portal,http_request,college-web-03,6907,184,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00407,2026-10-02 08:33:36+00:00,student_4,college_portal,http_request,college-web-05,3252,817,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00329,2026-10-02 08:38:56+00:00,web_server,access_log,file_write,college-web-08,2199,885,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00174,2026-10-02 09:09:36+00:00,workstation_12,internal_api,network_connection,college-web-04,5048,684,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00007,2026-10-02 09:38:49+00:00,workstation_12,browser,process_start,college-web-12,123,794,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00734,2026-10-02 09:44:06+00:00,web_server,access_log,file_write,college-web-10,1920,869,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00235,2026-10-02 09:53:30+00:00,web_server,access_log,file_write,college-web-11,5667,416,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00048,2026-10-02 10:03:10+00:00,web_app,course_catalog,database_query,college-web-08,430,495,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00849,2026-10-02 10:16:57+00:00,web_app,course_catalog,database_query,college-web-10,5130,721,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00960,2026-10-02 10:17:57+00:00,workstation_15,internal_api,network_connection,college-web-10,4997,880,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00285,2026-10-02 10:22:37+00:00,web_server,access_log,file_write,college-web-08,2590,27,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00291,2026-10-02 10:28:02+00:00,workstation_17,internal_api,network_connection,college-web-10,2838,115,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00977,2026-10-02 10:33:48+00:00,employee_7,intranet,login_success,college-web-09,3310,502,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00642,2026-10-02 10:42:28+00:00,web_server,access_log,file_write,college-web-02,451,355,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00250,2026-10-02 10:58:46+00:00,workstation_10,browser,process_start,college-web-11,3359,745,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00493,2026-10-02 11:00:34+00:00,employee_4,shared_docs,file_read,college-web-04,3362,112,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00628,2026-10-02 11:16:37+00:00,web_app,course_catalog,database_query,college-web-10,6273,773,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00946,2026-10-02 11:19:00+00:00,employee_15,shared_docs,file_read,college-web-08,6115,424,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00699,2026-10-02 11:30:27+00:00,workstation_10,browser,process_start,college-web-07,8624,426,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01086,2026-10-02 11:49:31+00:00,student_12,college_portal,http_request,college-web-01,4324,307,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00693,2026-10-02 11:50:45+00:00,web_app,course_catalog,database_query,college-web-07,4317,622,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00540,2026-10-02 11:54:12+00:00,student_6,college_portal,http_request,college-web-07,4778,38,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00676,2026-10-02 11:55:00+00:00,web_server,access_log,file_write,college-web-09,5466,243,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00364,2026-10-02 12:27:27+00:00,student_11,college_portal,http_request,college-web-05,7952,397,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00117,2026-10-02 12:29:57+00:00,workstation_4,browser,process_start,college-web-01,6060,638,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00890,2026-10-02 12:31:49+00:00,web_app,course_catalog,database_query,college-web-11,1748,159,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00814,2026-10-02 12:46:28+00:00,workstation_12,internal_api,network_connection,college-web-04,3679,641,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00533,2026-10-02 12:54:52+00:00,employee_6,shared_docs,file_read,college-web-08,1151,181,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00469,2026-10-02 13:00:20+00:00,employee_6,shared_docs,file_read,college-web-11,8138,820,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01030,2026-10-02 13:10:00+00:00,employee_8,shared_docs,file_read,college-web-07,4783,679,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01068,2026-10-02 13:14:03+00:00,backup_service,backup_storage,backup_job,college-web-06,2491,178,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-01136,2026-10-02 13:25:33+00:00,student_18,college_portal,http_request,college-web-05,3054,377,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00476,2026-10-02 13:36:27+00:00,workstation_10,internal_domain,dns_query,college-web-09,3214,377,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00199,2026-10-02 13:40:46+00:00,student_18,college_portal,http_request,college-web-12,6487,784,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00961,2026-10-02 13:43:47+00:00,backup_service,backup_storage,backup_job,college-web-10,1615,804,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00653,2026-10-02 13:47:19+00:00,workstation_6,browser,process_start,college-web-04,7892,443,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00363,2026-10-02 14:02:17+00:00,workstation_15,internal_domain,dns_query,college-web-02,7041,119,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00228,2026-10-02 14:27:14+00:00,employee_4,shared_docs,file_read,college-web-08,2446,427,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00589,2026-10-02 14:35:54+00:00,student_14,college_portal,http_request,college-web-04,2311,687,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00623,2026-10-02 14:40:10+00:00,workstation_1,internal_api,network_connection,college-web-09,7532,65,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00743,2026-10-02 14:41:41+00:00,student_18,college_portal,http_request,college-web-07,4442,346,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00597,2026-10-02 14:47:58+00:00,workstation_3,internal_api,network_connection,college-web-06,639,245,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01054,2026-10-02 14:52:16+00:00,web_app,course_catalog,database_query,college-web-03,2764,178,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00824,2026-10-02 14:59:22+00:00,employee_18,intranet,login_success,college-web-02,2912,233,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00182,2026-10-02 15:00:13+00:00,employee_11,shared_docs,file_read,college-web-02,8879,6,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00702,2026-10-02 15:10:46+00:00,web_server,access_log,file_write,college-web-02,7044,508,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00137,2026-10-02 15:25:54+00:00,workstation_9,internal_api,network_connection,college-web-06,7153,49,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00598,2026-10-02 15:27:31+00:00,web_server,access_log,file_write,college-web-02,3476,330,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00526,2026-10-02 15:28:33+00:00,web_app,course_catalog,database_query,college-web-07,1479,356,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00090,2026-10-02 15:31:48+00:00,web_server,access_log,file_write,college-web-10,782,772,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00698,2026-10-02 15:35:45+00:00,employee_16,intranet,login_success,college-web-04,739,847,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00143,2026-10-02 15:40:52+00:00,web_app,course_catalog,database_query,college-web-12,5289,519,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00661,2026-10-02 15:41:27+00:00,workstation_16,internal_domain,dns_query,college-web-04,466,737,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00985,2026-10-02 15:50:55+00:00,workstation_7,internal_api,network_connection,college-web-08,3316,60,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00353,2026-10-02 15:51:26+00:00,student_17,college_portal,http_request,college-web-06,2705,172,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00022,2026-10-02 15:51:44+00:00,employee_15,shared_docs,file_read,college-web-04,2329,41,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01173,2026-10-02 15:53:57+00:00,employee_4,shared_docs,file_read,college-web-06,6432,900,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00173,2026-10-02 15:57:45+00:00,web_server,access_log,file_write,college-web-06,310,256,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00857,2026-10-02 16:02:48+00:00,workstation_18,internal_domain,dns_query,college-web-10,8632,885,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00261,2026-10-02 16:11:38+00:00,employee_7,shared_docs,file_read,college-web-03,4713,709,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00210,2026-10-02 16:17:48+00:00,workstation_4,internal_domain,dns_query,college-web-08,6622,672,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00052,2026-10-02 16:24:58+00:00,employee_6,intranet,login_success,college-web-02,7751,710,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00031,2026-10-02 16:26:17+00:00,web_app,course_catalog,database_query,college-web-09,1665,423,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00203,2026-10-02 16:29:45+00:00,employee_4,shared_docs,file_read,college-web-05,8286,673,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01011,2026-10-02 16:36:58+00:00,backup_service,backup_storage,backup_job,college-web-06,2235,745,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00885,2026-10-02 16:37:56+00:00,web_server,access_log,file_write,college-web-05,2024,299,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00115,2026-10-02 16:43:28+00:00,workstation_7,internal_api,network_connection,college-web-06,8014,629,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00225,2026-10-02 16:57:35+00:00,workstation_10,browser,process_start,college-web-12,7296,245,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00570,2026-10-02 17:00:33+00:00,workstation_9,internal_domain,dns_query,college-web-02,4050,895,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00112,2026-10-02 17:15:53+00:00,employee_12,intranet,login_success,college-web-12,7042,589,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00427,2026-10-02 17:23:24+00:00,workstation_15,internal_api,network_connection,college-web-08,4122,705,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00014,2026-10-02 17:24:05+00:00,backup_service,backup_storage,backup_job,college-web-06,4217,156,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00274,2026-10-02 17:33:15+00:00,employee_1,shared_docs,file_read,college-web-10,4746,370,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00783,2026-10-02 17:34:37+00:00,web_app,course_catalog,database_query,college-web-03,5742,542,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00855,2026-10-02 17:37:02+00:00,student_9,college_portal,http_request,college-web-08,6468,770,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00893,2026-10-02 17:38:23+00:00,employee_10,shared_docs,file_read,college-web-09,534,644,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00688,2026-10-02 17:56:06+00:00,employee_6,shared_docs,file_read,college-web-12,2661,471,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00881,2026-10-02 18:07:21+00:00,student_11,college_portal,http_request,college-web-10,2089,364,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00782,2026-10-02 18:22:24+00:00,web_server,access_log,file_write,college-web-01,3152,879,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00560,2026-10-02 18:26:37+00:00,backup_service,backup_storage,backup_job,college-web-05,8670,816,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00874,2026-10-02 18:39:08+00:00,employee_5,shared_docs,file_read,college-web-08,4603,797,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00976,2026-10-02 19:08:28+00:00,student_1,college_portal,http_request,college-web-02,329,45,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00316,2026-10-02 19:35:23+00:00,employee_10,intranet,login_success,college-web-10,822,136,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00369,2026-10-02 19:53:05+00:00,workstation_16,internal_api,network_connection,college-web-07,1119,762,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00128,2026-10-02 19:53:56+00:00,web_app,course_catalog,database_query,college-web-12,3518,533,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00765,2026-10-02 19:55:06+00:00,web_app,course_catalog,database_query,college-web-05,8206,825,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00447,2026-10-02 19:59:45+00:00,workstation_2,internal_domain,dns_query,college-web-07,2712,375,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01003,2026-10-02 20:16:46+00:00,employee_18,intranet,login_success,college-web-01,1486,97,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01013,2026-10-02 20:18:53+00:00,workstation_6,internal_domain,dns_query,college-web-05,5933,192,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00992,2026-10-02 20:41:59+00:00,web_server,access_log,file_write,college-web-01,3328,823,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00262,2026-10-02 20:47:10+00:00,workstation_4,internal_api,network_connection,college-web-04,4753,620,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00851,2026-10-02 20:57:04+00:00,workstation_10,internal_api,network_connection,college-web-05,3270,551,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00277,2026-10-02 21:03:35+00:00,web_app,course_catalog,database_query,college-web-10,4820,671,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00769,2026-10-02 21:04:08+00:00,student_15,college_portal,http_request,college-web-02,6076,144,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00185,2026-10-02 21:24:10+00:00,student_1,college_portal,http_request,college-web-09,2305,540,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00882,2026-10-02 21:24:21+00:00,web_server,access_log,file_write,college-web-01,7184,188,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00187,2026-10-02 21:27:02+00:00,employee_12,intranet,login_success,college-web-02,6664,105,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00956,2026-10-02 21:29:00+00:00,workstation_14,internal_api,network_connection,college-web-10,3475,359,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00197,2026-10-02 21:30:27+00:00,workstation_6,internal_api,network_connection,college-web-06,3813,336,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00149,2026-10-02 21:54:04+00:00,employee_4,shared_docs,file_read,college-web-10,159,281,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00964,2026-10-02 22:08:19+00:00,employee_18,shared_docs,file_read,college-web-08,4037,446,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00527,2026-10-02 22:12:21+00:00,employee_6,shared_docs,file_read,college-web-04,3501,121,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00831,2026-10-02 22:15:51+00:00,student_13,college_portal,http_request,college-web-04,6383,483,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00850,2026-10-02 22:39:08+00:00,employee_7,intranet,login_success,college-web-05,6682,752,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00869,2026-10-02 22:43:30+00:00,employee_14,shared_docs,file_read,college-web-07,8768,481,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01121,2026-10-02 23:00:34+00:00,employee_5,shared_docs,file_read,college-web-10,2737,214,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00381,2026-10-02 23:06:56+00:00,workstation_12,browser,process_start,college-web-08,1472,33,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00297,2026-10-02 23:08:37+00:00,workstation_13,browser,process_start,college-web-09,5994,806,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00189,2026-10-02 23:12:57+00:00,student_5,college_portal,http_request,college-web-03,5326,500,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00617,2026-10-02 23:19:35+00:00,web_app,course_catalog,database_query,college-web-05,822,512,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00658,2026-10-02 23:41:58+00:00,student_9,college_portal,http_request,college-web-06,2700,756,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00399,2026-10-02 23:50:45+00:00,workstation_12,browser,process_start,college-web-01,5034,751,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01077,2026-10-03 00:01:35+00:00,web_app,course_catalog,database_query,college-web-12,8514,204,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00328,2026-10-03 00:09:01+00:00,backup_service,backup_storage,backup_job,college-web-08,6792,347,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00165,2026-10-03 00:14:08+00:00,employee_5,shared_docs,file_read,college-web-08,2847,241,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00757,2026-10-03 00:16:35+00:00,student_18,college_portal,http_request,college-web-12,4454,488,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00833,2026-10-03 00:24:39+00:00,employee_3,intranet,login_success,college-web-01,8344,702,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00462,2026-10-03 00:28:22+00:00,employee_8,shared_docs,file_read,college-web-12,8149,848,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00460,2026-10-03 00:31:21+00:00,web_server,access_log,file_write,college-web-02,3347,170,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-01083,2026-10-03 00:51:35+00:00,backup_service,backup_storage,backup_job,college-web-08,8704,821,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00762,2026-10-03 01:05:24+00:00,workstation_8,internal_domain,dns_query,college-web-02,5679,681,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00413,2026-10-03 01:28:14+00:00,student_5,college_portal,http_request,college-web-09,5581,224,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00107,2026-10-03 01:31:59+00:00,web_server,access_log,file_write,college-web-07,8895,776,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00614,2026-10-03 01:39:21+00:00,web_app,course_catalog,database_query,college-web-05,4842,301,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01120,2026-10-03 01:39:42+00:00,web_app,course_catalog,database_query,college-web-07,7777,877,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01026,2026-10-03 01:52:24+00:00,workstation_2,internal_domain,dns_query,college-web-09,6605,637,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00087,2026-10-03 02:17:16+00:00,workstation_11,browser,process_start,college-web-02,7099,144,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00958,2026-10-03 02:18:06+00:00,web_server,access_log,file_write,college-web-09,3837,890,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00877,2026-10-03 02:18:46+00:00,employee_13,intranet,login_success,college-web-06,3714,877,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00522,2026-10-03 02:22:42+00:00,workstation_11,browser,process_start,college-web-05,5685,62,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00294,2026-10-03 02:22:43+00:00,student_12,college_portal,http_request,college-web-01,3249,261,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00050,2026-10-03 02:50:25+00:00,web_server,access_log,file_write,college-web-06,780,873,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00057,2026-10-03 02:55:12+00:00,workstation_12,internal_domain,dns_query,college-web-03,7988,617,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00980,2026-10-03 02:58:07+00:00,employee_13,shared_docs,file_read,college-web-03,1629,496,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00700,2026-10-03 03:06:07+00:00,web_app,course_catalog,database_query,college-web-04,3458,590,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00428,2026-10-03 03:09:59+00:00,student_17,college_portal,http_request,college-web-12,8998,325,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00947,2026-10-03 03:15:33+00:00,workstation_5,browser,process_start,college-web-11,5712,47,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00085,2026-10-03 03:32:10+00:00,workstation_17,internal_domain,dns_query,college-web-10,8963,869,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00106,2026-10-03 03:40:55+00:00,workstation_11,browser,process_start,college-web-11,148,660,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00730,2026-10-03 03:47:19+00:00,backup_service,backup_storage,backup_job,college-web-07,2100,733,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00878,2026-10-03 03:47:46+00:00,backup_service,backup_storage,backup_job,college-web-08,477,841,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00822,2026-10-03 04:06:05+00:00,employee_11,intranet,login_success,college-web-12,6703,133,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00583,2026-10-03 04:10:07+00:00,workstation_14,browser,process_start,college-web-09,4218,342,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00453,2026-10-03 04:17:30+00:00,employee_2,shared_docs,file_read,college-web-07,8760,601,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00042,2026-10-03 04:18:43+00:00,workstation_14,internal_api,network_connection,college-web-08,7726,286,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00331,2026-10-03 04:23:35+00:00,employee_4,intranet,login_success,college-web-01,2302,103,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00275,2026-10-03 04:24:48+00:00,workstation_4,browser,process_start,college-web-04,5699,659,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00020,2026-10-03 04:25:35+00:00,employee_17,intranet,login_success,college-web-10,1286,851,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01158,2026-10-03 04:38:53+00:00,backup_service,backup_storage,backup_job,college-web-11,2000,134,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00573,2026-10-03 04:45:57+00:00,web_app,course_catalog,database_query,college-web-02,2919,578,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00677,2026-10-03 05:01:29+00:00,employee_11,shared_docs,file_read,college-web-07,8590,323,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01119,2026-10-03 05:03:07+00:00,web_server,access_log,file_write,college-web-01,8015,580,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00835,2026-10-03 05:26:03+00:00,backup_service,backup_storage,backup_job,college-web-12,7339,662,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00692,2026-10-03 05:27:32+00:00,backup_service,backup_storage,backup_job,college-web-01,2733,224,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00287,2026-10-03 05:29:17+00:00,employee_8,shared_docs,file_read,college-web-06,4650,234,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01171,2026-10-03 05:30:52+00:00,backup_service,backup_storage,backup_job,college-web-02,2088,354,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00486,2026-10-03 06:01:58+00:00,workstation_1,browser,process_start,college-web-06,8109,438,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00616,2026-10-03 06:06:50+00:00,workstation_7,internal_api,network_connection,college-web-06,482,435,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00587,2026-10-03 06:09:56+00:00,web_server,access_log,file_write,college-web-07,4990,57,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00615,2026-10-03 06:20:37+00:00,employee_13,intranet,login_success,college-web-08,1954,729,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00837,2026-10-03 06:20:48+00:00,workstation_7,browser,process_start,college-web-07,3135,245,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00010,2026-10-03 06:31:28+00:00,employee_9,shared_docs,file_read,college-web-09,1079,829,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00927,2026-10-03 06:31:44+00:00,employee_14,shared_docs,file_read,college-web-10,2308,18,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00449,2026-10-03 06:49:42+00:00,employee_1,intranet,login_success,college-web-11,267,81,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00001,2026-10-03 06:53:48+00:00,backup_service,backup_storage,backup_job,college-web-10,3913,682,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00423,2026-10-03 07:00:31+00:00,student_8,college_portal,http_request,college-web-01,3677,186,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00928,2026-10-03 07:10:28+00:00,workstation_16,browser,process_start,college-web-02,7880,696,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00739,2026-10-03 07:17:04+00:00,web_server,access_log,file_write,college-web-11,4534,11,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-01150,2026-10-03 07:17:53+00:00,workstation_4,browser,process_start,college-web-05,3402,433,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00596,2026-10-03 07:20:37+00:00,web_app,course_catalog,database_query,college-web-06,2462,528,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00435,2026-10-03 07:26:58+00:00,workstation_8,internal_api,network_connection,college-web-03,5459,20,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00926,2026-10-03 07:33:55+00:00,workstation_17,internal_api,network_connection,college-web-06,8606,442,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00458,2026-10-03 07:44:01+00:00,web_app,course_catalog,database_query,college-web-11,3856,266,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00019,2026-10-03 07:51:05+00:00,workstation_3,internal_api,network_connection,college-web-02,5893,103,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00088,2026-10-03 08:23:50+00:00,workstation_17,internal_api,network_connection,college-web-07,5392,64,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01098,2026-10-03 08:31:41+00:00,workstation_18,browser,process_start,college-web-12,1110,33,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00340,2026-10-03 08:37:18+00:00,employee_5,intranet,login_success,college-web-05,8698,377,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00430,2026-10-03 09:07:16+00:00,workstation_15,browser,process_start,college-web-06,7783,451,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00905,2026-10-03 09:08:24+00:00,web_app,course_catalog,database_query,college-web-02,7088,400,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00005,2026-10-03 09:08:47+00:00,workstation_4,internal_domain,dns_query,college-web-01,7075,380,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00167,2026-10-03 09:26:36+00:00,employee_3,shared_docs,file_read,college-web-12,3481,490,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01006,2026-10-03 09:42:38+00:00,workstation_4,internal_domain,dns_query,college-web-11,5128,8,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01035,2026-10-03 09:52:04+00:00,web_app,course_catalog,database_query,college-web-01,5881,555,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01009,2026-10-03 09:53:40+00:00,student_18,college_portal,http_request,college-web-03,6598,609,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00650,2026-10-03 09:56:49+00:00,web_server,access_log,file_write,college-web-10,6850,336,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00953,2026-10-03 10:11:46+00:00,employee_4,intranet,login_success,college-web-01,2103,709,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00920,2026-10-03 10:24:07+00:00,student_14,college_portal,http_request,college-web-12,4268,579,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00517,2026-10-03 10:24:52+00:00,workstation_8,internal_domain,dns_query,college-web-12,3171,411,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01038,2026-10-03 10:47:49+00:00,web_server,access_log,file_write,college-web-06,5605,205,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00528,2026-10-03 10:56:13+00:00,employee_6,shared_docs,file_read,college-web-11,778,322,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00656,2026-10-03 11:29:27+00:00,employee_17,intranet,login_success,college-web-12,1981,627,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00079,2026-10-03 11:40:37+00:00,employee_11,shared_docs,file_read,college-web-02,3955,373,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00965,2026-10-03 11:52:10+00:00,workstation_18,internal_domain,dns_query,college-web-01,1282,818,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00581,2026-10-03 11:54:41+00:00,web_server,access_log,file_write,college-web-01,3639,20,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00296,2026-10-03 11:59:00+00:00,employee_4,shared_docs,file_read,college-web-05,3464,332,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00853,2026-10-03 12:04:27+00:00,workstation_6,browser,process_start,college-web-01,5981,533,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00916,2026-10-03 12:14:03+00:00,workstation_13,internal_domain,dns_query,college-web-05,5022,201,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00775,2026-10-03 12:27:51+00:00,student_16,college_portal,http_request,college-web-07,2228,143,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00707,2026-10-03 12:31:51+00:00,backup_service,backup_storage,backup_job,college-web-07,2204,85,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00580,2026-10-03 12:33:06+00:00,student_10,college_portal,http_request,college-web-10,6776,536,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-01017,2026-10-03 12:57:27+00:00,workstation_3,internal_domain,dns_query,college-web-03,7463,742,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00120,2026-10-03 12:59:30+00:00,employee_4,shared_docs,file_read,college-web-08,5210,243,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00768,2026-10-03 13:03:06+00:00,student_17,college_portal,http_request,college-web-07,6207,244,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-01104,2026-10-03 13:05:31+00:00,web_server,access_log,file_write,college-web-04,775,516,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-01096,2026-10-03 13:07:06+00:00,employee_5,shared_docs,file_read,college-web-08,3457,453,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00099,2026-10-03 13:07:53+00:00,web_server,access_log,file_write,college-web-05,5160,777,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00436,2026-10-03 13:42:29+00:00,web_server,access_log,file_write,college-web-03,7480,568,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00345,2026-10-03 13:45:20+00:00,workstation_4,browser,process_start,college-web-10,1863,531,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01141,2026-10-03 14:01:35+00:00,web_app,course_catalog,database_query,college-web-01,7341,172,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00357,2026-10-03 14:15:12+00:00,employee_4,shared_docs,file_read,college-web-07,6533,153,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00133,2026-10-03 14:17:20+00:00,employee_10,intranet,login_success,college-web-01,8108,356,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00663,2026-10-03 14:32:34+00:00,web_app,course_catalog,database_query,college-web-03,4907,639,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00921,2026-10-03 14:38:00+00:00,web_app,course_catalog,database_query,college-web-08,6023,470,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00917,2026-10-03 14:55:28+00:00,web_app,course_catalog,database_query,college-web-01,5711,814,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01125,2026-10-03 15:10:50+00:00,backup_service,backup_storage,backup_job,college-web-02,918,80,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00715,2026-10-03 15:17:16+00:00,employee_6,shared_docs,file_read,college-web-11,3074,252,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00188,2026-10-03 15:19:09+00:00,student_15,college_portal,http_request,college-web-12,4323,445,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00515,2026-10-03 15:27:46+00:00,employee_14,shared_docs,file_read,college-web-09,5681,875,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00525,2026-10-03 15:28:11+00:00,backup_service,backup_storage,backup_job,college-web-08,7425,8,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-01161,2026-10-03 15:40:38+00:00,employee_5,intranet,login_success,college-web-02,7448,591,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00659,2026-10-03 15:44:27+00:00,backup_service,backup_storage,backup_job,college-web-10,943,506,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00496,2026-10-03 15:49:52+00:00,workstation_3,internal_api,network_connection,college-web-10,114,447,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00122,2026-10-03 15:51:54+00:00,backup_service,backup_storage,backup_job,college-web-11,4587,22,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00763,2026-10-03 15:52:53+00:00,web_app,course_catalog,database_query,college-web-12,1835,110,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01180,2026-10-03 15:57:33+00:00,workstation_2,internal_api,network_connection,college-web-11,948,438,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00950,2026-10-03 15:58:38+00:00,workstation_10,browser,process_start,college-web-01,4345,763,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00118,2026-10-03 16:04:23+00:00,backup_service,backup_storage,backup_job,college-web-03,6499,261,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00918,2026-10-03 16:11:07+00:00,web_server,access_log,file_write,college-web-06,1155,698,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00880,2026-10-03 16:21:31+00:00,employee_2,intranet,login_success,college-web-08,2571,250,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00388,2026-10-03 16:24:26+00:00,workstation_15,internal_domain,dns_query,college-web-11,4929,692,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00798,2026-10-03 16:24:35+00:00,workstation_9,browser,process_start,college-web-05,2225,419,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00864,2026-10-03 16:30:57+00:00,employee_16,intranet,login_success,college-web-07,5712,47,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00152,2026-10-03 16:35:53+00:00,employee_17,intranet,login_success,college-web-04,6521,703,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00394,2026-10-03 17:00:21+00:00,web_app,course_catalog,database_query,college-web-08,4660,668,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00154,2026-10-03 17:38:50+00:00,employee_5,intranet,login_success,college-web-08,4936,331,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00177,2026-10-03 17:40:44+00:00,web_server,access_log,file_write,college-web-11,6439,133,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00825,2026-10-03 17:42:38+00:00,workstation_4,internal_domain,dns_query,college-web-08,7728,251,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01148,2026-10-03 17:42:54+00:00,workstation_12,browser,process_start,college-web-09,7532,592,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00886,2026-10-03 17:58:33+00:00,employee_1,shared_docs,file_read,college-web-12,1159,241,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00343,2026-10-03 18:07:05+00:00,workstation_13,browser,process_start,college-web-11,5711,566,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00342,2026-10-03 18:12:48+00:00,workstation_14,browser,process_start,college-web-06,4048,806,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00184,2026-10-03 18:30:28+00:00,workstation_3,browser,process_start,college-web-07,1550,286,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00391,2026-10-03 18:44:51+00:00,student_7,college_portal,http_request,college-web-09,6185,567,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00162,2026-10-03 18:49:30+00:00,employee_17,intranet,login_success,college-web-01,2308,244,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00236,2026-10-03 18:58:00+00:00,backup_service,backup_storage,backup_job,college-web-05,8392,325,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00248,2026-10-03 19:05:35+00:00,workstation_17,internal_api,network_connection,college-web-01,8620,224,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00568,2026-10-03 19:05:54+00:00,web_app,course_catalog,database_query,college-web-08,600,578,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00898,2026-10-03 19:11:15+00:00,workstation_14,browser,process_start,college-web-12,8462,390,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00834,2026-10-03 19:21:48+00:00,web_server,access_log,file_write,college-web-12,5759,897,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00884,2026-10-03 19:50:54+00:00,student_1,college_portal,http_request,college-web-08,1529,743,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-01043,2026-10-03 20:09:44+00:00,web_app,course_catalog,database_query,college-web-10,6807,452,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01021,2026-10-03 20:12:30+00:00,backup_service,backup_storage,backup_job,college-web-03,8793,213,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00456,2026-10-03 20:20:02+00:00,student_18,college_portal,http_request,college-web-12,565,98,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00012,2026-10-03 20:25:46+00:00,workstation_5,internal_domain,dns_query,college-web-04,5543,404,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00478,2026-10-03 20:29:51+00:00,workstation_10,browser,process_start,college-web-06,5726,420,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00662,2026-10-03 20:30:59+00:00,web_server,access_log,file_write,college-web-05,1351,487,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00029,2026-10-03 20:32:37+00:00,web_app,course_catalog,database_query,college-web-01,8856,742,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00744,2026-10-03 20:35:46+00:00,workstation_3,browser,process_start,college-web-04,2646,80,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00654,2026-10-03 20:44:58+00:00,workstation_16,internal_domain,dns_query,college-web-08,8734,888,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00098,2026-10-03 20:57:42+00:00,employee_2,intranet,login_success,college-web-12,3596,267,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01042,2026-10-03 21:11:31+00:00,workstation_17,browser,process_start,college-web-11,6993,727,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00906,2026-10-03 21:20:59+00:00,workstation_8,browser,process_start,college-web-05,6525,447,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00352,2026-10-03 21:32:14+00:00,web_app,course_catalog,database_query,college-web-10,1971,360,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01022,2026-10-03 21:37:55+00:00,backup_service,backup_storage,backup_job,college-web-05,3912,765,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00982,2026-10-03 21:40:09+00:00,workstation_11,internal_api,network_connection,college-web-05,3927,13,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00584,2026-10-03 21:44:41+00:00,employee_14,shared_docs,file_read,college-web-07,8560,316,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00116,2026-10-03 21:46:30+00:00,backup_service,backup_storage,backup_job,college-web-02,3093,193,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00660,2026-10-03 21:48:09+00:00,workstation_4,internal_api,network_connection,college-web-05,7730,67,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00490,2026-10-03 21:49:21+00:00,workstation_10,internal_domain,dns_query,college-web-09,6696,607,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01018,2026-10-03 22:08:57+00:00,employee_11,shared_docs,file_read,college-web-12,8120,225,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00055,2026-10-03 22:09:10+00:00,workstation_16,internal_api,network_connection,college-web-03,8380,168,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00171,2026-10-03 22:10:57+00:00,workstation_12,browser,process_start,college-web-03,4234,534,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00324,2026-10-03 22:38:11+00:00,employee_4,shared_docs,file_read,college-web-05,6539,362,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00349,2026-10-03 22:51:03+00:00,workstation_15,internal_api,network_connection,college-web-12,3649,632,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01092,2026-10-03 22:53:38+00:00,backup_service,backup_storage,backup_job,college-web-10,6073,396,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00957,2026-10-03 23:02:30+00:00,workstation_1,browser,process_start,college-web-10,8989,59,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00405,2026-10-03 23:09:45+00:00,employee_3,shared_docs,file_read,college-web-03,6281,400,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00566,2026-10-03 23:21:56+00:00,backup_service,backup_storage,backup_job,college-web-09,5901,842,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00562,2026-10-03 23:27:20+00:00,backup_service,backup_storage,backup_job,college-web-07,7910,368,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00040,2026-10-03 23:37:18+00:00,workstation_13,internal_domain,dns_query,college-web-10,2288,290,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01024,2026-10-03 23:43:13+00:00,workstation_4,browser,process_start,college-web-04,3583,868,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00278,2026-10-03 23:43:43+00:00,workstation_9,browser,process_start,college-web-12,6738,216,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00361,2026-10-03 23:59:34+00:00,web_app,course_catalog,database_query,college-web-10,6233,376,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00912,2026-10-04 00:05:35+00:00,workstation_18,internal_api,network_connection,college-web-08,3978,470,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00827,2026-10-04 00:06:09+00:00,employee_13,intranet,login_success,college-web-11,7233,2,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00752,2026-10-04 00:17:35+00:00,employee_5,intranet,login_success,college-web-06,4545,857,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00402,2026-10-04 00:17:47+00:00,employee_6,shared_docs,file_read,college-web-06,8790,168,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00777,2026-10-04 00:25:21+00:00,workstation_12,browser,process_start,college-web-01,5905,27,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00773,2026-10-04 00:41:53+00:00,employee_13,intranet,login_success,college-web-10,5986,731,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01000,2026-10-04 00:49:43+00:00,backup_service,backup_storage,backup_job,college-web-06,1728,300,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00281,2026-10-04 01:21:27+00:00,backup_service,backup_storage,backup_job,college-web-08,7330,298,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00862,2026-10-04 01:35:17+00:00,workstation_3,browser,process_start,college-web-03,7012,41,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00047,2026-10-04 01:44:10+00:00,workstation_1,internal_api,network_connection,college-web-11,2781,400,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00919,2026-10-04 02:08:57+00:00,web_app,course_catalog,database_query,college-web-08,7289,79,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00939,2026-10-04 02:23:35+00:00,employee_1,intranet,login_success,college-web-05,1576,380,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00418,2026-10-04 02:40:59+00:00,web_app,course_catalog,database_query,college-web-12,8500,17,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00094,2026-10-04 02:43:53+00:00,employee_6,intranet,login_success,college-web-03,1501,193,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00695,2026-10-04 02:59:44+00:00,backup_service,backup_storage,backup_job,college-web-02,5071,220,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00704,2026-10-04 03:03:16+00:00,backup_service,backup_storage,backup_job,college-web-08,8392,635,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00229,2026-10-04 03:20:59+00:00,workstation_15,internal_api,network_connection,college-web-12,728,222,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00870,2026-10-04 03:31:36+00:00,workstation_10,internal_api,network_connection,college-web-11,595,44,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00552,2026-10-04 03:48:37+00:00,employee_16,shared_docs,file_read,college-web-02,6508,900,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00816,2026-10-04 03:58:03+00:00,web_app,course_catalog,database_query,college-web-10,5215,664,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00554,2026-10-04 04:07:39+00:00,student_6,college_portal,http_request,college-web-01,2527,491,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00318,2026-10-04 04:17:01+00:00,employee_13,shared_docs,file_read,college-web-08,1694,65,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00691,2026-10-04 04:19:06+00:00,employee_8,intranet,login_success,college-web-11,6835,820,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01020,2026-10-04 04:25:41+00:00,workstation_8,internal_domain,dns_query,college-web-07,4448,394,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00536,2026-10-04 04:31:21+00:00,backup_service,backup_storage,backup_job,college-web-09,7827,244,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00309,2026-10-04 04:32:33+00:00,backup_service,backup_storage,backup_job,college-web-02,487,740,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00266,2026-10-04 05:00:33+00:00,student_11,college_portal,http_request,college-web-02,3454,91,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00470,2026-10-04 05:03:57+00:00,workstation_6,internal_domain,dns_query,college-web-02,7632,273,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00323,2026-10-04 05:07:06+00:00,workstation_9,browser,process_start,college-web-03,359,110,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00016,2026-10-04 05:15:28+00:00,employee_1,shared_docs,file_read,college-web-07,5789,368,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00987,2026-10-04 05:31:17+00:00,workstation_9,browser,process_start,college-web-12,6617,680,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00310,2026-10-04 05:38:19+00:00,workstation_1,internal_api,network_connection,college-web-03,6872,658,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00513,2026-10-04 05:46:41+00:00,employee_6,intranet,login_success,college-web-07,3080,170,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00602,2026-10-04 06:13:11+00:00,web_app,course_catalog,database_query,college-web-09,8208,112,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00139,2026-10-04 06:19:10+00:00,web_server,access_log,file_write,college-web-09,5608,419,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00999,2026-10-04 06:21:36+00:00,employee_16,shared_docs,file_read,college-web-10,1134,207,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00379,2026-10-04 06:24:14+00:00,employee_10,shared_docs,file_read,college-web-09,1987,256,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00733,2026-10-04 06:33:18+00:00,workstation_1,internal_api,network_connection,college-web-02,3473,142,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00883,2026-10-04 06:57:35+00:00,workstation_18,internal_api,network_connection,college-web-09,4966,326,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00023,2026-10-04 07:03:37+00:00,employee_10,intranet,login_success,college-web-09,4759,703,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01102,2026-10-04 07:04:33+00:00,web_server,access_log,file_write,college-web-10,5279,255,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00124,2026-10-04 07:05:42+00:00,workstation_6,browser,process_start,college-web-04,7934,556,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01146,2026-10-04 07:06:19+00:00,employee_10,shared_docs,file_read,college-web-11,2551,892,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00243,2026-10-04 07:09:30+00:00,web_server,access_log,file_write,college-web-08,5623,99,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00706,2026-10-04 07:11:43+00:00,student_3,college_portal,http_request,college-web-09,6915,486,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00411,2026-10-04 07:18:13+00:00,employee_14,shared_docs,file_read,college-web-09,6178,9,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00320,2026-10-04 07:24:09+00:00,workstation_14,internal_api,network_connection,college-web-08,5420,244,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00742,2026-10-04 07:33:39+00:00,employee_17,shared_docs,file_read,college-web-09,347,733,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00002,2026-10-04 07:42:47+00:00,workstation_8,internal_domain,dns_query,college-web-12,8483,594,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01166,2026-10-04 07:55:25+00:00,web_server,access_log,file_write,college-web-04,838,106,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00620,2026-10-04 07:57:25+00:00,workstation_1,browser,process_start,college-web-09,2098,377,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00417,2026-10-04 08:14:10+00:00,student_18,college_portal,http_request,college-web-10,8248,72,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00232,2026-10-04 08:15:09+00:00,employee_17,shared_docs,file_read,college-web-12,8676,698,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01111,2026-10-04 08:36:51+00:00,web_server,access_log,file_write,college-web-12,4630,115,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00635,2026-10-04 08:43:51+00:00,web_server,access_log,file_write,college-web-04,1194,877,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00390,2026-10-04 08:46:39+00:00,web_server,access_log,file_write,college-web-02,4577,105,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00172,2026-10-04 08:47:48+00:00,student_15,college_portal,http_request,college-web-03,7242,769,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-01103,2026-10-04 08:59:36+00:00,student_12,college_portal,http_request,college-web-09,5167,276,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00279,2026-10-04 09:05:34+00:00,web_app,course_catalog,database_query,college-web-11,6288,482,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00330,2026-10-04 09:14:11+00:00,web_server,access_log,file_write,college-web-12,6339,847,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00998,2026-10-04 09:20:06+00:00,web_server,access_log,file_write,college-web-06,6175,653,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00179,2026-10-04 09:27:10+00:00,student_11,college_portal,http_request,college-web-08,6282,278,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00018,2026-10-04 09:36:35+00:00,workstation_9,internal_api,network_connection,college-web-05,4573,778,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00207,2026-10-04 09:38:39+00:00,workstation_8,browser,process_start,college-web-07,810,722,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00467,2026-10-04 09:39:11+00:00,employee_10,shared_docs,file_read,college-web-03,8414,191,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00339,2026-10-04 09:48:29+00:00,employee_18,shared_docs,file_read,college-web-04,2141,145,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00208,2026-10-04 10:06:54+00:00,backup_service,backup_storage,backup_job,college-web-11,6096,296,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00086,2026-10-04 10:16:11+00:00,employee_11,shared_docs,file_read,college-web-04,4534,652,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01071,2026-10-04 10:22:00+00:00,web_app,course_catalog,database_query,college-web-05,3209,453,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00073,2026-10-04 10:27:48+00:00,employee_17,shared_docs,file_read,college-web-02,4423,193,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00196,2026-10-04 10:29:16+00:00,employee_6,intranet,login_success,college-web-08,1988,98,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00148,2026-10-04 10:34:40+00:00,web_app,course_catalog,database_query,college-web-08,1175,401,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00150,2026-10-04 10:34:56+00:00,workstation_5,internal_api,network_connection,college-web-01,6358,124,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00758,2026-10-04 10:36:25+00:00,web_app,course_catalog,database_query,college-web-12,6440,753,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00026,2026-10-04 10:37:45+00:00,web_app,course_catalog,database_query,college-web-09,4912,21,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00501,2026-10-04 10:44:35+00:00,workstation_5,browser,process_start,college-web-07,1357,67,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00311,2026-10-04 10:48:22+00:00,workstation_7,internal_domain,dns_query,college-web-09,102,688,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00819,2026-10-04 11:04:55+00:00,workstation_4,internal_domain,dns_query,college-web-11,1937,317,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00725,2026-10-04 11:08:21+00:00,employee_8,shared_docs,file_read,college-web-11,8528,350,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00314,2026-10-04 11:14:46+00:00,workstation_2,internal_api,network_connection,college-web-10,7373,81,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00332,2026-10-04 11:19:14+00:00,backup_service,backup_storage,backup_job,college-web-12,531,37,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00684,2026-10-04 11:23:21+00:00,backup_service,backup_storage,backup_job,college-web-07,7623,491,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00873,2026-10-04 11:33:52+00:00,workstation_2,browser,process_start,college-web-01,2722,247,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00845,2026-10-04 11:56:35+00:00,web_app,course_catalog,database_query,college-web-11,6854,758,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00945,2026-10-04 12:01:44+00:00,workstation_4,browser,process_start,college-web-12,857,572,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01142,2026-10-04 12:06:21+00:00,workstation_6,internal_api,network_connection,college-web-01,3986,229,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00037,2026-10-04 12:19:06+00:00,employee_1,shared_docs,file_read,college-web-10,1555,363,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00293,2026-10-04 12:33:09+00:00,web_app,course_catalog,database_query,college-web-12,7905,573,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00441,2026-10-04 12:42:55+00:00,employee_9,shared_docs,file_read,college-web-09,6177,539,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00280,2026-10-04 12:49:53+00:00,web_app,course_catalog,database_query,college-web-11,8185,605,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01001,2026-10-04 12:52:00+00:00,workstation_14,internal_domain,dns_query,college-web-03,7166,335,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00561,2026-10-04 12:59:22+00:00,workstation_7,internal_api,network_connection,college-web-08,7822,828,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01004,2026-10-04 13:02:33+00:00,workstation_3,internal_domain,dns_query,college-web-07,3712,662,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00981,2026-10-04 13:19:11+00:00,student_6,college_portal,http_request,college-web-08,7042,835,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00327,2026-10-04 13:21:32+00:00,web_server,access_log,file_write,college-web-06,4514,462,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00815,2026-10-04 13:27:50+00:00,student_15,college_portal,http_request,college-web-10,5235,830,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00404,2026-10-04 13:29:21+00:00,web_server,access_log,file_write,college-web-10,7730,216,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00483,2026-10-04 13:34:58+00:00,backup_service,backup_storage,backup_job,college-web-05,5003,619,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00479,2026-10-04 13:39:31+00:00,employee_16,shared_docs,file_read,college-web-04,5885,21,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00889,2026-10-04 13:42:14+00:00,backup_service,backup_storage,backup_job,college-web-09,2448,315,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00319,2026-10-04 13:55:45+00:00,employee_4,intranet,login_success,college-web-08,5373,478,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01050,2026-10-04 14:02:59+00:00,student_18,college_portal,http_request,college-web-05,1876,636,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00373,2026-10-04 14:05:21+00:00,workstation_18,internal_api,network_connection,college-web-08,8760,893,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00382,2026-10-04 14:06:10+00:00,workstation_15,browser,process_start,college-web-03,3784,875,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00276,2026-10-04 14:07:41+00:00,web_server,access_log,file_write,college-web-10,7073,895,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00565,2026-10-04 14:19:29+00:00,web_app,course_catalog,database_query,college-web-05,7308,106,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00132,2026-10-04 14:40:52+00:00,employee_16,intranet,login_success,college-web-08,3886,543,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00790,2026-10-04 14:46:04+00:00,web_server,access_log,file_write,college-web-06,3675,342,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00794,2026-10-04 14:57:39+00:00,web_server,access_log,file_write,college-web-03,8250,167,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00572,2026-10-04 15:08:17+00:00,workstation_6,internal_api,network_connection,college-web-04,3341,226,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01135,2026-10-04 15:10:25+00:00,employee_10,shared_docs,file_read,college-web-11,6160,365,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00747,2026-10-04 15:14:56+00:00,web_server,access_log,file_write,college-web-06,3898,137,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00709,2026-10-04 15:24:54+00:00,web_app,course_catalog,database_query,college-web-03,4433,27,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00681,2026-10-04 15:29:18+00:00,backup_service,backup_storage,backup_job,college-web-11,2534,133,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00969,2026-10-04 15:45:23+00:00,backup_service,backup_storage,backup_job,college-web-12,5025,708,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00421,2026-10-04 15:52:19+00:00,employee_15,intranet,login_success,college-web-07,7337,691,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00264,2026-10-04 16:17:13+00:00,workstation_13,internal_api,network_connection,college-web-02,6691,861,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00038,2026-10-04 16:43:57+00:00,workstation_6,internal_domain,dns_query,college-web-11,4027,258,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01014,2026-10-04 16:44:14+00:00,employee_9,shared_docs,file_read,college-web-12,5277,291,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00341,2026-10-04 16:56:45+00:00,web_app,course_catalog,database_query,college-web-06,3177,80,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00286,2026-10-04 16:56:59+00:00,backup_service,backup_storage,backup_job,college-web-08,1813,718,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-01137,2026-10-04 17:05:33+00:00,workstation_18,internal_api,network_connection,college-web-12,8697,168,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00796,2026-10-04 17:19:23+00:00,student_2,college_portal,http_request,college-web-03,8955,530,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00903,2026-10-04 17:44:47+00:00,employee_13,shared_docs,file_read,college-web-12,137,176,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00971,2026-10-04 17:45:22+00:00,web_server,access_log,file_write,college-web-11,5978,623,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00753,2026-10-04 17:45:31+00:00,backup_service,backup_storage,backup_job,college-web-12,5150,692,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00563,2026-10-04 17:50:15+00:00,employee_8,shared_docs,file_read,college-web-01,5488,221,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00802,2026-10-04 18:09:33+00:00,student_15,college_portal,http_request,college-web-05,8937,499,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00940,2026-10-04 18:18:28+00:00,web_app,course_catalog,database_query,college-web-03,2759,487,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00145,2026-10-04 18:23:56+00:00,workstation_3,internal_api,network_connection,college-web-08,6733,597,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01149,2026-10-04 18:28:53+00:00,web_app,course_catalog,database_query,college-web-11,8682,643,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00305,2026-10-04 18:28:54+00:00,employee_14,intranet,login_success,college-web-02,4165,82,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01065,2026-10-04 18:46:25+00:00,workstation_18,browser,process_start,college-web-05,3430,80,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00466,2026-10-04 18:57:43+00:00,backup_service,backup_storage,backup_job,college-web-06,7960,273,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00003,2026-10-04 19:14:52+00:00,employee_12,shared_docs,file_read,college-web-06,3232,861,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00265,2026-10-04 19:23:53+00:00,employee_16,intranet,login_success,college-web-05,3843,636,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00708,2026-10-04 19:37:09+00:00,workstation_4,browser,process_start,college-web-11,823,12,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00941,2026-10-04 20:02:00+00:00,web_app,course_catalog,database_query,college-web-09,3882,479,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00784,2026-10-04 20:11:26+00:00,employee_8,intranet,login_success,college-web-11,4902,488,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00792,2026-10-04 20:28:30+00:00,workstation_13,internal_api,network_connection,college-web-01,1101,820,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00164,2026-10-04 20:29:08+00:00,employee_15,intranet,login_success,college-web-08,4780,78,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00301,2026-10-04 21:01:14+00:00,workstation_15,internal_domain,dns_query,college-web-05,6058,506,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00437,2026-10-04 21:04:43+00:00,workstation_5,internal_api,network_connection,college-web-01,8448,297,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00389,2026-10-04 21:13:56+00:00,backup_service,backup_storage,backup_job,college-web-06,5334,617,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00821,2026-10-04 21:51:11+00:00,employee_17,shared_docs,file_read,college-web-02,6054,4,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00195,2026-10-04 21:57:09+00:00,workstation_16,browser,process_start,college-web-04,8192,508,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00618,2026-10-04 21:57:28+00:00,web_server,access_log,file_write,college-web-03,3377,689,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00123,2026-10-04 22:03:21+00:00,student_13,college_portal,http_request,college-web-09,7197,328,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00996,2026-10-04 22:14:08+00:00,employee_1,intranet,login_success,college-web-01,2171,450,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01093,2026-10-04 22:18:39+00:00,web_server,access_log,file_write,college-web-09,5280,336,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00377,2026-10-04 22:22:55+00:00,employee_7,shared_docs,file_read,college-web-09,1988,163,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00669,2026-10-04 22:39:33+00:00,backup_service,backup_storage,backup_job,college-web-09,3192,371,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00063,2026-10-04 22:39:38+00:00,workstation_18,internal_api,network_connection,college-web-07,583,310,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01138,2026-10-04 22:40:17+00:00,web_app,course_catalog,database_query,college-web-08,2737,808,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00810,2026-10-04 22:48:25+00:00,backup_service,backup_storage,backup_job,college-web-10,1651,378,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00542,2026-10-04 22:51:38+00:00,employee_2,shared_docs,file_read,college-web-07,7894,318,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00307,2026-10-04 22:52:54+00:00,employee_10,intranet,login_success,college-web-03,6211,415,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00665,2026-10-04 23:25:34+00:00,web_server,access_log,file_write,college-web-04,2880,588,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00175,2026-10-04 23:30:21+00:00,web_app,course_catalog,database_query,college-web-03,2578,564,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00220,2026-10-04 23:32:29+00:00,employee_8,shared_docs,file_read,college-web-07,1648,511,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00201,2026-10-04 23:41:47+00:00,web_app,course_catalog,database_query,college-web-07,379,339,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00219,2026-10-04 23:49:39+00:00,web_app,course_catalog,database_query,college-web-06,8470,723,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00543,2026-10-04 23:58:17+00:00,student_7,college_portal,http_request,college-web-04,241,517,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00909,2026-10-05 00:02:25+00:00,web_app,course_catalog,database_query,college-web-07,4558,521,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01032,2026-10-05 00:07:20+00:00,student_3,college_portal,http_request,college-web-01,195,773,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00375,2026-10-05 00:13:18+00:00,student_7,college_portal,http_request,college-web-11,561,809,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00226,2026-10-05 00:19:47+00:00,employee_6,intranet,login_success,college-web-12,5213,439,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00459,2026-10-05 00:27:55+00:00,student_12,college_portal,http_request,college-web-02,4181,253,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00749,2026-10-05 00:46:54+00:00,web_server,access_log,file_write,college-web-07,7144,792,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-01084,2026-10-05 00:57:50+00:00,backup_service,backup_storage,backup_job,college-web-07,6063,668,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00415,2026-10-05 01:09:31+00:00,employee_10,shared_docs,file_read,college-web-06,860,134,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00362,2026-10-05 01:18:35+00:00,web_app,course_catalog,database_query,college-web-03,1413,422,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00136,2026-10-05 01:23:32+00:00,workstation_13,internal_domain,dns_query,college-web-10,2133,172,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01139,2026-10-05 01:30:40+00:00,employee_4,intranet,login_success,college-web-02,6169,124,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00555,2026-10-05 01:34:27+00:00,student_3,college_portal,http_request,college-web-02,2091,784,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00797,2026-10-05 01:36:20+00:00,student_3,college_portal,http_request,college-web-09,1963,487,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00619,2026-10-05 01:36:38+00:00,student_13,college_portal,http_request,college-web-08,3107,6,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00406,2026-10-05 01:54:27+00:00,workstation_2,internal_domain,dns_query,college-web-08,1841,673,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01117,2026-10-05 01:56:05+00:00,web_app,course_catalog,database_query,college-web-11,542,80,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00505,2026-10-05 01:58:01+00:00,web_server,access_log,file_write,college-web-06,1865,100,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00506,2026-10-05 01:59:17+00:00,employee_7,shared_docs,file_read,college-web-01,496,21,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00904,2026-10-05 02:05:59+00:00,backup_service,backup_storage,backup_job,college-web-08,3615,885,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00193,2026-10-05 02:15:12+00:00,employee_11,intranet,login_success,college-web-07,4646,233,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00051,2026-10-05 02:25:56+00:00,employee_10,shared_docs,file_read,college-web-02,8929,746,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00856,2026-10-05 02:31:19+00:00,workstation_3,internal_api,network_connection,college-web-02,5347,861,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00385,2026-10-05 02:34:12+00:00,web_server,access_log,file_write,college-web-12,7742,702,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00100,2026-10-05 02:57:37+00:00,workstation_18,browser,process_start,college-web-01,564,225,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00712,2026-10-05 02:59:37+00:00,employee_7,intranet,login_success,college-web-10,2503,299,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01081,2026-10-05 03:06:55+00:00,backup_service,backup_storage,backup_job,college-web-06,8816,195,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00245,2026-10-05 03:28:05+00:00,workstation_12,internal_api,network_connection,college-web-10,5330,357,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00158,2026-10-05 03:30:00+00:00,web_app,course_catalog,database_query,college-web-10,1429,59,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00621,2026-10-05 03:38:18+00:00,backup_service,backup_storage,backup_job,college-web-04,1710,638,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-01159,2026-10-05 04:09:09+00:00,web_app,course_catalog,database_query,college-web-02,5149,830,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00913,2026-10-05 04:15:45+00:00,backup_service,backup_storage,backup_job,college-web-10,4191,171,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00009,2026-10-05 04:17:19+00:00,student_16,college_portal,http_request,college-web-07,1002,314,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00209,2026-10-05 04:18:47+00:00,student_9,college_portal,http_request,college-web-12,6652,873,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00403,2026-10-05 04:27:52+00:00,workstation_13,browser,process_start,college-web-05,5116,450,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00134,2026-10-05 04:38:47+00:00,backup_service,backup_storage,backup_job,college-web-06,6904,607,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00793,2026-10-05 05:06:49+00:00,employee_12,intranet,login_success,college-web-10,2276,251,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00313,2026-10-05 05:11:32+00:00,web_app,course_catalog,database_query,college-web-07,5101,561,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00392,2026-10-05 05:13:04+00:00,workstation_13,browser,process_start,college-web-07,8038,414,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00217,2026-10-05 05:19:05+00:00,web_server,access_log,file_write,college-web-08,5142,844,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00899,2026-10-05 05:25:36+00:00,employee_1,shared_docs,file_read,college-web-11,2157,234,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00256,2026-10-05 05:31:47+00:00,backup_service,backup_storage,backup_job,college-web-12,3293,629,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00021,2026-10-05 05:37:47+00:00,workstation_3,browser,process_start,college-web-03,2917,578,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00303,2026-10-05 06:05:00+00:00,workstation_8,browser,process_start,college-web-06,6364,784,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00531,2026-10-05 06:07:52+00:00,employee_18,intranet,login_success,college-web-10,194,734,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00450,2026-10-05 06:07:57+00:00,student_13,college_portal,http_request,college-web-06,3812,245,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00547,2026-10-05 06:15:34+00:00,workstation_16,browser,process_start,college-web-07,6177,447,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01080,2026-10-05 06:33:05+00:00,web_server,access_log,file_write,college-web-05,5056,612,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00713,2026-10-05 06:36:06+00:00,web_app,course_catalog,database_query,college-web-02,6872,525,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00838,2026-10-05 06:36:11+00:00,employee_11,shared_docs,file_read,college-web-05,863,450,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00477,2026-10-05 07:12:01+00:00,web_app,course_catalog,database_query,college-web-09,2060,847,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00076,2026-10-05 07:20:41+00:00,workstation_15,internal_domain,dns_query,college-web-07,5869,155,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00771,2026-10-05 07:21:43+00:00,web_app,course_catalog,database_query,college-web-10,2731,719,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00780,2026-10-05 07:52:35+00:00,employee_1,shared_docs,file_read,college-web-10,4582,183,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00300,2026-10-05 07:57:20+00:00,web_server,access_log,file_write,college-web-09,4056,412,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-01027,2026-10-05 08:00:48+00:00,employee_1,intranet,login_success,college-web-01,6439,111,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00756,2026-10-05 08:01:36+00:00,student_6,college_portal,http_request,college-web-05,624,770,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00720,2026-10-05 08:08:09+00:00,employee_13,shared_docs,file_read,college-web-05,5385,439,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00198,2026-10-05 08:14:14+00:00,employee_2,intranet,login_success,college-web-05,4508,99,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01082,2026-10-05 08:16:00+00:00,workstation_3,internal_api,network_connection,college-web-11,8587,346,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00354,2026-10-05 08:21:55+00:00,web_app,course_catalog,database_query,college-web-07,7115,873,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00922,2026-10-05 08:24:13+00:00,student_16,college_portal,http_request,college-web-11,5170,223,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00011,2026-10-05 08:33:09+00:00,workstation_16,internal_domain,dns_query,college-web-01,4528,76,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00444,2026-10-05 08:49:23+00:00,employee_3,shared_docs,file_read,college-web-08,3906,670,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00455,2026-10-05 08:55:19+00:00,workstation_8,internal_domain,dns_query,college-web-08,2904,475,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01157,2026-10-05 09:05:30+00:00,employee_1,shared_docs,file_read,college-web-02,5943,182,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00557,2026-10-05 09:12:56+00:00,web_server,access_log,file_write,college-web-03,7128,707,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-01028,2026-10-05 09:17:07+00:00,web_server,access_log,file_write,college-web-06,8777,664,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00498,2026-10-05 09:23:10+00:00,employee_11,shared_docs,file_read,college-web-07,3813,818,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00607,2026-10-05 09:23:11+00:00,workstation_6,internal_api,network_connection,college-web-08,5034,175,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01019,2026-10-05 09:27:12+00:00,backup_service,backup_storage,backup_job,college-web-05,4298,361,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-01063,2026-10-05 09:32:38+00:00,backup_service,backup_storage,backup_job,college-web-09,1242,566,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00434,2026-10-05 09:35:03+00:00,workstation_1,browser,process_start,college-web-03,4680,257,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00640,2026-10-05 09:39:47+00:00,employee_13,shared_docs,file_read,college-web-02,4438,469,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01128,2026-10-05 09:40:36+00:00,workstation_7,browser,process_start,college-web-02,6528,863,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00500,2026-10-05 09:46:57+00:00,workstation_14,browser,process_start,college-web-01,6268,189,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01172,2026-10-05 09:47:44+00:00,student_11,college_portal,http_request,college-web-08,6851,112,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00865,2026-10-05 09:48:44+00:00,web_app,course_catalog,database_query,college-web-06,8420,122,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00995,2026-10-05 10:16:21+00:00,student_7,college_portal,http_request,college-web-06,5644,768,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00008,2026-10-05 10:31:50+00:00,backup_service,backup_storage,backup_job,college-web-04,6385,600,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00761,2026-10-05 10:50:37+00:00,student_4,college_portal,http_request,college-web-01,6599,346,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00125,2026-10-05 11:06:12+00:00,employee_4,shared_docs,file_read,college-web-08,6356,533,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00337,2026-10-05 11:07:39+00:00,workstation_9,internal_api,network_connection,college-web-03,1526,198,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00259,2026-10-05 11:08:21+00:00,workstation_7,browser,process_start,college-web-04,5555,762,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00843,2026-10-05 11:21:30+00:00,backup_service,backup_storage,backup_job,college-web-04,4232,483,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00302,2026-10-05 11:44:12+00:00,backup_service,backup_storage,backup_job,college-web-04,6707,183,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00350,2026-10-05 11:44:18+00:00,employee_10,intranet,login_success,college-web-09,2439,391,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01010,2026-10-05 11:57:20+00:00,web_server,access_log,file_write,college-web-09,8168,10,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00858,2026-10-05 12:16:54+00:00,workstation_18,browser,process_start,college-web-02,2462,539,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00910,2026-10-05 12:19:59+00:00,web_server,access_log,file_write,college-web-10,6557,297,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00588,2026-10-05 12:20:11+00:00,student_13,college_portal,http_request,college-web-04,6615,397,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00355,2026-10-05 12:35:38+00:00,web_server,access_log,file_write,college-web-08,8914,159,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00579,2026-10-05 12:42:15+00:00,web_server,access_log,file_write,college-web-08,7273,744,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00820,2026-10-05 12:45:54+00:00,employee_4,shared_docs,file_read,college-web-09,5385,518,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00230,2026-10-05 12:46:02+00:00,backup_service,backup_storage,backup_job,college-web-12,6072,314,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00308,2026-10-05 12:46:28+00:00,workstation_8,browser,process_start,college-web-11,7063,522,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00629,2026-10-05 12:54:11+00:00,web_app,course_catalog,database_query,college-web-11,6939,111,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00360,2026-10-05 12:55:44+00:00,workstation_10,browser,process_start,college-web-01,8989,75,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00644,2026-10-05 12:58:43+00:00,employee_1,shared_docs,file_read,college-web-09,2117,10,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00817,2026-10-05 13:01:40+00:00,student_5,college_portal,http_request,college-web-10,7447,25,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00680,2026-10-05 13:05:08+00:00,web_server,access_log,file_write,college-web-11,3872,649,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00641,2026-10-05 13:06:26+00:00,employee_6,intranet,login_success,college-web-08,4336,117,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00334,2026-10-05 13:10:53+00:00,student_13,college_portal,http_request,college-web-11,4262,762,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-01140,2026-10-05 13:26:09+00:00,backup_service,backup_storage,backup_job,college-web-05,3881,723,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-01099,2026-10-05 13:31:33+00:00,employee_8,shared_docs,file_read,college-web-09,1302,32,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00787,2026-10-05 13:35:56+00:00,employee_7,shared_docs,file_read,college-web-12,6048,847,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00603,2026-10-05 13:43:26+00:00,web_app,course_catalog,database_query,college-web-04,3898,431,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01002,2026-10-05 13:56:34+00:00,backup_service,backup_storage,backup_job,college-web-02,1636,761,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00371,2026-10-05 14:03:54+00:00,web_server,access_log,file_write,college-web-11,3408,51,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-01059,2026-10-05 14:15:16+00:00,web_app,course_catalog,database_query,college-web-09,4721,184,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01062,2026-10-05 14:34:31+00:00,employee_11,intranet,login_success,college-web-10,2449,69,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00445,2026-10-05 15:03:18+00:00,student_15,college_portal,http_request,college-web-07,4745,748,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00701,2026-10-05 15:16:33+00:00,web_server,access_log,file_write,college-web-07,6263,186,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-01012,2026-10-05 15:35:18+00:00,workstation_14,browser,process_start,college-web-04,1814,542,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00990,2026-10-05 15:40:34+00:00,employee_10,shared_docs,file_read,college-web-09,4090,549,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00666,2026-10-05 15:44:30+00:00,workstation_15,internal_domain,dns_query,college-web-06,2934,696,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00760,2026-10-05 15:54:52+00:00,workstation_7,internal_api,network_connection,college-web-05,634,14,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00495,2026-10-05 15:59:23+00:00,workstation_2,internal_api,network_connection,college-web-03,7342,180,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00119,2026-10-05 16:09:05+00:00,employee_18,intranet,login_success,college-web-06,6432,110,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01134,2026-10-05 16:18:15+00:00,employee_13,intranet,login_success,college-web-03,7505,764,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00529,2026-10-05 16:18:41+00:00,student_2,college_portal,http_request,college-web-06,3622,430,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00696,2026-10-05 16:19:51+00:00,backup_service,backup_storage,backup_job,college-web-02,5313,341,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00550,2026-10-05 16:21:06+00:00,employee_5,shared_docs,file_read,college-web-05,2261,331,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00432,2026-10-05 16:28:02+00:00,web_app,course_catalog,database_query,college-web-08,7751,484,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00024,2026-10-05 16:35:25+00:00,workstation_16,internal_api,network_connection,college-web-10,6158,459,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00840,2026-10-05 17:00:03+00:00,workstation_6,internal_domain,dns_query,college-web-02,3305,747,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00138,2026-10-05 17:24:34+00:00,employee_16,shared_docs,file_read,college-web-11,2659,489,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00738,2026-10-05 17:31:10+00:00,workstation_2,internal_api,network_connection,college-web-03,483,528,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01123,2026-10-05 17:36:46+00:00,student_10,college_portal,http_request,college-web-08,5290,860,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00900,2026-10-05 18:20:19+00:00,web_server,access_log,file_write,college-web-08,4443,795,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00058,2026-10-05 18:32:09+00:00,workstation_4,internal_domain,dns_query,college-web-06,8083,868,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00200,2026-10-05 18:34:29+00:00,backup_service,backup_storage,backup_job,college-web-10,862,856,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00485,2026-10-05 18:55:36+00:00,workstation_11,internal_domain,dns_query,college-web-02,5277,388,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00103,2026-10-05 18:59:35+00:00,workstation_6,internal_api,network_connection,college-web-12,4919,560,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00592,2026-10-05 19:00:58+00:00,workstation_17,internal_api,network_connection,college-web-06,676,490,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01108,2026-10-05 19:08:30+00:00,workstation_10,internal_domain,dns_query,college-web-02,8072,279,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00056,2026-10-05 19:12:15+00:00,backup_service,backup_storage,backup_job,college-web-06,4983,531,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00664,2026-10-05 19:21:09+00:00,employee_2,intranet,login_success,college-web-10,5972,155,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00380,2026-10-05 19:29:46+00:00,student_12,college_portal,http_request,college-web-03,6930,84,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00871,2026-10-05 19:32:08+00:00,workstation_8,internal_api,network_connection,college-web-04,2880,834,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01145,2026-10-05 19:44:02+00:00,employee_6,intranet,login_success,college-web-02,8437,825,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00647,2026-10-05 20:28:25+00:00,web_server,access_log,file_write,college-web-04,2560,22,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00068,2026-10-05 20:32:00+00:00,employee_11,shared_docs,file_read,college-web-12,3805,414,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00242,2026-10-05 20:42:19+00:00,employee_18,intranet,login_success,college-web-03,7404,460,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00690,2026-10-05 20:43:13+00:00,backup_service,backup_storage,backup_job,college-web-07,7403,533,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00625,2026-10-05 20:57:23+00:00,web_app,course_catalog,database_query,college-web-08,7874,691,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00366,2026-10-05 21:15:55+00:00,workstation_11,internal_api,network_connection,college-web-05,4390,573,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00083,2026-10-05 21:17:48+00:00,student_5,college_portal,http_request,college-web-03,2530,278,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00061,2026-10-05 21:24:54+00:00,employee_15,shared_docs,file_read,college-web-08,4860,896,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00271,2026-10-05 21:27:35+00:00,backup_service,backup_storage,backup_job,college-web-07,332,23,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00973,2026-10-05 21:28:56+00:00,web_app,course_catalog,database_query,college-web-08,1274,34,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01091,2026-10-05 21:35:51+00:00,employee_11,intranet,login_success,college-web-05,6044,500,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00895,2026-10-05 22:00:38+00:00,student_14,college_portal,http_request,college-web-07,7175,361,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00140,2026-10-05 22:04:13+00:00,student_2,college_portal,http_request,college-web-03,5870,179,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00473,2026-10-05 22:06:09+00:00,web_server,access_log,file_write,college-web-03,3265,291,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00412,2026-10-05 22:07:03+00:00,employee_8,intranet,login_success,college-web-04,4822,141,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00442,2026-10-05 22:07:58+00:00,workstation_13,internal_domain,dns_query,college-web-11,4267,620,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00859,2026-10-05 22:34:28+00:00,workstation_6,internal_api,network_connection,college-web-11,5911,829,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00759,2026-10-05 22:58:36+00:00,employee_1,shared_docs,file_read,college-web-07,2475,10,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00488,2026-10-05 23:00:19+00:00,workstation_18,browser,process_start,college-web-03,7983,432,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00258,2026-10-05 23:07:26+00:00,employee_6,intranet,login_success,college-web-12,2713,492,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00952,2026-10-05 23:26:46+00:00,student_12,college_portal,http_request,college-web-09,2579,877,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00129,2026-10-05 23:39:51+00:00,web_app,course_catalog,database_query,college-web-07,1264,53,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00429,2026-10-05 23:46:12+00:00,web_server,access_log,file_write,college-web-09,7520,374,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00512,2026-10-05 23:46:16+00:00,student_4,college_portal,http_request,college-web-08,8624,147,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-01130,2026-10-06 00:11:56+00:00,employee_18,intranet,login_success,college-web-02,3499,81,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00897,2026-10-06 00:13:29+00:00,student_15,college_portal,http_request,college-web-07,7296,421,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00748,2026-10-06 00:24:42+00:00,workstation_18,internal_api,network_connection,college-web-05,3871,757,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00979,2026-10-06 00:46:49+00:00,workstation_8,internal_domain,dns_query,college-web-02,2431,742,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00368,2026-10-06 00:51:25+00:00,student_10,college_portal,http_request,college-web-05,7594,891,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00861,2026-10-06 00:55:12+00:00,workstation_2,internal_domain,dns_query,college-web-05,6446,688,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00586,2026-10-06 01:01:54+00:00,employee_1,intranet,login_success,college-web-12,2500,532,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00181,2026-10-06 01:27:49+00:00,workstation_11,browser,process_start,college-web-10,3062,496,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00868,2026-10-06 01:32:16+00:00,backup_service,backup_storage,backup_job,college-web-12,701,167,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00253,2026-10-06 01:42:12+00:00,employee_8,intranet,login_success,college-web-12,5195,506,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00502,2026-10-06 01:50:53+00:00,employee_5,shared_docs,file_read,college-web-01,4168,329,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01066,2026-10-06 01:59:34+00:00,employee_15,intranet,login_success,college-web-10,804,491,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00549,2026-10-06 02:09:48+00:00,web_server,access_log,file_write,college-web-10,3707,132,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00766,2026-10-06 02:18:20+00:00,employee_5,shared_docs,file_read,college-web-02,5433,439,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01067,2026-10-06 02:19:52+00:00,workstation_8,internal_api,network_connection,college-web-09,5958,224,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00836,2026-10-06 02:22:53+00:00,student_13,college_portal,http_request,college-web-09,2212,374,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00190,2026-10-06 02:26:06+00:00,workstation_16,internal_api,network_connection,college-web-02,2249,863,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00509,2026-10-06 02:31:35+00:00,employee_18,shared_docs,file_read,college-web-06,7565,577,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01101,2026-10-06 02:32:53+00:00,web_server,access_log,file_write,college-web-06,4250,525,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00667,2026-10-06 03:10:27+00:00,web_server,access_log,file_write,college-web-07,229,471,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00168,2026-10-06 03:22:08+00:00,employee_7,shared_docs,file_read,college-web-10,6946,861,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00516,2026-10-06 03:22:12+00:00,web_app,course_catalog,database_query,college-web-01,387,315,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00813,2026-10-06 03:22:24+00:00,employee_6,intranet,login_success,college-web-04,5754,432,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00348,2026-10-06 03:49:24+00:00,backup_service,backup_storage,backup_job,college-web-08,2902,29,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00288,2026-10-06 03:49:39+00:00,web_server,access_log,file_write,college-web-07,2346,135,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00039,2026-10-06 03:57:44+00:00,student_18,college_portal,http_request,college-web-08,6910,365,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00673,2026-10-06 04:07:13+00:00,workstation_10,internal_api,network_connection,college-web-07,2623,268,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00028,2026-10-06 04:15:00+00:00,workstation_6,internal_domain,dns_query,college-web-10,436,237,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00395,2026-10-06 04:15:35+00:00,backup_service,backup_storage,backup_job,college-web-08,8265,530,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00351,2026-10-06 04:38:26+00:00,student_8,college_portal,http_request,college-web-09,5505,464,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00514,2026-10-06 04:59:20+00:00,web_app,course_catalog,database_query,college-web-01,3745,894,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00722,2026-10-06 05:00:26+00:00,web_app,course_catalog,database_query,college-web-03,4625,512,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00671,2026-10-06 05:02:14+00:00,workstation_1,browser,process_start,college-web-06,6243,541,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00045,2026-10-06 05:03:00+00:00,employee_18,shared_docs,file_read,college-web-09,7610,216,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01110,2026-10-06 05:09:34+00:00,employee_9,shared_docs,file_read,college-web-12,8870,782,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00687,2026-10-06 05:20:42+00:00,workstation_9,internal_api,network_connection,college-web-01,4528,248,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00750,2026-10-06 05:32:38+00:00,workstation_7,internal_api,network_connection,college-web-09,5119,609,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01127,2026-10-06 05:42:35+00:00,student_3,college_portal,http_request,college-web-08,4471,767,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00312,2026-10-06 05:43:05+00:00,backup_service,backup_storage,backup_job,college-web-05,2564,875,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00938,2026-10-06 05:59:29+00:00,workstation_12,browser,process_start,college-web-01,7234,840,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00891,2026-10-06 06:01:57+00:00,backup_service,backup_storage,backup_job,college-web-11,1680,74,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00169,2026-10-06 06:03:24+00:00,student_4,college_portal,http_request,college-web-05,2359,89,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00863,2026-10-06 06:03:58+00:00,backup_service,backup_storage,backup_job,college-web-02,1101,293,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00065,2026-10-06 06:23:11+00:00,workstation_18,internal_domain,dns_query,college-web-09,3375,791,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00101,2026-10-06 06:34:12+00:00,workstation_10,internal_domain,dns_query,college-web-11,8324,616,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00474,2026-10-06 06:36:03+00:00,workstation_18,internal_domain,dns_query,college-web-06,6111,57,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00983,2026-10-06 06:49:09+00:00,workstation_11,internal_api,network_connection,college-web-09,1680,687,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00108,2026-10-06 06:55:38+00:00,student_2,college_portal,http_request,college-web-02,2665,63,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00648,2026-10-06 07:14:02+00:00,employee_16,shared_docs,file_read,college-web-02,2688,99,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00283,2026-10-06 07:27:26+00:00,backup_service,backup_storage,backup_job,college-web-10,2944,675,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00611,2026-10-06 07:28:41+00:00,web_app,course_catalog,database_query,college-web-09,5006,48,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01007,2026-10-06 07:38:58+00:00,web_app,course_catalog,database_query,college-web-07,8189,21,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00205,2026-10-06 07:55:22+00:00,workstation_16,internal_domain,dns_query,college-web-08,8085,629,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00131,2026-10-06 08:00:12+00:00,web_server,access_log,file_write,college-web-12,8774,209,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00728,2026-10-06 08:11:33+00:00,workstation_5,internal_domain,dns_query,college-web-02,237,148,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00359,2026-10-06 08:39:34+00:00,employee_7,intranet,login_success,college-web-07,3135,741,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00613,2026-10-06 08:40:28+00:00,employee_1,shared_docs,file_read,college-web-10,805,137,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01097,2026-10-06 08:51:18+00:00,employee_13,shared_docs,file_read,college-web-05,5771,587,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00633,2026-10-06 08:56:05+00:00,backup_service,backup_storage,backup_job,college-web-12,6508,133,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00933,2026-10-06 09:01:55+00:00,web_server,access_log,file_write,college-web-07,2562,509,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00544,2026-10-06 09:17:48+00:00,employee_6,shared_docs,file_read,college-web-12,7806,489,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00289,2026-10-06 09:33:00+00:00,workstation_8,internal_domain,dns_query,college-web-10,1459,69,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00551,2026-10-06 09:35:49+00:00,web_app,course_catalog,database_query,college-web-11,3987,889,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00944,2026-10-06 09:37:29+00:00,workstation_11,internal_api,network_connection,college-web-08,8997,622,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01133,2026-10-06 09:38:19+00:00,web_server,access_log,file_write,college-web-04,4850,222,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00575,2026-10-06 09:53:49+00:00,workstation_18,internal_api,network_connection,college-web-01,2106,6,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00070,2026-10-06 10:02:29+00:00,web_app,course_catalog,database_query,college-web-07,4772,499,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00035,2026-10-06 10:26:39+00:00,workstation_12,browser,process_start,college-web-12,7329,190,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00668,2026-10-06 10:30:40+00:00,employee_6,shared_docs,file_read,college-web-07,3830,730,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01109,2026-10-06 10:31:04+00:00,workstation_3,internal_api,network_connection,college-web-06,8203,539,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00053,2026-10-06 11:00:14+00:00,employee_2,shared_docs,file_read,college-web-08,5874,693,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00907,2026-10-06 11:09:41+00:00,student_10,college_portal,http_request,college-web-08,1546,278,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00994,2026-10-06 11:13:16+00:00,backup_service,backup_storage,backup_job,college-web-07,4985,870,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00156,2026-10-06 11:40:48+00:00,workstation_15,internal_api,network_connection,college-web-09,5560,296,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01162,2026-10-06 11:44:54+00:00,workstation_16,browser,process_start,college-web-05,4777,359,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00397,2026-10-06 11:48:52+00:00,backup_service,backup_storage,backup_job,college-web-11,3923,628,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00934,2026-10-06 11:49:01+00:00,backup_service,backup_storage,backup_job,college-web-10,2828,2,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-01078,2026-10-06 11:49:22+00:00,workstation_9,browser,process_start,college-web-08,3339,67,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00731,2026-10-06 12:00:11+00:00,backup_service,backup_storage,backup_job,college-web-08,8211,732,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00503,2026-10-06 12:02:34+00:00,employee_15,shared_docs,file_read,college-web-01,6540,52,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01079,2026-10-06 12:05:24+00:00,backup_service,backup_storage,backup_job,college-web-04,6616,392,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00716,2026-10-06 12:06:21+00:00,web_app,course_catalog,database_query,college-web-03,2952,641,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00809,2026-10-06 12:09:38+00:00,employee_7,shared_docs,file_read,college-web-02,5200,574,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00556,2026-10-06 12:45:57+00:00,employee_14,intranet,login_success,college-web-02,3660,815,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00595,2026-10-06 12:53:18+00:00,workstation_9,internal_domain,dns_query,college-web-12,7209,604,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01105,2026-10-06 12:56:25+00:00,workstation_13,internal_domain,dns_query,college-web-04,8717,568,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00639,2026-10-06 13:46:39+00:00,employee_5,intranet,login_success,college-web-12,6247,334,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00067,2026-10-06 13:46:45+00:00,employee_11,shared_docs,file_read,college-web-07,2862,846,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00571,2026-10-06 13:49:26+00:00,workstation_17,browser,process_start,college-web-02,3139,196,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00192,2026-10-06 13:51:53+00:00,web_app,course_catalog,database_query,college-web-11,1367,782,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00414,2026-10-06 13:59:10+00:00,web_app,course_catalog,database_query,college-web-09,1897,241,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00298,2026-10-06 14:11:07+00:00,workstation_3,internal_api,network_connection,college-web-11,8790,664,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01167,2026-10-06 14:13:36+00:00,student_14,college_portal,http_request,college-web-10,6766,283,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00095,2026-10-06 14:48:12+00:00,employee_12,shared_docs,file_read,college-web-01,8635,652,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00440,2026-10-06 14:54:17+00:00,student_5,college_portal,http_request,college-web-09,4080,175,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00736,2026-10-06 15:00:45+00:00,workstation_15,internal_api,network_connection,college-web-05,2284,558,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00534,2026-10-06 15:02:01+00:00,workstation_17,internal_domain,dns_query,college-web-12,6457,297,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00574,2026-10-06 15:14:21+00:00,workstation_13,browser,process_start,college-web-10,263,885,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00186,2026-10-06 15:19:13+00:00,workstation_5,internal_api,network_connection,college-web-06,8947,213,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00376,2026-10-06 15:23:40+00:00,web_server,access_log,file_write,college-web-08,5217,498,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00978,2026-10-06 15:25:16+00:00,workstation_13,browser,process_start,college-web-08,1961,846,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01036,2026-10-06 15:46:00+00:00,backup_service,backup_storage,backup_job,college-web-10,8303,104,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-01144,2026-10-06 15:47:08+00:00,backup_service,backup_storage,backup_job,college-web-03,162,96,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-01155,2026-10-06 15:56:02+00:00,student_10,college_portal,http_request,college-web-12,178,189,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00812,2026-10-06 15:56:59+00:00,web_server,access_log,file_write,college-web-01,4737,50,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00064,2026-10-06 16:02:06+00:00,student_8,college_portal,http_request,college-web-01,1606,704,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00767,2026-10-06 16:12:02+00:00,web_app,course_catalog,database_query,college-web-09,4545,723,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00841,2026-10-06 16:21:06+00:00,backup_service,backup_storage,backup_job,college-web-07,6810,347,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00121,2026-10-06 16:56:16+00:00,workstation_10,browser,process_start,college-web-09,8318,697,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00475,2026-10-06 17:17:59+00:00,employee_1,shared_docs,file_read,college-web-08,5616,652,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01088,2026-10-06 17:20:01+00:00,employee_11,intranet,login_success,college-web-07,3708,391,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00267,2026-10-06 17:26:32+00:00,web_app,course_catalog,database_query,college-web-12,2887,431,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00306,2026-10-06 17:28:56+00:00,employee_18,intranet,login_success,college-web-09,446,847,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00074,2026-10-06 17:36:50+00:00,workstation_1,internal_domain,dns_query,college-web-09,6885,595,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00524,2026-10-06 17:47:06+00:00,web_server,access_log,file_write,college-web-10,7896,305,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00781,2026-10-06 17:50:28+00:00,workstation_3,internal_domain,dns_query,college-web-03,3765,735,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00384,2026-10-06 18:16:29+00:00,backup_service,backup_storage,backup_job,college-web-07,7446,826,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00735,2026-10-06 18:17:16+00:00,web_app,course_catalog,database_query,college-web-10,4124,215,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00504,2026-10-06 18:17:49+00:00,backup_service,backup_storage,backup_job,college-web-01,8734,247,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00142,2026-10-06 18:19:28+00:00,student_13,college_portal,http_request,college-web-02,331,527,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-01074,2026-10-06 18:28:25+00:00,workstation_9,internal_api,network_connection,college-web-11,3506,708,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00069,2026-10-06 18:31:29+00:00,workstation_14,browser,process_start,college-web-04,964,152,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00075,2026-10-06 18:46:52+00:00,workstation_16,internal_domain,dns_query,college-web-11,6620,36,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00214,2026-10-06 19:04:46+00:00,employee_14,intranet,login_success,college-web-05,3968,132,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00638,2026-10-06 19:17:32+00:00,backup_service,backup_storage,backup_job,college-web-08,2199,269,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00682,2026-10-06 19:22:40+00:00,workstation_3,internal_domain,dns_query,college-web-11,7810,143,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00472,2026-10-06 19:23:45+00:00,employee_1,shared_docs,file_read,college-web-10,6278,419,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00155,2026-10-06 19:50:47+00:00,employee_4,intranet,login_success,college-web-04,4212,306,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00636,2026-10-06 19:53:19+00:00,employee_16,intranet,login_success,college-web-03,6494,587,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00292,2026-10-06 19:57:42+00:00,web_app,course_catalog,database_query,college-web-11,5813,151,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00400,2026-10-06 19:58:11+00:00,workstation_12,browser,process_start,college-web-07,7320,219,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01064,2026-10-06 20:01:09+00:00,workstation_13,internal_api,network_connection,college-web-02,8984,449,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00410,2026-10-06 20:05:09+00:00,web_server,access_log,file_write,college-web-09,6844,447,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00157,2026-10-06 20:16:17+00:00,employee_11,intranet,login_success,college-web-12,2976,29,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01114,2026-10-06 20:47:11+00:00,web_app,course_catalog,database_query,college-web-01,8312,690,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00967,2026-10-06 21:05:26+00:00,web_server,access_log,file_write,college-web-09,6049,889,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-01087,2026-10-06 21:16:31+00:00,web_app,course_catalog,database_query,college-web-07,3400,736,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00558,2026-10-06 21:17:36+00:00,workstation_14,browser,process_start,college-web-08,2288,760,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00041,2026-10-06 21:18:10+00:00,workstation_12,internal_api,network_connection,college-web-12,737,770,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00096,2026-10-06 21:27:39+00:00,backup_service,backup_storage,backup_job,college-web-12,1273,104,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00480,2026-10-06 21:30:00+00:00,backup_service,backup_storage,backup_job,college-web-01,7324,795,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00672,2026-10-06 21:41:24+00:00,web_app,course_catalog,database_query,college-web-11,5698,299,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00398,2026-10-06 21:50:58+00:00,workstation_16,internal_domain,dns_query,college-web-01,156,759,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00034,2026-10-06 21:55:56+00:00,workstation_14,internal_api,network_connection,college-web-07,6091,223,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00674,2026-10-06 22:04:30+00:00,employee_10,shared_docs,file_read,college-web-04,898,721,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00071,2026-10-06 22:08:56+00:00,backup_service,backup_storage,backup_job,college-web-09,6604,418,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00705,2026-10-06 22:12:01+00:00,student_15,college_portal,http_request,college-web-10,2039,44,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00216,2026-10-06 22:29:06+00:00,employee_14,intranet,login_success,college-web-04,6698,390,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01015,2026-10-06 22:40:39+00:00,web_server,access_log,file_write,college-web-11,5800,60,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00374,2026-10-06 23:01:05+00:00,workstation_5,browser,process_start,college-web-01,1583,631,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01041,2026-10-06 23:50:29+00:00,workstation_4,internal_api,network_connection,college-web-06,1692,846,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00251,2026-10-06 23:54:19+00:00,workstation_6,browser,process_start,college-web-05,699,611,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00719,2026-10-06 23:55:59+00:00,employee_9,shared_docs,file_read,college-web-01,5607,733,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01094,2026-10-07 00:02:18+00:00,employee_14,intranet,login_success,college-web-03,8127,219,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00670,2026-10-07 00:10:20+00:00,student_15,college_portal,http_request,college-web-08,8820,228,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-01031,2026-10-07 00:20:29+00:00,workstation_5,internal_domain,dns_query,college-web-08,1770,883,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00776,2026-10-07 00:38:40+00:00,employee_17,intranet,login_success,college-web-12,8415,37,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00807,2026-10-07 00:44:09+00:00,web_app,course_catalog,database_query,college-web-10,733,764,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00356,2026-10-07 00:51:13+00:00,web_app,course_catalog,database_query,college-web-06,2003,895,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01040,2026-10-07 00:59:44+00:00,web_server,access_log,file_write,college-web-03,8376,424,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00962,2026-10-07 01:06:39+00:00,workstation_5,internal_api,network_connection,college-web-12,5329,259,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00948,2026-10-07 01:19:51+00:00,workstation_4,internal_api,network_connection,college-web-04,5232,598,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00745,2026-10-07 01:28:05+00:00,workstation_13,internal_domain,dns_query,college-web-01,1317,437,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00508,2026-10-07 01:28:55+00:00,employee_14,shared_docs,file_read,college-web-06,6002,673,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00077,2026-10-07 01:29:52+00:00,workstation_6,browser,process_start,college-web-01,5984,14,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00273,2026-10-07 01:34:25+00:00,workstation_13,internal_domain,dns_query,college-web-07,8354,768,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00213,2026-10-07 01:36:04+00:00,student_8,college_portal,http_request,college-web-03,2458,255,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-01113,2026-10-07 01:52:08+00:00,employee_14,shared_docs,file_read,college-web-07,3804,96,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00876,2026-10-07 01:59:05+00:00,workstation_14,internal_domain,dns_query,college-web-03,122,883,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00396,2026-10-07 02:05:43+00:00,employee_9,shared_docs,file_read,college-web-02,2633,589,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00255,2026-10-07 02:07:42+00:00,web_server,access_log,file_write,college-web-05,4858,870,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00846,2026-10-07 02:11:23+00:00,employee_10,shared_docs,file_read,college-web-06,6161,592,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00491,2026-10-07 02:18:03+00:00,web_app,course_catalog,database_query,college-web-02,5628,367,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01174,2026-10-07 02:24:46+00:00,employee_8,intranet,login_success,college-web-11,5748,171,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00299,2026-10-07 02:26:09+00:00,workstation_11,browser,process_start,college-web-08,1267,52,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00499,2026-10-07 02:30:42+00:00,employee_11,shared_docs,file_read,college-web-03,1842,634,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01106,2026-10-07 02:41:35+00:00,backup_service,backup_storage,backup_job,college-web-07,3019,830,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00523,2026-10-07 03:00:49+00:00,student_10,college_portal,http_request,college-web-07,4015,858,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00153,2026-10-07 03:20:36+00:00,web_app,course_catalog,database_query,college-web-08,684,42,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00166,2026-10-07 03:34:17+00:00,employee_7,intranet,login_success,college-web-06,8465,107,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00842,2026-10-07 03:38:41+00:00,workstation_7,browser,process_start,college-web-04,3496,649,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00852,2026-10-07 03:51:23+00:00,workstation_17,internal_domain,dns_query,college-web-07,7494,507,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01051,2026-10-07 03:55:15+00:00,student_15,college_portal,http_request,college-web-07,2913,743,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00675,2026-10-07 03:55:52+00:00,backup_service,backup_storage,backup_job,college-web-03,2249,888,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00443,2026-10-07 04:08:08+00:00,web_app,course_catalog,database_query,college-web-05,6015,788,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00335,2026-10-07 04:09:26+00:00,student_5,college_portal,http_request,college-web-03,7041,181,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00254,2026-10-07 04:09:37+00:00,employee_2,shared_docs,file_read,college-web-07,857,608,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00867,2026-10-07 04:11:46+00:00,employee_1,shared_docs,file_read,college-web-02,7584,452,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00419,2026-10-07 04:15:34+00:00,student_12,college_portal,http_request,college-web-11,2688,356,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00322,2026-10-07 04:25:06+00:00,employee_2,intranet,login_success,college-web-11,3619,714,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01179,2026-10-07 04:44:02+00:00,web_app,course_catalog,database_query,college-web-03,5669,711,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00997,2026-10-07 04:57:10+00:00,employee_9,shared_docs,file_read,college-web-05,4514,658,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00206,2026-10-07 05:04:23+00:00,employee_15,intranet,login_success,college-web-08,2664,705,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01075,2026-10-07 05:05:29+00:00,student_4,college_portal,http_request,college-web-03,6624,448,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00600,2026-10-07 05:10:39+00:00,employee_6,intranet,login_success,college-web-01,7644,195,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00464,2026-10-07 05:30:54+00:00,workstation_10,internal_domain,dns_query,college-web-03,3343,324,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00082,2026-10-07 05:31:57+00:00,workstation_17,internal_api,network_connection,college-web-09,5448,411,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00221,2026-10-07 05:47:28+00:00,web_app,course_catalog,database_query,college-web-11,2176,619,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00036,2026-10-07 05:51:40+00:00,web_app,course_catalog,database_query,college-web-05,4418,28,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00908,2026-10-07 05:56:11+00:00,web_server,access_log,file_write,college-web-03,4734,370,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00655,2026-10-07 06:09:45+00:00,workstation_6,internal_api,network_connection,college-web-09,6944,106,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00631,2026-10-07 06:12:08+00:00,web_server,access_log,file_write,college-web-02,8403,252,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00244,2026-10-07 06:24:30+00:00,workstation_15,internal_api,network_connection,college-web-01,7900,202,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00605,2026-10-07 06:26:00+00:00,employee_6,shared_docs,file_read,college-web-01,4593,553,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00451,2026-10-07 06:37:50+00:00,workstation_18,browser,process_start,college-web-11,4538,370,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00211,2026-10-07 06:41:24+00:00,workstation_18,internal_domain,dns_query,college-web-01,5697,366,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00911,2026-10-07 06:55:34+00:00,workstation_8,internal_domain,dns_query,college-web-04,944,802,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01061,2026-10-07 07:26:07+00:00,employee_2,shared_docs,file_read,college-web-06,1077,749,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00694,2026-10-07 07:33:22+00:00,web_app,course_catalog,database_query,college-web-03,690,263,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01055,2026-10-07 08:01:44+00:00,workstation_15,internal_api,network_connection,college-web-07,3980,592,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00141,2026-10-07 08:04:14+00:00,employee_3,shared_docs,file_read,college-web-09,7081,292,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00093,2026-10-07 08:35:42+00:00,employee_6,intranet,login_success,college-web-06,8610,281,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00530,2026-10-07 08:42:15+00:00,employee_17,intranet,login_success,college-web-02,6051,11,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01175,2026-10-07 09:02:54+00:00,employee_4,shared_docs,file_read,college-web-09,4506,864,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00896,2026-10-07 09:20:56+00:00,workstation_1,browser,process_start,college-web-11,5129,789,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01023,2026-10-07 09:21:24+00:00,employee_10,shared_docs,file_read,college-web-07,8173,874,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00541,2026-10-07 09:27:11+00:00,workstation_6,internal_api,network_connection,college-web-03,3080,661,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00545,2026-10-07 09:31:51+00:00,student_6,college_portal,http_request,college-web-06,5711,789,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00060,2026-10-07 09:35:39+00:00,workstation_14,internal_domain,dns_query,college-web-06,4842,377,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00828,2026-10-07 09:38:48+00:00,workstation_13,browser,process_start,college-web-09,3904,420,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01047,2026-10-07 10:04:24+00:00,student_18,college_portal,http_request,college-web-05,5049,585,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00257,2026-10-07 10:21:52+00:00,workstation_6,internal_api,network_connection,college-web-03,6618,172,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00582,2026-10-07 10:23:41+00:00,employee_18,intranet,login_success,college-web-01,3843,661,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00683,2026-10-07 10:24:40+00:00,workstation_17,internal_api,network_connection,college-web-08,138,462,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00006,2026-10-07 10:53:48+00:00,workstation_14,browser,process_start,college-web-07,2665,839,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01152,2026-10-07 11:08:08+00:00,backup_service,backup_storage,backup_job,college-web-03,1871,465,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00089,2026-10-07 11:22:21+00:00,student_3,college_portal,http_request,college-web-07,1570,251,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00955,2026-10-07 11:23:06+00:00,workstation_1,internal_api,network_connection,college-web-01,1934,183,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00931,2026-10-07 11:27:41+00:00,workstation_2,internal_domain,dns_query,college-web-07,4463,705,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00066,2026-10-07 11:28:11+00:00,workstation_16,browser,process_start,college-web-03,2139,878,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01168,2026-10-07 11:37:46+00:00,backup_service,backup_storage,backup_job,college-web-07,8137,564,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00788,2026-10-07 11:38:22+00:00,student_7,college_portal,http_request,college-web-03,5603,45,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00651,2026-10-07 11:39:30+00:00,employee_8,shared_docs,file_read,college-web-06,8206,814,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00317,2026-10-07 11:42:42+00:00,workstation_6,internal_api,network_connection,college-web-01,5332,151,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00988,2026-10-07 11:42:44+00:00,web_server,access_log,file_write,college-web-05,5124,189,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00176,2026-10-07 11:43:49+00:00,employee_7,intranet,login_success,college-web-09,7277,885,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00202,2026-10-07 11:46:21+00:00,employee_5,intranet,login_success,college-web-11,2177,261,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01132,2026-10-07 11:51:31+00:00,backup_service,backup_storage,backup_job,college-web-11,5711,704,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00585,2026-10-07 11:52:05+00:00,employee_18,shared_docs,file_read,college-web-11,4999,427,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00968,2026-10-07 12:05:40+00:00,workstation_6,internal_domain,dns_query,college-web-04,7602,751,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00111,2026-10-07 12:10:30+00:00,student_11,college_portal,http_request,college-web-06,2487,687,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-01118,2026-10-07 12:12:52+00:00,backup_service,backup_storage,backup_job,college-web-07,2917,872,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00422,2026-10-07 12:22:59+00:00,workstation_11,browser,process_start,college-web-12,6163,704,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00546,2026-10-07 12:32:28+00:00,web_app,course_catalog,database_query,college-web-07,3367,144,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00932,2026-10-07 12:54:37+00:00,workstation_13,internal_api,network_connection,college-web-10,6117,1,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00645,2026-10-07 12:56:49+00:00,workstation_13,internal_domain,dns_query,college-web-02,4622,782,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00991,2026-10-07 12:58:43+00:00,employee_10,intranet,login_success,college-web-05,446,65,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00163,2026-10-07 13:01:40+00:00,backup_service,backup_storage,backup_job,college-web-02,1320,198,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00519,2026-10-07 13:07:32+00:00,web_app,course_catalog,database_query,college-web-07,3877,853,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00078,2026-10-07 13:08:30+00:00,employee_15,shared_docs,file_read,college-web-05,7670,600,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00578,2026-10-07 13:12:25+00:00,employee_4,shared_docs,file_read,college-web-03,6485,206,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00591,2026-10-07 13:17:05+00:00,student_2,college_portal,http_request,college-web-06,6497,609,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-01153,2026-10-07 13:24:26+00:00,workstation_3,internal_domain,dns_query,college-web-09,1648,247,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00800,2026-10-07 13:26:58+00:00,workstation_1,browser,process_start,college-web-07,6640,52,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00963,2026-10-07 13:41:28+00:00,employee_4,intranet,login_success,college-web-04,3902,437,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00239,2026-10-07 13:45:29+00:00,employee_2,shared_docs,file_read,college-web-12,3764,388,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01131,2026-10-07 14:00:55+00:00,employee_7,shared_docs,file_read,college-web-02,1770,703,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00489,2026-10-07 14:29:13+00:00,workstation_3,browser,process_start,college-web-04,6856,81,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00049,2026-10-07 14:42:46+00:00,backup_service,backup_storage,backup_job,college-web-07,3332,84,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00914,2026-10-07 14:48:09+00:00,employee_18,intranet,login_success,college-web-01,265,168,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01122,2026-10-07 14:48:30+00:00,backup_service,backup_storage,backup_job,college-web-01,3338,816,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-01048,2026-10-07 14:48:55+00:00,backup_service,backup_storage,backup_job,college-web-06,8868,130,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00902,2026-10-07 14:49:01+00:00,student_7,college_portal,http_request,college-web-04,5218,871,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00535,2026-10-07 14:55:02+00:00,workstation_4,internal_api,network_connection,college-web-05,8046,431,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00632,2026-10-07 14:58:46+00:00,student_17,college_portal,http_request,college-web-01,5430,57,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-01170,2026-10-07 15:10:50+00:00,workstation_3,browser,process_start,college-web-08,4943,547,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00923,2026-10-07 15:30:33+00:00,web_app,course_catalog,database_query,college-web-10,3843,45,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00224,2026-10-07 15:43:03+00:00,workstation_14,browser,process_start,college-web-08,4570,342,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00894,2026-10-07 16:04:22+00:00,workstation_5,browser,process_start,college-web-07,1709,696,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00697,2026-10-07 16:10:48+00:00,student_3,college_portal,http_request,college-web-01,4312,115,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00576,2026-10-07 16:14:40+00:00,workstation_13,internal_domain,dns_query,college-web-06,7133,708,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00943,2026-10-07 16:17:59+00:00,web_app,course_catalog,database_query,college-web-10,2752,434,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01008,2026-10-07 16:33:26+00:00,employee_5,intranet,login_success,college-web-11,6358,174,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01089,2026-10-07 16:33:36+00:00,student_15,college_portal,http_request,college-web-08,8252,655,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00290,2026-10-07 16:43:27+00:00,student_15,college_portal,http_request,college-web-01,1714,165,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00724,2026-10-07 17:00:57+00:00,workstation_6,browser,process_start,college-web-06,4096,695,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00246,2026-10-07 17:04:51+00:00,workstation_7,internal_domain,dns_query,college-web-12,7671,818,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00367,2026-10-07 17:09:24+00:00,backup_service,backup_storage,backup_job,college-web-09,6821,837,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00710,2026-10-07 17:20:20+00:00,web_app,course_catalog,database_query,college-web-01,3746,435,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00951,2026-10-07 17:20:40+00:00,web_server,access_log,file_write,college-web-02,1752,795,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00126,2026-10-07 17:26:37+00:00,web_server,access_log,file_write,college-web-09,529,172,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00344,2026-10-07 17:29:07+00:00,workstation_18,internal_domain,dns_query,college-web-12,3366,740,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01100,2026-10-07 17:50:34+00:00,workstation_15,browser,process_start,college-web-07,4736,274,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00215,2026-10-07 17:50:43+00:00,employee_3,shared_docs,file_read,college-web-04,549,569,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00222,2026-10-07 17:53:57+00:00,web_app,course_catalog,database_query,college-web-04,7850,7,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00627,2026-10-07 17:55:45+00:00,workstation_5,internal_api,network_connection,college-web-06,4734,672,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01049,2026-10-07 17:55:45+00:00,workstation_8,internal_domain,dns_query,college-web-08,704,876,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00935,2026-10-07 18:03:30+00:00,web_app,course_catalog,database_query,college-web-09,2467,898,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-01058,2026-10-07 18:08:17+00:00,web_app,course_catalog,database_query,college-web-10,3644,18,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00779,2026-10-07 18:09:48+00:00,web_server,access_log,file_write,college-web-06,1607,186,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00830,2026-10-07 18:17:17+00:00,employee_15,intranet,login_success,college-web-04,1893,574,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01085,2026-10-07 18:27:50+00:00,backup_service,backup_storage,backup_job,college-web-11,5342,13,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00577,2026-10-07 18:45:37+00:00,student_14,college_portal,http_request,college-web-11,7505,879,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00823,2026-10-07 18:50:14+00:00,employee_6,shared_docs,file_read,college-web-03,2782,703,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01052,2026-10-07 18:53:37+00:00,workstation_15,internal_domain,dns_query,college-web-04,2730,850,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00626,2026-10-07 18:59:43+00:00,backup_service,backup_storage,backup_job,college-web-06,3301,525,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00260,2026-10-07 19:11:08+00:00,web_server,access_log,file_write,college-web-09,2837,552,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00643,2026-10-07 19:16:32+00:00,workstation_10,internal_domain,dns_query,college-web-12,1356,203,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-01039,2026-10-07 19:17:42+00:00,workstation_1,internal_api,network_connection,college-web-07,6579,569,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00104,2026-10-07 19:24:08+00:00,web_server,access_log,file_write,college-web-08,2363,308,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00263,2026-10-07 19:38:19+00:00,backup_service,backup_storage,backup_job,college-web-05,2017,339,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-00966,2026-10-07 19:46:11+00:00,backup_service,backup_storage,backup_job,college-web-01,4245,295,Scheduled backup,False,0.13,Uncommon event type,False
+COL-N-01156,2026-10-07 19:53:14+00:00,web_server,access_log,file_write,college-web-08,5607,190,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00901,2026-10-07 20:15:49+00:00,workstation_12,internal_api,network_connection,college-web-08,6712,270,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-01112,2026-10-07 20:37:40+00:00,web_app,course_catalog,database_query,college-web-01,5838,503,Routine catalog query,False,0.13,Uncommon event type,False
+COL-N-00325,2026-10-07 20:41:18+00:00,student_14,college_portal,http_request,college-web-01,7905,470,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00847,2026-10-07 20:46:44+00:00,workstation_14,internal_domain,dns_query,college-web-07,5419,633,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00433,2026-10-07 21:00:50+00:00,workstation_1,browser,process_start,college-web-01,6945,788,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00425,2026-10-07 21:09:10+00:00,employee_1,intranet,login_success,college-web-12,798,362,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-01057,2026-10-07 21:21:13+00:00,employee_17,intranet,login_success,college-web-02,357,175,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00593,2026-10-07 21:42:14+00:00,student_15,college_portal,http_request,college-web-02,2525,217,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00755,2026-10-07 21:44:08+00:00,employee_11,intranet,login_success,college-web-02,6761,875,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00409,2026-10-07 21:56:25+00:00,workstation_5,browser,process_start,college-web-02,5930,339,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00144,2026-10-07 21:57:59+00:00,workstation_10,browser,process_start,college-web-02,8494,594,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-01073,2026-10-07 22:23:30+00:00,student_14,college_portal,http_request,college-web-03,4292,414,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00925,2026-10-07 22:40:49+00:00,workstation_16,internal_api,network_connection,college-web-09,8856,352,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00468,2026-10-07 22:41:23+00:00,workstation_14,internal_domain,dns_query,college-web-12,7185,783,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+COL-N-00170,2026-10-07 22:53:16+00:00,workstation_3,internal_api,network_connection,college-web-03,4990,170,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00471,2026-10-07 23:04:09+00:00,employee_9,intranet,login_success,college-web-08,1972,304,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00714,2026-10-07 23:05:20+00:00,workstation_14,browser,process_start,college-web-02,6712,339,Routine application start,False,0.05,No strong heuristic matched,False
+COL-N-00805,2026-10-07 23:13:41+00:00,employee_15,intranet,login_success,college-web-09,5819,864,Routine successful login,False,0.05,No strong heuristic matched,False
+COL-N-00657,2026-10-07 23:21:38+00:00,web_server,access_log,file_write,college-web-04,4876,302,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00438,2026-10-07 23:29:21+00:00,student_11,college_portal,http_request,college-web-04,2325,133,Routine website request,False,0.05,No strong heuristic matched,False
+COL-N-00161,2026-10-07 23:30:57+00:00,web_server,access_log,file_write,college-web-01,4664,813,Routine log append,False,0.05,No strong heuristic matched,False
+COL-N-00634,2026-10-07 23:31:51+00:00,employee_3,shared_docs,file_read,college-web-02,7596,116,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-00507,2026-10-07 23:33:48+00:00,workstation_4,internal_api,network_connection,college-web-03,4063,411,Routine internal connection,False,0.05,No strong heuristic matched,False
+COL-N-00532,2026-10-07 23:36:05+00:00,employee_9,shared_docs,file_read,college-web-07,2606,458,Routine document access,False,0.05,No strong heuristic matched,False
+COL-N-01029,2026-10-07 23:48:32+00:00,workstation_4,internal_api,network_connection,college-web-04,8586,481,Routine internal connection,False,0.05,No strong heuristic matched,False

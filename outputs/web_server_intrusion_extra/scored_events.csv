@@ -1,0 +1,690 @@
+event_id,timestamp,source_entity,target_entity,event_type,host,process_id,parent_process_id,details,label,anomaly_score,reasons,is_suspicious
+WEB-N-00563,2026-09-20 00:09:36+00:00,admin_2,cms_dashboard6,login_success,college-proxy-01,1650,2062,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00548,2026-09-20 01:44:55+00:00,proxy_10,college_portal11,network_connection,college-web-01,8043,2479,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00211,2026-09-20 01:51:14+00:00,proxy_13,college_portal18,network_connection,college-web-01,4121,1632,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00479,2026-09-20 01:52:45+00:00,student_23,course_catalog13,http_request,college-web-01,432,1543,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00566,2026-09-20 02:16:31+00:00,student_3,library_page15,http_request,college-db-01,1565,3420,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00074,2026-09-20 02:19:07+00:00,student_7,library_page16,http_request,college-proxy-01,791,1848,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00417,2026-09-20 02:40:07+00:00,student_23,library_page16,http_request,college-proxy-01,3943,1091,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00111,2026-09-20 02:56:29+00:00,student_20,course_catalog4,http_request,college-web-02,2772,943,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00582,2026-09-20 03:03:10+00:00,admin_23,cms_dashboard7,login_success,college-web-02,2948,2789,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00636,2026-09-20 03:40:21+00:00,web_app_24,student_db13,database_query,college-web-01,5433,191,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00594,2026-09-20 03:54:05+00:00,college_dns_1,college_domain4,dns_query,college-db-01,5354,1941,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00193,2026-09-20 03:54:20+00:00,proxy_19,college_portal16,network_connection,college-db-01,8472,2995,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00020,2026-09-20 03:56:14+00:00,college_dns_10,college_domain7,dns_query,college-web-02,8875,3532,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00374,2026-09-20 04:03:25+00:00,proxy_4,college_portal16,network_connection,college-proxy-01,7637,375,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00495,2026-09-20 04:48:59+00:00,admin_20,cms_dashboard1,login_success,college-web-02,6847,2453,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00321,2026-09-20 04:56:11+00:00,student_12,library_page12,http_request,college-db-01,8264,1691,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00580,2026-09-20 05:04:25+00:00,college_dns_12,college_domain15,dns_query,college-db-01,4476,3965,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00622,2026-09-20 05:05:36+00:00,web_server_24,access.log13,file_write,college-web-02,5577,1430,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00007,2026-09-20 05:19:39+00:00,student_1,library_page17,http_request,college-web-02,4938,3115,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00068,2026-09-20 05:52:23+00:00,student_7,library_page11,http_request,college-web-02,316,3350,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00595,2026-09-20 05:53:00+00:00,proxy_16,college_portal6,network_connection,college-db-01,5593,726,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00196,2026-09-20 05:57:25+00:00,web_app_20,student_db15,database_query,college-web-01,615,1723,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00262,2026-09-20 06:07:32+00:00,student_15,library_page15,http_request,college-proxy-01,3274,28,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00357,2026-09-20 06:25:31+00:00,admin_10,cms_dashboard12,login_success,college-web-02,2875,1955,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00660,2026-09-20 06:32:02+00:00,student_19,course_catalog11,http_request,college-db-01,5918,2913,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00425,2026-09-20 06:36:07+00:00,web_app_22,student_db8,database_query,college-web-01,3066,232,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00672,2026-09-20 06:41:58+00:00,student_9,course_catalog13,http_request,college-web-02,5268,158,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00270,2026-09-20 06:57:39+00:00,college_dns_1,college_domain14,dns_query,college-web-02,5699,81,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00097,2026-09-20 07:05:52+00:00,proxy_21,college_portal12,network_connection,college-db-01,6311,2246,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00136,2026-09-20 07:07:05+00:00,web_server_23,access.log4,file_write,college-web-01,5001,2910,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00523,2026-09-20 07:32:31+00:00,admin_20,cms_dashboard10,login_success,college-proxy-01,5578,185,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00422,2026-09-20 07:43:09+00:00,student_2,library_page2,http_request,college-web-01,6014,1707,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00012,2026-09-20 08:21:42+00:00,web_server_25,access.log11,file_write,college-proxy-01,5032,1377,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00610,2026-09-20 08:46:23+00:00,college_dns_17,college_domain16,dns_query,college-web-02,4135,3090,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00234,2026-09-20 08:58:00+00:00,web_server_6,access.log6,file_write,college-db-01,144,146,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00590,2026-09-20 08:59:31+00:00,web_app_11,student_db1,database_query,college-proxy-01,1908,2113,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00597,2026-09-20 09:13:38+00:00,admin_5,cms_dashboard18,login_success,college-web-02,6606,3228,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00440,2026-09-20 09:46:08+00:00,student_8,course_catalog17,http_request,college-db-01,4671,1631,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00052,2026-09-20 10:00:28+00:00,admin_11,cms_dashboard4,login_success,college-web-02,1391,2420,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00377,2026-09-20 10:12:19+00:00,admin_22,cms_dashboard12,login_success,college-db-01,5201,2600,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00649,2026-09-20 10:31:09+00:00,proxy_14,college_portal12,network_connection,college-web-02,7690,941,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00083,2026-09-20 10:42:32+00:00,admin_6,cms_dashboard4,login_success,college-proxy-01,2284,1174,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00596,2026-09-20 10:52:39+00:00,web_server_13,access.log16,file_write,college-proxy-01,2704,485,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00309,2026-09-20 10:57:39+00:00,student_19,library_page13,http_request,college-web-02,774,1603,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00100,2026-09-20 11:04:57+00:00,student_11,course_catalog2,http_request,college-web-02,5582,3353,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00043,2026-09-20 11:06:31+00:00,student_1,course_catalog10,http_request,college-web-02,4671,1476,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00019,2026-09-20 11:12:05+00:00,student_5,library_page12,http_request,college-web-01,8212,946,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00462,2026-09-20 11:23:53+00:00,student_11,course_catalog3,http_request,college-db-01,5189,1687,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00454,2026-09-20 11:29:54+00:00,student_6,course_catalog14,http_request,college-web-01,1237,547,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00512,2026-09-20 11:43:01+00:00,proxy_5,college_portal3,network_connection,college-db-01,5649,1142,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00291,2026-09-20 11:47:53+00:00,web_server_19,access.log8,file_write,college-proxy-01,5196,3701,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00142,2026-09-20 11:56:10+00:00,student_4,course_catalog12,http_request,college-db-01,8781,547,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00255,2026-09-20 12:07:25+00:00,student_8,library_page12,http_request,college-proxy-01,3350,566,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00217,2026-09-20 12:26:09+00:00,student_23,course_catalog15,http_request,college-web-01,6507,2151,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00053,2026-09-20 12:37:05+00:00,student_5,library_page10,http_request,college-web-01,3856,114,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00238,2026-09-20 12:51:23+00:00,web_app_1,student_db4,database_query,college-db-01,3174,822,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00497,2026-09-20 12:51:37+00:00,student_7,library_page11,http_request,college-web-02,8156,244,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00206,2026-09-20 12:58:53+00:00,admin_12,cms_dashboard12,login_success,college-web-02,4572,2135,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00062,2026-09-20 13:01:35+00:00,admin_25,cms_dashboard18,login_success,college-db-01,5599,168,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00242,2026-09-20 13:22:14+00:00,admin_15,cms_dashboard4,login_success,college-db-01,7861,1609,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00311,2026-09-20 13:23:23+00:00,web_server_22,access.log15,file_write,college-proxy-01,3946,3089,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00585,2026-09-20 14:14:08+00:00,proxy_8,college_portal13,network_connection,college-web-02,4544,3933,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00098,2026-09-20 14:48:23+00:00,admin_2,cms_dashboard4,login_success,college-db-01,8378,3994,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00297,2026-09-20 14:55:11+00:00,college_dns_24,college_domain8,dns_query,college-web-02,3343,1998,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00467,2026-09-20 15:08:46+00:00,admin_8,cms_dashboard3,login_success,college-db-01,916,2239,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00209,2026-09-20 15:17:05+00:00,college_dns_17,college_domain10,dns_query,college-web-02,4584,745,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00161,2026-09-20 15:27:14+00:00,proxy_9,college_portal16,network_connection,college-db-01,1884,1285,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00386,2026-09-20 15:52:59+00:00,web_app_14,student_db11,database_query,college-proxy-01,8608,2944,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00057,2026-09-20 16:21:35+00:00,student_1,library_page12,http_request,college-proxy-01,7602,3153,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00517,2026-09-20 16:57:35+00:00,web_app_15,student_db4,database_query,college-web-01,6927,2636,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00027,2026-09-20 17:36:49+00:00,admin_24,cms_dashboard7,login_success,college-db-01,6985,1754,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00197,2026-09-20 17:50:27+00:00,admin_8,cms_dashboard16,login_success,college-web-01,8883,2499,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00152,2026-09-20 18:12:03+00:00,web_app_1,student_db6,database_query,college-proxy-01,3426,1570,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00666,2026-09-20 18:19:30+00:00,proxy_25,college_portal13,network_connection,college-web-02,5087,3546,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00516,2026-09-20 18:33:14+00:00,student_17,library_page13,http_request,college-web-02,1900,487,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00470,2026-09-20 18:41:52+00:00,student_15,course_catalog10,http_request,college-db-01,2488,1508,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00392,2026-09-20 18:55:13+00:00,admin_14,cms_dashboard18,login_success,college-web-02,3080,3539,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00158,2026-09-20 19:39:31+00:00,college_dns_16,college_domain15,dns_query,college-proxy-01,3880,2245,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00166,2026-09-20 19:59:28+00:00,web_server_17,access.log12,file_write,college-web-02,5577,490,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00055,2026-09-20 20:07:56+00:00,admin_19,cms_dashboard4,login_success,college-web-02,3560,3291,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00653,2026-09-20 20:26:51+00:00,proxy_13,college_portal11,network_connection,college-web-01,5717,3820,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00140,2026-09-20 20:50:02+00:00,proxy_10,college_portal14,network_connection,college-proxy-01,4982,1103,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00271,2026-09-20 20:53:43+00:00,college_dns_1,college_domain18,dns_query,college-web-01,2261,3683,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00530,2026-09-20 20:53:57+00:00,web_app_1,student_db12,database_query,college-web-02,7341,3339,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00030,2026-09-20 21:04:23+00:00,web_app_11,student_db3,database_query,college-web-01,3015,1331,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00245,2026-09-20 21:28:30+00:00,college_dns_19,college_domain2,dns_query,college-db-01,4039,1584,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00678,2026-09-20 21:38:25+00:00,proxy_11,college_portal18,network_connection,college-db-01,4816,2937,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00219,2026-09-20 21:52:27+00:00,web_server_2,access.log8,file_write,college-web-01,8525,1357,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00226,2026-09-20 22:47:36+00:00,proxy_4,college_portal6,network_connection,college-web-02,7192,2155,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00537,2026-09-20 23:08:28+00:00,proxy_18,college_portal16,network_connection,college-proxy-01,8472,1328,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00579,2026-09-20 23:16:44+00:00,admin_9,cms_dashboard2,login_success,college-web-02,7708,609,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00221,2026-09-20 23:29:27+00:00,web_server_21,access.log17,file_write,college-db-01,2795,3987,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00233,2026-09-20 23:31:11+00:00,student_24,library_page7,http_request,college-web-02,5854,2349,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00041,2026-09-20 23:40:04+00:00,college_dns_16,college_domain13,dns_query,college-proxy-01,8956,1911,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00178,2026-09-20 23:44:30+00:00,web_app_9,student_db2,database_query,college-db-01,7251,3800,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00114,2026-09-20 23:50:20+00:00,admin_25,cms_dashboard14,login_success,college-db-01,8069,1575,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00654,2026-09-21 00:06:38+00:00,admin_9,cms_dashboard11,login_success,college-proxy-01,6597,1076,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00034,2026-09-21 00:06:43+00:00,web_server_16,access.log12,file_write,college-web-01,1935,1241,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00626,2026-09-21 00:54:48+00:00,admin_24,cms_dashboard18,login_success,college-web-02,8219,882,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00532,2026-09-21 01:29:27+00:00,admin_10,cms_dashboard1,login_success,college-web-01,6059,1772,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00450,2026-09-21 01:32:16+00:00,college_dns_14,college_domain6,dns_query,college-db-01,620,1332,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00332,2026-09-21 01:44:23+00:00,admin_12,cms_dashboard16,login_success,college-web-02,4888,479,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00148,2026-09-21 02:24:58+00:00,admin_6,cms_dashboard5,login_success,college-proxy-01,6185,1809,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00491,2026-09-21 02:43:24+00:00,web_app_8,student_db6,database_query,college-proxy-01,1071,446,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00213,2026-09-21 03:23:32+00:00,college_dns_17,college_domain11,dns_query,college-db-01,8621,3856,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00616,2026-09-21 03:25:33+00:00,college_dns_23,college_domain3,dns_query,college-db-01,5395,3293,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00647,2026-09-21 03:43:13+00:00,student_24,library_page16,http_request,college-web-02,2071,2407,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00026,2026-09-21 03:44:45+00:00,student_8,course_catalog12,http_request,college-db-01,349,1907,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00661,2026-09-21 03:54:35+00:00,web_server_14,access.log14,file_write,college-db-01,4263,3533,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00400,2026-09-21 04:05:56+00:00,student_21,library_page8,http_request,college-proxy-01,6997,1148,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00172,2026-09-21 04:14:47+00:00,web_server_22,access.log1,file_write,college-db-01,3780,3760,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00448,2026-09-21 04:30:50+00:00,admin_15,cms_dashboard15,login_success,college-proxy-01,618,2096,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00399,2026-09-21 04:47:32+00:00,student_12,course_catalog11,http_request,college-web-02,199,1892,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00488,2026-09-21 05:31:12+00:00,student_12,course_catalog10,http_request,college-web-01,1853,8,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00628,2026-09-21 05:52:26+00:00,student_8,library_page3,http_request,college-proxy-01,483,2028,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00558,2026-09-21 06:11:47+00:00,student_11,course_catalog17,http_request,college-db-01,2020,686,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00247,2026-09-21 06:15:28+00:00,proxy_1,college_portal11,network_connection,college-proxy-01,2855,286,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00224,2026-09-21 06:19:47+00:00,web_app_15,student_db17,database_query,college-proxy-01,5431,1715,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00458,2026-09-21 06:21:20+00:00,student_6,course_catalog1,http_request,college-web-01,7514,3360,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00137,2026-09-21 06:41:11+00:00,student_22,library_page12,http_request,college-web-01,2382,979,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00573,2026-09-21 06:48:41+00:00,college_dns_18,college_domain18,dns_query,college-web-01,8332,38,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00407,2026-09-21 07:10:40+00:00,student_13,course_catalog18,http_request,college-web-02,7072,1000,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00313,2026-09-21 07:30:51+00:00,web_server_22,access.log18,file_write,college-proxy-01,6033,1043,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00189,2026-09-21 07:42:24+00:00,proxy_2,college_portal12,network_connection,college-proxy-01,3359,882,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00141,2026-09-21 07:42:30+00:00,web_server_22,access.log12,file_write,college-web-02,4090,1793,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00373,2026-09-21 08:17:59+00:00,student_4,library_page12,http_request,college-db-01,7008,3742,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00406,2026-09-21 08:18:37+00:00,web_app_20,student_db9,database_query,college-proxy-01,1369,461,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00598,2026-09-21 08:21:09+00:00,college_dns_13,college_domain8,dns_query,college-web-01,6504,864,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00087,2026-09-21 08:34:47+00:00,student_20,library_page14,http_request,college-web-01,1611,1674,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00272,2026-09-21 08:58:20+00:00,student_20,course_catalog14,http_request,college-web-01,8091,225,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00170,2026-09-21 09:00:29+00:00,college_dns_18,college_domain14,dns_query,college-proxy-01,1431,3164,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00232,2026-09-21 09:34:54+00:00,student_5,library_page7,http_request,college-web-02,1685,3939,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00665,2026-09-21 09:49:53+00:00,proxy_19,college_portal7,network_connection,college-db-01,293,2545,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00518,2026-09-21 09:51:06+00:00,proxy_24,college_portal1,network_connection,college-web-02,1704,400,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00082,2026-09-21 10:03:56+00:00,college_dns_17,college_domain1,dns_query,college-web-01,3294,2916,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00655,2026-09-21 10:13:38+00:00,web_server_23,access.log15,file_write,college-db-01,5096,1842,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00569,2026-09-21 10:15:16+00:00,proxy_3,college_portal14,network_connection,college-proxy-01,3526,1912,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00385,2026-09-21 10:27:23+00:00,student_23,library_page10,http_request,college-db-01,8869,872,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00336,2026-09-21 11:22:54+00:00,admin_22,cms_dashboard7,login_success,college-db-01,2859,2123,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00376,2026-09-21 11:23:09+00:00,web_server_15,access.log18,file_write,college-proxy-01,8170,2451,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00528,2026-09-21 11:38:37+00:00,student_24,library_page6,http_request,college-web-01,1410,3669,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00463,2026-09-21 12:27:41+00:00,college_dns_18,college_domain5,dns_query,college-db-01,1593,2474,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00531,2026-09-21 12:30:13+00:00,student_7,course_catalog5,http_request,college-web-02,2205,3212,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00117,2026-09-21 12:42:52+00:00,student_4,library_page4,http_request,college-web-02,1181,3308,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00348,2026-09-21 12:53:51+00:00,student_13,course_catalog12,http_request,college-web-01,4849,1977,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00460,2026-09-21 13:05:30+00:00,web_app_25,student_db17,database_query,college-web-01,5759,3021,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00256,2026-09-21 13:08:44+00:00,admin_24,cms_dashboard6,login_success,college-web-01,1813,1561,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00536,2026-09-21 13:39:39+00:00,student_21,library_page8,http_request,college-db-01,3934,3518,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00175,2026-09-21 13:49:18+00:00,proxy_2,college_portal10,network_connection,college-proxy-01,8015,2489,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00324,2026-09-21 14:43:38+00:00,web_server_11,access.log14,file_write,college-proxy-01,7223,709,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00632,2026-09-21 14:43:57+00:00,student_6,library_page9,http_request,college-db-01,8866,1158,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00188,2026-09-21 14:49:49+00:00,college_dns_16,college_domain3,dns_query,college-proxy-01,652,3776,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00658,2026-09-21 14:59:52+00:00,proxy_14,college_portal15,network_connection,college-db-01,6973,2561,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00231,2026-09-21 15:15:12+00:00,web_app_19,student_db16,database_query,college-db-01,8047,2859,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00368,2026-09-21 15:53:58+00:00,web_app_13,student_db3,database_query,college-db-01,837,404,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00070,2026-09-21 16:05:10+00:00,student_10,course_catalog12,http_request,college-db-01,2048,3814,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00391,2026-09-21 16:09:25+00:00,web_server_4,access.log8,file_write,college-web-02,6663,1279,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00420,2026-09-21 16:14:37+00:00,college_dns_20,college_domain6,dns_query,college-web-01,154,786,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00589,2026-09-21 16:22:17+00:00,college_dns_8,college_domain14,dns_query,college-web-01,8010,3401,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00674,2026-09-21 16:42:57+00:00,student_25,library_page18,http_request,college-web-01,8888,2583,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00544,2026-09-21 16:51:00+00:00,admin_19,cms_dashboard18,login_success,college-proxy-01,8066,50,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00072,2026-09-21 17:10:51+00:00,college_dns_3,college_domain1,dns_query,college-db-01,3856,987,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00283,2026-09-21 17:29:41+00:00,student_16,course_catalog10,http_request,college-web-02,6803,1302,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00646,2026-09-21 17:30:23+00:00,student_8,library_page18,http_request,college-db-01,2665,2649,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00389,2026-09-21 17:53:17+00:00,college_dns_18,college_domain12,dns_query,college-db-01,1058,2426,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00278,2026-09-21 17:56:29+00:00,web_app_20,student_db13,database_query,college-web-01,4862,2337,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00398,2026-09-21 17:58:38+00:00,student_10,course_catalog5,http_request,college-web-02,2050,1688,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00602,2026-09-21 17:58:48+00:00,college_dns_5,college_domain3,dns_query,college-db-01,837,228,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00679,2026-09-21 18:02:49+00:00,college_dns_22,college_domain13,dns_query,college-web-01,6442,2325,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00341,2026-09-21 18:30:07+00:00,web_app_2,student_db8,database_query,college-proxy-01,857,2731,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00115,2026-09-21 18:41:59+00:00,college_dns_13,college_domain10,dns_query,college-db-01,5232,354,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00510,2026-09-21 18:42:19+00:00,web_server_17,access.log10,file_write,college-web-02,5135,2199,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00079,2026-09-21 18:51:12+00:00,admin_1,cms_dashboard17,login_success,college-web-02,7979,1809,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00630,2026-09-21 19:16:57+00:00,college_dns_7,college_domain18,dns_query,college-web-02,7557,2474,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00287,2026-09-21 19:19:38+00:00,college_dns_2,college_domain8,dns_query,college-web-02,4153,1974,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00181,2026-09-21 19:36:16+00:00,college_dns_11,college_domain3,dns_query,college-web-01,8687,602,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00076,2026-09-21 19:38:26+00:00,web_server_17,access.log16,file_write,college-proxy-01,7122,2095,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00128,2026-09-21 19:56:06+00:00,web_server_15,access.log8,file_write,college-proxy-01,8980,310,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00511,2026-09-21 20:09:04+00:00,web_server_24,access.log3,file_write,college-web-02,8600,3671,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00363,2026-09-21 20:10:04+00:00,web_server_8,access.log1,file_write,college-web-02,742,2020,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00555,2026-09-21 20:23:14+00:00,admin_22,cms_dashboard6,login_success,college-web-01,2672,2782,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00011,2026-09-21 20:31:54+00:00,web_app_8,student_db15,database_query,college-proxy-01,8370,3535,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00300,2026-09-21 20:59:16+00:00,web_app_22,student_db15,database_query,college-web-02,2276,1352,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00643,2026-09-21 21:12:33+00:00,proxy_13,college_portal16,network_connection,college-web-02,5714,363,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00601,2026-09-21 21:35:38+00:00,college_dns_19,college_domain3,dns_query,college-web-02,2275,397,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00274,2026-09-21 21:38:48+00:00,web_server_4,access.log18,file_write,college-proxy-01,1862,3090,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00173,2026-09-21 23:20:05+00:00,web_server_7,access.log3,file_write,college-db-01,6713,489,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00498,2026-09-21 23:22:47+00:00,college_dns_15,college_domain7,dns_query,college-db-01,2729,2637,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00239,2026-09-21 23:25:31+00:00,admin_17,cms_dashboard12,login_success,college-db-01,8659,1040,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00493,2026-09-21 23:27:45+00:00,web_server_14,access.log18,file_write,college-web-02,1061,1485,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00405,2026-09-21 23:38:36+00:00,admin_24,cms_dashboard9,login_success,college-db-01,1362,2954,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00375,2026-09-21 23:44:01+00:00,college_dns_17,college_domain14,dns_query,college-db-01,2561,2661,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00125,2026-09-21 23:52:58+00:00,student_7,course_catalog14,http_request,college-proxy-01,3030,3267,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00016,2026-09-21 23:57:17+00:00,student_17,course_catalog1,http_request,college-web-02,8627,1999,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00302,2026-09-22 00:52:38+00:00,proxy_20,college_portal8,network_connection,college-db-01,5381,928,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00118,2026-09-22 00:57:09+00:00,web_server_8,access.log13,file_write,college-db-01,3385,3478,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00116,2026-09-22 01:09:29+00:00,admin_15,cms_dashboard17,login_success,college-web-02,1676,3683,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00289,2026-09-22 01:18:07+00:00,proxy_17,college_portal8,network_connection,college-proxy-01,6135,496,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00002,2026-09-22 01:22:13+00:00,web_server_22,access.log10,file_write,college-db-01,5899,3836,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00212,2026-09-22 01:35:19+00:00,student_3,course_catalog6,http_request,college-web-01,6298,1764,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00249,2026-09-22 01:57:08+00:00,web_app_4,student_db5,database_query,college-proxy-01,4967,2007,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00067,2026-09-22 02:04:30+00:00,student_7,course_catalog15,http_request,college-web-01,2175,2771,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00029,2026-09-22 02:40:08+00:00,admin_21,cms_dashboard11,login_success,college-proxy-01,5396,610,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00441,2026-09-22 03:11:07+00:00,web_server_5,access.log17,file_write,college-proxy-01,5092,450,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00292,2026-09-22 03:26:00+00:00,student_6,course_catalog4,http_request,college-web-01,4535,1723,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00535,2026-09-22 03:34:33+00:00,student_24,course_catalog6,http_request,college-proxy-01,1932,3002,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00015,2026-09-22 03:40:17+00:00,proxy_23,college_portal17,network_connection,college-web-01,8895,3731,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00202,2026-09-22 04:16:04+00:00,student_1,course_catalog17,http_request,college-web-02,8467,451,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00474,2026-09-22 04:29:11+00:00,web_server_4,access.log16,file_write,college-proxy-01,7290,3574,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00354,2026-09-22 04:39:24+00:00,proxy_8,college_portal7,network_connection,college-db-01,7364,3882,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00009,2026-09-22 05:00:50+00:00,student_1,course_catalog2,http_request,college-web-01,2161,763,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00466,2026-09-22 05:03:10+00:00,proxy_13,college_portal4,network_connection,college-db-01,1790,761,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00418,2026-09-22 05:14:43+00:00,web_app_10,student_db10,database_query,college-web-02,4848,2301,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00121,2026-09-22 05:19:12+00:00,proxy_12,college_portal5,network_connection,college-web-02,1713,2030,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00259,2026-09-22 05:21:20+00:00,college_dns_6,college_domain3,dns_query,college-proxy-01,2219,1795,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00032,2026-09-22 05:24:13+00:00,web_app_17,student_db9,database_query,college-db-01,6208,760,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00552,2026-09-22 05:49:10+00:00,student_22,library_page2,http_request,college-web-02,8732,1946,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00280,2026-09-22 06:04:11+00:00,web_server_10,access.log14,file_write,college-web-02,6097,2781,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00559,2026-09-22 06:30:19+00:00,web_app_7,student_db9,database_query,college-db-01,5156,498,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00301,2026-09-22 06:35:54+00:00,web_server_15,access.log15,file_write,college-web-02,5191,77,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00638,2026-09-22 06:49:44+00:00,admin_24,cms_dashboard5,login_success,college-proxy-01,7082,728,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00316,2026-09-22 07:08:36+00:00,web_server_12,access.log10,file_write,college-db-01,6728,1597,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00380,2026-09-22 07:09:15+00:00,student_9,library_page8,http_request,college-web-01,5727,3477,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00350,2026-09-22 07:52:15+00:00,web_app_15,student_db16,database_query,college-db-01,6352,1919,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00607,2026-09-22 07:53:52+00:00,proxy_1,college_portal11,network_connection,college-web-01,2507,3567,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00381,2026-09-22 08:07:39+00:00,student_19,library_page15,http_request,college-proxy-01,7439,2675,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00343,2026-09-22 08:09:59+00:00,admin_4,cms_dashboard10,login_success,college-web-02,6212,355,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00423,2026-09-22 08:59:58+00:00,college_dns_15,college_domain2,dns_query,college-db-01,5210,386,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00564,2026-09-22 09:08:58+00:00,college_dns_23,college_domain13,dns_query,college-web-01,8280,1951,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00612,2026-09-22 09:22:11+00:00,proxy_9,college_portal16,network_connection,college-db-01,2068,280,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00331,2026-09-22 09:34:25+00:00,college_dns_19,college_domain4,dns_query,college-proxy-01,5921,89,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00253,2026-09-22 09:36:05+00:00,web_server_23,access.log2,file_write,college-web-02,5226,3725,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00003,2026-09-22 10:10:17+00:00,proxy_8,college_portal15,network_connection,college-web-02,7001,3735,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00446,2026-09-22 10:16:30+00:00,web_app_15,student_db16,database_query,college-db-01,8453,244,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00329,2026-09-22 10:35:40+00:00,admin_25,cms_dashboard8,login_success,college-web-01,4598,3851,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00303,2026-09-22 11:44:19+00:00,proxy_17,college_portal17,network_connection,college-web-02,7702,3377,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00044,2026-09-22 12:05:27+00:00,proxy_24,college_portal4,network_connection,college-web-01,609,609,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00048,2026-09-22 12:22:06+00:00,student_15,library_page17,http_request,college-web-02,7413,239,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00471,2026-09-22 12:24:50+00:00,web_app_10,student_db11,database_query,college-web-01,199,2951,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00018,2026-09-22 12:55:45+00:00,college_dns_20,college_domain13,dns_query,college-web-01,8512,3148,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00304,2026-09-22 13:05:43+00:00,student_12,course_catalog10,http_request,college-db-01,4724,2475,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00364,2026-09-22 13:30:11+00:00,student_22,course_catalog17,http_request,college-db-01,3168,1813,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00403,2026-09-22 13:44:54+00:00,college_dns_18,college_domain4,dns_query,college-web-01,7855,2738,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00064,2026-09-22 13:55:34+00:00,admin_20,cms_dashboard11,login_success,college-db-01,578,1083,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00570,2026-09-22 14:07:53+00:00,web_server_23,access.log3,file_write,college-db-01,6575,890,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00449,2026-09-22 14:23:52+00:00,student_3,library_page14,http_request,college-web-02,1868,1057,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00378,2026-09-22 14:49:32+00:00,student_7,library_page13,http_request,college-proxy-01,3219,941,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00620,2026-09-22 15:02:58+00:00,web_app_13,student_db17,database_query,college-proxy-01,1735,1392,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00124,2026-09-22 15:11:57+00:00,web_server_12,access.log15,file_write,college-db-01,6908,3656,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00017,2026-09-22 15:25:05+00:00,student_5,library_page1,http_request,college-proxy-01,3888,3052,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00092,2026-09-22 15:38:26+00:00,proxy_14,college_portal2,network_connection,college-web-02,6614,1035,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00513,2026-09-22 16:48:07+00:00,college_dns_9,college_domain5,dns_query,college-db-01,2735,453,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00522,2026-09-22 16:48:23+00:00,student_11,library_page9,http_request,college-proxy-01,7814,771,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00275,2026-09-22 17:16:43+00:00,student_5,course_catalog3,http_request,college-web-02,2650,1633,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00229,2026-09-22 17:29:31+00:00,college_dns_19,college_domain18,dns_query,college-web-01,8427,1922,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00588,2026-09-22 17:34:43+00:00,web_server_9,access.log11,file_write,college-web-01,5017,392,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00492,2026-09-22 17:37:12+00:00,admin_8,cms_dashboard10,login_success,college-proxy-01,1573,3166,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00609,2026-09-22 17:53:18+00:00,college_dns_9,college_domain1,dns_query,college-web-02,4302,3538,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00617,2026-09-22 17:57:44+00:00,web_app_2,student_db15,database_query,college-proxy-01,6561,1104,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00401,2026-09-22 18:23:56+00:00,proxy_19,college_portal18,network_connection,college-web-01,6646,2677,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00581,2026-09-22 18:40:03+00:00,web_server_19,access.log3,file_write,college-web-02,759,1604,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00484,2026-09-22 19:12:12+00:00,web_server_15,access.log9,file_write,college-proxy-01,8280,2071,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00039,2026-09-22 19:29:32+00:00,web_server_24,access.log17,file_write,college-proxy-01,4394,3034,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00652,2026-09-22 19:37:21+00:00,student_9,library_page7,http_request,college-web-01,6154,1496,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00642,2026-09-22 19:53:14+00:00,college_dns_3,college_domain15,dns_query,college-web-01,492,3113,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00593,2026-09-22 20:30:11+00:00,student_19,course_catalog18,http_request,college-web-01,468,1874,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00487,2026-09-22 20:37:54+00:00,web_server_7,access.log17,file_write,college-db-01,1193,231,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00022,2026-09-22 21:28:29+00:00,college_dns_18,college_domain17,dns_query,college-web-01,184,729,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00208,2026-09-22 22:07:17+00:00,admin_15,cms_dashboard14,login_success,college-db-01,6993,1841,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00014,2026-09-22 22:16:17+00:00,admin_22,cms_dashboard11,login_success,college-db-01,1630,3443,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00214,2026-09-22 22:21:25+00:00,web_app_5,student_db15,database_query,college-db-01,1310,758,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00387,2026-09-22 22:42:47+00:00,web_server_16,access.log6,file_write,college-proxy-01,8208,2564,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00135,2026-09-22 22:56:43+00:00,admin_21,cms_dashboard11,login_success,college-web-01,375,1848,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00180,2026-09-22 23:02:13+00:00,college_dns_9,college_domain2,dns_query,college-db-01,6253,13,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00205,2026-09-22 23:42:12+00:00,web_server_23,access.log14,file_write,college-db-01,4976,3164,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00265,2026-09-22 23:48:01+00:00,student_5,library_page11,http_request,college-db-01,4192,1519,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00623,2026-09-23 00:01:43+00:00,web_app_24,student_db14,database_query,college-web-02,1000,2429,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00058,2026-09-23 00:15:07+00:00,web_server_2,access.log12,file_write,college-web-02,2404,1748,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00096,2026-09-23 00:17:46+00:00,student_3,course_catalog17,http_request,college-db-01,6032,3027,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00194,2026-09-23 00:29:26+00:00,proxy_14,college_portal18,network_connection,college-db-01,2712,1692,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00469,2026-09-23 00:30:29+00:00,student_19,course_catalog2,http_request,college-proxy-01,7917,1110,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00133,2026-09-23 00:51:52+00:00,student_25,course_catalog14,http_request,college-proxy-01,2867,3005,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00113,2026-09-23 00:52:56+00:00,student_24,course_catalog16,http_request,college-web-01,3281,1903,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00157,2026-09-23 00:55:01+00:00,proxy_20,college_portal2,network_connection,college-web-02,8302,104,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00675,2026-09-23 01:03:45+00:00,college_dns_12,college_domain14,dns_query,college-db-01,6923,3894,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00198,2026-09-23 01:16:15+00:00,student_2,library_page6,http_request,college-db-01,5948,1235,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00501,2026-09-23 01:20:30+00:00,proxy_11,college_portal8,network_connection,college-web-01,7982,2093,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00499,2026-09-23 01:31:30+00:00,student_23,library_page1,http_request,college-db-01,5413,725,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00562,2026-09-23 01:41:56+00:00,web_app_24,student_db11,database_query,college-web-01,1197,1374,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00540,2026-09-23 02:09:12+00:00,college_dns_11,college_domain5,dns_query,college-web-01,6211,2790,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00549,2026-09-23 02:13:40+00:00,student_21,library_page13,http_request,college-proxy-01,3657,3027,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00056,2026-09-23 02:18:46+00:00,web_server_6,access.log6,file_write,college-web-02,7528,2286,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00650,2026-09-23 03:28:40+00:00,admin_7,cms_dashboard17,login_success,college-db-01,8932,1449,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00586,2026-09-23 03:38:19+00:00,web_server_12,access.log17,file_write,college-proxy-01,7162,3882,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00614,2026-09-23 03:59:16+00:00,student_8,library_page6,http_request,college-db-01,3700,1999,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-A-001,2026-09-23 04:00:00+00:00,unknown_client_203.0.113.77,cms_login,login_failed,college-web-01,6021,1,Repeated failed login attempts to CMS admin,True,0.66,Authentication failures; Privilege-related activity; Uncommon event type,True
+WEB-N-00315,2026-09-23 04:00:00+00:00,admin_4,cms_dashboard17,login_success,college-db-01,2717,1171,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-A-002,2026-09-23 04:00:25+00:00,attacker_session,cms_dashboard,login_success,college-web-01,6021,1,Unusual admin login after auth_failure burst,True,0.8300000000000001,Authentication failures; Privilege-related activity; Unusual destination,True
+WEB-A-003,2026-09-23 04:00:55+00:00,cms_dashboard,upload_endpoint,http_request,college-web-01,6021,1,Suspicious upload request to public upload endpoint,True,0.33,Suspicious web activity,True
+WEB-A-004,2026-09-23 04:01:25+00:00,upload_endpoint,unexpected_file.php,file_write,college-web-01,6021,1,webshell unexpected_file.php uploaded to web root,True,0.33,Suspicious web activity,True
+WEB-A-005,2026-09-23 04:02:00+00:00,web_server,php_shell_process,process_start,college-web-01,6088,6021,php webshell launched shell script,True,0.5800000000000001,Script/command execution; Suspicious web activity,True
+WEB-A-006,2026-09-23 04:02:35+00:00,php_shell_process,college-db-01,network_connection,college-web-01,6088,6021,Unusual server-to-database connection after webshell,True,0.5800000000000001,Unusual destination; Suspicious web activity,True
+WEB-A-007,2026-09-23 04:03:20+00:00,php_shell_process,student_records,file_read,college-db-01,6088,6021,Sensitive student_records accessed unexpectedly,True,0.5800000000000001,Sensitive data/staging indicator; Suspicious web activity,True
+WEB-A-008,2026-09-23 04:04:10+00:00,php_shell_process,archive_staging.zip,file_write,college-db-01,6088,6021,Sensitive data staging and archive compression,True,0.5800000000000001,Sensitive data/staging indicator; Suspicious web activity,True
+WEB-A-009,2026-09-23 04:05:05+00:00,php_shell_process,unknown_ip_203.0.113.99,network_connection,college-web-01,6088,6021,External destination with possible data exfiltration,True,0.5800000000000001,Unusual destination; Suspicious web activity,True
+WEB-N-00514,2026-09-23 04:18:23+00:00,proxy_22,college_portal18,network_connection,college-proxy-01,824,1643,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00611,2026-09-23 04:35:02+00:00,web_server_4,access.log9,file_write,college-web-01,2439,1047,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00314,2026-09-23 04:37:51+00:00,admin_1,cms_dashboard8,login_success,college-proxy-01,3407,1697,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00110,2026-09-23 04:47:03+00:00,web_app_20,student_db1,database_query,college-db-01,8172,3152,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00250,2026-09-23 04:51:22+00:00,web_app_12,student_db14,database_query,college-web-01,2873,1930,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00606,2026-09-23 05:02:08+00:00,student_6,library_page10,http_request,college-db-01,273,359,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00591,2026-09-23 05:09:53+00:00,student_14,library_page9,http_request,college-proxy-01,3173,2464,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00515,2026-09-23 05:19:24+00:00,admin_5,cms_dashboard10,login_success,college-web-01,6810,2348,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00084,2026-09-23 05:27:59+00:00,proxy_10,college_portal11,network_connection,college-web-02,2330,85,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00486,2026-09-23 05:55:29+00:00,web_server_25,access.log11,file_write,college-db-01,1788,1045,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00627,2026-09-23 05:55:29+00:00,proxy_8,college_portal8,network_connection,college-web-02,5325,3999,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00138,2026-09-23 05:56:54+00:00,student_20,course_catalog13,http_request,college-web-02,4941,1595,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00526,2026-09-23 06:13:27+00:00,proxy_9,college_portal13,network_connection,college-proxy-01,7914,3182,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00442,2026-09-23 06:33:21+00:00,web_app_24,student_db17,database_query,college-web-01,5851,2566,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00260,2026-09-23 06:39:27+00:00,student_22,library_page8,http_request,college-db-01,6473,3312,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00318,2026-09-23 06:42:26+00:00,admin_14,cms_dashboard1,login_success,college-proxy-01,3983,956,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00001,2026-09-23 06:57:55+00:00,web_app_14,student_db1,database_query,college-db-01,7996,2372,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00246,2026-09-23 07:00:17+00:00,student_4,course_catalog18,http_request,college-web-01,4648,1041,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00061,2026-09-23 07:06:51+00:00,college_dns_15,college_domain10,dns_query,college-web-02,551,657,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00424,2026-09-23 07:12:38+00:00,student_10,course_catalog10,http_request,college-db-01,2388,3425,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00203,2026-09-23 07:13:04+00:00,proxy_4,college_portal10,network_connection,college-web-02,1290,24,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00625,2026-09-23 07:14:10+00:00,web_app_18,student_db6,database_query,college-db-01,7694,785,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00132,2026-09-23 07:22:51+00:00,college_dns_19,college_domain12,dns_query,college-proxy-01,1214,2174,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00223,2026-09-23 07:36:30+00:00,admin_5,cms_dashboard1,login_success,college-web-02,5358,3337,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00042,2026-09-23 07:36:59+00:00,student_9,library_page9,http_request,college-web-01,5260,1280,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00071,2026-09-23 07:41:47+00:00,web_server_20,access.log7,file_write,college-proxy-01,7626,1140,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00243,2026-09-23 07:42:19+00:00,college_dns_18,college_domain4,dns_query,college-db-01,8542,885,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00379,2026-09-23 07:54:47+00:00,college_dns_25,college_domain7,dns_query,college-db-01,1363,2033,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00613,2026-09-23 08:16:48+00:00,student_14,library_page1,http_request,college-proxy-01,2837,1259,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00108,2026-09-23 08:30:11+00:00,web_server_24,access.log2,file_write,college-web-02,101,3077,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00433,2026-09-23 08:36:35+00:00,web_server_8,access.log7,file_write,college-proxy-01,644,238,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00554,2026-09-23 08:46:46+00:00,student_24,library_page5,http_request,college-web-01,2565,561,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00671,2026-09-23 08:47:20+00:00,web_app_19,student_db9,database_query,college-db-01,4713,267,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00369,2026-09-23 09:00:43+00:00,student_20,library_page6,http_request,college-web-02,4596,3647,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00574,2026-09-23 09:16:52+00:00,admin_2,cms_dashboard8,login_success,college-web-02,2257,1680,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00333,2026-09-23 09:24:00+00:00,college_dns_25,college_domain8,dns_query,college-db-01,5062,2438,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00101,2026-09-23 09:48:23+00:00,admin_21,cms_dashboard1,login_success,college-db-01,6739,1330,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00388,2026-09-23 09:57:26+00:00,web_server_17,access.log7,file_write,college-db-01,3113,2369,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00451,2026-09-23 09:57:54+00:00,admin_1,cms_dashboard15,login_success,college-db-01,8892,1652,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00004,2026-09-23 10:01:08+00:00,admin_23,cms_dashboard13,login_success,college-web-01,8454,3694,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00345,2026-09-23 10:07:23+00:00,proxy_21,college_portal6,network_connection,college-db-01,7467,2548,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00050,2026-09-23 10:34:46+00:00,student_9,course_catalog3,http_request,college-db-01,877,3453,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00107,2026-09-23 11:09:53+00:00,student_15,library_page3,http_request,college-web-02,4310,2719,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00335,2026-09-23 11:31:03+00:00,admin_5,cms_dashboard16,login_success,college-web-01,540,193,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00036,2026-09-23 11:36:58+00:00,proxy_3,college_portal4,network_connection,college-web-01,3655,3178,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00575,2026-09-23 12:09:09+00:00,web_server_13,access.log1,file_write,college-web-02,1918,41,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00035,2026-09-23 12:21:54+00:00,college_dns_23,college_domain15,dns_query,college-web-01,2065,836,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00191,2026-09-23 12:35:19+00:00,proxy_11,college_portal2,network_connection,college-db-01,7797,2901,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00429,2026-09-23 13:18:20+00:00,web_app_2,student_db4,database_query,college-proxy-01,1110,152,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00346,2026-09-23 13:18:42+00:00,admin_4,cms_dashboard16,login_success,college-web-01,6601,3450,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00436,2026-09-23 13:49:45+00:00,college_dns_2,college_domain4,dns_query,college-web-01,7935,1350,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00120,2026-09-23 13:55:16+00:00,admin_15,cms_dashboard4,login_success,college-proxy-01,8067,2681,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00285,2026-09-23 14:18:30+00:00,web_app_4,student_db11,database_query,college-web-01,2265,1706,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00509,2026-09-23 14:19:03+00:00,student_2,course_catalog15,http_request,college-web-02,5252,1159,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00154,2026-09-23 14:32:26+00:00,proxy_3,college_portal16,network_connection,college-proxy-01,6935,2688,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00461,2026-09-23 14:49:47+00:00,web_server_25,access.log18,file_write,college-proxy-01,5813,3042,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00054,2026-09-23 14:52:16+00:00,college_dns_5,college_domain2,dns_query,college-web-01,4571,3526,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00618,2026-09-23 15:51:32+00:00,web_server_24,access.log7,file_write,college-proxy-01,8898,3428,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00307,2026-09-23 15:53:09+00:00,web_server_10,access.log1,file_write,college-web-01,6530,1797,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00227,2026-09-23 16:13:09+00:00,admin_12,cms_dashboard13,login_success,college-proxy-01,5896,2342,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00605,2026-09-23 17:07:31+00:00,student_9,library_page14,http_request,college-db-01,1557,2244,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00676,2026-09-23 17:28:21+00:00,student_3,library_page16,http_request,college-web-01,495,1605,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00577,2026-09-23 17:32:14+00:00,web_app_23,student_db14,database_query,college-web-01,3785,603,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00078,2026-09-23 17:45:15+00:00,student_25,course_catalog9,http_request,college-web-02,3615,3305,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00122,2026-09-23 17:52:14+00:00,admin_3,cms_dashboard15,login_success,college-proxy-01,8135,3653,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00134,2026-09-23 17:55:54+00:00,proxy_22,college_portal14,network_connection,college-web-02,7258,921,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00129,2026-09-23 18:09:02+00:00,web_server_15,access.log2,file_write,college-web-02,2876,829,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00659,2026-09-23 18:24:55+00:00,web_app_12,student_db4,database_query,college-web-01,3542,3865,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00174,2026-09-23 18:58:46+00:00,college_dns_20,college_domain13,dns_query,college-web-02,4086,1796,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00298,2026-09-23 19:01:48+00:00,student_13,library_page3,http_request,college-proxy-01,407,2382,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00352,2026-09-23 19:06:38+00:00,web_app_25,student_db4,database_query,college-db-01,4545,2885,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00356,2026-09-23 19:10:30+00:00,college_dns_19,college_domain18,dns_query,college-web-01,5397,3497,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00351,2026-09-23 19:21:11+00:00,web_server_15,access.log8,file_write,college-web-01,4046,2596,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00360,2026-09-23 19:35:50+00:00,web_app_4,student_db8,database_query,college-web-01,2651,1112,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00543,2026-09-23 19:41:28+00:00,proxy_14,college_portal2,network_connection,college-web-02,2225,1399,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00529,2026-09-23 19:46:25+00:00,student_21,course_catalog17,http_request,college-db-01,7991,1518,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00164,2026-09-23 20:03:52+00:00,student_17,library_page12,http_request,college-proxy-01,3009,2494,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00296,2026-09-23 20:24:22+00:00,web_server_19,access.log11,file_write,college-db-01,7554,2766,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00427,2026-09-23 20:52:42+00:00,web_app_21,student_db14,database_query,college-web-01,4077,1473,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00413,2026-09-23 20:55:58+00:00,proxy_1,college_portal16,network_connection,college-web-01,1054,3786,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00633,2026-09-23 21:09:01+00:00,web_server_18,access.log11,file_write,college-web-01,1576,452,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00049,2026-09-23 21:20:13+00:00,admin_19,cms_dashboard6,login_success,college-web-01,6088,1813,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00051,2026-09-23 21:24:28+00:00,admin_13,cms_dashboard1,login_success,college-web-01,8550,3023,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00168,2026-09-23 21:29:19+00:00,web_server_10,access.log17,file_write,college-proxy-01,5557,626,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00505,2026-09-23 21:32:16+00:00,student_8,library_page13,http_request,college-proxy-01,6853,751,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00037,2026-09-23 21:50:05+00:00,admin_2,cms_dashboard5,login_success,college-web-02,6078,3749,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00339,2026-09-23 22:03:40+00:00,student_6,library_page16,http_request,college-web-02,603,3999,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00508,2026-09-23 22:09:43+00:00,web_app_1,student_db9,database_query,college-proxy-01,4984,995,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00641,2026-09-23 22:12:18+00:00,student_9,library_page12,http_request,college-proxy-01,7737,3959,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00464,2026-09-23 22:30:37+00:00,admin_15,cms_dashboard12,login_success,college-proxy-01,7494,3992,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00355,2026-09-23 22:36:32+00:00,admin_6,cms_dashboard1,login_success,college-web-02,8885,3836,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00167,2026-09-23 23:07:20+00:00,student_15,course_catalog11,http_request,college-db-01,730,1882,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00455,2026-09-23 23:08:08+00:00,web_app_22,student_db1,database_query,college-web-01,1191,1702,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00338,2026-09-23 23:19:12+00:00,admin_5,cms_dashboard13,login_success,college-db-01,4343,3007,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00519,2026-09-23 23:32:46+00:00,student_20,library_page13,http_request,college-web-01,380,2829,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00105,2026-09-23 23:51:37+00:00,proxy_15,college_portal8,network_connection,college-web-02,8752,2439,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00534,2026-09-24 00:01:50+00:00,web_server_19,access.log8,file_write,college-web-01,2418,2577,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00393,2026-09-24 00:04:08+00:00,proxy_22,college_portal6,network_connection,college-db-01,613,3282,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00481,2026-09-24 00:07:52+00:00,web_app_10,student_db4,database_query,college-web-01,605,1119,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00095,2026-09-24 00:24:34+00:00,proxy_18,college_portal16,network_connection,college-web-02,6887,2928,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00592,2026-09-24 00:42:18+00:00,student_6,course_catalog12,http_request,college-web-02,4623,1327,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00390,2026-09-24 00:44:38+00:00,proxy_9,college_portal16,network_connection,college-proxy-01,1039,44,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00428,2026-09-24 00:52:47+00:00,admin_15,cms_dashboard10,login_success,college-proxy-01,3477,3974,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00572,2026-09-24 00:57:13+00:00,web_app_3,student_db4,database_query,college-proxy-01,8692,2150,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00013,2026-09-24 01:15:43+00:00,admin_7,cms_dashboard18,login_success,college-web-01,5523,418,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00073,2026-09-24 01:22:48+00:00,proxy_22,college_portal9,network_connection,college-db-01,4991,3516,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00156,2026-09-24 01:40:10+00:00,student_1,library_page5,http_request,college-web-01,8410,351,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00106,2026-09-24 01:44:19+00:00,college_dns_2,college_domain7,dns_query,college-db-01,732,1230,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00046,2026-09-24 01:52:13+00:00,student_4,library_page11,http_request,college-web-02,3560,3843,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00165,2026-09-24 01:57:01+00:00,proxy_3,college_portal18,network_connection,college-db-01,6700,445,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00312,2026-09-24 02:06:50+00:00,web_app_11,student_db8,database_query,college-web-01,1912,1734,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00160,2026-09-24 03:18:22+00:00,student_10,course_catalog14,http_request,college-web-01,6712,3082,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00394,2026-09-24 03:41:09+00:00,admin_3,cms_dashboard5,login_success,college-db-01,6320,1018,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00673,2026-09-24 03:46:24+00:00,web_server_3,access.log15,file_write,college-proxy-01,6515,3418,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00210,2026-09-24 04:20:39+00:00,web_app_24,student_db8,database_query,college-web-01,5138,1437,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00410,2026-09-24 04:27:14+00:00,college_dns_20,college_domain5,dns_query,college-proxy-01,553,405,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00279,2026-09-24 04:30:08+00:00,proxy_10,college_portal17,network_connection,college-web-02,6889,3513,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00545,2026-09-24 05:05:52+00:00,student_11,course_catalog14,http_request,college-web-02,7708,2538,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00382,2026-09-24 05:25:29+00:00,college_dns_11,college_domain3,dns_query,college-web-02,1052,2004,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00139,2026-09-24 05:41:47+00:00,web_server_25,access.log14,file_write,college-web-01,8166,3875,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00028,2026-09-24 05:45:08+00:00,web_app_11,student_db9,database_query,college-web-02,1678,1862,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00147,2026-09-24 06:07:23+00:00,web_server_11,access.log1,file_write,college-db-01,237,1822,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00310,2026-09-24 06:18:29+00:00,web_app_9,student_db5,database_query,college-db-01,3570,269,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00525,2026-09-24 06:25:34+00:00,web_app_4,student_db7,database_query,college-db-01,6063,2919,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00359,2026-09-24 06:37:06+00:00,student_1,course_catalog9,http_request,college-web-01,4009,3485,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00395,2026-09-24 07:00:54+00:00,proxy_24,college_portal5,network_connection,college-proxy-01,3754,581,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00415,2026-09-24 07:04:16+00:00,college_dns_8,college_domain12,dns_query,college-web-02,6580,2263,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00192,2026-09-24 08:18:10+00:00,web_server_11,access.log8,file_write,college-db-01,6159,3325,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00663,2026-09-24 08:39:00+00:00,admin_16,cms_dashboard14,login_success,college-web-01,3922,1623,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00362,2026-09-24 09:10:26+00:00,college_dns_14,college_domain2,dns_query,college-proxy-01,3762,1145,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00567,2026-09-24 09:13:29+00:00,proxy_15,college_portal6,network_connection,college-db-01,1294,1143,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00619,2026-09-24 09:20:05+00:00,web_app_11,student_db9,database_query,college-web-02,6660,571,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00267,2026-09-24 09:46:58+00:00,college_dns_5,college_domain14,dns_query,college-web-02,8197,3230,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00308,2026-09-24 10:01:21+00:00,web_server_10,access.log5,file_write,college-web-01,893,2106,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00330,2026-09-24 10:01:42+00:00,student_10,course_catalog6,http_request,college-web-01,421,1113,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00277,2026-09-24 10:05:43+00:00,web_server_18,access.log6,file_write,college-web-01,6523,1752,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00547,2026-09-24 10:09:18+00:00,college_dns_2,college_domain4,dns_query,college-web-01,6852,3493,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00426,2026-09-24 10:25:08+00:00,web_app_12,student_db15,database_query,college-web-02,3953,3797,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00372,2026-09-24 10:31:23+00:00,student_9,course_catalog14,http_request,college-proxy-01,7416,442,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00459,2026-09-24 11:43:55+00:00,student_18,course_catalog13,http_request,college-db-01,6491,339,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00453,2026-09-24 11:55:24+00:00,student_11,course_catalog7,http_request,college-proxy-01,312,3433,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00033,2026-09-24 11:55:58+00:00,student_22,course_catalog12,http_request,college-web-01,5139,3277,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00269,2026-09-24 12:15:39+00:00,proxy_15,college_portal7,network_connection,college-proxy-01,887,1979,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00284,2026-09-24 12:32:58+00:00,college_dns_14,college_domain7,dns_query,college-web-02,2072,1087,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00090,2026-09-24 13:04:02+00:00,web_server_3,access.log2,file_write,college-web-01,2692,3485,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00065,2026-09-24 13:04:44+00:00,web_server_18,access.log16,file_write,college-db-01,6746,377,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00130,2026-09-24 14:00:38+00:00,college_dns_1,college_domain7,dns_query,college-db-01,1976,1880,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00080,2026-09-24 15:10:35+00:00,admin_25,cms_dashboard3,login_success,college-web-02,1980,1897,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00520,2026-09-24 15:29:17+00:00,student_23,library_page11,http_request,college-web-01,512,1004,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00145,2026-09-24 15:51:03+00:00,college_dns_10,college_domain16,dns_query,college-proxy-01,6123,3931,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00645,2026-09-24 16:21:30+00:00,student_24,library_page14,http_request,college-proxy-01,1192,167,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00201,2026-09-24 16:46:24+00:00,proxy_14,college_portal4,network_connection,college-proxy-01,2159,3973,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00023,2026-09-24 16:48:51+00:00,web_app_10,student_db2,database_query,college-web-01,8331,2094,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00456,2026-09-24 17:07:26+00:00,student_19,course_catalog6,http_request,college-web-02,6910,2980,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00553,2026-09-24 17:34:16+00:00,student_7,course_catalog3,http_request,college-proxy-01,5530,3317,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00306,2026-09-24 18:02:58+00:00,web_server_2,access.log7,file_write,college-proxy-01,8415,2917,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00409,2026-09-24 18:03:16+00:00,student_21,library_page11,http_request,college-proxy-01,4498,394,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00005,2026-09-24 18:04:04+00:00,admin_23,cms_dashboard5,login_success,college-db-01,3942,2819,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00571,2026-09-24 18:09:47+00:00,proxy_6,college_portal17,network_connection,college-web-02,116,426,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00670,2026-09-24 18:27:50+00:00,student_11,library_page11,http_request,college-web-01,8852,899,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00031,2026-09-24 18:35:58+00:00,admin_2,cms_dashboard3,login_success,college-db-01,2766,2507,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00328,2026-09-24 18:37:51+00:00,web_server_23,access.log3,file_write,college-db-01,1149,395,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00680,2026-09-24 18:41:26+00:00,student_23,library_page14,http_request,college-proxy-01,1883,2695,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00094,2026-09-24 18:43:31+00:00,admin_16,cms_dashboard2,login_success,college-db-01,839,3371,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00320,2026-09-24 18:52:34+00:00,college_dns_12,college_domain11,dns_query,college-web-02,6801,160,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00494,2026-09-24 18:55:07+00:00,web_server_18,access.log5,file_write,college-web-02,1414,1969,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00485,2026-09-24 19:13:20+00:00,web_server_22,access.log18,file_write,college-web-01,2443,2371,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00444,2026-09-24 19:55:13+00:00,college_dns_21,college_domain13,dns_query,college-proxy-01,5175,1657,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00521,2026-09-24 20:09:11+00:00,proxy_23,college_portal9,network_connection,college-db-01,454,3390,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00361,2026-09-24 20:26:22+00:00,student_11,course_catalog10,http_request,college-web-02,6565,1355,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00063,2026-09-24 20:27:15+00:00,web_app_23,student_db11,database_query,college-proxy-01,3079,2251,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00264,2026-09-24 20:27:39+00:00,student_15,library_page2,http_request,college-web-01,6216,1482,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00059,2026-09-24 20:31:58+00:00,student_14,library_page2,http_request,college-web-02,7677,245,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00584,2026-09-24 20:35:27+00:00,web_app_8,student_db9,database_query,college-web-01,8376,745,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00276,2026-09-24 20:41:09+00:00,college_dns_13,college_domain18,dns_query,college-proxy-01,6400,3724,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00578,2026-09-24 20:52:03+00:00,student_3,library_page2,http_request,college-web-01,2957,2845,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00257,2026-09-24 20:54:02+00:00,admin_16,cms_dashboard1,login_success,college-web-01,5397,970,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00228,2026-09-24 21:15:33+00:00,college_dns_18,college_domain17,dns_query,college-proxy-01,7721,2570,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00533,2026-09-24 21:17:38+00:00,student_18,library_page6,http_request,college-proxy-01,8642,1384,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00099,2026-09-24 21:25:16+00:00,proxy_8,college_portal2,network_connection,college-proxy-01,2814,141,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00603,2026-09-24 21:32:08+00:00,student_5,library_page6,http_request,college-proxy-01,5230,1360,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00556,2026-09-24 21:37:15+00:00,web_app_3,student_db3,database_query,college-proxy-01,8622,2218,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00222,2026-09-24 21:42:04+00:00,student_19,course_catalog3,http_request,college-db-01,1708,1342,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00109,2026-09-24 22:24:37+00:00,student_2,library_page6,http_request,college-web-02,996,2362,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00169,2026-09-24 22:31:50+00:00,web_app_21,student_db13,database_query,college-proxy-01,3560,3004,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00669,2026-09-24 22:36:28+00:00,student_20,course_catalog18,http_request,college-proxy-01,2899,197,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00317,2026-09-24 22:46:10+00:00,student_3,library_page6,http_request,college-proxy-01,5351,1590,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00648,2026-09-24 22:52:52+00:00,web_app_3,student_db15,database_query,college-web-02,3244,3449,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00153,2026-09-24 23:09:12+00:00,admin_24,cms_dashboard4,login_success,college-web-02,8342,2426,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00047,2026-09-24 23:18:10+00:00,web_server_11,access.log10,file_write,college-web-01,2950,2295,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00640,2026-09-24 23:43:48+00:00,web_app_9,student_db2,database_query,college-db-01,8630,2507,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00186,2026-09-24 23:54:06+00:00,web_app_13,student_db4,database_query,college-proxy-01,3248,3042,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00187,2026-09-25 00:01:53+00:00,college_dns_6,college_domain15,dns_query,college-web-02,2370,3552,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00230,2026-09-25 00:58:53+00:00,proxy_5,college_portal4,network_connection,college-proxy-01,504,1022,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00295,2026-09-25 01:00:01+00:00,student_10,library_page7,http_request,college-web-02,7866,1183,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00216,2026-09-25 01:10:09+00:00,proxy_25,college_portal2,network_connection,college-web-02,4177,193,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00248,2026-09-25 01:14:23+00:00,college_dns_24,college_domain5,dns_query,college-db-01,6066,3578,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00412,2026-09-25 01:24:38+00:00,student_9,library_page1,http_request,college-web-01,5720,3910,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00349,2026-09-25 01:26:07+00:00,admin_10,cms_dashboard5,login_success,college-db-01,648,608,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00182,2026-09-25 01:40:21+00:00,admin_25,cms_dashboard17,login_success,college-proxy-01,8314,1026,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00600,2026-09-25 01:54:39+00:00,web_app_24,student_db10,database_query,college-proxy-01,1827,3728,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00240,2026-09-25 02:00:23+00:00,college_dns_13,college_domain3,dns_query,college-web-01,5110,3063,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00353,2026-09-25 02:22:32+00:00,proxy_25,college_portal7,network_connection,college-web-02,5510,3485,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00305,2026-09-25 02:30:40+00:00,admin_9,cms_dashboard18,login_success,college-db-01,1074,1754,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00286,2026-09-25 02:33:44+00:00,web_app_3,student_db13,database_query,college-web-01,337,3390,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00629,2026-09-25 03:10:08+00:00,web_server_1,access.log16,file_write,college-db-01,1922,1459,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00347,2026-09-25 03:18:55+00:00,web_server_16,access.log18,file_write,college-web-02,2928,3683,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00621,2026-09-25 03:45:58+00:00,student_8,library_page7,http_request,college-proxy-01,7530,2356,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00126,2026-09-25 04:29:51+00:00,college_dns_18,college_domain10,dns_query,college-proxy-01,3451,544,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00478,2026-09-25 04:56:37+00:00,college_dns_19,college_domain18,dns_query,college-db-01,4305,1622,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00639,2026-09-25 05:01:44+00:00,student_20,course_catalog15,http_request,college-proxy-01,5392,2799,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00421,2026-09-25 05:04:30+00:00,student_13,course_catalog17,http_request,college-web-02,7611,2850,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00371,2026-09-25 06:04:31+00:00,student_8,course_catalog4,http_request,college-db-01,8557,1680,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00465,2026-09-25 06:08:58+00:00,student_21,library_page6,http_request,college-web-01,7431,2391,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00565,2026-09-25 06:40:06+00:00,student_10,library_page8,http_request,college-web-02,5103,2213,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00490,2026-09-25 06:49:49+00:00,college_dns_9,college_domain3,dns_query,college-db-01,507,1430,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00151,2026-09-25 07:07:35+00:00,student_13,library_page4,http_request,college-web-01,4331,3787,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00008,2026-09-25 07:14:12+00:00,web_app_12,student_db11,database_query,college-db-01,7454,2179,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00445,2026-09-25 07:23:46+00:00,web_app_4,student_db15,database_query,college-web-01,6145,1176,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00657,2026-09-25 07:40:29+00:00,admin_22,cms_dashboard11,login_success,college-web-02,1252,1543,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00384,2026-09-25 07:53:42+00:00,admin_20,cms_dashboard4,login_success,college-web-01,7183,3888,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00103,2026-09-25 07:57:54+00:00,student_15,course_catalog12,http_request,college-web-02,8537,1677,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00241,2026-09-25 08:26:04+00:00,web_server_13,access.log18,file_write,college-proxy-01,4181,114,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00656,2026-09-25 08:27:11+00:00,admin_5,cms_dashboard4,login_success,college-web-02,1391,2012,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00502,2026-09-25 08:28:26+00:00,college_dns_24,college_domain9,dns_query,college-web-02,7204,3590,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00060,2026-09-25 08:30:41+00:00,proxy_9,college_portal12,network_connection,college-proxy-01,2575,903,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00204,2026-09-25 08:34:04+00:00,student_20,library_page16,http_request,college-db-01,4393,3919,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00207,2026-09-25 09:07:34+00:00,admin_21,cms_dashboard2,login_success,college-db-01,4250,3762,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00550,2026-09-25 09:20:30+00:00,college_dns_9,college_domain10,dns_query,college-web-01,7978,1855,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00143,2026-09-25 09:34:25+00:00,student_14,library_page4,http_request,college-web-02,5874,3690,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00185,2026-09-25 09:37:01+00:00,web_app_8,student_db16,database_query,college-web-02,1730,132,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00085,2026-09-25 10:03:34+00:00,proxy_13,college_portal4,network_connection,college-db-01,6376,3811,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00503,2026-09-25 10:23:56+00:00,student_5,course_catalog14,http_request,college-web-01,2375,2415,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00218,2026-09-25 10:24:01+00:00,student_14,course_catalog18,http_request,college-db-01,2989,2428,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00434,2026-09-25 11:13:08+00:00,student_13,course_catalog13,http_request,college-web-02,7118,2534,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00200,2026-09-25 11:44:44+00:00,student_20,course_catalog10,http_request,college-web-01,3340,664,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00326,2026-09-25 11:47:26+00:00,student_8,course_catalog17,http_request,college-web-01,5895,2279,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00608,2026-09-25 11:52:41+00:00,web_server_13,access.log4,file_write,college-proxy-01,3076,1697,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00254,2026-09-25 12:34:03+00:00,student_13,library_page14,http_request,college-proxy-01,3727,1987,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00489,2026-09-25 12:49:47+00:00,proxy_6,college_portal5,network_connection,college-web-02,4358,1326,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00635,2026-09-25 13:37:09+00:00,college_dns_24,college_domain16,dns_query,college-db-01,3756,1451,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00416,2026-09-25 14:59:36+00:00,web_server_10,access.log13,file_write,college-web-01,5186,1894,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00583,2026-09-25 15:01:12+00:00,web_app_6,student_db3,database_query,college-db-01,4615,3374,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00435,2026-09-25 15:02:46+00:00,student_16,course_catalog9,http_request,college-web-01,2707,1473,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00293,2026-09-25 15:04:45+00:00,web_server_2,access.log9,file_write,college-proxy-01,652,1509,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00268,2026-09-25 15:30:08+00:00,student_8,library_page5,http_request,college-db-01,2029,3017,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00668,2026-09-25 15:32:58+00:00,web_server_10,access.log5,file_write,college-db-01,3926,827,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00677,2026-09-25 15:34:07+00:00,college_dns_20,college_domain5,dns_query,college-proxy-01,1476,719,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00396,2026-09-25 15:47:15+00:00,student_15,course_catalog5,http_request,college-web-01,7323,2305,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00010,2026-09-25 16:11:19+00:00,web_app_9,student_db15,database_query,college-web-01,8956,1427,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00546,2026-09-25 16:11:58+00:00,proxy_16,college_portal9,network_connection,college-web-01,6497,1321,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00419,2026-09-25 16:18:11+00:00,admin_23,cms_dashboard9,login_success,college-db-01,979,3828,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00144,2026-09-25 16:53:20+00:00,college_dns_3,college_domain9,dns_query,college-web-02,916,3606,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00273,2026-09-25 17:08:22+00:00,proxy_13,college_portal9,network_connection,college-db-01,6767,2183,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00631,2026-09-25 17:38:53+00:00,student_4,course_catalog3,http_request,college-proxy-01,5155,2259,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00006,2026-09-25 17:39:17+00:00,student_4,library_page14,http_request,college-web-01,5803,2552,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00457,2026-09-25 17:48:17+00:00,web_server_2,access.log9,file_write,college-proxy-01,8899,1465,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00358,2026-09-25 18:13:53+00:00,admin_3,cms_dashboard18,login_success,college-db-01,6952,2041,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00662,2026-09-25 18:26:45+00:00,web_server_10,access.log8,file_write,college-proxy-01,3850,585,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00397,2026-09-25 19:11:09+00:00,student_11,library_page1,http_request,college-proxy-01,5077,2122,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00266,2026-09-25 19:18:02+00:00,college_dns_10,college_domain9,dns_query,college-proxy-01,1830,45,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00480,2026-09-25 19:36:09+00:00,student_15,library_page2,http_request,college-proxy-01,1969,1716,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00179,2026-09-25 19:44:22+00:00,proxy_8,college_portal9,network_connection,college-db-01,2534,577,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00538,2026-09-25 19:45:35+00:00,proxy_11,college_portal16,network_connection,college-web-01,6876,1287,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00220,2026-09-25 19:52:50+00:00,web_app_24,student_db16,database_query,college-web-01,4023,2374,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00127,2026-09-25 20:37:52+00:00,admin_8,cms_dashboard11,login_success,college-web-01,3811,3836,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00077,2026-09-25 20:54:02+00:00,web_server_11,access.log14,file_write,college-proxy-01,835,1250,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00244,2026-09-25 21:20:51+00:00,web_server_11,access.log9,file_write,college-web-02,8574,350,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00322,2026-09-25 21:46:26+00:00,student_4,course_catalog1,http_request,college-web-01,5571,476,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00252,2026-09-25 22:21:48+00:00,web_app_13,student_db11,database_query,college-web-02,2320,1006,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00599,2026-09-25 22:56:51+00:00,college_dns_21,college_domain16,dns_query,college-web-01,1525,450,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00468,2026-09-25 22:59:24+00:00,student_15,course_catalog15,http_request,college-web-01,4328,1969,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00539,2026-09-25 23:28:43+00:00,web_app_6,student_db6,database_query,college-web-01,4064,3659,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00438,2026-09-25 23:32:18+00:00,student_8,course_catalog6,http_request,college-proxy-01,1157,1285,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00294,2026-09-25 23:39:04+00:00,college_dns_14,college_domain10,dns_query,college-proxy-01,4840,2944,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00664,2026-09-25 23:47:32+00:00,student_8,course_catalog5,http_request,college-web-02,8986,1430,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00637,2026-09-25 23:55:37+00:00,student_22,course_catalog16,http_request,college-proxy-01,7250,854,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00506,2026-09-25 23:55:54+00:00,admin_4,cms_dashboard1,login_success,college-web-01,2842,1146,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00102,2026-09-26 00:23:13+00:00,student_25,course_catalog8,http_request,college-db-01,8953,2031,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00472,2026-09-26 00:32:45+00:00,admin_5,cms_dashboard7,login_success,college-proxy-01,1654,839,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00344,2026-09-26 00:39:03+00:00,college_dns_22,college_domain3,dns_query,college-web-02,6290,1359,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00176,2026-09-26 00:40:40+00:00,web_server_24,access.log14,file_write,college-web-01,6998,3624,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00149,2026-09-26 00:53:44+00:00,admin_21,cms_dashboard17,login_success,college-proxy-01,5510,2312,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00576,2026-09-26 01:16:47+00:00,proxy_12,college_portal16,network_connection,college-proxy-01,6371,3524,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00088,2026-09-26 01:17:41+00:00,college_dns_18,college_domain3,dns_query,college-proxy-01,5512,1294,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00408,2026-09-26 01:41:20+00:00,admin_12,cms_dashboard10,login_success,college-proxy-01,1303,1730,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00290,2026-09-26 01:46:27+00:00,college_dns_17,college_domain9,dns_query,college-web-01,4364,3900,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00091,2026-09-26 01:51:03+00:00,web_server_2,access.log5,file_write,college-db-01,1583,2736,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00615,2026-09-26 02:15:58+00:00,web_app_13,student_db15,database_query,college-proxy-01,3034,3934,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00123,2026-09-26 02:16:50+00:00,web_app_20,student_db1,database_query,college-proxy-01,1483,2253,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00483,2026-09-26 02:36:16+00:00,web_app_2,student_db13,database_query,college-web-01,8922,3590,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00560,2026-09-26 02:58:19+00:00,proxy_24,college_portal9,network_connection,college-web-02,3069,2921,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00288,2026-09-26 03:08:33+00:00,proxy_24,college_portal12,network_connection,college-proxy-01,942,879,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00150,2026-09-26 03:17:45+00:00,proxy_23,college_portal18,network_connection,college-db-01,3426,3307,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00021,2026-09-26 03:29:07+00:00,web_app_17,student_db14,database_query,college-web-01,8154,914,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00075,2026-09-26 03:48:06+00:00,student_19,course_catalog7,http_request,college-db-01,5562,1519,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00365,2026-09-26 03:50:11+00:00,admin_12,cms_dashboard16,login_success,college-db-01,5736,44,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00340,2026-09-26 03:51:35+00:00,student_7,course_catalog11,http_request,college-web-01,8232,3881,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00452,2026-09-26 04:04:49+00:00,web_app_19,student_db4,database_query,college-web-01,5822,1445,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00235,2026-09-26 04:21:54+00:00,student_5,library_page3,http_request,college-web-02,3557,2927,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00319,2026-09-26 04:24:28+00:00,admin_11,cms_dashboard4,login_success,college-proxy-01,6712,1703,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00561,2026-09-26 05:01:06+00:00,web_server_5,access.log12,file_write,college-web-02,3389,656,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00081,2026-09-26 05:05:32+00:00,student_10,course_catalog12,http_request,college-web-02,7950,2145,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00473,2026-09-26 05:07:59+00:00,web_server_18,access.log3,file_write,college-web-02,8034,3593,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00251,2026-09-26 05:49:43+00:00,college_dns_7,college_domain11,dns_query,college-proxy-01,6291,3224,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00155,2026-09-26 06:18:02+00:00,student_12,course_catalog2,http_request,college-web-01,5422,2231,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00171,2026-09-26 06:41:23+00:00,college_dns_2,college_domain2,dns_query,college-web-01,6965,1996,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00507,2026-09-26 06:48:50+00:00,college_dns_6,college_domain17,dns_query,college-web-01,532,1003,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00225,2026-09-26 06:48:57+00:00,proxy_7,college_portal5,network_connection,college-db-01,4659,654,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00551,2026-09-26 06:49:17+00:00,web_server_1,access.log3,file_write,college-proxy-01,6906,2560,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00281,2026-09-26 06:49:47+00:00,web_app_5,student_db10,database_query,college-db-01,2430,3069,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00261,2026-09-26 07:00:19+00:00,proxy_20,college_portal14,network_connection,college-web-02,6556,846,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00411,2026-09-26 07:03:12+00:00,student_11,library_page1,http_request,college-proxy-01,6858,3697,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00644,2026-09-26 07:46:42+00:00,student_5,course_catalog5,http_request,college-web-02,8622,915,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00069,2026-09-26 07:48:18+00:00,web_app_23,student_db11,database_query,college-web-02,3284,3777,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00119,2026-09-26 08:16:24+00:00,web_app_7,student_db8,database_query,college-proxy-01,492,142,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00024,2026-09-26 08:16:31+00:00,admin_25,cms_dashboard9,login_success,college-proxy-01,3746,1279,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00131,2026-09-26 08:23:55+00:00,web_app_6,student_db2,database_query,college-proxy-01,8725,584,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00482,2026-09-26 08:34:43+00:00,student_8,library_page13,http_request,college-proxy-01,4572,1755,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00447,2026-09-26 08:46:55+00:00,web_app_4,student_db16,database_query,college-web-01,5161,3198,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00236,2026-09-26 08:56:46+00:00,student_10,course_catalog12,http_request,college-db-01,4069,2891,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00025,2026-09-26 09:11:03+00:00,student_6,library_page12,http_request,college-proxy-01,3132,415,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00443,2026-09-26 09:15:52+00:00,admin_11,cms_dashboard6,login_success,college-web-01,3380,758,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00542,2026-09-26 09:18:29+00:00,college_dns_17,college_domain18,dns_query,college-db-01,5974,1963,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00162,2026-09-26 09:33:54+00:00,student_14,course_catalog18,http_request,college-web-02,8553,2986,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00430,2026-09-26 09:34:16+00:00,web_server_25,access.log4,file_write,college-proxy-01,5956,495,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00527,2026-09-26 09:44:14+00:00,student_9,library_page10,http_request,college-web-02,8199,680,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00190,2026-09-26 09:56:54+00:00,college_dns_23,college_domain11,dns_query,college-web-01,5872,980,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00432,2026-09-26 10:06:55+00:00,proxy_11,college_portal9,network_connection,college-web-02,4766,1172,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00086,2026-09-26 10:18:16+00:00,college_dns_9,college_domain15,dns_query,college-db-01,5826,3486,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00040,2026-09-26 10:27:15+00:00,student_15,course_catalog18,http_request,college-web-01,361,3353,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00177,2026-09-26 10:31:27+00:00,admin_3,cms_dashboard5,login_success,college-web-02,4808,640,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00383,2026-09-26 10:43:41+00:00,admin_16,cms_dashboard10,login_success,college-proxy-01,196,358,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00476,2026-09-26 10:46:59+00:00,college_dns_7,college_domain10,dns_query,college-web-02,7474,715,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00093,2026-09-26 11:11:20+00:00,admin_22,cms_dashboard7,login_success,college-db-01,3703,3534,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00437,2026-09-26 11:15:21+00:00,college_dns_19,college_domain9,dns_query,college-db-01,3081,2608,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00541,2026-09-26 11:20:08+00:00,student_13,library_page4,http_request,college-web-02,1273,971,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00112,2026-09-26 11:30:57+00:00,web_app_4,student_db4,database_query,college-proxy-01,1412,3800,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00366,2026-09-26 11:35:34+00:00,admin_7,cms_dashboard1,login_success,college-db-01,7931,3189,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00342,2026-09-26 11:36:16+00:00,proxy_1,college_portal2,network_connection,college-web-01,2856,3311,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00237,2026-09-26 11:43:47+00:00,college_dns_3,college_domain11,dns_query,college-web-02,3419,2047,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00439,2026-09-26 12:02:02+00:00,web_server_6,access.log4,file_write,college-web-01,2154,1309,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00146,2026-09-26 12:48:07+00:00,web_server_15,access.log12,file_write,college-web-01,1826,133,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00634,2026-09-26 12:51:47+00:00,admin_1,cms_dashboard14,login_success,college-proxy-01,1081,275,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00524,2026-09-26 13:24:54+00:00,admin_8,cms_dashboard12,login_success,college-db-01,4363,178,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00199,2026-09-26 13:37:32+00:00,web_app_6,student_db4,database_query,college-web-01,7030,2064,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00414,2026-09-26 13:39:38+00:00,student_11,course_catalog9,http_request,college-db-01,7190,2472,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00568,2026-09-26 13:47:53+00:00,web_server_6,access.log12,file_write,college-web-01,7313,1303,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00325,2026-09-26 13:55:32+00:00,proxy_5,college_portal9,network_connection,college-proxy-01,8565,2742,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00104,2026-09-26 14:18:15+00:00,proxy_24,college_portal14,network_connection,college-db-01,3211,701,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00038,2026-09-26 14:38:21+00:00,proxy_20,college_portal18,network_connection,college-proxy-01,8936,1324,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00066,2026-09-26 15:10:25+00:00,web_server_15,access.log11,file_write,college-web-01,4911,977,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00402,2026-09-26 15:18:29+00:00,college_dns_25,college_domain2,dns_query,college-web-02,3975,1341,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00370,2026-09-26 15:37:32+00:00,student_20,library_page8,http_request,college-proxy-01,3837,1624,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00323,2026-09-26 16:21:12+00:00,student_13,course_catalog2,http_request,college-db-01,5836,360,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00667,2026-09-26 16:23:23+00:00,student_15,course_catalog14,http_request,college-db-01,4161,3962,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00159,2026-09-26 17:08:22+00:00,proxy_18,college_portal14,network_connection,college-db-01,8410,1289,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00334,2026-09-26 17:20:36+00:00,web_app_9,student_db15,database_query,college-proxy-01,2976,2394,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00475,2026-09-26 17:37:13+00:00,student_3,library_page16,http_request,college-web-02,6970,40,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00500,2026-09-26 17:38:43+00:00,student_16,course_catalog4,http_request,college-db-01,463,3332,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00163,2026-09-26 18:11:46+00:00,college_dns_25,college_domain3,dns_query,college-db-01,3275,1144,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00431,2026-09-26 18:18:08+00:00,web_app_16,student_db14,database_query,college-web-01,5250,2809,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00624,2026-09-26 18:20:08+00:00,college_dns_10,college_domain13,dns_query,college-web-01,7459,2910,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00089,2026-09-26 18:27:17+00:00,web_app_4,student_db10,database_query,college-db-01,7104,1708,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00263,2026-09-26 18:31:14+00:00,web_server_17,access.log13,file_write,college-web-01,676,489,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00327,2026-09-26 18:34:08+00:00,proxy_5,college_portal13,network_connection,college-db-01,1527,2569,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00258,2026-09-26 18:50:16+00:00,admin_17,cms_dashboard17,login_success,college-proxy-01,3493,3315,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00504,2026-09-26 19:17:22+00:00,student_23,course_catalog16,http_request,college-web-02,1155,3600,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00587,2026-09-26 19:24:11+00:00,student_11,library_page10,http_request,college-proxy-01,7558,1250,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00557,2026-09-26 19:34:25+00:00,admin_25,cms_dashboard10,login_success,college-web-01,2492,3976,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00183,2026-09-26 19:47:15+00:00,student_11,course_catalog2,http_request,college-db-01,308,61,Routine website request,False,0.05,No strong heuristic matched,False
+WEB-N-00651,2026-09-26 19:51:25+00:00,admin_25,cms_dashboard11,login_success,college-db-01,555,2332,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00195,2026-09-26 19:52:17+00:00,proxy_7,college_portal11,network_connection,college-proxy-01,3395,3348,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00282,2026-09-26 20:13:52+00:00,proxy_12,college_portal10,network_connection,college-web-02,7233,1897,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00299,2026-09-26 20:22:07+00:00,proxy_16,college_portal10,network_connection,college-db-01,1183,3438,Routine proxy connection,False,0.05,No strong heuristic matched,False
+WEB-N-00404,2026-09-26 20:36:21+00:00,college_dns_3,college_domain4,dns_query,college-proxy-01,6067,670,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00215,2026-09-26 20:48:21+00:00,college_dns_25,college_domain10,dns_query,college-web-02,5426,3632,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00337,2026-09-26 21:40:41+00:00,college_dns_21,college_domain6,dns_query,college-web-01,3082,816,Routine DNS lookup,False,0.05,No strong heuristic matched,False
+WEB-N-00477,2026-09-26 22:12:33+00:00,web_app_21,student_db3,database_query,college-db-01,4849,516,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00367,2026-09-26 22:14:12+00:00,web_server_19,access.log9,file_write,college-web-02,2300,1894,Routine access log write,False,0.05,No strong heuristic matched,False
+WEB-N-00604,2026-09-26 22:19:52+00:00,student_24,library_page13,http_request,college-proxy-01,334,2526,Routine library page request,False,0.05,No strong heuristic matched,False
+WEB-N-00496,2026-09-26 23:08:15+00:00,admin_3,cms_dashboard17,login_success,college-web-02,7064,1811,Authorized CMS login,False,0.33,Privilege-related activity,True
+WEB-N-00045,2026-09-26 23:11:45+00:00,web_app_1,student_db18,database_query,college-db-01,3027,1028,Routine course lookup query,False,0.13,Uncommon event type,False
+WEB-N-00184,2026-09-26 23:49:19+00:00,college_dns_8,college_domain12,dns_query,college-web-02,5571,1005,Routine DNS lookup,False,0.05,No strong heuristic matched,False

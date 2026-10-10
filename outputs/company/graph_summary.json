@@ -1,0 +1,36 @@
+{
+  "original": {
+    "nodes": 74,
+    "edges": 1189
+  },
+  "reduced": {
+    "nodes": 11,
+    "edges": 24
+  },
+  "kept_event_ids": [
+    "COM-A-001",
+    "COM-A-002",
+    "COM-A-003",
+    "COM-A-004",
+    "COM-A-005",
+    "COM-A-006",
+    "COM-A-007",
+    "COM-A-008",
+    "COM-A-009",
+    "COM-N-00164",
+    "COM-N-00212",
+    "COM-N-00221",
+    "COM-N-00337",
+    "COM-N-00372",
+    "COM-N-00516",
+    "COM-N-00551",
+    "COM-N-00680",
+    "COM-N-00751",
+    "COM-N-00799",
+    "COM-N-00804",
+    "COM-N-00901",
+    "COM-N-00934",
+    "COM-N-00971",
+    "COM-N-01040"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "scenario": "company_week_logs",
+  "synthetic": true,
+  "attack_event_ids": [
+    "COM-A-001",
+    "COM-A-002",
+    "COM-A-003",
+    "COM-A-004",
+    "COM-A-005",
+    "COM-A-006",
+    "COM-A-007",
+    "COM-A-008",
+    "COM-A-009"
+  ],
+  "attack_event_count": 9,
+  "notes": "Synthetic safe scenario; labels are for evaluation only."
+}

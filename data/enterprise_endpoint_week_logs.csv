@@ -1,0 +1,1189 @@
+event_id,timestamp,source_entity,target_entity,event_type,host,process_id,parent_process_id,details,label
+ENT-N-00217,2026-10-01T00:00:11+00:00,student_14,college_portal,http_request,enterprise-server-04,280,351,Routine website request,False
+ENT-N-00116,2026-10-01T00:02:48+00:00,student_9,college_portal,http_request,enterprise-server-08,7789,83,Routine website request,False
+ENT-N-00186,2026-10-01T00:04:28+00:00,web_app,course_catalog,database_query,enterprise-server-02,5162,11,Routine catalog query,False
+ENT-N-00101,2026-10-01T00:09:05+00:00,web_app,course_catalog,database_query,enterprise-server-02,6647,494,Routine catalog query,False
+ENT-N-01142,2026-10-01T00:20:34+00:00,workstation_12,browser,process_start,enterprise-server-07,8612,51,Routine application start,False
+ENT-N-00273,2026-10-01T00:26:44+00:00,employee_8,shared_docs,file_read,enterprise-server-03,5158,482,Routine document access,False
+ENT-N-00200,2026-10-01T00:37:24+00:00,employee_5,intranet,login_success,enterprise-server-01,5450,372,Routine successful login,False
+ENT-N-00488,2026-10-01T00:44:05+00:00,student_8,college_portal,http_request,enterprise-server-01,5443,560,Routine website request,False
+ENT-N-00161,2026-10-01T00:51:29+00:00,web_app,course_catalog,database_query,enterprise-server-09,8694,502,Routine catalog query,False
+ENT-N-00495,2026-10-01T00:54:15+00:00,workstation_3,internal_domain,dns_query,enterprise-server-06,4254,244,Routine DNS lookup,False
+ENT-N-00835,2026-10-01T00:56:22+00:00,student_9,college_portal,http_request,enterprise-server-06,8225,98,Routine website request,False
+ENT-N-00587,2026-10-01T01:04:42+00:00,web_server,access_log,file_write,enterprise-server-05,4117,722,Routine log append,False
+ENT-N-00743,2026-10-01T01:20:58+00:00,employee_1,shared_docs,file_read,enterprise-server-12,7023,422,Routine document access,False
+ENT-N-00289,2026-10-01T01:24:12+00:00,web_app,course_catalog,database_query,enterprise-server-05,6251,121,Routine catalog query,False
+ENT-N-00793,2026-10-01T01:45:40+00:00,student_17,college_portal,http_request,enterprise-server-04,917,366,Routine website request,False
+ENT-N-00005,2026-10-01T02:08:04+00:00,web_server,access_log,file_write,enterprise-server-11,5818,623,Routine log append,False
+ENT-N-00439,2026-10-01T02:31:38+00:00,web_server,access_log,file_write,enterprise-server-05,8566,623,Routine log append,False
+ENT-N-00383,2026-10-01T02:40:23+00:00,student_10,college_portal,http_request,enterprise-server-11,4518,289,Routine website request,False
+ENT-N-01138,2026-10-01T02:46:24+00:00,workstation_9,internal_api,network_connection,enterprise-server-01,5079,217,Routine internal connection,False
+ENT-N-00226,2026-10-01T03:04:45+00:00,workstation_13,internal_domain,dns_query,enterprise-server-01,7166,797,Routine DNS lookup,False
+ENT-N-00192,2026-10-01T03:09:23+00:00,workstation_18,internal_domain,dns_query,enterprise-server-12,8093,389,Routine DNS lookup,False
+ENT-N-00386,2026-10-01T03:11:11+00:00,student_18,college_portal,http_request,enterprise-server-09,1215,362,Routine website request,False
+ENT-N-00105,2026-10-01T03:21:32+00:00,web_app,course_catalog,database_query,enterprise-server-08,993,169,Routine catalog query,False
+ENT-N-00671,2026-10-01T03:25:36+00:00,web_server,access_log,file_write,enterprise-server-01,8918,325,Routine log append,False
+ENT-N-00573,2026-10-01T03:33:00+00:00,backup_service,backup_storage,backup_job,enterprise-server-02,3115,727,Scheduled backup,False
+ENT-N-01066,2026-10-01T03:35:36+00:00,backup_service,backup_storage,backup_job,enterprise-server-03,8398,407,Scheduled backup,False
+ENT-N-00436,2026-10-01T03:46:59+00:00,workstation_2,browser,process_start,enterprise-server-12,7658,117,Routine application start,False
+ENT-N-00212,2026-10-01T03:51:32+00:00,workstation_18,internal_api,network_connection,enterprise-server-02,8661,582,Routine internal connection,False
+ENT-N-00154,2026-10-01T03:56:24+00:00,web_app,course_catalog,database_query,enterprise-server-03,4450,846,Routine catalog query,False
+ENT-N-01020,2026-10-01T03:57:04+00:00,backup_service,backup_storage,backup_job,enterprise-server-02,8840,671,Scheduled backup,False
+ENT-N-00783,2026-10-01T04:23:01+00:00,employee_11,intranet,login_success,enterprise-server-04,483,579,Routine successful login,False
+ENT-N-00500,2026-10-01T04:25:20+00:00,employee_9,intranet,login_success,enterprise-server-07,5728,790,Routine successful login,False
+ENT-N-00317,2026-10-01T04:35:05+00:00,workstation_1,internal_api,network_connection,enterprise-server-03,4408,697,Routine internal connection,False
+ENT-N-00768,2026-10-01T04:35:11+00:00,workstation_8,browser,process_start,enterprise-server-02,6525,736,Routine application start,False
+ENT-N-00666,2026-10-01T04:36:42+00:00,student_15,college_portal,http_request,enterprise-server-08,6862,158,Routine website request,False
+ENT-N-00215,2026-10-01T04:40:42+00:00,workstation_4,browser,process_start,enterprise-server-02,3925,73,Routine application start,False
+ENT-N-00648,2026-10-01T05:08:34+00:00,workstation_4,internal_domain,dns_query,enterprise-server-07,2659,303,Routine DNS lookup,False
+ENT-N-00676,2026-10-01T05:09:04+00:00,workstation_3,internal_domain,dns_query,enterprise-server-01,670,634,Routine DNS lookup,False
+ENT-N-00465,2026-10-01T05:12:12+00:00,web_app,course_catalog,database_query,enterprise-server-06,4285,760,Routine catalog query,False
+ENT-N-00781,2026-10-01T05:14:31+00:00,student_14,college_portal,http_request,enterprise-server-03,5058,745,Routine website request,False
+ENT-N-00828,2026-10-01T05:15:38+00:00,web_app,course_catalog,database_query,enterprise-server-11,3435,535,Routine catalog query,False
+ENT-N-00024,2026-10-01T05:30:15+00:00,backup_service,backup_storage,backup_job,enterprise-server-10,8937,152,Scheduled backup,False
+ENT-N-01094,2026-10-01T05:35:15+00:00,employee_2,intranet,login_success,enterprise-server-10,2015,381,Routine successful login,False
+ENT-N-00799,2026-10-01T05:37:38+00:00,web_server,access_log,file_write,enterprise-server-02,1118,369,Routine log append,False
+ENT-N-00697,2026-10-01T05:53:59+00:00,web_app,course_catalog,database_query,enterprise-server-07,5841,276,Routine catalog query,False
+ENT-N-00301,2026-10-01T06:26:51+00:00,workstation_14,browser,process_start,enterprise-server-12,3474,632,Routine application start,False
+ENT-N-01122,2026-10-01T06:26:52+00:00,workstation_6,browser,process_start,enterprise-server-02,7837,538,Routine application start,False
+ENT-N-00078,2026-10-01T06:31:09+00:00,student_4,college_portal,http_request,enterprise-server-04,106,541,Routine website request,False
+ENT-N-00582,2026-10-01T06:35:44+00:00,workstation_3,internal_domain,dns_query,enterprise-server-07,1426,168,Routine DNS lookup,False
+ENT-N-00402,2026-10-01T07:10:14+00:00,backup_service,backup_storage,backup_job,enterprise-server-07,6321,502,Scheduled backup,False
+ENT-N-00620,2026-10-01T07:12:51+00:00,workstation_16,internal_domain,dns_query,enterprise-server-02,2456,480,Routine DNS lookup,False
+ENT-N-00770,2026-10-01T07:14:33+00:00,backup_service,backup_storage,backup_job,enterprise-server-04,6546,580,Scheduled backup,False
+ENT-N-00190,2026-10-01T07:20:44+00:00,workstation_16,internal_api,network_connection,enterprise-server-06,5623,496,Routine internal connection,False
+ENT-N-01017,2026-10-01T07:21:56+00:00,workstation_8,internal_api,network_connection,enterprise-server-06,8705,665,Routine internal connection,False
+ENT-N-00254,2026-10-01T07:23:22+00:00,web_server,access_log,file_write,enterprise-server-07,2904,265,Routine log append,False
+ENT-N-01133,2026-10-01T07:27:20+00:00,web_app,course_catalog,database_query,enterprise-server-11,6685,889,Routine catalog query,False
+ENT-N-00169,2026-10-01T07:31:46+00:00,backup_service,backup_storage,backup_job,enterprise-server-01,2913,547,Scheduled backup,False
+ENT-N-01062,2026-10-01T07:44:59+00:00,workstation_1,browser,process_start,enterprise-server-09,2082,687,Routine application start,False
+ENT-N-00182,2026-10-01T07:53:16+00:00,employee_8,shared_docs,file_read,enterprise-server-07,6062,303,Routine document access,False
+ENT-N-01018,2026-10-01T08:19:12+00:00,employee_15,shared_docs,file_read,enterprise-server-02,6091,608,Routine document access,False
+ENT-N-00687,2026-10-01T08:21:59+00:00,employee_14,intranet,login_success,enterprise-server-03,7885,480,Routine successful login,False
+ENT-N-00326,2026-10-01T08:23:50+00:00,web_server,access_log,file_write,enterprise-server-05,8308,851,Routine log append,False
+ENT-N-00440,2026-10-01T08:28:22+00:00,student_9,college_portal,http_request,enterprise-server-02,7287,93,Routine website request,False
+ENT-N-00879,2026-10-01T08:44:02+00:00,backup_service,backup_storage,backup_job,enterprise-server-09,4144,507,Scheduled backup,False
+ENT-N-00740,2026-10-01T09:00:37+00:00,employee_6,intranet,login_success,enterprise-server-04,7450,434,Routine successful login,False
+ENT-N-00647,2026-10-01T09:10:51+00:00,web_server,access_log,file_write,enterprise-server-09,7362,139,Routine log append,False
+ENT-N-01107,2026-10-01T09:14:36+00:00,workstation_12,internal_api,network_connection,enterprise-server-12,3112,442,Routine internal connection,False
+ENT-N-01165,2026-10-01T09:17:29+00:00,workstation_13,internal_domain,dns_query,enterprise-server-12,8958,635,Routine DNS lookup,False
+ENT-N-00370,2026-10-01T09:18:49+00:00,employee_2,shared_docs,file_read,enterprise-server-12,831,99,Routine document access,False
+ENT-N-00804,2026-10-01T09:35:17+00:00,workstation_14,browser,process_start,enterprise-server-05,1860,682,Routine application start,False
+ENT-N-00759,2026-10-01T09:36:50+00:00,web_app,course_catalog,database_query,enterprise-server-03,2460,563,Routine catalog query,False
+ENT-N-00259,2026-10-01T09:44:19+00:00,student_1,college_portal,http_request,enterprise-server-12,6110,297,Routine website request,False
+ENT-N-00550,2026-10-01T09:44:36+00:00,employee_4,intranet,login_success,enterprise-server-06,7357,788,Routine successful login,False
+ENT-N-00707,2026-10-01T09:45:03+00:00,employee_8,shared_docs,file_read,enterprise-server-01,8076,865,Routine document access,False
+ENT-A-001,2026-10-01T10:00:00+00:00,unknown_ip_192.0.2.45,server_admin,login_failed,enterprise-server,9001,801,Multiple failed admin login attempts,True
+ENT-N-00713,2026-10-01T10:10:15+00:00,employee_18,intranet,login_success,enterprise-server-09,8325,207,Routine successful login,False
+ENT-A-002,2026-10-01T10:12:00+00:00,unknown_ip_192.0.2.45,server_admin,login_success,enterprise-server,9002,802,Successful login after failures,True
+ENT-A-003,2026-10-01T10:24:00+00:00,server_admin,cmd.exe_encoded,process_start,enterprise-server,9003,803,Encoded command interpreter launch,True
+ENT-A-004,2026-10-01T10:36:00+00:00,cmd.exe_encoded,lsass_credentials,credential_access,enterprise-server,9004,804,Credential dumping indicator,True
+ENT-N-00252,2026-10-01T10:52:27+00:00,workstation_1,internal_api,network_connection,enterprise-server-08,278,447,Routine internal connection,False
+ENT-A-005,2026-10-01T11:00:00+00:00,server_admin,domain_admin,privilege_change,enterprise-server,9005,805,Unexpected privileged role assignment,True
+ENT-A-006,2026-10-01T11:12:00+00:00,domain_admin,finance_share,file_read,enterprise-server,9006,806,Sensitive finance share access,True
+ENT-N-00726,2026-10-01T11:21:08+00:00,backup_service,backup_storage,backup_job,enterprise-server-06,8453,394,Scheduled backup,False
+ENT-N-00343,2026-10-01T11:23:22+00:00,web_server,access_log,file_write,enterprise-server-05,4287,556,Routine log append,False
+ENT-N-00742,2026-10-01T11:25:42+00:00,employee_18,intranet,login_success,enterprise-server-11,1203,47,Routine successful login,False
+ENT-A-007,2026-10-01T11:30:00+00:00,domain_admin,finance_archive,archive_create,enterprise-server,9007,807,Archive of sensitive finance files,True
+ENT-N-00911,2026-10-01T11:30:17+00:00,employee_8,intranet,login_success,enterprise-server-07,2579,877,Routine successful login,False
+ENT-N-00664,2026-10-01T11:44:24+00:00,workstation_3,internal_api,network_connection,enterprise-server-04,5366,110,Routine internal connection,False
+ENT-N-00123,2026-10-01T11:47:26+00:00,student_11,college_portal,http_request,enterprise-server-01,2976,33,Routine website request,False
+ENT-N-00056,2026-10-01T11:48:44+00:00,employee_16,shared_docs,file_read,enterprise-server-10,6491,439,Routine document access,False
+ENT-N-00096,2026-10-01T11:49:47+00:00,employee_11,intranet,login_success,enterprise-server-05,5397,169,Routine successful login,False
+ENT-A-008,2026-10-01T12:00:00+00:00,finance_archive,external_unknown_ip,network_connection,enterprise-server,9008,808,Unusual outbound network connection,True
+ENT-N-00445,2026-10-01T12:09:45+00:00,employee_13,intranet,login_success,enterprise-server-07,4596,184,Routine successful login,False
+ENT-N-00968,2026-10-01T12:27:29+00:00,web_app,course_catalog,database_query,enterprise-server-04,4060,623,Routine catalog query,False
+ENT-N-00704,2026-10-01T12:33:59+00:00,backup_service,backup_storage,backup_job,enterprise-server-07,4908,898,Scheduled backup,False
+ENT-N-00258,2026-10-01T13:11:48+00:00,web_server,access_log,file_write,enterprise-server-05,965,47,Routine log append,False
+ENT-N-00492,2026-10-01T13:18:51+00:00,employee_6,intranet,login_success,enterprise-server-10,7608,811,Routine successful login,False
+ENT-N-00839,2026-10-01T13:23:28+00:00,employee_2,intranet,login_success,enterprise-server-04,8457,401,Routine successful login,False
+ENT-N-00020,2026-10-01T13:36:06+00:00,web_app,course_catalog,database_query,enterprise-server-11,6689,581,Routine catalog query,False
+ENT-N-00427,2026-10-01T13:39:47+00:00,web_server,access_log,file_write,enterprise-server-12,7120,876,Routine log append,False
+ENT-N-00976,2026-10-01T13:45:15+00:00,web_app,course_catalog,database_query,enterprise-server-04,7150,453,Routine catalog query,False
+ENT-N-00091,2026-10-01T13:46:08+00:00,workstation_2,internal_domain,dns_query,enterprise-server-05,6077,168,Routine DNS lookup,False
+ENT-N-00658,2026-10-01T13:48:58+00:00,student_6,college_portal,http_request,enterprise-server-07,1933,77,Routine website request,False
+ENT-N-00564,2026-10-01T13:49:31+00:00,employee_6,intranet,login_success,enterprise-server-01,8563,168,Routine successful login,False
+ENT-N-00882,2026-10-01T13:51:28+00:00,backup_service,backup_storage,backup_job,enterprise-server-02,1431,346,Scheduled backup,False
+ENT-N-00694,2026-10-01T13:52:03+00:00,web_app,course_catalog,database_query,enterprise-server-05,2643,235,Routine catalog query,False
+ENT-N-00825,2026-10-01T14:04:21+00:00,backup_service,backup_storage,backup_job,enterprise-server-01,2074,752,Scheduled backup,False
+ENT-N-00670,2026-10-01T14:07:21+00:00,workstation_9,browser,process_start,enterprise-server-06,8625,543,Routine application start,False
+ENT-N-00505,2026-10-01T14:11:21+00:00,workstation_17,browser,process_start,enterprise-server-02,6615,763,Routine application start,False
+ENT-N-01112,2026-10-01T14:20:31+00:00,workstation_12,internal_api,network_connection,enterprise-server-05,2139,876,Routine internal connection,False
+ENT-N-00089,2026-10-01T14:30:15+00:00,workstation_13,internal_api,network_connection,enterprise-server-11,3362,833,Routine internal connection,False
+ENT-N-00494,2026-10-01T14:32:44+00:00,web_app,course_catalog,database_query,enterprise-server-12,3272,583,Routine catalog query,False
+ENT-N-01057,2026-10-01T14:49:15+00:00,workstation_16,internal_domain,dns_query,enterprise-server-01,7818,765,Routine DNS lookup,False
+ENT-N-00507,2026-10-01T14:56:19+00:00,employee_17,intranet,login_success,enterprise-server-12,8883,26,Routine successful login,False
+ENT-N-00807,2026-10-01T15:04:30+00:00,employee_10,intranet,login_success,enterprise-server-05,1976,162,Routine successful login,False
+ENT-N-01084,2026-10-01T15:05:25+00:00,employee_7,shared_docs,file_read,enterprise-server-08,340,399,Routine document access,False
+ENT-N-00756,2026-10-01T15:36:56+00:00,workstation_17,internal_domain,dns_query,enterprise-server-03,6588,703,Routine DNS lookup,False
+ENT-N-00778,2026-10-01T15:44:59+00:00,student_16,college_portal,http_request,enterprise-server-10,7264,739,Routine website request,False
+ENT-N-00021,2026-10-01T15:59:15+00:00,workstation_11,internal_domain,dns_query,enterprise-server-09,6511,277,Routine DNS lookup,False
+ENT-N-01027,2026-10-01T16:05:13+00:00,workstation_16,browser,process_start,enterprise-server-06,5680,402,Routine application start,False
+ENT-N-00088,2026-10-01T16:24:33+00:00,student_13,college_portal,http_request,enterprise-server-11,5385,706,Routine website request,False
+ENT-N-01070,2026-10-01T16:49:21+00:00,web_app,course_catalog,database_query,enterprise-server-08,5364,526,Routine catalog query,False
+ENT-N-00617,2026-10-01T16:52:00+00:00,web_app,course_catalog,database_query,enterprise-server-02,1392,186,Routine catalog query,False
+ENT-N-00306,2026-10-01T16:57:19+00:00,workstation_16,internal_api,network_connection,enterprise-server-07,8595,665,Routine internal connection,False
+ENT-N-00396,2026-10-01T17:00:40+00:00,employee_6,shared_docs,file_read,enterprise-server-01,5704,43,Routine document access,False
+ENT-N-00703,2026-10-01T17:08:09+00:00,employee_17,intranet,login_success,enterprise-server-01,124,264,Routine successful login,False
+ENT-N-00268,2026-10-01T17:10:23+00:00,workstation_8,browser,process_start,enterprise-server-12,7392,292,Routine application start,False
+ENT-N-00596,2026-10-01T17:20:57+00:00,web_app,course_catalog,database_query,enterprise-server-10,4015,717,Routine catalog query,False
+ENT-N-00846,2026-10-01T17:40:05+00:00,backup_service,backup_storage,backup_job,enterprise-server-08,3817,790,Scheduled backup,False
+ENT-N-00860,2026-10-01T17:41:06+00:00,backup_service,backup_storage,backup_job,enterprise-server-12,3101,709,Scheduled backup,False
+ENT-N-00371,2026-10-01T17:57:32+00:00,workstation_4,internal_domain,dns_query,enterprise-server-11,7030,321,Routine DNS lookup,False
+ENT-N-00260,2026-10-01T18:05:02+00:00,backup_service,backup_storage,backup_job,enterprise-server-12,6919,652,Scheduled backup,False
+ENT-N-00837,2026-10-01T18:15:51+00:00,workstation_17,browser,process_start,enterprise-server-12,5055,9,Routine application start,False
+ENT-N-01085,2026-10-01T18:16:13+00:00,web_server,access_log,file_write,enterprise-server-07,2550,443,Routine log append,False
+ENT-N-00613,2026-10-01T18:37:39+00:00,employee_14,shared_docs,file_read,enterprise-server-03,6976,316,Routine document access,False
+ENT-N-00114,2026-10-01T18:41:26+00:00,web_server,access_log,file_write,enterprise-server-04,6650,793,Routine log append,False
+ENT-N-00629,2026-10-01T18:43:33+00:00,workstation_2,internal_domain,dns_query,enterprise-server-11,5144,79,Routine DNS lookup,False
+ENT-N-00512,2026-10-01T18:53:13+00:00,web_app,course_catalog,database_query,enterprise-server-05,6174,19,Routine catalog query,False
+ENT-N-00754,2026-10-01T19:37:15+00:00,web_app,course_catalog,database_query,enterprise-server-01,4632,722,Routine catalog query,False
+ENT-N-00162,2026-10-01T19:42:43+00:00,workstation_17,internal_api,network_connection,enterprise-server-09,1249,295,Routine internal connection,False
+ENT-N-00292,2026-10-01T20:02:25+00:00,workstation_2,browser,process_start,enterprise-server-01,7024,471,Routine application start,False
+ENT-N-00955,2026-10-01T20:04:05+00:00,web_app,course_catalog,database_query,enterprise-server-07,3761,51,Routine catalog query,False
+ENT-N-00357,2026-10-01T20:05:43+00:00,web_app,course_catalog,database_query,enterprise-server-10,700,113,Routine catalog query,False
+ENT-N-00598,2026-10-01T20:14:45+00:00,web_server,access_log,file_write,enterprise-server-12,2774,36,Routine log append,False
+ENT-N-00036,2026-10-01T20:42:42+00:00,workstation_8,browser,process_start,enterprise-server-07,6130,512,Routine application start,False
+ENT-N-00926,2026-10-01T20:44:12+00:00,workstation_6,internal_api,network_connection,enterprise-server-11,2078,401,Routine internal connection,False
+ENT-N-00240,2026-10-01T20:57:01+00:00,workstation_3,internal_api,network_connection,enterprise-server-06,4109,362,Routine internal connection,False
+ENT-N-01118,2026-10-01T20:58:05+00:00,employee_7,intranet,login_success,enterprise-server-02,4418,742,Routine successful login,False
+ENT-N-00438,2026-10-01T21:19:21+00:00,web_app,course_catalog,database_query,enterprise-server-06,3392,434,Routine catalog query,False
+ENT-N-00532,2026-10-01T21:21:43+00:00,web_app,course_catalog,database_query,enterprise-server-06,3407,489,Routine catalog query,False
+ENT-N-00045,2026-10-01T22:02:18+00:00,student_18,college_portal,http_request,enterprise-server-05,4780,354,Routine website request,False
+ENT-N-00748,2026-10-01T22:15:58+00:00,employee_13,intranet,login_success,enterprise-server-04,5745,703,Routine successful login,False
+ENT-N-01034,2026-10-01T22:20:41+00:00,workstation_18,browser,process_start,enterprise-server-10,3106,207,Routine application start,False
+ENT-N-00236,2026-10-01T22:24:19+00:00,web_app,course_catalog,database_query,enterprise-server-09,4688,260,Routine catalog query,False
+ENT-N-00981,2026-10-01T22:28:33+00:00,student_3,college_portal,http_request,enterprise-server-06,2266,399,Routine website request,False
+ENT-N-00319,2026-10-01T22:28:37+00:00,student_18,college_portal,http_request,enterprise-server-12,6170,585,Routine website request,False
+ENT-N-00255,2026-10-01T22:30:09+00:00,student_11,college_portal,http_request,enterprise-server-04,7293,205,Routine website request,False
+ENT-N-01174,2026-10-01T22:52:29+00:00,backup_service,backup_storage,backup_job,enterprise-server-06,8163,802,Scheduled backup,False
+ENT-N-01061,2026-10-01T23:00:29+00:00,employee_4,shared_docs,file_read,enterprise-server-01,5946,535,Routine document access,False
+ENT-N-00461,2026-10-01T23:00:32+00:00,workstation_4,browser,process_start,enterprise-server-12,6554,843,Routine application start,False
+ENT-N-00264,2026-10-01T23:03:33+00:00,workstation_3,internal_domain,dns_query,enterprise-server-02,8316,376,Routine DNS lookup,False
+ENT-N-00762,2026-10-01T23:03:56+00:00,workstation_18,internal_domain,dns_query,enterprise-server-12,2529,475,Routine DNS lookup,False
+ENT-N-00185,2026-10-01T23:18:59+00:00,web_server,access_log,file_write,enterprise-server-05,7472,526,Routine log append,False
+ENT-N-01159,2026-10-01T23:19:41+00:00,employee_9,shared_docs,file_read,enterprise-server-11,7819,586,Routine document access,False
+ENT-N-01121,2026-10-01T23:28:02+00:00,workstation_1,internal_domain,dns_query,enterprise-server-01,5594,701,Routine DNS lookup,False
+ENT-N-00714,2026-10-01T23:31:34+00:00,workstation_4,internal_domain,dns_query,enterprise-server-08,8411,733,Routine DNS lookup,False
+ENT-N-00001,2026-10-01T23:38:23+00:00,employee_14,intranet,login_success,enterprise-server-05,7490,388,Routine successful login,False
+ENT-N-01114,2026-10-01T23:49:45+00:00,web_server,access_log,file_write,enterprise-server-04,7142,702,Routine log append,False
+ENT-N-01179,2026-10-01T23:51:39+00:00,workstation_12,browser,process_start,enterprise-server-09,7822,751,Routine application start,False
+ENT-N-00749,2026-10-01T23:54:00+00:00,workstation_3,browser,process_start,enterprise-server-12,2323,526,Routine application start,False
+ENT-N-01146,2026-10-02T00:34:29+00:00,workstation_1,internal_api,network_connection,enterprise-server-11,4772,304,Routine internal connection,False
+ENT-N-00632,2026-10-02T00:48:44+00:00,web_server,access_log,file_write,enterprise-server-08,4806,422,Routine log append,False
+ENT-N-00979,2026-10-02T00:52:37+00:00,web_server,access_log,file_write,enterprise-server-06,3571,349,Routine log append,False
+ENT-N-00833,2026-10-02T01:01:11+00:00,workstation_15,internal_api,network_connection,enterprise-server-11,2123,445,Routine internal connection,False
+ENT-N-00847,2026-10-02T01:14:03+00:00,employee_4,shared_docs,file_read,enterprise-server-12,4877,119,Routine document access,False
+ENT-N-00050,2026-10-02T01:16:59+00:00,workstation_2,internal_domain,dns_query,enterprise-server-08,8557,301,Routine DNS lookup,False
+ENT-N-01016,2026-10-02T01:28:12+00:00,employee_11,intranet,login_success,enterprise-server-02,7940,891,Routine successful login,False
+ENT-N-00391,2026-10-02T01:32:08+00:00,web_server,access_log,file_write,enterprise-server-11,8167,150,Routine log append,False
+ENT-N-00315,2026-10-02T01:32:34+00:00,web_app,course_catalog,database_query,enterprise-server-10,273,890,Routine catalog query,False
+ENT-N-00373,2026-10-02T01:40:04+00:00,workstation_1,internal_domain,dns_query,enterprise-server-07,8918,84,Routine DNS lookup,False
+ENT-N-00559,2026-10-02T01:41:55+00:00,web_server,access_log,file_write,enterprise-server-12,3772,618,Routine log append,False
+ENT-N-00419,2026-10-02T01:59:01+00:00,workstation_3,internal_domain,dns_query,enterprise-server-11,6444,160,Routine DNS lookup,False
+ENT-N-00238,2026-10-02T02:06:23+00:00,employee_13,shared_docs,file_read,enterprise-server-06,6900,564,Routine document access,False
+ENT-N-01168,2026-10-02T02:15:04+00:00,student_3,college_portal,http_request,enterprise-server-07,817,468,Routine website request,False
+ENT-N-00502,2026-10-02T02:15:11+00:00,student_4,college_portal,http_request,enterprise-server-07,1964,271,Routine website request,False
+ENT-N-00010,2026-10-02T02:32:30+00:00,employee_11,shared_docs,file_read,enterprise-server-07,7690,443,Routine document access,False
+ENT-N-00695,2026-10-02T02:32:50+00:00,web_server,access_log,file_write,enterprise-server-01,7195,236,Routine log append,False
+ENT-N-00174,2026-10-02T02:34:48+00:00,employee_2,intranet,login_success,enterprise-server-07,2488,357,Routine successful login,False
+ENT-N-00797,2026-10-02T02:36:11+00:00,employee_16,intranet,login_success,enterprise-server-12,4511,811,Routine successful login,False
+ENT-N-00849,2026-10-02T02:53:55+00:00,employee_14,intranet,login_success,enterprise-server-12,672,507,Routine successful login,False
+ENT-N-00715,2026-10-02T03:01:33+00:00,workstation_15,browser,process_start,enterprise-server-06,1414,586,Routine application start,False
+ENT-N-01176,2026-10-02T03:03:59+00:00,workstation_11,browser,process_start,enterprise-server-09,8765,163,Routine application start,False
+ENT-N-00460,2026-10-02T03:04:40+00:00,web_app,course_catalog,database_query,enterprise-server-02,2952,349,Routine catalog query,False
+ENT-N-00276,2026-10-02T03:10:09+00:00,workstation_9,browser,process_start,enterprise-server-07,7582,508,Routine application start,False
+ENT-N-00544,2026-10-02T03:11:20+00:00,employee_16,shared_docs,file_read,enterprise-server-11,4084,537,Routine document access,False
+ENT-N-00042,2026-10-02T03:19:27+00:00,web_server,access_log,file_write,enterprise-server-11,3155,163,Routine log append,False
+ENT-N-00510,2026-10-02T03:20:32+00:00,employee_10,intranet,login_success,enterprise-server-01,425,516,Routine successful login,False
+ENT-N-00208,2026-10-02T03:32:02+00:00,employee_14,intranet,login_success,enterprise-server-07,3101,450,Routine successful login,False
+ENT-N-00141,2026-10-02T03:36:29+00:00,backup_service,backup_storage,backup_job,enterprise-server-01,6422,489,Scheduled backup,False
+ENT-N-00902,2026-10-02T03:51:18+00:00,web_server,access_log,file_write,enterprise-server-04,681,477,Routine log append,False
+ENT-N-00604,2026-10-02T03:58:39+00:00,employee_6,shared_docs,file_read,enterprise-server-03,6051,505,Routine document access,False
+ENT-N-00432,2026-10-02T04:15:31+00:00,web_app,course_catalog,database_query,enterprise-server-06,8010,96,Routine catalog query,False
+ENT-N-00771,2026-10-02T04:20:25+00:00,workstation_4,browser,process_start,enterprise-server-04,1279,451,Routine application start,False
+ENT-N-00011,2026-10-02T04:33:37+00:00,web_server,access_log,file_write,enterprise-server-08,4306,132,Routine log append,False
+ENT-N-01050,2026-10-02T04:37:41+00:00,backup_service,backup_storage,backup_job,enterprise-server-12,2924,117,Scheduled backup,False
+ENT-N-00700,2026-10-02T04:45:23+00:00,student_7,college_portal,http_request,enterprise-server-06,7947,862,Routine website request,False
+ENT-N-01129,2026-10-02T05:04:15+00:00,workstation_5,internal_domain,dns_query,enterprise-server-05,6325,813,Routine DNS lookup,False
+ENT-N-00772,2026-10-02T05:10:50+00:00,web_app,course_catalog,database_query,enterprise-server-09,5027,880,Routine catalog query,False
+ENT-N-00107,2026-10-02T05:33:42+00:00,web_server,access_log,file_write,enterprise-server-12,2909,280,Routine log append,False
+ENT-N-00077,2026-10-02T05:36:10+00:00,workstation_1,internal_api,network_connection,enterprise-server-08,1878,73,Routine internal connection,False
+ENT-N-00310,2026-10-02T06:06:08+00:00,employee_1,intranet,login_success,enterprise-server-02,3757,27,Routine successful login,False
+ENT-N-00119,2026-10-02T06:09:38+00:00,web_server,access_log,file_write,enterprise-server-02,1509,292,Routine log append,False
+ENT-N-00753,2026-10-02T06:34:03+00:00,workstation_13,internal_domain,dns_query,enterprise-server-02,2698,518,Routine DNS lookup,False
+ENT-N-00711,2026-10-02T06:51:31+00:00,workstation_10,internal_api,network_connection,enterprise-server-07,715,341,Routine internal connection,False
+ENT-N-00441,2026-10-02T06:51:43+00:00,workstation_6,browser,process_start,enterprise-server-09,582,484,Routine application start,False
+ENT-N-00235,2026-10-02T07:00:09+00:00,web_app,course_catalog,database_query,enterprise-server-11,772,850,Routine catalog query,False
+ENT-N-00978,2026-10-02T07:07:34+00:00,web_app,course_catalog,database_query,enterprise-server-12,3168,237,Routine catalog query,False
+ENT-N-01096,2026-10-02T07:16:05+00:00,web_app,course_catalog,database_query,enterprise-server-06,5935,573,Routine catalog query,False
+ENT-N-00380,2026-10-02T07:21:47+00:00,backup_service,backup_storage,backup_job,enterprise-server-05,205,275,Scheduled backup,False
+ENT-N-00118,2026-10-02T07:27:58+00:00,workstation_14,internal_api,network_connection,enterprise-server-11,6221,25,Routine internal connection,False
+ENT-N-00225,2026-10-02T07:47:54+00:00,student_11,college_portal,http_request,enterprise-server-09,8211,106,Routine website request,False
+ENT-N-01169,2026-10-02T07:49:06+00:00,backup_service,backup_storage,backup_job,enterprise-server-06,7759,35,Scheduled backup,False
+ENT-N-00563,2026-10-02T08:07:58+00:00,web_server,access_log,file_write,enterprise-server-11,161,437,Routine log append,False
+ENT-N-00142,2026-10-02T08:08:49+00:00,employee_16,shared_docs,file_read,enterprise-server-05,7246,662,Routine document access,False
+ENT-N-00446,2026-10-02T08:15:29+00:00,workstation_10,internal_domain,dns_query,enterprise-server-03,7153,378,Routine DNS lookup,False
+ENT-N-00093,2026-10-02T08:34:37+00:00,workstation_13,internal_api,network_connection,enterprise-server-02,3855,496,Routine internal connection,False
+ENT-N-01045,2026-10-02T08:50:10+00:00,web_server,access_log,file_write,enterprise-server-09,7140,170,Routine log append,False
+ENT-N-01106,2026-10-02T09:08:11+00:00,workstation_7,internal_domain,dns_query,enterprise-server-07,886,167,Routine DNS lookup,False
+ENT-N-00842,2026-10-02T09:10:59+00:00,student_6,college_portal,http_request,enterprise-server-12,8347,13,Routine website request,False
+ENT-N-00481,2026-10-02T09:14:21+00:00,workstation_12,internal_api,network_connection,enterprise-server-10,7983,470,Routine internal connection,False
+ENT-N-01025,2026-10-02T09:31:37+00:00,workstation_3,internal_domain,dns_query,enterprise-server-11,4223,131,Routine DNS lookup,False
+ENT-N-00153,2026-10-02T09:32:14+00:00,web_app,course_catalog,database_query,enterprise-server-12,6782,283,Routine catalog query,False
+ENT-N-00941,2026-10-02T09:35:48+00:00,workstation_18,browser,process_start,enterprise-server-09,1151,755,Routine application start,False
+ENT-N-00699,2026-10-02T10:12:51+00:00,student_17,college_portal,http_request,enterprise-server-08,4372,133,Routine website request,False
+ENT-N-00041,2026-10-02T10:23:47+00:00,employee_9,intranet,login_success,enterprise-server-06,598,142,Routine successful login,False
+ENT-N-01132,2026-10-02T10:23:58+00:00,employee_11,shared_docs,file_read,enterprise-server-06,927,364,Routine document access,False
+ENT-N-00983,2026-10-02T10:40:12+00:00,workstation_15,internal_api,network_connection,enterprise-server-08,8024,190,Routine internal connection,False
+ENT-N-00580,2026-10-02T10:45:01+00:00,workstation_2,internal_api,network_connection,enterprise-server-01,7664,203,Routine internal connection,False
+ENT-N-01078,2026-10-02T10:51:53+00:00,workstation_10,browser,process_start,enterprise-server-12,867,263,Routine application start,False
+ENT-N-00203,2026-10-02T10:52:04+00:00,student_14,college_portal,http_request,enterprise-server-04,3074,429,Routine website request,False
+ENT-N-00853,2026-10-02T11:03:32+00:00,workstation_14,browser,process_start,enterprise-server-04,7252,335,Routine application start,False
+ENT-N-00967,2026-10-02T11:05:09+00:00,employee_4,shared_docs,file_read,enterprise-server-12,7664,847,Routine document access,False
+ENT-N-00501,2026-10-02T11:10:16+00:00,workstation_14,browser,process_start,enterprise-server-02,159,262,Routine application start,False
+ENT-N-00509,2026-10-02T11:14:21+00:00,workstation_18,internal_domain,dns_query,enterprise-server-11,6844,127,Routine DNS lookup,False
+ENT-N-00640,2026-10-02T11:15:48+00:00,web_app,course_catalog,database_query,enterprise-server-10,6593,854,Routine catalog query,False
+ENT-N-00637,2026-10-02T11:30:58+00:00,backup_service,backup_storage,backup_job,enterprise-server-03,471,727,Scheduled backup,False
+ENT-N-00831,2026-10-02T11:31:16+00:00,student_4,college_portal,http_request,enterprise-server-01,2343,193,Routine website request,False
+ENT-N-00810,2026-10-02T11:37:12+00:00,backup_service,backup_storage,backup_job,enterprise-server-05,4971,684,Scheduled backup,False
+ENT-N-00100,2026-10-02T11:43:36+00:00,student_6,college_portal,http_request,enterprise-server-01,8079,875,Routine website request,False
+ENT-N-00634,2026-10-02T11:44:08+00:00,workstation_3,internal_api,network_connection,enterprise-server-07,8501,227,Routine internal connection,False
+ENT-N-00818,2026-10-02T11:47:12+00:00,student_1,college_portal,http_request,enterprise-server-06,6445,348,Routine website request,False
+ENT-N-00565,2026-10-02T11:48:16+00:00,employee_17,intranet,login_success,enterprise-server-11,8737,159,Routine successful login,False
+ENT-N-00335,2026-10-02T11:50:45+00:00,backup_service,backup_storage,backup_job,enterprise-server-09,4515,173,Scheduled backup,False
+ENT-N-00188,2026-10-02T11:52:24+00:00,backup_service,backup_storage,backup_job,enterprise-server-12,5013,25,Scheduled backup,False
+ENT-N-00858,2026-10-02T12:04:37+00:00,workstation_18,browser,process_start,enterprise-server-06,5140,796,Routine application start,False
+ENT-N-00614,2026-10-02T12:20:16+00:00,workstation_10,internal_api,network_connection,enterprise-server-05,2005,607,Routine internal connection,False
+ENT-N-00434,2026-10-02T12:25:13+00:00,backup_service,backup_storage,backup_job,enterprise-server-10,4893,212,Scheduled backup,False
+ENT-N-00126,2026-10-02T12:32:26+00:00,workstation_11,internal_api,network_connection,enterprise-server-10,2469,229,Routine internal connection,False
+ENT-N-00977,2026-10-02T12:32:45+00:00,employee_14,intranet,login_success,enterprise-server-05,4050,578,Routine successful login,False
+ENT-N-00478,2026-10-02T12:35:11+00:00,student_12,college_portal,http_request,enterprise-server-08,1184,736,Routine website request,False
+ENT-N-00493,2026-10-02T12:36:52+00:00,employee_3,intranet,login_success,enterprise-server-01,2697,885,Routine successful login,False
+ENT-N-00885,2026-10-02T12:39:40+00:00,web_server,access_log,file_write,enterprise-server-05,2843,372,Routine log append,False
+ENT-N-00864,2026-10-02T12:40:00+00:00,workstation_7,internal_domain,dns_query,enterprise-server-04,6278,693,Routine DNS lookup,False
+ENT-N-00890,2026-10-02T12:57:17+00:00,backup_service,backup_storage,backup_job,enterprise-server-12,3500,789,Scheduled backup,False
+ENT-N-00198,2026-10-02T13:01:06+00:00,employee_6,intranet,login_success,enterprise-server-07,6317,508,Routine successful login,False
+ENT-N-01014,2026-10-02T13:12:09+00:00,employee_12,shared_docs,file_read,enterprise-server-12,3349,677,Routine document access,False
+ENT-N-00293,2026-10-02T13:26:17+00:00,workstation_11,internal_domain,dns_query,enterprise-server-12,1123,581,Routine DNS lookup,False
+ENT-N-00070,2026-10-02T13:32:56+00:00,workstation_1,internal_api,network_connection,enterprise-server-04,3593,659,Routine internal connection,False
+ENT-N-00338,2026-10-02T13:44:15+00:00,employee_13,intranet,login_success,enterprise-server-09,5475,786,Routine successful login,False
+ENT-N-00917,2026-10-02T13:45:04+00:00,employee_12,intranet,login_success,enterprise-server-01,3746,465,Routine successful login,False
+ENT-N-00253,2026-10-02T13:46:27+00:00,web_server,access_log,file_write,enterprise-server-04,3862,769,Routine log append,False
+ENT-N-01064,2026-10-02T13:49:15+00:00,employee_4,shared_docs,file_read,enterprise-server-04,6341,392,Routine document access,False
+ENT-N-00340,2026-10-02T14:00:45+00:00,web_server,access_log,file_write,enterprise-server-11,4614,661,Routine log append,False
+ENT-N-00207,2026-10-02T14:08:42+00:00,workstation_15,internal_domain,dns_query,enterprise-server-11,4999,798,Routine DNS lookup,False
+ENT-N-01172,2026-10-02T14:18:27+00:00,workstation_4,browser,process_start,enterprise-server-11,5379,196,Routine application start,False
+ENT-N-00811,2026-10-02T14:19:00+00:00,web_app,course_catalog,database_query,enterprise-server-04,8119,652,Routine catalog query,False
+ENT-N-00150,2026-10-02T14:25:55+00:00,workstation_18,internal_domain,dns_query,enterprise-server-05,4717,737,Routine DNS lookup,False
+ENT-N-00355,2026-10-02T14:28:14+00:00,student_15,college_portal,http_request,enterprise-server-12,7073,544,Routine website request,False
+ENT-N-01032,2026-10-02T14:28:49+00:00,workstation_17,internal_domain,dns_query,enterprise-server-01,136,414,Routine DNS lookup,False
+ENT-N-00545,2026-10-02T14:34:52+00:00,backup_service,backup_storage,backup_job,enterprise-server-10,778,59,Scheduled backup,False
+ENT-N-00366,2026-10-02T14:37:21+00:00,workstation_18,internal_api,network_connection,enterprise-server-10,7082,269,Routine internal connection,False
+ENT-N-00568,2026-10-02T14:37:46+00:00,web_app,course_catalog,database_query,enterprise-server-05,5591,238,Routine catalog query,False
+ENT-N-00600,2026-10-02T14:42:22+00:00,workstation_13,internal_domain,dns_query,enterprise-server-01,7839,417,Routine DNS lookup,False
+ENT-N-00098,2026-10-02T14:42:56+00:00,web_app,course_catalog,database_query,enterprise-server-11,6413,75,Routine catalog query,False
+ENT-N-00988,2026-10-02T14:43:58+00:00,workstation_2,internal_domain,dns_query,enterprise-server-12,4882,360,Routine DNS lookup,False
+ENT-N-00616,2026-10-02T15:01:14+00:00,employee_3,shared_docs,file_read,enterprise-server-11,6407,878,Routine document access,False
+ENT-N-01128,2026-10-02T15:01:37+00:00,backup_service,backup_storage,backup_job,enterprise-server-03,859,591,Scheduled backup,False
+ENT-N-00536,2026-10-02T15:13:35+00:00,web_server,access_log,file_write,enterprise-server-09,5819,26,Routine log append,False
+ENT-N-00092,2026-10-02T15:22:35+00:00,workstation_11,browser,process_start,enterprise-server-09,7249,281,Routine application start,False
+ENT-N-00286,2026-10-02T15:25:10+00:00,student_17,college_portal,http_request,enterprise-server-02,8607,811,Routine website request,False
+ENT-N-00710,2026-10-02T15:37:08+00:00,workstation_13,browser,process_start,enterprise-server-03,1653,496,Routine application start,False
+ENT-N-00900,2026-10-02T15:42:22+00:00,web_app,course_catalog,database_query,enterprise-server-06,6336,174,Routine catalog query,False
+ENT-N-01143,2026-10-02T15:47:15+00:00,workstation_2,browser,process_start,enterprise-server-06,1288,733,Routine application start,False
+ENT-N-00802,2026-10-02T15:57:26+00:00,backup_service,backup_storage,backup_job,enterprise-server-06,5756,100,Scheduled backup,False
+ENT-N-00166,2026-10-02T15:57:27+00:00,workstation_9,internal_domain,dns_query,enterprise-server-10,2170,822,Routine DNS lookup,False
+ENT-N-01001,2026-10-02T16:07:06+00:00,employee_2,shared_docs,file_read,enterprise-server-05,8240,655,Routine document access,False
+ENT-N-01098,2026-10-02T16:10:03+00:00,backup_service,backup_storage,backup_job,enterprise-server-02,3934,326,Scheduled backup,False
+ENT-N-00130,2026-10-02T16:16:50+00:00,workstation_6,internal_domain,dns_query,enterprise-server-04,4849,557,Routine DNS lookup,False
+ENT-N-00892,2026-10-02T16:20:40+00:00,workstation_14,internal_api,network_connection,enterprise-server-11,3751,562,Routine internal connection,False
+ENT-N-00854,2026-10-02T16:21:49+00:00,workstation_16,browser,process_start,enterprise-server-12,1084,811,Routine application start,False
+ENT-N-00691,2026-10-02T16:28:10+00:00,employee_12,intranet,login_success,enterprise-server-09,8664,568,Routine successful login,False
+ENT-N-00933,2026-10-02T16:39:25+00:00,workstation_5,internal_domain,dns_query,enterprise-server-10,2714,353,Routine DNS lookup,False
+ENT-N-01068,2026-10-02T16:42:29+00:00,backup_service,backup_storage,backup_job,enterprise-server-12,4384,237,Scheduled backup,False
+ENT-N-00060,2026-10-02T16:50:17+00:00,employee_10,intranet,login_success,enterprise-server-08,1680,337,Routine successful login,False
+ENT-N-00533,2026-10-02T16:51:11+00:00,backup_service,backup_storage,backup_job,enterprise-server-09,7721,413,Scheduled backup,False
+ENT-N-00409,2026-10-02T17:06:31+00:00,workstation_13,internal_domain,dns_query,enterprise-server-05,1856,874,Routine DNS lookup,False
+ENT-N-00410,2026-10-02T17:07:22+00:00,workstation_12,internal_domain,dns_query,enterprise-server-05,925,213,Routine DNS lookup,False
+ENT-N-00897,2026-10-02T17:07:58+00:00,workstation_3,internal_api,network_connection,enterprise-server-12,1285,95,Routine internal connection,False
+ENT-N-00375,2026-10-02T17:08:19+00:00,employee_18,shared_docs,file_read,enterprise-server-05,1899,716,Routine document access,False
+ENT-N-00420,2026-10-02T17:26:20+00:00,employee_16,intranet,login_success,enterprise-server-12,8345,8,Routine successful login,False
+ENT-N-00157,2026-10-02T17:28:31+00:00,employee_1,intranet,login_success,enterprise-server-05,2072,603,Routine successful login,False
+ENT-N-00751,2026-10-02T17:29:27+00:00,student_8,college_portal,http_request,enterprise-server-03,363,663,Routine website request,False
+ENT-N-00517,2026-10-02T17:31:36+00:00,student_13,college_portal,http_request,enterprise-server-12,6824,190,Routine website request,False
+ENT-N-00075,2026-10-02T17:34:33+00:00,web_server,access_log,file_write,enterprise-server-05,8627,678,Routine log append,False
+ENT-N-00288,2026-10-02T17:45:43+00:00,workstation_11,internal_api,network_connection,enterprise-server-12,6244,294,Routine internal connection,False
+ENT-N-00274,2026-10-02T18:18:53+00:00,employee_13,intranet,login_success,enterprise-server-08,7350,397,Routine successful login,False
+ENT-N-01063,2026-10-02T18:26:06+00:00,workstation_2,internal_api,network_connection,enterprise-server-01,7118,158,Routine internal connection,False
+ENT-N-00813,2026-10-02T18:31:19+00:00,workstation_17,internal_domain,dns_query,enterprise-server-08,5934,675,Routine DNS lookup,False
+ENT-N-01004,2026-10-02T18:32:28+00:00,backup_service,backup_storage,backup_job,enterprise-server-07,5821,718,Scheduled backup,False
+ENT-N-00914,2026-10-02T18:34:17+00:00,web_server,access_log,file_write,enterprise-server-09,6954,604,Routine log append,False
+ENT-N-00109,2026-10-02T18:38:53+00:00,employee_7,intranet,login_success,enterprise-server-08,5331,473,Routine successful login,False
+ENT-N-00764,2026-10-02T18:40:24+00:00,workstation_17,internal_api,network_connection,enterprise-server-12,5236,732,Routine internal connection,False
+ENT-N-00283,2026-10-02T19:00:51+00:00,employee_8,intranet,login_success,enterprise-server-09,8049,178,Routine successful login,False
+ENT-N-01011,2026-10-02T19:19:21+00:00,backup_service,backup_storage,backup_job,enterprise-server-12,4528,724,Scheduled backup,False
+ENT-N-01102,2026-10-02T19:27:02+00:00,backup_service,backup_storage,backup_job,enterprise-server-05,5187,667,Scheduled backup,False
+ENT-N-00859,2026-10-02T19:29:48+00:00,workstation_17,internal_api,network_connection,enterprise-server-02,8767,789,Routine internal connection,False
+ENT-N-00516,2026-10-02T19:34:15+00:00,employee_14,intranet,login_success,enterprise-server-05,809,393,Routine successful login,False
+ENT-N-00231,2026-10-02T19:36:22+00:00,backup_service,backup_storage,backup_job,enterprise-server-06,1153,563,Scheduled backup,False
+ENT-N-00905,2026-10-02T19:44:46+00:00,workstation_9,browser,process_start,enterprise-server-10,4066,852,Routine application start,False
+ENT-N-01116,2026-10-02T19:58:56+00:00,backup_service,backup_storage,backup_job,enterprise-server-09,2012,386,Scheduled backup,False
+ENT-N-00248,2026-10-02T20:04:40+00:00,web_app,course_catalog,database_query,enterprise-server-12,4996,676,Routine catalog query,False
+ENT-N-00633,2026-10-02T20:06:21+00:00,employee_10,shared_docs,file_read,enterprise-server-05,4830,890,Routine document access,False
+ENT-N-00395,2026-10-02T20:32:48+00:00,workstation_1,internal_domain,dns_query,enterprise-server-12,3418,423,Routine DNS lookup,False
+ENT-N-00949,2026-10-02T20:35:26+00:00,workstation_6,internal_domain,dns_query,enterprise-server-03,3384,362,Routine DNS lookup,False
+ENT-N-01072,2026-10-02T20:35:54+00:00,employee_15,intranet,login_success,enterprise-server-02,3509,766,Routine successful login,False
+ENT-N-01015,2026-10-02T20:46:16+00:00,workstation_18,internal_domain,dns_query,enterprise-server-10,7638,823,Routine DNS lookup,False
+ENT-N-00868,2026-10-02T21:00:15+00:00,workstation_1,internal_api,network_connection,enterprise-server-04,5807,305,Routine internal connection,False
+ENT-N-01000,2026-10-02T21:06:45+00:00,employee_11,intranet,login_success,enterprise-server-02,1080,868,Routine successful login,False
+ENT-N-00389,2026-10-02T21:18:21+00:00,workstation_10,internal_api,network_connection,enterprise-server-07,4521,126,Routine internal connection,False
+ENT-N-01022,2026-10-02T21:22:48+00:00,workstation_17,browser,process_start,enterprise-server-01,7515,894,Routine application start,False
+ENT-N-00535,2026-10-02T21:42:14+00:00,web_app,course_catalog,database_query,enterprise-server-11,5985,834,Routine catalog query,False
+ENT-N-01042,2026-10-02T21:44:21+00:00,web_app,course_catalog,database_query,enterprise-server-06,505,158,Routine catalog query,False
+ENT-N-00823,2026-10-02T22:03:10+00:00,web_app,course_catalog,database_query,enterprise-server-11,3808,149,Routine catalog query,False
+ENT-N-00290,2026-10-02T22:03:34+00:00,backup_service,backup_storage,backup_job,enterprise-server-10,5876,868,Scheduled backup,False
+ENT-N-01140,2026-10-02T22:05:05+00:00,employee_1,shared_docs,file_read,enterprise-server-11,8455,452,Routine document access,False
+ENT-N-00957,2026-10-02T22:20:20+00:00,web_server,access_log,file_write,enterprise-server-12,1119,31,Routine log append,False
+ENT-N-00031,2026-10-02T22:29:57+00:00,workstation_13,internal_domain,dns_query,enterprise-server-01,357,784,Routine DNS lookup,False
+ENT-N-00515,2026-10-02T22:42:05+00:00,workstation_8,internal_api,network_connection,enterprise-server-05,8728,234,Routine internal connection,False
+ENT-N-00229,2026-10-02T22:48:39+00:00,workstation_5,internal_api,network_connection,enterprise-server-02,2369,131,Routine internal connection,False
+ENT-N-00369,2026-10-02T22:49:27+00:00,employee_10,intranet,login_success,enterprise-server-12,8956,338,Routine successful login,False
+ENT-N-00998,2026-10-02T23:10:42+00:00,student_16,college_portal,http_request,enterprise-server-09,823,429,Routine website request,False
+ENT-N-00730,2026-10-02T23:25:18+00:00,employee_16,shared_docs,file_read,enterprise-server-04,6771,279,Routine document access,False
+ENT-N-00848,2026-10-02T23:54:53+00:00,workstation_13,internal_api,network_connection,enterprise-server-03,3264,860,Routine internal connection,False
+ENT-N-00908,2026-10-03T00:08:05+00:00,workstation_5,internal_domain,dns_query,enterprise-server-11,2364,101,Routine DNS lookup,False
+ENT-N-00681,2026-10-03T00:08:49+00:00,workstation_5,internal_domain,dns_query,enterprise-server-03,1044,751,Routine DNS lookup,False
+ENT-N-00372,2026-10-03T00:23:30+00:00,student_16,college_portal,http_request,enterprise-server-10,5539,222,Routine website request,False
+ENT-N-00113,2026-10-03T00:39:45+00:00,employee_2,shared_docs,file_read,enterprise-server-11,3805,487,Routine document access,False
+ENT-N-00663,2026-10-03T00:40:02+00:00,student_3,college_portal,http_request,enterprise-server-10,5962,152,Routine website request,False
+ENT-N-00049,2026-10-03T00:40:28+00:00,student_17,college_portal,http_request,enterprise-server-05,6269,479,Routine website request,False
+ENT-N-00140,2026-10-03T00:42:03+00:00,workstation_15,internal_domain,dns_query,enterprise-server-11,1110,256,Routine DNS lookup,False
+ENT-N-00601,2026-10-03T00:46:02+00:00,student_14,college_portal,http_request,enterprise-server-03,7663,170,Routine website request,False
+ENT-N-01024,2026-10-03T00:58:30+00:00,web_app,course_catalog,database_query,enterprise-server-11,6778,294,Routine catalog query,False
+ENT-N-00197,2026-10-03T00:59:02+00:00,workstation_9,browser,process_start,enterprise-server-08,2757,695,Routine application start,False
+ENT-N-00912,2026-10-03T01:01:03+00:00,web_app,course_catalog,database_query,enterprise-server-12,260,232,Routine catalog query,False
+ENT-N-00520,2026-10-03T01:11:06+00:00,workstation_1,internal_api,network_connection,enterprise-server-05,8126,608,Routine internal connection,False
+ENT-N-00867,2026-10-03T01:13:20+00:00,student_4,college_portal,http_request,enterprise-server-08,5401,39,Routine website request,False
+ENT-N-01010,2026-10-03T01:19:25+00:00,workstation_17,browser,process_start,enterprise-server-01,8349,133,Routine application start,False
+ENT-N-00121,2026-10-03T01:44:06+00:00,workstation_9,browser,process_start,enterprise-server-05,5263,309,Routine application start,False
+ENT-N-00542,2026-10-03T01:48:09+00:00,backup_service,backup_storage,backup_job,enterprise-server-02,8820,523,Scheduled backup,False
+ENT-N-01006,2026-10-03T01:52:40+00:00,web_server,access_log,file_write,enterprise-server-09,6152,327,Routine log append,False
+ENT-N-00163,2026-10-03T01:58:48+00:00,employee_6,intranet,login_success,enterprise-server-02,5933,849,Routine successful login,False
+ENT-N-00298,2026-10-03T02:09:22+00:00,workstation_17,internal_api,network_connection,enterprise-server-08,3551,117,Routine internal connection,False
+ENT-N-00018,2026-10-03T02:24:53+00:00,backup_service,backup_storage,backup_job,enterprise-server-10,2315,451,Scheduled backup,False
+ENT-N-00593,2026-10-03T02:36:24+00:00,workstation_1,internal_api,network_connection,enterprise-server-02,1687,769,Routine internal connection,False
+ENT-N-00643,2026-10-03T02:39:56+00:00,workstation_3,internal_api,network_connection,enterprise-server-11,2115,638,Routine internal connection,False
+ENT-N-00385,2026-10-03T02:49:41+00:00,workstation_10,internal_api,network_connection,enterprise-server-03,7751,103,Routine internal connection,False
+ENT-N-00961,2026-10-03T02:54:31+00:00,workstation_8,internal_domain,dns_query,enterprise-server-02,3073,69,Routine DNS lookup,False
+ENT-N-00313,2026-10-03T03:20:35+00:00,student_17,college_portal,http_request,enterprise-server-10,8654,424,Routine website request,False
+ENT-N-00812,2026-10-03T03:25:43+00:00,web_server,access_log,file_write,enterprise-server-03,5593,685,Routine log append,False
+ENT-N-00104,2026-10-03T03:29:46+00:00,workstation_7,browser,process_start,enterprise-server-07,8929,829,Routine application start,False
+ENT-N-01144,2026-10-03T03:31:07+00:00,student_18,college_portal,http_request,enterprise-server-07,227,258,Routine website request,False
+ENT-N-01131,2026-10-03T03:32:11+00:00,workstation_8,internal_domain,dns_query,enterprise-server-11,7866,318,Routine DNS lookup,False
+ENT-N-00040,2026-10-03T03:37:46+00:00,web_server,access_log,file_write,enterprise-server-05,6063,155,Routine log append,False
+ENT-N-00028,2026-10-03T03:38:52+00:00,employee_4,intranet,login_success,enterprise-server-08,7939,169,Routine successful login,False
+ENT-N-01092,2026-10-03T03:52:52+00:00,backup_service,backup_storage,backup_job,enterprise-server-03,6621,646,Scheduled backup,False
+ENT-N-00886,2026-10-03T04:03:09+00:00,employee_18,intranet,login_success,enterprise-server-03,2008,851,Routine successful login,False
+ENT-N-00801,2026-10-03T04:06:09+00:00,web_server,access_log,file_write,enterprise-server-04,809,291,Routine log append,False
+ENT-N-00127,2026-10-03T04:10:16+00:00,web_app,course_catalog,database_query,enterprise-server-04,6524,662,Routine catalog query,False
+ENT-N-00709,2026-10-03T04:21:40+00:00,employee_16,shared_docs,file_read,enterprise-server-02,1183,307,Routine document access,False
+ENT-N-00876,2026-10-03T04:50:26+00:00,employee_10,intranet,login_success,enterprise-server-07,6720,882,Routine successful login,False
+ENT-N-00285,2026-10-03T04:54:59+00:00,web_server,access_log,file_write,enterprise-server-07,7546,738,Routine log append,False
+ENT-N-00820,2026-10-03T04:55:46+00:00,workstation_13,browser,process_start,enterprise-server-06,1419,468,Routine application start,False
+ENT-N-00745,2026-10-03T05:10:30+00:00,workstation_8,internal_domain,dns_query,enterprise-server-02,2914,819,Routine DNS lookup,False
+ENT-N-00514,2026-10-03T05:20:31+00:00,web_app,course_catalog,database_query,enterprise-server-05,905,663,Routine catalog query,False
+ENT-N-00786,2026-10-03T05:30:17+00:00,student_5,college_portal,http_request,enterprise-server-03,3141,14,Routine website request,False
+ENT-N-00918,2026-10-03T05:31:06+00:00,student_11,college_portal,http_request,enterprise-server-07,1650,355,Routine website request,False
+ENT-N-00332,2026-10-03T05:38:46+00:00,student_2,college_portal,http_request,enterprise-server-01,8254,788,Routine website request,False
+ENT-N-00581,2026-10-03T05:52:16+00:00,employee_13,shared_docs,file_read,enterprise-server-10,5429,589,Routine document access,False
+ENT-N-00189,2026-10-03T06:04:28+00:00,workstation_5,internal_api,network_connection,enterprise-server-08,8522,213,Routine internal connection,False
+ENT-N-00329,2026-10-03T06:05:24+00:00,workstation_11,internal_api,network_connection,enterprise-server-05,4159,203,Routine internal connection,False
+ENT-N-00401,2026-10-03T06:28:35+00:00,workstation_1,internal_api,network_connection,enterprise-server-09,6235,760,Routine internal connection,False
+ENT-N-00684,2026-10-03T06:34:18+00:00,web_app,course_catalog,database_query,enterprise-server-11,5236,672,Routine catalog query,False
+ENT-N-00680,2026-10-03T06:37:47+00:00,backup_service,backup_storage,backup_job,enterprise-server-12,6574,62,Scheduled backup,False
+ENT-N-00110,2026-10-03T06:40:01+00:00,student_3,college_portal,http_request,enterprise-server-09,742,797,Routine website request,False
+ENT-N-01151,2026-10-03T06:59:57+00:00,backup_service,backup_storage,backup_job,enterprise-server-03,2071,364,Scheduled backup,False
+ENT-N-00618,2026-10-03T07:00:13+00:00,web_app,course_catalog,database_query,enterprise-server-09,6468,368,Routine catalog query,False
+ENT-N-00048,2026-10-03T07:07:17+00:00,employee_8,intranet,login_success,enterprise-server-04,7414,79,Routine successful login,False
+ENT-N-00039,2026-10-03T07:13:25+00:00,employee_6,shared_docs,file_read,enterprise-server-05,879,833,Routine document access,False
+ENT-N-00944,2026-10-03T07:27:01+00:00,backup_service,backup_storage,backup_job,enterprise-server-07,7207,319,Scheduled backup,False
+ENT-N-00915,2026-10-03T07:32:38+00:00,web_server,access_log,file_write,enterprise-server-04,7052,786,Routine log append,False
+ENT-N-00757,2026-10-03T07:36:13+00:00,employee_8,intranet,login_success,enterprise-server-11,2771,821,Routine successful login,False
+ENT-N-01093,2026-10-03T07:43:02+00:00,workstation_2,internal_api,network_connection,enterprise-server-12,5715,25,Routine internal connection,False
+ENT-N-01178,2026-10-03T07:51:48+00:00,web_server,access_log,file_write,enterprise-server-05,4956,896,Routine log append,False
+ENT-N-00172,2026-10-03T07:58:46+00:00,workstation_14,browser,process_start,enterprise-server-03,735,272,Routine application start,False
+ENT-N-00992,2026-10-03T07:59:02+00:00,employee_12,intranet,login_success,enterprise-server-09,5189,700,Routine successful login,False
+ENT-N-00574,2026-10-03T08:01:56+00:00,web_server,access_log,file_write,enterprise-server-09,2956,175,Routine log append,False
+ENT-N-00827,2026-10-03T08:03:13+00:00,employee_2,shared_docs,file_read,enterprise-server-01,3803,390,Routine document access,False
+ENT-N-00131,2026-10-03T08:06:29+00:00,backup_service,backup_storage,backup_job,enterprise-server-03,1014,307,Scheduled backup,False
+ENT-N-00327,2026-10-03T08:11:59+00:00,backup_service,backup_storage,backup_job,enterprise-server-06,578,707,Scheduled backup,False
+ENT-N-00322,2026-10-03T08:17:00+00:00,employee_7,intranet,login_success,enterprise-server-09,2979,343,Routine successful login,False
+ENT-N-00442,2026-10-03T08:23:26+00:00,employee_10,intranet,login_success,enterprise-server-04,5275,451,Routine successful login,False
+ENT-N-00611,2026-10-03T08:28:44+00:00,student_3,college_portal,http_request,enterprise-server-05,5108,149,Routine website request,False
+ENT-N-00651,2026-10-03T08:31:14+00:00,workstation_6,browser,process_start,enterprise-server-01,7765,496,Routine application start,False
+ENT-N-00459,2026-10-03T08:44:55+00:00,workstation_14,browser,process_start,enterprise-server-04,4845,416,Routine application start,False
+ENT-N-00350,2026-10-03T08:47:39+00:00,student_11,college_portal,http_request,enterprise-server-06,5763,138,Routine website request,False
+ENT-N-00159,2026-10-03T08:56:01+00:00,student_5,college_portal,http_request,enterprise-server-04,1514,62,Routine website request,False
+ENT-N-00692,2026-10-03T09:00:03+00:00,workstation_2,internal_api,network_connection,enterprise-server-01,2985,640,Routine internal connection,False
+ENT-N-00561,2026-10-03T09:07:12+00:00,workstation_3,browser,process_start,enterprise-server-08,6849,142,Routine application start,False
+ENT-N-00693,2026-10-03T09:08:46+00:00,web_server,access_log,file_write,enterprise-server-10,5783,32,Routine log append,False
+ENT-N-00956,2026-10-03T09:36:05+00:00,student_8,college_portal,http_request,enterprise-server-12,8997,867,Routine website request,False
+ENT-N-00556,2026-10-03T09:37:19+00:00,workstation_12,browser,process_start,enterprise-server-06,159,129,Routine application start,False
+ENT-N-01119,2026-10-03T10:04:37+00:00,backup_service,backup_storage,backup_job,enterprise-server-02,5573,510,Scheduled backup,False
+ENT-N-00567,2026-10-03T10:15:20+00:00,workstation_7,browser,process_start,enterprise-server-03,2329,781,Routine application start,False
+ENT-N-01166,2026-10-03T10:20:08+00:00,workstation_10,internal_api,network_connection,enterprise-server-05,8304,118,Routine internal connection,False
+ENT-N-00008,2026-10-03T10:24:42+00:00,workstation_5,browser,process_start,enterprise-server-11,776,173,Routine application start,False
+ENT-N-00652,2026-10-03T10:30:08+00:00,employee_3,intranet,login_success,enterprise-server-12,5331,888,Routine successful login,False
+ENT-N-00384,2026-10-03T10:48:24+00:00,web_server,access_log,file_write,enterprise-server-01,5567,61,Routine log append,False
+ENT-N-00230,2026-10-03T11:02:59+00:00,student_9,college_portal,http_request,enterprise-server-12,283,160,Routine website request,False
+ENT-N-01095,2026-10-03T11:09:25+00:00,student_13,college_portal,http_request,enterprise-server-01,3221,718,Routine website request,False
+ENT-N-00023,2026-10-03T11:10:30+00:00,workstation_12,internal_domain,dns_query,enterprise-server-01,4380,491,Routine DNS lookup,False
+ENT-N-00585,2026-10-03T11:11:34+00:00,employee_16,intranet,login_success,enterprise-server-05,6154,219,Routine successful login,False
+ENT-N-00462,2026-10-03T11:28:35+00:00,workstation_10,internal_domain,dns_query,enterprise-server-12,7376,570,Routine DNS lookup,False
+ENT-N-00314,2026-10-03T11:29:57+00:00,employee_15,intranet,login_success,enterprise-server-08,6832,702,Routine successful login,False
+ENT-N-01053,2026-10-03T11:31:05+00:00,workstation_18,internal_domain,dns_query,enterprise-server-07,663,818,Routine DNS lookup,False
+ENT-N-00869,2026-10-03T11:45:35+00:00,employee_4,shared_docs,file_read,enterprise-server-06,721,417,Routine document access,False
+ENT-N-00739,2026-10-03T11:47:05+00:00,web_app,course_catalog,database_query,enterprise-server-07,1584,827,Routine catalog query,False
+ENT-N-01048,2026-10-03T12:11:50+00:00,backup_service,backup_storage,backup_job,enterprise-server-08,7262,722,Scheduled backup,False
+ENT-N-01090,2026-10-03T12:16:02+00:00,workstation_10,internal_api,network_connection,enterprise-server-06,3876,178,Routine internal connection,False
+ENT-N-00053,2026-10-03T12:27:11+00:00,employee_15,intranet,login_success,enterprise-server-03,2986,139,Routine successful login,False
+ENT-N-00256,2026-10-03T12:34:57+00:00,workstation_11,internal_api,network_connection,enterprise-server-04,694,737,Routine internal connection,False
+ENT-N-00057,2026-10-03T13:02:46+00:00,employee_10,intranet,login_success,enterprise-server-05,8005,788,Routine successful login,False
+ENT-N-00002,2026-10-03T13:24:43+00:00,student_16,college_portal,http_request,enterprise-server-01,5773,149,Routine website request,False
+ENT-N-00791,2026-10-03T13:27:41+00:00,workstation_14,internal_api,network_connection,enterprise-server-09,7957,143,Routine internal connection,False
+ENT-N-00061,2026-10-03T13:35:35+00:00,workstation_14,internal_domain,dns_query,enterprise-server-07,5044,9,Routine DNS lookup,False
+ENT-N-01030,2026-10-03T13:37:33+00:00,student_17,college_portal,http_request,enterprise-server-01,7749,11,Routine website request,False
+ENT-N-00952,2026-10-03T13:52:47+00:00,employee_5,intranet,login_success,enterprise-server-08,2001,236,Routine successful login,False
+ENT-N-00360,2026-10-03T13:53:57+00:00,workstation_16,internal_api,network_connection,enterprise-server-03,8949,670,Routine internal connection,False
+ENT-N-00698,2026-10-03T14:09:55+00:00,employee_9,intranet,login_success,enterprise-server-12,6507,618,Routine successful login,False
+ENT-N-00638,2026-10-03T14:17:10+00:00,workstation_16,browser,process_start,enterprise-server-02,6446,726,Routine application start,False
+ENT-N-00071,2026-10-03T14:20:02+00:00,web_server,access_log,file_write,enterprise-server-08,5075,367,Routine log append,False
+ENT-N-00334,2026-10-03T14:24:31+00:00,backup_service,backup_storage,backup_job,enterprise-server-05,8437,14,Scheduled backup,False
+ENT-N-01058,2026-10-03T14:36:20+00:00,backup_service,backup_storage,backup_job,enterprise-server-10,513,223,Scheduled backup,False
+ENT-N-00328,2026-10-03T14:36:27+00:00,employee_12,shared_docs,file_read,enterprise-server-09,4188,886,Routine document access,False
+ENT-N-00788,2026-10-03T14:44:38+00:00,workstation_13,internal_api,network_connection,enterprise-server-05,5224,190,Routine internal connection,False
+ENT-N-01087,2026-10-03T14:47:10+00:00,student_3,college_portal,http_request,enterprise-server-06,5766,438,Routine website request,False
+ENT-N-00106,2026-10-03T14:54:29+00:00,backup_service,backup_storage,backup_job,enterprise-server-06,7129,243,Scheduled backup,False
+ENT-N-00607,2026-10-03T14:58:18+00:00,student_4,college_portal,http_request,enterprise-server-05,1562,782,Routine website request,False
+ENT-N-00388,2026-10-03T15:05:02+00:00,employee_2,intranet,login_success,enterprise-server-05,5973,192,Routine successful login,False
+ENT-N-00392,2026-10-03T15:06:07+00:00,student_12,college_portal,http_request,enterprise-server-01,6765,496,Routine website request,False
+ENT-N-00468,2026-10-03T15:09:44+00:00,backup_service,backup_storage,backup_job,enterprise-server-10,4025,591,Scheduled backup,False
+ENT-N-00539,2026-10-03T15:19:18+00:00,backup_service,backup_storage,backup_job,enterprise-server-05,4251,699,Scheduled backup,False
+ENT-N-00054,2026-10-03T15:56:13+00:00,workstation_6,browser,process_start,enterprise-server-06,1077,637,Routine application start,False
+ENT-N-00959,2026-10-03T16:07:10+00:00,student_12,college_portal,http_request,enterprise-server-06,5777,480,Routine website request,False
+ENT-N-00644,2026-10-03T16:25:03+00:00,web_app,course_catalog,database_query,enterprise-server-02,8158,347,Routine catalog query,False
+ENT-N-00390,2026-10-03T16:33:37+00:00,employee_12,intranet,login_success,enterprise-server-06,1821,713,Routine successful login,False
+ENT-N-01008,2026-10-03T16:35:09+00:00,web_app,course_catalog,database_query,enterprise-server-11,255,528,Routine catalog query,False
+ENT-N-00423,2026-10-03T16:38:29+00:00,employee_9,shared_docs,file_read,enterprise-server-07,3263,453,Routine document access,False
+ENT-N-00111,2026-10-03T16:42:20+00:00,web_server,access_log,file_write,enterprise-server-07,6014,126,Routine log append,False
+ENT-N-00986,2026-10-03T16:44:06+00:00,employee_11,intranet,login_success,enterprise-server-08,923,597,Routine successful login,False
+ENT-N-00555,2026-10-03T16:45:00+00:00,workstation_14,internal_api,network_connection,enterprise-server-08,7653,517,Routine internal connection,False
+ENT-N-00486,2026-10-03T16:58:49+00:00,workstation_15,internal_api,network_connection,enterprise-server-07,7887,10,Routine internal connection,False
+ENT-N-00518,2026-10-03T17:01:58+00:00,backup_service,backup_storage,backup_job,enterprise-server-11,8939,136,Scheduled backup,False
+ENT-N-00995,2026-10-03T17:16:18+00:00,employee_18,shared_docs,file_read,enterprise-server-10,158,610,Routine document access,False
+ENT-N-01040,2026-10-03T17:23:24+00:00,student_12,college_portal,http_request,enterprise-server-07,8413,531,Routine website request,False
+ENT-N-00181,2026-10-03T17:26:42+00:00,employee_2,shared_docs,file_read,enterprise-server-04,3718,275,Routine document access,False
+ENT-N-00443,2026-10-03T17:33:54+00:00,student_3,college_portal,http_request,enterprise-server-06,1228,271,Routine website request,False
+ENT-N-00003,2026-10-03T17:34:37+00:00,workstation_15,browser,process_start,enterprise-server-06,4436,412,Routine application start,False
+ENT-N-00450,2026-10-03T17:35:16+00:00,employee_17,shared_docs,file_read,enterprise-server-09,7814,342,Routine document access,False
+ENT-N-00654,2026-10-03T17:37:33+00:00,web_app,course_catalog,database_query,enterprise-server-04,2692,266,Routine catalog query,False
+ENT-N-00590,2026-10-03T17:39:27+00:00,web_app,course_catalog,database_query,enterprise-server-05,2801,96,Routine catalog query,False
+ENT-N-01035,2026-10-03T17:43:17+00:00,student_7,college_portal,http_request,enterprise-server-03,1657,46,Routine website request,False
+ENT-N-00612,2026-10-03T17:45:25+00:00,employee_1,intranet,login_success,enterprise-server-12,8223,109,Routine successful login,False
+ENT-N-01005,2026-10-03T17:53:27+00:00,workstation_17,browser,process_start,enterprise-server-06,3355,878,Routine application start,False
+ENT-N-00348,2026-10-03T18:07:43+00:00,employee_15,shared_docs,file_read,enterprise-server-10,8790,853,Routine document access,False
+ENT-N-00012,2026-10-03T18:17:12+00:00,student_7,college_portal,http_request,enterprise-server-08,3565,451,Routine website request,False
+ENT-N-00780,2026-10-03T18:19:08+00:00,employee_15,intranet,login_success,enterprise-server-12,7753,175,Routine successful login,False
+ENT-N-00953,2026-10-03T18:20:36+00:00,workstation_11,internal_api,network_connection,enterprise-server-03,7506,827,Routine internal connection,False
+ENT-N-00989,2026-10-03T18:24:53+00:00,workstation_16,browser,process_start,enterprise-server-09,5467,114,Routine application start,False
+ENT-N-00064,2026-10-03T18:34:07+00:00,employee_14,intranet,login_success,enterprise-server-07,4654,379,Routine successful login,False
+ENT-N-00413,2026-10-03T18:50:41+00:00,web_server,access_log,file_write,enterprise-server-05,6735,10,Routine log append,False
+ENT-N-00364,2026-10-03T18:52:23+00:00,web_app,course_catalog,database_query,enterprise-server-11,1825,876,Routine catalog query,False
+ENT-N-00341,2026-10-03T18:54:09+00:00,employee_10,shared_docs,file_read,enterprise-server-06,4124,647,Routine document access,False
+ENT-N-00262,2026-10-03T18:56:14+00:00,workstation_13,internal_domain,dns_query,enterprise-server-06,6156,753,Routine DNS lookup,False
+ENT-N-00966,2026-10-03T18:57:21+00:00,workstation_10,browser,process_start,enterprise-server-12,6272,413,Routine application start,False
+ENT-N-00151,2026-10-03T19:01:43+00:00,web_app,course_catalog,database_query,enterprise-server-11,8292,699,Routine catalog query,False
+ENT-N-00889,2026-10-03T19:11:55+00:00,workstation_12,browser,process_start,enterprise-server-09,5389,96,Routine application start,False
+ENT-N-00046,2026-10-03T19:18:18+00:00,web_app,course_catalog,database_query,enterprise-server-07,7819,630,Routine catalog query,False
+ENT-N-00270,2026-10-03T19:23:58+00:00,workstation_7,internal_api,network_connection,enterprise-server-06,2607,293,Routine internal connection,False
+ENT-N-00636,2026-10-03T19:34:50+00:00,web_server,access_log,file_write,enterprise-server-01,2231,475,Routine log append,False
+ENT-N-00997,2026-10-03T19:36:13+00:00,workstation_17,internal_domain,dns_query,enterprise-server-10,7849,188,Routine DNS lookup,False
+ENT-N-00610,2026-10-03T19:44:34+00:00,workstation_5,internal_api,network_connection,enterprise-server-10,6990,690,Routine internal connection,False
+ENT-N-00063,2026-10-03T19:53:48+00:00,employee_12,intranet,login_success,enterprise-server-02,2430,402,Routine successful login,False
+ENT-N-00558,2026-10-03T19:55:03+00:00,workstation_16,browser,process_start,enterprise-server-12,970,356,Routine application start,False
+ENT-N-00750,2026-10-03T19:55:25+00:00,workstation_4,internal_api,network_connection,enterprise-server-07,2549,454,Routine internal connection,False
+ENT-N-00645,2026-10-03T20:09:53+00:00,employee_6,intranet,login_success,enterprise-server-12,7326,818,Routine successful login,False
+ENT-N-01124,2026-10-03T20:12:37+00:00,workstation_16,browser,process_start,enterprise-server-11,6927,529,Routine application start,False
+ENT-N-00523,2026-10-03T20:15:20+00:00,web_server,access_log,file_write,enterprise-server-12,1316,468,Routine log append,False
+ENT-N-01071,2026-10-03T20:44:31+00:00,workstation_16,browser,process_start,enterprise-server-02,4551,78,Routine application start,False
+ENT-N-01049,2026-10-03T20:54:24+00:00,web_app,course_catalog,database_query,enterprise-server-04,5745,665,Routine catalog query,False
+ENT-N-00376,2026-10-03T20:55:24+00:00,employee_8,intranet,login_success,enterprise-server-11,4847,770,Routine successful login,False
+ENT-N-00451,2026-10-03T20:59:23+00:00,workstation_6,internal_api,network_connection,enterprise-server-08,6369,356,Routine internal connection,False
+ENT-N-00473,2026-10-03T21:09:23+00:00,web_app,course_catalog,database_query,enterprise-server-01,5770,358,Routine catalog query,False
+ENT-N-00079,2026-10-03T21:15:37+00:00,employee_15,shared_docs,file_read,enterprise-server-11,899,515,Routine document access,False
+ENT-N-01033,2026-10-03T21:20:23+00:00,student_12,college_portal,http_request,enterprise-server-11,5010,641,Routine website request,False
+ENT-N-00552,2026-10-03T21:33:41+00:00,web_server,access_log,file_write,enterprise-server-08,566,632,Routine log append,False
+ENT-N-00727,2026-10-03T21:43:36+00:00,student_9,college_portal,http_request,enterprise-server-04,6208,647,Routine website request,False
+ENT-N-00575,2026-10-03T21:44:51+00:00,employee_8,shared_docs,file_read,enterprise-server-10,604,899,Routine document access,False
+ENT-N-00974,2026-10-03T22:03:34+00:00,web_app,course_catalog,database_query,enterprise-server-10,5353,266,Routine catalog query,False
+ENT-N-00205,2026-10-03T22:08:30+00:00,backup_service,backup_storage,backup_job,enterprise-server-05,7576,493,Scheduled backup,False
+ENT-N-00895,2026-10-03T22:08:54+00:00,employee_6,shared_docs,file_read,enterprise-server-11,1813,687,Routine document access,False
+ENT-N-00784,2026-10-03T22:09:38+00:00,employee_2,intranet,login_success,enterprise-server-12,8398,445,Routine successful login,False
+ENT-N-00122,2026-10-03T22:33:50+00:00,employee_10,intranet,login_success,enterprise-server-06,8885,721,Routine successful login,False
+ENT-N-00930,2026-10-03T22:53:49+00:00,web_server,access_log,file_write,enterprise-server-01,4479,399,Routine log append,False
+ENT-N-00661,2026-10-03T22:56:51+00:00,employee_10,shared_docs,file_read,enterprise-server-05,1110,778,Routine document access,False
+ENT-N-00196,2026-10-03T22:59:50+00:00,workstation_4,browser,process_start,enterprise-server-10,8819,754,Routine application start,False
+ENT-N-00173,2026-10-03T23:05:40+00:00,web_app,course_catalog,database_query,enterprise-server-07,8101,1,Routine catalog query,False
+ENT-N-00519,2026-10-03T23:17:08+00:00,employee_8,intranet,login_success,enterprise-server-02,110,153,Routine successful login,False
+ENT-N-00615,2026-10-03T23:17:44+00:00,workstation_5,internal_domain,dns_query,enterprise-server-08,7705,374,Routine DNS lookup,False
+ENT-N-00940,2026-10-03T23:25:10+00:00,employee_6,intranet,login_success,enterprise-server-12,1898,419,Routine successful login,False
+ENT-N-00051,2026-10-03T23:25:17+00:00,employee_4,intranet,login_success,enterprise-server-08,7215,759,Routine successful login,False
+ENT-N-00135,2026-10-03T23:35:27+00:00,workstation_11,internal_api,network_connection,enterprise-server-04,3935,650,Routine internal connection,False
+ENT-N-00299,2026-10-03T23:40:00+00:00,employee_5,shared_docs,file_read,enterprise-server-06,6326,14,Routine document access,False
+ENT-N-00404,2026-10-03T23:46:39+00:00,workstation_14,internal_api,network_connection,enterprise-server-05,3051,82,Routine internal connection,False
+ENT-N-01009,2026-10-03T23:48:53+00:00,web_app,course_catalog,database_query,enterprise-server-05,8749,422,Routine catalog query,False
+ENT-N-00281,2026-10-03T23:59:00+00:00,web_server,access_log,file_write,enterprise-server-07,4470,514,Routine log append,False
+ENT-N-00627,2026-10-04T00:01:54+00:00,web_server,access_log,file_write,enterprise-server-05,7729,38,Routine log append,False
+ENT-N-00308,2026-10-04T00:08:33+00:00,web_server,access_log,file_write,enterprise-server-11,3101,526,Routine log append,False
+ENT-N-00497,2026-10-04T00:16:10+00:00,student_13,college_portal,http_request,enterprise-server-03,2117,831,Routine website request,False
+ENT-N-00363,2026-10-04T00:28:23+00:00,employee_18,intranet,login_success,enterprise-server-10,3474,165,Routine successful login,False
+ENT-N-01137,2026-10-04T00:48:04+00:00,backup_service,backup_storage,backup_job,enterprise-server-10,1770,739,Scheduled backup,False
+ENT-N-00919,2026-10-04T00:52:41+00:00,student_12,college_portal,http_request,enterprise-server-02,7045,285,Routine website request,False
+ENT-N-00177,2026-10-04T01:04:39+00:00,student_5,college_portal,http_request,enterprise-server-02,5171,198,Routine website request,False
+ENT-N-00139,2026-10-04T01:18:00+00:00,backup_service,backup_storage,backup_job,enterprise-server-07,6392,871,Scheduled backup,False
+ENT-N-00246,2026-10-04T01:25:24+00:00,backup_service,backup_storage,backup_job,enterprise-server-08,2550,687,Scheduled backup,False
+ENT-N-00152,2026-10-04T01:27:06+00:00,backup_service,backup_storage,backup_job,enterprise-server-04,7636,647,Scheduled backup,False
+ENT-N-00333,2026-10-04T01:27:35+00:00,employee_15,shared_docs,file_read,enterprise-server-07,5142,639,Routine document access,False
+ENT-N-00211,2026-10-04T01:36:29+00:00,workstation_18,internal_api,network_connection,enterprise-server-01,3631,885,Routine internal connection,False
+ENT-N-00557,2026-10-04T01:41:48+00:00,workstation_2,internal_domain,dns_query,enterprise-server-02,2307,661,Routine DNS lookup,False
+ENT-N-00962,2026-10-04T02:00:19+00:00,employee_18,shared_docs,file_read,enterprise-server-02,1819,410,Routine document access,False
+ENT-N-00624,2026-10-04T02:08:00+00:00,backup_service,backup_storage,backup_job,enterprise-server-08,5901,585,Scheduled backup,False
+ENT-N-00763,2026-10-04T02:11:26+00:00,web_server,access_log,file_write,enterprise-server-11,1607,306,Routine log append,False
+ENT-N-00570,2026-10-04T02:14:51+00:00,web_app,course_catalog,database_query,enterprise-server-10,3538,339,Routine catalog query,False
+ENT-N-00485,2026-10-04T02:18:11+00:00,workstation_7,internal_domain,dns_query,enterprise-server-08,2888,26,Routine DNS lookup,False
+ENT-N-01089,2026-10-04T02:21:56+00:00,web_app,course_catalog,database_query,enterprise-server-03,2808,655,Routine catalog query,False
+ENT-N-01103,2026-10-04T02:26:41+00:00,web_server,access_log,file_write,enterprise-server-05,3045,505,Routine log append,False
+ENT-N-01109,2026-10-04T02:36:00+00:00,workstation_3,internal_domain,dns_query,enterprise-server-07,5519,105,Routine DNS lookup,False
+ENT-N-00037,2026-10-04T02:36:22+00:00,employee_7,shared_docs,file_read,enterprise-server-05,1246,732,Routine document access,False
+ENT-N-00660,2026-10-04T02:46:18+00:00,web_server,access_log,file_write,enterprise-server-04,8409,448,Routine log append,False
+ENT-N-00184,2026-10-04T03:10:29+00:00,workstation_5,browser,process_start,enterprise-server-01,596,650,Routine application start,False
+ENT-N-00282,2026-10-04T03:13:08+00:00,web_app,course_catalog,database_query,enterprise-server-10,3326,708,Routine catalog query,False
+ENT-N-00108,2026-10-04T03:15:40+00:00,web_server,access_log,file_write,enterprise-server-04,8505,40,Routine log append,False
+ENT-N-00080,2026-10-04T03:15:46+00:00,web_app,course_catalog,database_query,enterprise-server-08,1537,213,Routine catalog query,False
+ENT-N-00674,2026-10-04T03:17:39+00:00,student_8,college_portal,http_request,enterprise-server-08,7774,208,Routine website request,False
+ENT-N-00339,2026-10-04T03:18:15+00:00,web_app,course_catalog,database_query,enterprise-server-04,3176,286,Routine catalog query,False
+ENT-N-00513,2026-10-04T03:38:04+00:00,web_server,access_log,file_write,enterprise-server-12,5095,776,Routine log append,False
+ENT-N-01111,2026-10-04T03:40:05+00:00,student_18,college_portal,http_request,enterprise-server-09,8386,334,Routine website request,False
+ENT-N-00881,2026-10-04T03:49:43+00:00,student_10,college_portal,http_request,enterprise-server-04,2128,382,Routine website request,False
+ENT-N-00472,2026-10-04T04:08:15+00:00,workstation_11,browser,process_start,enterprise-server-12,7946,111,Routine application start,False
+ENT-N-00125,2026-10-04T04:12:50+00:00,student_14,college_portal,http_request,enterprise-server-08,922,219,Routine website request,False
+ENT-N-00047,2026-10-04T04:13:09+00:00,student_18,college_portal,http_request,enterprise-server-10,5115,459,Routine website request,False
+ENT-N-00082,2026-10-04T04:15:54+00:00,web_app,course_catalog,database_query,enterprise-server-12,2279,879,Routine catalog query,False
+ENT-N-00987,2026-10-04T04:30:41+00:00,workstation_5,internal_api,network_connection,enterprise-server-06,6832,724,Routine internal connection,False
+ENT-N-00870,2026-10-04T04:44:59+00:00,workstation_3,internal_domain,dns_query,enterprise-server-11,2110,656,Routine DNS lookup,False
+ENT-N-00865,2026-10-04T04:51:32+00:00,employee_14,intranet,login_success,enterprise-server-04,6785,66,Routine successful login,False
+ENT-N-00838,2026-10-04T04:54:14+00:00,employee_4,shared_docs,file_read,enterprise-server-06,8671,163,Routine document access,False
+ENT-N-00916,2026-10-04T05:11:55+00:00,employee_8,intranet,login_success,enterprise-server-07,687,811,Routine successful login,False
+ENT-N-00227,2026-10-04T05:20:43+00:00,employee_7,intranet,login_success,enterprise-server-06,1673,219,Routine successful login,False
+ENT-N-00038,2026-10-04T05:32:05+00:00,web_server,access_log,file_write,enterprise-server-06,6971,548,Routine log append,False
+ENT-N-00475,2026-10-04T05:40:18+00:00,employee_17,shared_docs,file_read,enterprise-server-04,8174,250,Routine document access,False
+ENT-N-00368,2026-10-04T05:53:09+00:00,workstation_4,browser,process_start,enterprise-server-04,7866,639,Routine application start,False
+ENT-N-00004,2026-10-04T05:58:48+00:00,workstation_13,internal_domain,dns_query,enterprise-server-08,8254,523,Routine DNS lookup,False
+ENT-N-00458,2026-10-04T05:59:29+00:00,web_app,course_catalog,database_query,enterprise-server-08,7234,458,Routine catalog query,False
+ENT-N-00724,2026-10-04T06:12:27+00:00,workstation_9,internal_domain,dns_query,enterprise-server-12,8893,167,Routine DNS lookup,False
+ENT-N-00086,2026-10-04T06:21:04+00:00,student_8,college_portal,http_request,enterprise-server-04,447,123,Routine website request,False
+ENT-N-01082,2026-10-04T06:34:05+00:00,workstation_16,internal_domain,dns_query,enterprise-server-07,3258,81,Routine DNS lookup,False
+ENT-N-00324,2026-10-04T06:36:40+00:00,employee_16,intranet,login_success,enterprise-server-02,3469,395,Routine successful login,False
+ENT-N-00124,2026-10-04T06:40:21+00:00,student_13,college_portal,http_request,enterprise-server-03,8022,207,Routine website request,False
+ENT-N-00316,2026-10-04T06:56:02+00:00,backup_service,backup_storage,backup_job,enterprise-server-01,2124,54,Scheduled backup,False
+ENT-N-00405,2026-10-04T06:58:26+00:00,workstation_16,internal_api,network_connection,enterprise-server-05,986,261,Routine internal connection,False
+ENT-N-00223,2026-10-04T07:05:21+00:00,workstation_9,internal_api,network_connection,enterprise-server-07,4552,433,Routine internal connection,False
+ENT-N-00508,2026-10-04T07:10:15+00:00,student_10,college_portal,http_request,enterprise-server-04,3334,99,Routine website request,False
+ENT-N-01123,2026-10-04T07:13:43+00:00,workstation_6,browser,process_start,enterprise-server-10,4653,735,Routine application start,False
+ENT-N-00320,2026-10-04T07:17:34+00:00,employee_1,shared_docs,file_read,enterprise-server-09,7238,600,Routine document access,False
+ENT-N-00250,2026-10-04T07:21:19+00:00,backup_service,backup_storage,backup_job,enterprise-server-12,4420,62,Scheduled backup,False
+ENT-N-00233,2026-10-04T07:28:32+00:00,employee_10,shared_docs,file_read,enterprise-server-09,1684,68,Routine document access,False
+ENT-N-00667,2026-10-04T07:57:10+00:00,employee_13,shared_docs,file_read,enterprise-server-01,131,458,Routine document access,False
+ENT-N-00960,2026-10-04T08:11:09+00:00,workstation_8,internal_api,network_connection,enterprise-server-11,8191,748,Routine internal connection,False
+ENT-N-00999,2026-10-04T08:26:48+00:00,employee_2,intranet,login_success,enterprise-server-12,6448,225,Routine successful login,False
+ENT-N-01054,2026-10-04T08:30:01+00:00,student_8,college_portal,http_request,enterprise-server-08,4328,310,Routine website request,False
+ENT-N-00435,2026-10-04T08:31:00+00:00,workstation_4,internal_api,network_connection,enterprise-server-01,5524,821,Routine internal connection,False
+ENT-N-00702,2026-10-04T08:58:09+00:00,employee_13,intranet,login_success,enterprise-server-10,7748,97,Routine successful login,False
+ENT-N-00297,2026-10-04T09:00:20+00:00,employee_10,intranet,login_success,enterprise-server-10,1325,353,Routine successful login,False
+ENT-N-01091,2026-10-04T09:12:16+00:00,workstation_6,browser,process_start,enterprise-server-05,960,363,Routine application start,False
+ENT-N-00382,2026-10-04T09:21:12+00:00,workstation_17,internal_domain,dns_query,enterprise-server-04,3370,96,Routine DNS lookup,False
+ENT-N-00095,2026-10-04T09:22:13+00:00,workstation_9,internal_api,network_connection,enterprise-server-03,7186,101,Routine internal connection,False
+ENT-N-00696,2026-10-04T10:29:06+00:00,employee_12,intranet,login_success,enterprise-server-07,1173,742,Routine successful login,False
+ENT-N-00562,2026-10-04T10:56:35+00:00,employee_6,intranet,login_success,enterprise-server-04,8909,405,Routine successful login,False
+ENT-N-00534,2026-10-04T11:01:12+00:00,workstation_16,internal_api,network_connection,enterprise-server-02,5080,239,Routine internal connection,False
+ENT-N-01043,2026-10-04T11:06:14+00:00,web_app,course_catalog,database_query,enterprise-server-04,1450,788,Routine catalog query,False
+ENT-N-00479,2026-10-04T11:09:31+00:00,workstation_4,internal_api,network_connection,enterprise-server-11,5141,330,Routine internal connection,False
+ENT-N-00030,2026-10-04T11:23:48+00:00,employee_3,intranet,login_success,enterprise-server-12,5451,437,Routine successful login,False
+ENT-N-01028,2026-10-04T11:30:33+00:00,web_server,access_log,file_write,enterprise-server-08,3665,223,Routine log append,False
+ENT-N-00775,2026-10-04T11:43:55+00:00,employee_10,shared_docs,file_read,enterprise-server-09,5293,163,Routine document access,False
+ENT-N-00499,2026-10-04T12:12:56+00:00,workstation_3,internal_api,network_connection,enterprise-server-12,5839,321,Routine internal connection,False
+ENT-N-00712,2026-10-04T12:37:51+00:00,backup_service,backup_storage,backup_job,enterprise-server-02,4349,715,Scheduled backup,False
+ENT-N-00168,2026-10-04T12:41:41+00:00,web_app,course_catalog,database_query,enterprise-server-06,8728,25,Routine catalog query,False
+ENT-N-00787,2026-10-04T12:49:03+00:00,employee_7,shared_docs,file_read,enterprise-server-01,2254,584,Routine document access,False
+ENT-N-00156,2026-10-04T12:52:48+00:00,workstation_13,internal_api,network_connection,enterprise-server-09,8746,262,Routine internal connection,False
+ENT-N-00845,2026-10-04T12:53:40+00:00,backup_service,backup_storage,backup_job,enterprise-server-07,4218,43,Scheduled backup,False
+ENT-N-00132,2026-10-04T13:04:05+00:00,workstation_13,internal_domain,dns_query,enterprise-server-11,2237,538,Routine DNS lookup,False
+ENT-N-00855,2026-10-04T13:17:21+00:00,workstation_2,internal_api,network_connection,enterprise-server-07,3993,834,Routine internal connection,False
+ENT-N-00015,2026-10-04T13:29:14+00:00,employee_2,intranet,login_success,enterprise-server-03,7527,309,Routine successful login,False
+ENT-N-00251,2026-10-04T13:32:35+00:00,student_7,college_portal,http_request,enterprise-server-07,5867,556,Routine website request,False
+ENT-N-00474,2026-10-04T13:34:22+00:00,student_3,college_portal,http_request,enterprise-server-12,3738,468,Routine website request,False
+ENT-N-01080,2026-10-04T13:46:29+00:00,employee_17,shared_docs,file_read,enterprise-server-07,529,460,Routine document access,False
+ENT-N-01108,2026-10-04T13:47:51+00:00,workstation_11,internal_domain,dns_query,enterprise-server-03,1717,357,Routine DNS lookup,False
+ENT-N-00595,2026-10-04T13:52:23+00:00,backup_service,backup_storage,backup_job,enterprise-server-06,2469,491,Scheduled backup,False
+ENT-N-00201,2026-10-04T13:58:23+00:00,workstation_17,internal_domain,dns_query,enterprise-server-05,5886,528,Routine DNS lookup,False
+ENT-N-00394,2026-10-04T14:03:45+00:00,workstation_2,internal_domain,dns_query,enterprise-server-12,5536,257,Routine DNS lookup,False
+ENT-N-00932,2026-10-04T14:04:55+00:00,employee_15,intranet,login_success,enterprise-server-06,3717,353,Routine successful login,False
+ENT-N-00817,2026-10-04T14:18:34+00:00,web_app,course_catalog,database_query,enterprise-server-12,8168,527,Routine catalog query,False
+ENT-N-00467,2026-10-04T14:18:42+00:00,employee_2,shared_docs,file_read,enterprise-server-05,1681,745,Routine document access,False
+ENT-N-00840,2026-10-04T14:20:42+00:00,employee_16,shared_docs,file_read,enterprise-server-03,6518,606,Routine document access,False
+ENT-N-00906,2026-10-04T14:23:01+00:00,employee_5,shared_docs,file_read,enterprise-server-08,1131,473,Routine document access,False
+ENT-N-00877,2026-10-04T14:24:41+00:00,backup_service,backup_storage,backup_job,enterprise-server-06,1559,612,Scheduled backup,False
+ENT-N-00170,2026-10-04T14:29:15+00:00,web_app,course_catalog,database_query,enterprise-server-12,1646,500,Routine catalog query,False
+ENT-N-00628,2026-10-04T15:05:13+00:00,employee_17,intranet,login_success,enterprise-server-12,3191,717,Routine successful login,False
+ENT-N-01037,2026-10-04T15:09:35+00:00,workstation_11,browser,process_start,enterprise-server-11,7912,702,Routine application start,False
+ENT-N-00935,2026-10-04T15:13:32+00:00,workstation_2,internal_api,network_connection,enterprise-server-05,7339,14,Routine internal connection,False
+ENT-N-00029,2026-10-04T15:25:40+00:00,web_server,access_log,file_write,enterprise-server-03,3351,274,Routine log append,False
+ENT-N-00851,2026-10-04T15:29:26+00:00,student_8,college_portal,http_request,enterprise-server-01,3526,416,Routine website request,False
+ENT-N-00470,2026-10-04T15:40:18+00:00,workstation_5,browser,process_start,enterprise-server-09,4882,406,Routine application start,False
+ENT-N-00814,2026-10-04T15:43:53+00:00,backup_service,backup_storage,backup_job,enterprise-server-03,7929,865,Scheduled backup,False
+ENT-N-00873,2026-10-04T15:57:40+00:00,workstation_15,browser,process_start,enterprise-server-03,1945,137,Routine application start,False
+ENT-N-00346,2026-10-04T16:08:22+00:00,workstation_9,internal_api,network_connection,enterprise-server-12,2254,228,Routine internal connection,False
+ENT-N-00377,2026-10-04T16:10:56+00:00,employee_12,shared_docs,file_read,enterprise-server-07,2974,279,Routine document access,False
+ENT-N-01074,2026-10-04T16:14:37+00:00,web_server,access_log,file_write,enterprise-server-04,8979,887,Routine log append,False
+ENT-N-00896,2026-10-04T16:47:03+00:00,workstation_17,internal_api,network_connection,enterprise-server-09,4238,84,Routine internal connection,False
+ENT-N-00686,2026-10-04T16:50:26+00:00,student_7,college_portal,http_request,enterprise-server-08,7084,851,Routine website request,False
+ENT-N-01105,2026-10-04T16:51:01+00:00,workstation_15,internal_api,network_connection,enterprise-server-11,2925,136,Routine internal connection,False
+ENT-N-00923,2026-10-04T17:11:32+00:00,student_17,college_portal,http_request,enterprise-server-11,7253,50,Routine website request,False
+ENT-N-00213,2026-10-04T17:15:10+00:00,workstation_1,internal_api,network_connection,enterprise-server-01,8503,764,Routine internal connection,False
+ENT-N-00529,2026-10-04T17:22:35+00:00,web_server,access_log,file_write,enterprise-server-02,6365,660,Routine log append,False
+ENT-N-00417,2026-10-04T17:23:03+00:00,web_server,access_log,file_write,enterprise-server-10,5784,344,Routine log append,False
+ENT-N-00336,2026-10-04T17:26:15+00:00,backup_service,backup_storage,backup_job,enterprise-server-09,4134,548,Scheduled backup,False
+ENT-N-01149,2026-10-04T17:30:57+00:00,backup_service,backup_storage,backup_job,enterprise-server-03,2456,570,Scheduled backup,False
+ENT-N-00489,2026-10-04T17:39:58+00:00,student_1,college_portal,http_request,enterprise-server-02,6516,751,Routine website request,False
+ENT-N-00344,2026-10-04T17:46:15+00:00,student_12,college_portal,http_request,enterprise-server-03,5695,399,Routine website request,False
+ENT-N-00708,2026-10-04T17:54:34+00:00,employee_17,shared_docs,file_read,enterprise-server-12,3135,382,Routine document access,False
+ENT-N-00965,2026-10-04T18:02:39+00:00,workstation_18,internal_domain,dns_query,enterprise-server-07,3224,789,Routine DNS lookup,False
+ENT-N-00295,2026-10-04T18:12:52+00:00,employee_13,intranet,login_success,enterprise-server-01,1400,77,Routine successful login,False
+ENT-N-01088,2026-10-04T18:13:24+00:00,student_18,college_portal,http_request,enterprise-server-10,1184,125,Routine website request,False
+ENT-N-00729,2026-10-04T18:15:55+00:00,student_12,college_portal,http_request,enterprise-server-06,6097,559,Routine website request,False
+ENT-N-00425,2026-10-04T18:32:10+00:00,workstation_14,internal_domain,dns_query,enterprise-server-04,108,852,Routine DNS lookup,False
+ENT-N-01120,2026-10-04T18:34:59+00:00,student_8,college_portal,http_request,enterprise-server-01,6382,563,Routine website request,False
+ENT-N-00945,2026-10-04T18:46:16+00:00,backup_service,backup_storage,backup_job,enterprise-server-11,2344,160,Scheduled backup,False
+ENT-N-00682,2026-10-04T19:11:23+00:00,backup_service,backup_storage,backup_job,enterprise-server-03,7998,606,Scheduled backup,False
+ENT-N-00287,2026-10-04T19:13:55+00:00,student_15,college_portal,http_request,enterprise-server-05,6877,636,Routine website request,False
+ENT-N-00639,2026-10-04T19:14:20+00:00,student_8,college_portal,http_request,enterprise-server-08,3122,657,Routine website request,False
+ENT-N-00871,2026-10-04T19:15:47+00:00,workstation_7,browser,process_start,enterprise-server-05,1000,140,Routine application start,False
+ENT-N-01023,2026-10-04T19:17:45+00:00,student_10,college_portal,http_request,enterprise-server-08,6589,412,Routine website request,False
+ENT-N-00990,2026-10-04T19:34:27+00:00,student_18,college_portal,http_request,enterprise-server-12,5009,704,Routine website request,False
+ENT-N-00331,2026-10-04T19:42:20+00:00,web_server,access_log,file_write,enterprise-server-03,5657,292,Routine log append,False
+ENT-N-00330,2026-10-04T20:02:42+00:00,web_server,access_log,file_write,enterprise-server-02,7155,855,Routine log append,False
+ENT-N-00789,2026-10-04T20:05:42+00:00,web_app,course_catalog,database_query,enterprise-server-06,2945,391,Routine catalog query,False
+ENT-N-01075,2026-10-04T20:38:32+00:00,workstation_12,browser,process_start,enterprise-server-11,163,473,Routine application start,False
+ENT-N-01171,2026-10-04T20:40:46+00:00,workstation_4,internal_domain,dns_query,enterprise-server-11,1498,146,Routine DNS lookup,False
+ENT-N-00792,2026-10-04T20:42:53+00:00,employee_9,intranet,login_success,enterprise-server-10,6675,737,Routine successful login,False
+ENT-N-01110,2026-10-04T20:46:18+00:00,employee_16,shared_docs,file_read,enterprise-server-07,4445,42,Routine document access,False
+ENT-N-00408,2026-10-04T20:46:43+00:00,backup_service,backup_storage,backup_job,enterprise-server-11,7613,415,Scheduled backup,False
+ENT-N-01180,2026-10-04T21:04:49+00:00,employee_15,intranet,login_success,enterprise-server-02,6017,343,Routine successful login,False
+ENT-N-00237,2026-10-04T21:05:49+00:00,web_app,course_catalog,database_query,enterprise-server-09,7293,532,Routine catalog query,False
+ENT-N-01046,2026-10-04T21:10:32+00:00,student_2,college_portal,http_request,enterprise-server-06,2426,489,Routine website request,False
+ENT-N-00160,2026-10-04T21:18:13+00:00,student_4,college_portal,http_request,enterprise-server-07,7019,428,Routine website request,False
+ENT-N-00732,2026-10-04T21:24:24+00:00,employee_14,shared_docs,file_read,enterprise-server-10,8874,785,Routine document access,False
+ENT-N-00863,2026-10-04T21:35:53+00:00,backup_service,backup_storage,backup_job,enterprise-server-05,7898,149,Scheduled backup,False
+ENT-N-00852,2026-10-04T21:40:06+00:00,workstation_17,internal_api,network_connection,enterprise-server-03,633,46,Routine internal connection,False
+ENT-N-00898,2026-10-04T21:49:30+00:00,student_4,college_portal,http_request,enterprise-server-03,4684,76,Routine website request,False
+ENT-N-00484,2026-10-04T21:53:12+00:00,workstation_15,browser,process_start,enterprise-server-11,6343,856,Routine application start,False
+ENT-N-00984,2026-10-04T22:05:09+00:00,employee_10,shared_docs,file_read,enterprise-server-06,6810,865,Routine document access,False
+ENT-N-00857,2026-10-04T22:25:11+00:00,backup_service,backup_storage,backup_job,enterprise-server-03,7055,394,Scheduled backup,False
+ENT-N-00690,2026-10-04T22:31:00+00:00,employee_10,intranet,login_success,enterprise-server-09,4003,140,Routine successful login,False
+ENT-N-00352,2026-10-04T22:32:51+00:00,employee_18,intranet,login_success,enterprise-server-05,3574,525,Routine successful login,False
+ENT-N-00381,2026-10-04T22:36:59+00:00,employee_6,intranet,login_success,enterprise-server-06,5854,845,Routine successful login,False
+ENT-N-00526,2026-10-04T22:47:13+00:00,employee_8,intranet,login_success,enterprise-server-05,8401,727,Routine successful login,False
+ENT-N-00013,2026-10-04T22:50:09+00:00,backup_service,backup_storage,backup_job,enterprise-server-03,6048,170,Scheduled backup,False
+ENT-N-01136,2026-10-04T22:53:58+00:00,employee_12,intranet,login_success,enterprise-server-07,1558,363,Routine successful login,False
+ENT-N-00705,2026-10-04T23:04:14+00:00,student_17,college_portal,http_request,enterprise-server-12,2434,318,Routine website request,False
+ENT-N-00412,2026-10-04T23:33:56+00:00,student_9,college_portal,http_request,enterprise-server-01,6876,565,Routine website request,False
+ENT-N-00826,2026-10-04T23:38:29+00:00,web_app,course_catalog,database_query,enterprise-server-01,5292,516,Routine catalog query,False
+ENT-N-00975,2026-10-04T23:49:35+00:00,workstation_13,internal_domain,dns_query,enterprise-server-02,7235,356,Routine DNS lookup,False
+ENT-N-00951,2026-10-04T23:50:27+00:00,workstation_6,browser,process_start,enterprise-server-11,2097,118,Routine application start,False
+ENT-N-00588,2026-10-04T23:59:55+00:00,employee_18,intranet,login_success,enterprise-server-08,7558,508,Routine successful login,False
+ENT-N-00678,2026-10-05T00:10:13+00:00,employee_15,intranet,login_success,enterprise-server-09,1600,677,Routine successful login,False
+ENT-N-00133,2026-10-05T01:01:10+00:00,employee_13,intranet,login_success,enterprise-server-02,107,70,Routine successful login,False
+ENT-N-00551,2026-10-05T01:17:02+00:00,workstation_3,internal_domain,dns_query,enterprise-server-03,7619,125,Routine DNS lookup,False
+ENT-N-00017,2026-10-05T01:29:32+00:00,web_server,access_log,file_write,enterprise-server-04,2326,184,Routine log append,False
+ENT-N-00907,2026-10-05T01:34:45+00:00,workstation_14,internal_api,network_connection,enterprise-server-09,8432,269,Routine internal connection,False
+ENT-N-00428,2026-10-05T01:40:11+00:00,workstation_16,browser,process_start,enterprise-server-06,7522,219,Routine application start,False
+ENT-N-01163,2026-10-05T01:40:19+00:00,workstation_16,internal_domain,dns_query,enterprise-server-08,8925,659,Routine DNS lookup,False
+ENT-N-00578,2026-10-05T01:41:24+00:00,workstation_4,internal_domain,dns_query,enterprise-server-08,5623,837,Routine DNS lookup,False
+ENT-N-00074,2026-10-05T01:46:19+00:00,web_app,course_catalog,database_query,enterprise-server-07,5460,462,Routine catalog query,False
+ENT-N-00249,2026-10-05T01:50:57+00:00,employee_12,intranet,login_success,enterprise-server-06,852,80,Routine successful login,False
+ENT-N-00683,2026-10-05T02:24:59+00:00,student_13,college_portal,http_request,enterprise-server-05,557,641,Routine website request,False
+ENT-N-00477,2026-10-05T02:31:06+00:00,web_app,course_catalog,database_query,enterprise-server-04,5421,757,Routine catalog query,False
+ENT-N-00164,2026-10-05T02:33:14+00:00,web_server,access_log,file_write,enterprise-server-07,6841,849,Routine log append,False
+ENT-N-00731,2026-10-05T02:45:27+00:00,employee_4,shared_docs,file_read,enterprise-server-11,177,412,Routine document access,False
+ENT-N-00444,2026-10-05T02:45:38+00:00,workstation_10,internal_domain,dns_query,enterprise-server-08,172,721,Routine DNS lookup,False
+ENT-N-00359,2026-10-05T02:46:33+00:00,backup_service,backup_storage,backup_job,enterprise-server-05,416,799,Scheduled backup,False
+ENT-N-00735,2026-10-05T02:48:12+00:00,employee_16,intranet,login_success,enterprise-server-11,5660,260,Routine successful login,False
+ENT-N-00342,2026-10-05T02:53:24+00:00,workstation_9,browser,process_start,enterprise-server-02,6737,460,Routine application start,False
+ENT-N-01145,2026-10-05T03:21:32+00:00,workstation_5,browser,process_start,enterprise-server-07,7530,698,Routine application start,False
+ENT-N-00888,2026-10-05T03:27:31+00:00,student_4,college_portal,http_request,enterprise-server-02,7561,223,Routine website request,False
+ENT-N-01086,2026-10-05T03:40:59+00:00,employee_16,intranet,login_success,enterprise-server-10,1761,553,Routine successful login,False
+ENT-N-01007,2026-10-05T03:58:38+00:00,workstation_18,browser,process_start,enterprise-server-08,643,478,Routine application start,False
+ENT-N-00257,2026-10-05T04:01:25+00:00,workstation_5,browser,process_start,enterprise-server-05,7655,835,Routine application start,False
+ENT-N-00482,2026-10-05T04:13:12+00:00,web_server,access_log,file_write,enterprise-server-10,3643,218,Routine log append,False
+ENT-N-00204,2026-10-05T04:16:03+00:00,backup_service,backup_storage,backup_job,enterprise-server-01,8529,264,Scheduled backup,False
+ENT-N-00067,2026-10-05T04:16:41+00:00,employee_5,shared_docs,file_read,enterprise-server-12,4389,266,Routine document access,False
+ENT-N-00737,2026-10-05T04:18:08+00:00,employee_13,intranet,login_success,enterprise-server-03,1723,520,Routine successful login,False
+ENT-N-00993,2026-10-05T04:37:57+00:00,workstation_15,internal_domain,dns_query,enterprise-server-09,5580,354,Routine DNS lookup,False
+ENT-N-00043,2026-10-05T04:41:50+00:00,workstation_10,internal_domain,dns_query,enterprise-server-05,3389,497,Routine DNS lookup,False
+ENT-N-00943,2026-10-05T05:29:44+00:00,workstation_12,browser,process_start,enterprise-server-06,499,673,Routine application start,False
+ENT-N-00094,2026-10-05T05:40:27+00:00,workstation_13,internal_domain,dns_query,enterprise-server-07,1253,634,Routine DNS lookup,False
+ENT-N-00579,2026-10-05T05:48:09+00:00,web_server,access_log,file_write,enterprise-server-04,4751,834,Routine log append,False
+ENT-N-00059,2026-10-05T06:08:03+00:00,workstation_17,browser,process_start,enterprise-server-05,2808,77,Routine application start,False
+ENT-N-01051,2026-10-05T06:19:39+00:00,employee_18,intranet,login_success,enterprise-server-11,6993,581,Routine successful login,False
+ENT-N-00424,2026-10-05T06:20:03+00:00,web_app,course_catalog,database_query,enterprise-server-11,2261,46,Routine catalog query,False
+ENT-N-00755,2026-10-05T06:22:26+00:00,workstation_5,browser,process_start,enterprise-server-05,3845,391,Routine application start,False
+ENT-N-01039,2026-10-05T06:27:09+00:00,student_4,college_portal,http_request,enterprise-server-10,3909,494,Routine website request,False
+ENT-N-00657,2026-10-05T06:35:37+00:00,web_app,course_catalog,database_query,enterprise-server-08,7391,164,Routine catalog query,False
+ENT-N-00525,2026-10-05T06:55:09+00:00,workstation_7,internal_domain,dns_query,enterprise-server-07,3242,672,Routine DNS lookup,False
+ENT-N-00996,2026-10-05T07:08:42+00:00,employee_13,shared_docs,file_read,enterprise-server-03,2782,146,Routine document access,False
+ENT-N-00144,2026-10-05T07:16:42+00:00,workstation_13,internal_api,network_connection,enterprise-server-07,521,204,Routine internal connection,False
+ENT-N-00452,2026-10-05T07:23:23+00:00,employee_14,intranet,login_success,enterprise-server-11,328,281,Routine successful login,False
+ENT-N-00608,2026-10-05T07:48:19+00:00,employee_16,intranet,login_success,enterprise-server-09,2451,174,Routine successful login,False
+ENT-N-01052,2026-10-05T07:49:00+00:00,workstation_2,browser,process_start,enterprise-server-10,2384,719,Routine application start,False
+ENT-N-01115,2026-10-05T07:53:10+00:00,employee_7,intranet,login_success,enterprise-server-04,3184,323,Routine successful login,False
+ENT-N-00090,2026-10-05T07:54:17+00:00,web_app,course_catalog,database_query,enterprise-server-04,5662,57,Routine catalog query,False
+ENT-N-00605,2026-10-05T08:00:10+00:00,employee_12,intranet,login_success,enterprise-server-11,901,759,Routine successful login,False
+ENT-N-00009,2026-10-05T08:04:28+00:00,employee_7,intranet,login_success,enterprise-server-08,2270,702,Routine successful login,False
+ENT-N-00689,2026-10-05T08:05:16+00:00,employee_13,intranet,login_success,enterprise-server-08,2209,502,Routine successful login,False
+ENT-N-00337,2026-10-05T08:12:15+00:00,workstation_7,internal_api,network_connection,enterprise-server-09,5034,371,Routine internal connection,False
+ENT-N-00980,2026-10-05T08:15:10+00:00,employee_8,shared_docs,file_read,enterprise-server-01,8155,152,Routine document access,False
+ENT-N-00971,2026-10-05T08:22:09+00:00,employee_16,shared_docs,file_read,enterprise-server-07,4410,326,Routine document access,False
+ENT-N-00305,2026-10-05T08:32:16+00:00,backup_service,backup_storage,backup_job,enterprise-server-11,5367,611,Scheduled backup,False
+ENT-N-00102,2026-10-05T08:41:00+00:00,student_11,college_portal,http_request,enterprise-server-07,319,703,Routine website request,False
+ENT-N-00964,2026-10-05T09:02:32+00:00,student_15,college_portal,http_request,enterprise-server-03,7796,293,Routine website request,False
+ENT-N-00609,2026-10-05T09:13:19+00:00,workstation_9,internal_api,network_connection,enterprise-server-09,7206,726,Routine internal connection,False
+ENT-N-00934,2026-10-05T09:13:37+00:00,employee_3,shared_docs,file_read,enterprise-server-03,7298,252,Routine document access,False
+ENT-N-00269,2026-10-05T09:29:13+00:00,student_1,college_portal,http_request,enterprise-server-11,489,36,Routine website request,False
+ENT-N-00843,2026-10-05T09:32:19+00:00,employee_10,intranet,login_success,enterprise-server-05,438,549,Routine successful login,False
+ENT-N-00893,2026-10-05T09:46:31+00:00,workstation_17,internal_api,network_connection,enterprise-server-01,4629,496,Routine internal connection,False
+ENT-N-00872,2026-10-05T09:46:37+00:00,student_2,college_portal,http_request,enterprise-server-05,4290,800,Routine website request,False
+ENT-N-00280,2026-10-05T09:49:36+00:00,backup_service,backup_storage,backup_job,enterprise-server-12,2173,557,Scheduled backup,False
+ENT-N-00566,2026-10-05T10:01:48+00:00,workstation_6,internal_api,network_connection,enterprise-server-06,4743,79,Routine internal connection,False
+ENT-N-00836,2026-10-05T10:06:55+00:00,employee_7,intranet,login_success,enterprise-server-01,871,131,Routine successful login,False
+ENT-N-00577,2026-10-05T10:13:06+00:00,web_server,access_log,file_write,enterprise-server-05,6655,387,Routine log append,False
+ENT-N-01152,2026-10-05T10:21:10+00:00,backup_service,backup_storage,backup_job,enterprise-server-01,4258,182,Scheduled backup,False
+ENT-N-00875,2026-10-05T10:25:14+00:00,workstation_3,internal_domain,dns_query,enterprise-server-12,3295,841,Routine DNS lookup,False
+ENT-N-00321,2026-10-05T10:27:13+00:00,employee_1,shared_docs,file_read,enterprise-server-08,2511,123,Routine document access,False
+ENT-N-00829,2026-10-05T10:31:54+00:00,employee_2,intranet,login_success,enterprise-server-01,3797,90,Routine successful login,False
+ENT-N-01077,2026-10-05T10:37:51+00:00,workstation_12,browser,process_start,enterprise-server-07,233,391,Routine application start,False
+ENT-N-00921,2026-10-05T10:54:56+00:00,employee_7,intranet,login_success,enterprise-server-04,3071,787,Routine successful login,False
+ENT-N-00437,2026-10-05T11:00:40+00:00,student_9,college_portal,http_request,enterprise-server-12,704,328,Routine website request,False
+ENT-N-00538,2026-10-05T11:09:40+00:00,web_server,access_log,file_write,enterprise-server-10,5399,323,Routine log append,False
+ENT-N-00929,2026-10-05T11:19:59+00:00,employee_16,intranet,login_success,enterprise-server-09,7648,743,Routine successful login,False
+ENT-N-00035,2026-10-05T11:22:45+00:00,workstation_13,browser,process_start,enterprise-server-10,3152,560,Routine application start,False
+ENT-N-00307,2026-10-05T11:39:10+00:00,employee_5,intranet,login_success,enterprise-server-11,2100,177,Routine successful login,False
+ENT-N-00669,2026-10-05T11:56:10+00:00,employee_4,shared_docs,file_read,enterprise-server-05,7222,433,Routine document access,False
+ENT-N-01083,2026-10-05T11:56:42+00:00,workstation_3,internal_api,network_connection,enterprise-server-03,6025,353,Routine internal connection,False
+ENT-N-00099,2026-10-05T11:59:19+00:00,workstation_9,internal_domain,dns_query,enterprise-server-01,5053,491,Routine DNS lookup,False
+ENT-N-00862,2026-10-05T12:04:23+00:00,workstation_10,browser,process_start,enterprise-server-07,8005,486,Routine application start,False
+ENT-N-01170,2026-10-05T12:04:32+00:00,employee_15,intranet,login_success,enterprise-server-11,8398,816,Routine successful login,False
+ENT-N-00066,2026-10-05T12:13:51+00:00,web_app,course_catalog,database_query,enterprise-server-03,825,576,Routine catalog query,False
+ENT-N-00883,2026-10-05T12:23:22+00:00,web_app,course_catalog,database_query,enterprise-server-11,8127,42,Routine catalog query,False
+ENT-N-00547,2026-10-05T12:29:56+00:00,employee_14,shared_docs,file_read,enterprise-server-09,1924,329,Routine document access,False
+ENT-N-01029,2026-10-05T12:38:06+00:00,workstation_14,browser,process_start,enterprise-server-08,559,541,Routine application start,False
+ENT-N-00007,2026-10-05T12:46:53+00:00,student_8,college_portal,http_request,enterprise-server-09,7355,260,Routine website request,False
+ENT-N-00068,2026-10-05T12:56:45+00:00,employee_11,intranet,login_success,enterprise-server-08,5622,146,Routine successful login,False
+ENT-N-00175,2026-10-05T13:04:07+00:00,employee_6,shared_docs,file_read,enterprise-server-10,3639,754,Routine document access,False
+ENT-N-00429,2026-10-05T13:09:50+00:00,web_server,access_log,file_write,enterprise-server-03,4214,586,Routine log append,False
+ENT-N-01160,2026-10-05T13:11:54+00:00,employee_11,shared_docs,file_read,enterprise-server-05,1751,206,Routine document access,False
+ENT-N-01055,2026-10-05T13:38:04+00:00,student_8,college_portal,http_request,enterprise-server-10,6518,213,Routine website request,False
+ENT-N-00463,2026-10-05T13:43:04+00:00,workstation_7,internal_domain,dns_query,enterprise-server-07,2933,400,Routine DNS lookup,False
+ENT-N-00193,2026-10-05T14:16:55+00:00,employee_9,shared_docs,file_read,enterprise-server-07,3319,138,Routine document access,False
+ENT-N-00685,2026-10-05T14:19:15+00:00,web_app,course_catalog,database_query,enterprise-server-07,1685,601,Routine catalog query,False
+ENT-N-00187,2026-10-05T14:30:51+00:00,employee_16,intranet,login_success,enterprise-server-08,1599,329,Routine successful login,False
+ENT-N-00653,2026-10-05T14:35:35+00:00,web_app,course_catalog,database_query,enterprise-server-01,7877,215,Routine catalog query,False
+ENT-N-00777,2026-10-05T14:39:01+00:00,web_server,access_log,file_write,enterprise-server-11,4910,368,Routine log append,False
+ENT-N-00626,2026-10-05T14:40:45+00:00,workstation_11,internal_api,network_connection,enterprise-server-08,2604,99,Routine internal connection,False
+ENT-N-00938,2026-10-05T14:42:18+00:00,web_app,course_catalog,database_query,enterprise-server-04,5564,339,Routine catalog query,False
+ENT-N-00347,2026-10-05T14:50:09+00:00,web_server,access_log,file_write,enterprise-server-01,7249,831,Routine log append,False
+ENT-N-00072,2026-10-05T14:57:28+00:00,employee_6,intranet,login_success,enterprise-server-01,2608,266,Routine successful login,False
+ENT-N-01167,2026-10-05T15:15:12+00:00,web_server,access_log,file_write,enterprise-server-06,6918,553,Routine log append,False
+ENT-N-00936,2026-10-05T15:28:05+00:00,employee_3,shared_docs,file_read,enterprise-server-04,4219,559,Routine document access,False
+ENT-N-00982,2026-10-05T15:45:32+00:00,web_server,access_log,file_write,enterprise-server-01,4831,260,Routine log append,False
+ENT-N-00994,2026-10-05T15:58:38+00:00,employee_5,intranet,login_success,enterprise-server-12,4883,485,Routine successful login,False
+ENT-N-00387,2026-10-05T15:59:50+00:00,employee_7,intranet,login_success,enterprise-server-06,6514,385,Routine successful login,False
+ENT-N-01097,2026-10-05T16:07:51+00:00,employee_3,intranet,login_success,enterprise-server-09,8268,895,Routine successful login,False
+ENT-N-00646,2026-10-05T16:14:41+00:00,employee_17,intranet,login_success,enterprise-server-11,6619,435,Routine successful login,False
+ENT-N-00136,2026-10-05T16:22:26+00:00,workstation_13,internal_api,network_connection,enterprise-server-12,5885,351,Routine internal connection,False
+ENT-N-00241,2026-10-05T16:36:17+00:00,workstation_2,browser,process_start,enterprise-server-06,1306,881,Routine application start,False
+ENT-N-00776,2026-10-05T16:50:59+00:00,web_app,course_catalog,database_query,enterprise-server-10,1911,118,Routine catalog query,False
+ENT-N-00773,2026-10-05T16:54:09+00:00,employee_6,shared_docs,file_read,enterprise-server-04,4117,712,Routine document access,False
+ENT-N-00471,2026-10-05T17:04:44+00:00,web_app,course_catalog,database_query,enterprise-server-10,1320,780,Routine catalog query,False
+ENT-N-00055,2026-10-05T17:12:24+00:00,web_app,course_catalog,database_query,enterprise-server-10,2348,97,Routine catalog query,False
+ENT-N-00931,2026-10-05T17:14:19+00:00,student_9,college_portal,http_request,enterprise-server-05,8932,234,Routine website request,False
+ENT-N-01158,2026-10-05T17:18:13+00:00,student_15,college_portal,http_request,enterprise-server-03,2444,598,Routine website request,False
+ENT-N-00422,2026-10-05T17:28:40+00:00,workstation_13,internal_api,network_connection,enterprise-server-03,8992,491,Routine internal connection,False
+ENT-N-01125,2026-10-05T17:35:07+00:00,employee_6,shared_docs,file_read,enterprise-server-10,8111,367,Routine document access,False
+ENT-N-00884,2026-10-05T17:35:47+00:00,workstation_15,internal_domain,dns_query,enterprise-server-08,421,550,Routine DNS lookup,False
+ENT-N-00973,2026-10-05T17:38:33+00:00,backup_service,backup_storage,backup_job,enterprise-server-09,2020,392,Scheduled backup,False
+ENT-N-00522,2026-10-05T17:42:51+00:00,backup_service,backup_storage,backup_job,enterprise-server-12,1237,178,Scheduled backup,False
+ENT-N-00421,2026-10-05T17:47:37+00:00,workstation_6,internal_api,network_connection,enterprise-server-07,3230,177,Routine internal connection,False
+ENT-N-00393,2026-10-05T17:48:45+00:00,web_server,access_log,file_write,enterprise-server-05,6112,835,Routine log append,False
+ENT-N-00426,2026-10-05T18:08:46+00:00,backup_service,backup_storage,backup_job,enterprise-server-03,8857,486,Scheduled backup,False
+ENT-N-00218,2026-10-05T18:12:20+00:00,employee_15,intranet,login_success,enterprise-server-04,2857,604,Routine successful login,False
+ENT-N-00741,2026-10-05T18:32:18+00:00,web_app,course_catalog,database_query,enterprise-server-12,8633,744,Routine catalog query,False
+ENT-N-00790,2026-10-05T18:42:02+00:00,workstation_13,internal_api,network_connection,enterprise-server-03,4068,791,Routine internal connection,False
+ENT-N-00433,2026-10-05T18:54:29+00:00,workstation_11,browser,process_start,enterprise-server-03,535,544,Routine application start,False
+ENT-N-00719,2026-10-05T19:00:23+00:00,backup_service,backup_storage,backup_job,enterprise-server-09,8814,754,Scheduled backup,False
+ENT-N-00630,2026-10-05T19:03:01+00:00,workstation_17,internal_api,network_connection,enterprise-server-11,1755,90,Routine internal connection,False
+ENT-N-00800,2026-10-05T19:08:57+00:00,backup_service,backup_storage,backup_job,enterprise-server-03,7285,850,Scheduled backup,False
+ENT-N-00312,2026-10-05T19:11:56+00:00,web_server,access_log,file_write,enterprise-server-04,7877,443,Routine log append,False
+ENT-N-00242,2026-10-05T19:16:33+00:00,workstation_17,internal_domain,dns_query,enterprise-server-01,4708,682,Routine DNS lookup,False
+ENT-N-00191,2026-10-05T19:16:36+00:00,web_app,course_catalog,database_query,enterprise-server-03,8088,540,Routine catalog query,False
+ENT-N-00527,2026-10-05T19:24:19+00:00,employee_11,intranet,login_success,enterprise-server-06,3599,87,Routine successful login,False
+ENT-N-00673,2026-10-05T19:34:01+00:00,employee_1,shared_docs,file_read,enterprise-server-07,2216,66,Routine document access,False
+ENT-N-00569,2026-10-05T19:34:34+00:00,workstation_5,internal_api,network_connection,enterprise-server-06,1034,738,Routine internal connection,False
+ENT-N-01019,2026-10-05T19:39:16+00:00,student_5,college_portal,http_request,enterprise-server-04,4316,62,Routine website request,False
+ENT-N-01126,2026-10-05T19:41:45+00:00,web_app,course_catalog,database_query,enterprise-server-02,8236,833,Routine catalog query,False
+ENT-N-00016,2026-10-05T19:44:00+00:00,workstation_8,browser,process_start,enterprise-server-09,693,472,Routine application start,False
+ENT-N-00752,2026-10-05T19:47:42+00:00,employee_2,intranet,login_success,enterprise-server-04,4460,784,Routine successful login,False
+ENT-N-00985,2026-10-05T20:10:42+00:00,web_app,course_catalog,database_query,enterprise-server-04,4855,576,Routine catalog query,False
+ENT-N-00214,2026-10-05T20:18:20+00:00,web_app,course_catalog,database_query,enterprise-server-08,5579,858,Routine catalog query,False
+ENT-N-00062,2026-10-05T20:18:43+00:00,employee_4,intranet,login_success,enterprise-server-10,267,834,Routine successful login,False
+ENT-N-00723,2026-10-05T20:24:00+00:00,web_app,course_catalog,database_query,enterprise-server-02,8153,644,Routine catalog query,False
+ENT-N-00234,2026-10-05T20:27:10+00:00,web_server,access_log,file_write,enterprise-server-12,3159,110,Routine log append,False
+ENT-N-00171,2026-10-05T20:31:37+00:00,employee_13,intranet,login_success,enterprise-server-04,4668,155,Routine successful login,False
+ENT-N-00378,2026-10-05T20:35:12+00:00,student_17,college_portal,http_request,enterprise-server-10,4987,489,Routine website request,False
+ENT-N-00760,2026-10-05T20:42:52+00:00,workstation_2,internal_domain,dns_query,enterprise-server-12,1822,183,Routine DNS lookup,False
+ENT-N-00496,2026-10-05T21:02:09+00:00,employee_16,shared_docs,file_read,enterprise-server-03,5184,725,Routine document access,False
+ENT-N-00761,2026-10-05T21:09:45+00:00,workstation_15,internal_api,network_connection,enterprise-server-10,1308,247,Routine internal connection,False
+ENT-N-00058,2026-10-05T21:23:16+00:00,employee_12,intranet,login_success,enterprise-server-06,3845,445,Routine successful login,False
+ENT-N-00506,2026-10-05T21:31:33+00:00,employee_4,shared_docs,file_read,enterprise-server-07,8606,406,Routine document access,False
+ENT-N-00594,2026-10-05T21:32:05+00:00,workstation_10,internal_domain,dns_query,enterprise-server-07,4222,189,Routine DNS lookup,False
+ENT-N-00765,2026-10-05T21:38:27+00:00,web_server,access_log,file_write,enterprise-server-01,6825,540,Routine log append,False
+ENT-N-00224,2026-10-05T21:59:21+00:00,workstation_5,browser,process_start,enterprise-server-06,7333,521,Routine application start,False
+ENT-N-00553,2026-10-05T22:09:16+00:00,employee_8,intranet,login_success,enterprise-server-10,547,798,Routine successful login,False
+ENT-N-01012,2026-10-05T22:09:31+00:00,workstation_6,internal_domain,dns_query,enterprise-server-06,1822,587,Routine DNS lookup,False
+ENT-N-00483,2026-10-05T22:19:57+00:00,workstation_15,browser,process_start,enterprise-server-06,1580,723,Routine application start,False
+ENT-N-00721,2026-10-05T22:24:12+00:00,workstation_7,internal_domain,dns_query,enterprise-server-06,7578,599,Routine DNS lookup,False
+ENT-N-00195,2026-10-05T22:36:01+00:00,employee_9,shared_docs,file_read,enterprise-server-07,7019,379,Routine document access,False
+ENT-N-00834,2026-10-05T22:45:12+00:00,workstation_12,internal_api,network_connection,enterprise-server-10,468,763,Routine internal connection,False
+ENT-N-00734,2026-10-05T22:51:46+00:00,workstation_4,browser,process_start,enterprise-server-11,4588,59,Routine application start,False
+ENT-N-00085,2026-10-05T22:58:34+00:00,web_server,access_log,file_write,enterprise-server-12,2729,83,Routine log append,False
+ENT-N-00271,2026-10-05T23:24:24+00:00,employee_18,intranet,login_success,enterprise-server-08,4730,191,Routine successful login,False
+ENT-N-00963,2026-10-05T23:26:41+00:00,web_server,access_log,file_write,enterprise-server-11,1259,109,Routine log append,False
+ENT-N-00591,2026-10-05T23:56:50+00:00,workstation_7,internal_api,network_connection,enterprise-server-10,8821,609,Routine internal connection,False
+ENT-N-01177,2026-10-06T00:12:17+00:00,backup_service,backup_storage,backup_job,enterprise-server-11,7641,209,Scheduled backup,False
+ENT-N-00351,2026-10-06T00:22:04+00:00,student_16,college_portal,http_request,enterprise-server-10,7965,843,Routine website request,False
+ENT-N-00284,2026-10-06T00:27:11+00:00,student_5,college_portal,http_request,enterprise-server-02,2242,129,Routine website request,False
+ENT-N-00076,2026-10-06T00:32:03+00:00,employee_2,shared_docs,file_read,enterprise-server-04,7596,15,Routine document access,False
+ENT-N-00649,2026-10-06T00:48:04+00:00,web_app,course_catalog,database_query,enterprise-server-04,4109,814,Routine catalog query,False
+ENT-N-00641,2026-10-06T00:50:48+00:00,employee_7,intranet,login_success,enterprise-server-05,7345,451,Routine successful login,False
+ENT-N-00583,2026-10-06T01:02:26+00:00,workstation_7,browser,process_start,enterprise-server-02,386,685,Routine application start,False
+ENT-N-00418,2026-10-06T01:27:47+00:00,web_server,access_log,file_write,enterprise-server-07,4370,655,Routine log append,False
+ENT-N-00774,2026-10-06T01:41:16+00:00,backup_service,backup_storage,backup_job,enterprise-server-03,739,570,Scheduled backup,False
+ENT-N-01036,2026-10-06T02:08:28+00:00,workstation_3,browser,process_start,enterprise-server-12,6394,859,Routine application start,False
+ENT-N-00720,2026-10-06T02:10:06+00:00,workstation_1,internal_domain,dns_query,enterprise-server-10,5654,792,Routine DNS lookup,False
+ENT-N-01056,2026-10-06T02:17:32+00:00,workstation_16,internal_api,network_connection,enterprise-server-08,2574,328,Routine internal connection,False
+ENT-N-00910,2026-10-06T02:18:55+00:00,web_app,course_catalog,database_query,enterprise-server-03,792,72,Routine catalog query,False
+ENT-N-00924,2026-10-06T02:34:32+00:00,workstation_13,internal_api,network_connection,enterprise-server-10,6781,557,Routine internal connection,False
+ENT-N-00261,2026-10-06T02:44:40+00:00,workstation_6,internal_api,network_connection,enterprise-server-12,2118,200,Routine internal connection,False
+ENT-N-01139,2026-10-06T02:50:36+00:00,workstation_9,browser,process_start,enterprise-server-12,1773,204,Routine application start,False
+ENT-N-00958,2026-10-06T02:52:08+00:00,student_16,college_portal,http_request,enterprise-server-01,6045,307,Routine website request,False
+ENT-N-00677,2026-10-06T03:44:36+00:00,workstation_1,internal_api,network_connection,enterprise-server-10,7917,769,Routine internal connection,False
+ENT-N-00464,2026-10-06T03:51:54+00:00,employee_17,intranet,login_success,enterprise-server-12,8975,330,Routine successful login,False
+ENT-N-00972,2026-10-06T04:06:08+00:00,student_4,college_portal,http_request,enterprise-server-08,7400,891,Routine website request,False
+ENT-N-00112,2026-10-06T04:08:19+00:00,backup_service,backup_storage,backup_job,enterprise-server-08,5265,12,Scheduled backup,False
+ENT-N-00521,2026-10-06T04:17:09+00:00,web_server,access_log,file_write,enterprise-server-06,3105,547,Routine log append,False
+ENT-N-00128,2026-10-06T04:22:31+00:00,workstation_3,browser,process_start,enterprise-server-07,4272,96,Routine application start,False
+ENT-N-00275,2026-10-06T04:54:55+00:00,workstation_13,internal_domain,dns_query,enterprise-server-10,3195,828,Routine DNS lookup,False
+ENT-N-01076,2026-10-06T05:19:32+00:00,web_server,access_log,file_write,enterprise-server-07,543,468,Routine log append,False
+ENT-N-01013,2026-10-06T05:53:44+00:00,web_app,course_catalog,database_query,enterprise-server-10,8691,491,Routine catalog query,False
+ENT-N-00531,2026-10-06T05:57:58+00:00,workstation_11,internal_domain,dns_query,enterprise-server-01,4620,700,Routine DNS lookup,False
+ENT-N-00716,2026-10-06T06:07:08+00:00,employee_6,intranet,login_success,enterprise-server-11,2228,818,Routine successful login,False
+ENT-N-00265,2026-10-06T06:21:56+00:00,backup_service,backup_storage,backup_job,enterprise-server-09,1608,479,Scheduled backup,False
+ENT-N-00744,2026-10-06T06:28:08+00:00,web_server,access_log,file_write,enterprise-server-10,2570,6,Routine log append,False
+ENT-N-00589,2026-10-06T06:36:53+00:00,workstation_10,browser,process_start,enterprise-server-07,227,687,Routine application start,False
+ENT-N-01038,2026-10-06T06:55:44+00:00,employee_3,intranet,login_success,enterprise-server-10,8675,750,Routine successful login,False
+ENT-N-00887,2026-10-06T07:22:07+00:00,employee_6,shared_docs,file_read,enterprise-server-11,6208,155,Routine document access,False
+ENT-N-00747,2026-10-06T07:29:29+00:00,backup_service,backup_storage,backup_job,enterprise-server-02,3216,757,Scheduled backup,False
+ENT-N-01150,2026-10-06T07:46:19+00:00,backup_service,backup_storage,backup_job,enterprise-server-09,6955,417,Scheduled backup,False
+ENT-N-00490,2026-10-06T08:10:50+00:00,workstation_3,browser,process_start,enterprise-server-02,3149,90,Routine application start,False
+ENT-N-00928,2026-10-06T08:18:58+00:00,workstation_4,internal_domain,dns_query,enterprise-server-09,4333,520,Routine DNS lookup,False
+ENT-N-01099,2026-10-06T08:20:52+00:00,student_11,college_portal,http_request,enterprise-server-05,6596,38,Routine website request,False
+ENT-N-00894,2026-10-06T08:26:16+00:00,employee_17,shared_docs,file_read,enterprise-server-05,2908,539,Routine document access,False
+ENT-N-00491,2026-10-06T08:32:58+00:00,workstation_6,internal_domain,dns_query,enterprise-server-02,1400,8,Routine DNS lookup,False
+ENT-N-01148,2026-10-06T08:45:19+00:00,workstation_2,internal_api,network_connection,enterprise-server-03,4495,582,Routine internal connection,False
+ENT-N-00549,2026-10-06T08:45:45+00:00,web_server,access_log,file_write,enterprise-server-05,7881,852,Routine log append,False
+ENT-N-00279,2026-10-06T08:51:12+00:00,backup_service,backup_storage,backup_job,enterprise-server-10,5505,895,Scheduled backup,False
+ENT-N-00232,2026-10-06T09:01:51+00:00,workstation_18,internal_api,network_connection,enterprise-server-12,8502,270,Routine internal connection,False
+ENT-N-00571,2026-10-06T09:21:21+00:00,workstation_12,browser,process_start,enterprise-server-08,8100,202,Routine application start,False
+ENT-N-00143,2026-10-06T09:30:16+00:00,backup_service,backup_storage,backup_job,enterprise-server-05,4128,470,Scheduled backup,False
+ENT-N-00901,2026-10-06T09:38:51+00:00,employee_3,shared_docs,file_read,enterprise-server-12,331,856,Routine document access,False
+ENT-N-00476,2026-10-06T09:49:15+00:00,workstation_15,internal_domain,dns_query,enterprise-server-02,6093,766,Routine DNS lookup,False
+ENT-N-00622,2026-10-06T10:00:13+00:00,backup_service,backup_storage,backup_job,enterprise-server-07,8077,363,Scheduled backup,False
+ENT-N-00920,2026-10-06T10:03:23+00:00,web_server,access_log,file_write,enterprise-server-06,1555,485,Routine log append,False
+ENT-N-00779,2026-10-06T10:07:08+00:00,workstation_10,browser,process_start,enterprise-server-12,6745,246,Routine application start,False
+ENT-N-01157,2026-10-06T10:08:07+00:00,workstation_13,internal_domain,dns_query,enterprise-server-07,3496,257,Routine DNS lookup,False
+ENT-N-00619,2026-10-06T10:27:35+00:00,web_app,course_catalog,database_query,enterprise-server-05,3853,185,Routine catalog query,False
+ENT-N-00277,2026-10-06T10:27:44+00:00,workstation_17,browser,process_start,enterprise-server-11,4160,23,Routine application start,False
+ENT-N-01073,2026-10-06T10:27:56+00:00,student_10,college_portal,http_request,enterprise-server-11,953,231,Routine website request,False
+ENT-N-00969,2026-10-06T10:27:57+00:00,web_app,course_catalog,database_query,enterprise-server-06,5631,561,Routine catalog query,False
+ENT-N-00487,2026-10-06T10:41:16+00:00,workstation_13,internal_api,network_connection,enterprise-server-05,8347,257,Routine internal connection,False
+ENT-N-00947,2026-10-06T10:43:14+00:00,student_9,college_portal,http_request,enterprise-server-02,6953,669,Routine website request,False
+ENT-N-00354,2026-10-06T11:07:48+00:00,workstation_2,browser,process_start,enterprise-server-06,5919,158,Routine application start,False
+ENT-N-00399,2026-10-06T11:17:15+00:00,web_app,course_catalog,database_query,enterprise-server-03,1571,475,Routine catalog query,False
+ENT-N-00922,2026-10-06T11:26:25+00:00,workstation_10,browser,process_start,enterprise-server-10,6506,494,Routine application start,False
+ENT-N-00950,2026-10-06T11:54:19+00:00,web_app,course_catalog,database_query,enterprise-server-05,4998,291,Routine catalog query,False
+ENT-N-00457,2026-10-06T12:02:36+00:00,backup_service,backup_storage,backup_job,enterprise-server-07,3806,43,Scheduled backup,False
+ENT-N-00584,2026-10-06T12:09:19+00:00,backup_service,backup_storage,backup_job,enterprise-server-11,3549,246,Scheduled backup,False
+ENT-N-00180,2026-10-06T12:35:21+00:00,web_app,course_catalog,database_query,enterprise-server-04,8155,518,Routine catalog query,False
+ENT-N-00453,2026-10-06T12:44:19+00:00,workstation_9,internal_api,network_connection,enterprise-server-08,8870,445,Routine internal connection,False
+ENT-N-01060,2026-10-06T12:47:51+00:00,web_app,course_catalog,database_query,enterprise-server-11,8156,600,Routine catalog query,False
+ENT-N-01113,2026-10-06T13:08:30+00:00,workstation_4,internal_api,network_connection,enterprise-server-08,5209,391,Routine internal connection,False
+ENT-N-00087,2026-10-06T13:29:24+00:00,employee_1,intranet,login_success,enterprise-server-12,4558,156,Routine successful login,False
+ENT-N-00120,2026-10-06T13:36:17+00:00,employee_8,shared_docs,file_read,enterprise-server-07,8112,100,Routine document access,False
+ENT-N-01161,2026-10-06T13:43:55+00:00,workstation_1,internal_domain,dns_query,enterprise-server-09,761,223,Routine DNS lookup,False
+ENT-N-00209,2026-10-06T13:52:26+00:00,employee_5,shared_docs,file_read,enterprise-server-08,5504,637,Routine document access,False
+ENT-N-01156,2026-10-06T13:56:23+00:00,web_server,access_log,file_write,enterprise-server-08,6978,112,Routine log append,False
+ENT-N-00148,2026-10-06T14:14:52+00:00,web_server,access_log,file_write,enterprise-server-05,7259,809,Routine log append,False
+ENT-N-01041,2026-10-06T14:14:52+00:00,web_server,access_log,file_write,enterprise-server-02,6414,486,Routine log append,False
+ENT-N-00816,2026-10-06T14:15:16+00:00,employee_16,intranet,login_success,enterprise-server-01,2604,528,Routine successful login,False
+ENT-N-00202,2026-10-06T14:28:41+00:00,employee_4,shared_docs,file_read,enterprise-server-08,1373,386,Routine document access,False
+ENT-N-00805,2026-10-06T14:29:04+00:00,web_server,access_log,file_write,enterprise-server-06,1672,380,Routine log append,False
+ENT-N-00602,2026-10-06T14:42:33+00:00,employee_15,shared_docs,file_read,enterprise-server-09,5368,858,Routine document access,False
+ENT-N-00311,2026-10-06T15:15:45+00:00,web_server,access_log,file_write,enterprise-server-01,6109,893,Routine log append,False
+ENT-N-00603,2026-10-06T15:19:49+00:00,workstation_8,browser,process_start,enterprise-server-10,727,720,Routine application start,False
+ENT-N-01162,2026-10-06T15:31:55+00:00,web_server,access_log,file_write,enterprise-server-03,2464,670,Routine log append,False
+ENT-N-00725,2026-10-06T15:33:25+00:00,backup_service,backup_storage,backup_job,enterprise-server-01,4026,859,Scheduled backup,False
+ENT-N-01059,2026-10-06T15:34:37+00:00,workstation_16,browser,process_start,enterprise-server-03,455,302,Routine application start,False
+ENT-N-00097,2026-10-06T15:40:30+00:00,backup_service,backup_storage,backup_job,enterprise-server-05,4321,405,Scheduled backup,False
+ENT-N-00841,2026-10-06T15:52:48+00:00,web_server,access_log,file_write,enterprise-server-02,6368,852,Routine log append,False
+ENT-N-00498,2026-10-06T16:07:43+00:00,employee_3,intranet,login_success,enterprise-server-08,261,45,Routine successful login,False
+ENT-N-00309,2026-10-06T16:10:16+00:00,student_7,college_portal,http_request,enterprise-server-11,4283,736,Routine website request,False
+ENT-N-00668,2026-10-06T16:11:32+00:00,workstation_15,browser,process_start,enterprise-server-03,4186,373,Routine application start,False
+ENT-N-00819,2026-10-06T16:19:56+00:00,workstation_13,internal_api,network_connection,enterprise-server-09,4250,24,Routine internal connection,False
+ENT-N-00718,2026-10-06T16:22:05+00:00,workstation_2,internal_domain,dns_query,enterprise-server-04,7396,18,Routine DNS lookup,False
+ENT-N-00738,2026-10-06T16:26:00+00:00,employee_14,intranet,login_success,enterprise-server-06,4894,500,Routine successful login,False
+ENT-N-00606,2026-10-06T16:28:26+00:00,web_app,course_catalog,database_query,enterprise-server-01,8497,349,Routine catalog query,False
+ENT-N-00939,2026-10-06T16:34:57+00:00,workstation_8,internal_api,network_connection,enterprise-server-10,5616,734,Routine internal connection,False
+ENT-N-00679,2026-10-06T16:48:07+00:00,web_app,course_catalog,database_query,enterprise-server-05,7140,126,Routine catalog query,False
+ENT-N-00722,2026-10-06T17:05:44+00:00,workstation_13,internal_api,network_connection,enterprise-server-02,900,59,Routine internal connection,False
+ENT-N-00221,2026-10-06T17:25:35+00:00,employee_5,shared_docs,file_read,enterprise-server-08,1173,385,Routine document access,False
+ENT-N-01067,2026-10-06T17:27:27+00:00,web_app,course_catalog,database_query,enterprise-server-12,115,577,Routine catalog query,False
+ENT-N-00243,2026-10-06T17:32:08+00:00,web_server,access_log,file_write,enterprise-server-05,3943,173,Routine log append,False
+ENT-N-00717,2026-10-06T17:44:40+00:00,workstation_18,browser,process_start,enterprise-server-10,1504,82,Routine application start,False
+ENT-N-00448,2026-10-06T17:48:58+00:00,employee_7,intranet,login_success,enterprise-server-09,7056,857,Routine successful login,False
+ENT-N-01153,2026-10-06T17:55:25+00:00,workstation_16,browser,process_start,enterprise-server-11,1156,710,Routine application start,False
+ENT-N-00183,2026-10-06T18:08:23+00:00,workstation_17,browser,process_start,enterprise-server-09,7619,35,Routine application start,False
+ENT-N-00455,2026-10-06T18:22:09+00:00,workstation_14,internal_api,network_connection,enterprise-server-10,2245,311,Routine internal connection,False
+ENT-N-00302,2026-10-06T18:33:07+00:00,workstation_2,internal_domain,dns_query,enterprise-server-06,130,643,Routine DNS lookup,False
+ENT-N-00746,2026-10-06T19:01:51+00:00,employee_17,shared_docs,file_read,enterprise-server-05,6599,378,Routine document access,False
+ENT-N-00480,2026-10-06T19:07:16+00:00,web_app,course_catalog,database_query,enterprise-server-10,8963,213,Routine catalog query,False
+ENT-N-00655,2026-10-06T19:11:59+00:00,workstation_14,internal_api,network_connection,enterprise-server-02,8380,351,Routine internal connection,False
+ENT-N-00511,2026-10-06T19:12:10+00:00,web_server,access_log,file_write,enterprise-server-01,8028,637,Routine log append,False
+ENT-N-00880,2026-10-06T19:15:58+00:00,backup_service,backup_storage,backup_job,enterprise-server-03,7113,782,Scheduled backup,False
+ENT-N-00415,2026-10-06T19:36:31+00:00,workstation_1,internal_domain,dns_query,enterprise-server-09,2791,469,Routine DNS lookup,False
+ENT-N-01100,2026-10-06T19:45:58+00:00,workstation_17,browser,process_start,enterprise-server-07,580,155,Routine application start,False
+ENT-N-00167,2026-10-06T19:55:00+00:00,employee_8,shared_docs,file_read,enterprise-server-11,4245,744,Routine document access,False
+ENT-N-00925,2026-10-06T19:58:07+00:00,employee_2,shared_docs,file_read,enterprise-server-06,8475,719,Routine document access,False
+ENT-N-00129,2026-10-06T20:29:56+00:00,web_app,course_catalog,database_query,enterprise-server-04,5575,273,Routine catalog query,False
+ENT-N-00856,2026-10-06T20:33:53+00:00,web_server,access_log,file_write,enterprise-server-06,8191,374,Routine log append,False
+ENT-N-00830,2026-10-06T20:38:15+00:00,student_15,college_portal,http_request,enterprise-server-11,2202,228,Routine website request,False
+ENT-N-00365,2026-10-06T20:43:32+00:00,employee_14,intranet,login_success,enterprise-server-11,565,762,Routine successful login,False
+ENT-N-01155,2026-10-06T20:47:36+00:00,web_server,access_log,file_write,enterprise-server-09,7071,785,Routine log append,False
+ENT-N-00416,2026-10-06T21:01:26+00:00,workstation_14,internal_api,network_connection,enterprise-server-04,605,134,Routine internal connection,False
+ENT-N-00592,2026-10-06T21:11:49+00:00,workstation_3,internal_api,network_connection,enterprise-server-04,3261,76,Routine internal connection,False
+ENT-N-00081,2026-10-06T21:16:05+00:00,workstation_7,internal_api,network_connection,enterprise-server-12,8236,624,Routine internal connection,False
+ENT-N-00874,2026-10-06T21:16:16+00:00,employee_12,intranet,login_success,enterprise-server-09,8528,821,Routine successful login,False
+ENT-N-00349,2026-10-06T21:22:44+00:00,employee_6,shared_docs,file_read,enterprise-server-11,8285,849,Routine document access,False
+ENT-N-00117,2026-10-06T21:23:45+00:00,employee_8,intranet,login_success,enterprise-server-03,5947,749,Routine successful login,False
+ENT-N-00937,2026-10-06T21:23:49+00:00,workstation_17,internal_domain,dns_query,enterprise-server-10,2435,637,Routine DNS lookup,False
+ENT-N-00832,2026-10-06T21:35:39+00:00,workstation_8,internal_api,network_connection,enterprise-server-02,7269,54,Routine internal connection,False
+ENT-N-00794,2026-10-06T22:04:42+00:00,student_6,college_portal,http_request,enterprise-server-01,6563,863,Routine website request,False
+ENT-N-00084,2026-10-06T22:14:26+00:00,web_server,access_log,file_write,enterprise-server-03,7145,194,Routine log append,False
+ENT-N-00149,2026-10-06T22:29:44+00:00,workstation_12,internal_api,network_connection,enterprise-server-10,5142,593,Routine internal connection,False
+ENT-N-01101,2026-10-06T22:29:55+00:00,backup_service,backup_storage,backup_job,enterprise-server-05,6730,799,Scheduled backup,False
+ENT-N-01173,2026-10-06T22:30:34+00:00,student_18,college_portal,http_request,enterprise-server-09,8292,380,Routine website request,False
+ENT-N-00034,2026-10-06T22:32:05+00:00,workstation_1,internal_api,network_connection,enterprise-server-11,1144,192,Routine internal connection,False
+ENT-N-00728,2026-10-06T22:42:12+00:00,student_5,college_portal,http_request,enterprise-server-08,5773,285,Routine website request,False
+ENT-N-00623,2026-10-06T23:05:13+00:00,backup_service,backup_storage,backup_job,enterprise-server-11,7824,123,Scheduled backup,False
+ENT-N-00272,2026-10-06T23:07:27+00:00,backup_service,backup_storage,backup_job,enterprise-server-06,6652,868,Scheduled backup,False
+ENT-N-00909,2026-10-06T23:10:42+00:00,web_app,course_catalog,database_query,enterprise-server-03,4717,630,Routine catalog query,False
+ENT-N-00267,2026-10-06T23:10:56+00:00,employee_17,shared_docs,file_read,enterprise-server-11,2366,808,Routine document access,False
+ENT-N-00913,2026-10-06T23:16:50+00:00,web_app,course_catalog,database_query,enterprise-server-06,5146,663,Routine catalog query,False
+ENT-N-00147,2026-10-06T23:31:53+00:00,workstation_10,browser,process_start,enterprise-server-01,3934,293,Routine application start,False
+ENT-N-00179,2026-10-06T23:42:55+00:00,employee_16,intranet,login_success,enterprise-server-02,3952,786,Routine successful login,False
+ENT-N-00891,2026-10-06T23:54:59+00:00,workstation_8,internal_api,network_connection,enterprise-server-07,2258,20,Routine internal connection,False
+ENT-N-00300,2026-10-06T23:57:35+00:00,web_app,course_catalog,database_query,enterprise-server-08,8954,118,Routine catalog query,False
+ENT-N-00970,2026-10-07T00:08:06+00:00,web_server,access_log,file_write,enterprise-server-10,3911,412,Routine log append,False
+ENT-N-00822,2026-10-07T00:12:08+00:00,workstation_6,internal_domain,dns_query,enterprise-server-09,1922,744,Routine DNS lookup,False
+ENT-N-00733,2026-10-07T00:12:15+00:00,employee_4,intranet,login_success,enterprise-server-12,5997,279,Routine successful login,False
+ENT-N-01117,2026-10-07T00:25:34+00:00,workstation_4,internal_api,network_connection,enterprise-server-07,1695,884,Routine internal connection,False
+ENT-N-00530,2026-10-07T00:26:42+00:00,workstation_1,browser,process_start,enterprise-server-01,214,128,Routine application start,False
+ENT-N-00155,2026-10-07T00:45:17+00:00,employee_13,shared_docs,file_read,enterprise-server-03,276,262,Routine document access,False
+ENT-N-01127,2026-10-07T01:04:15+00:00,web_server,access_log,file_write,enterprise-server-11,7286,764,Routine log append,False
+ENT-N-00586,2026-10-07T01:05:02+00:00,backup_service,backup_storage,backup_job,enterprise-server-05,664,724,Scheduled backup,False
+ENT-N-00083,2026-10-07T01:12:47+00:00,web_server,access_log,file_write,enterprise-server-07,3199,686,Routine log append,False
+ENT-N-00247,2026-10-07T01:15:44+00:00,workstation_18,browser,process_start,enterprise-server-11,4527,729,Routine application start,False
+ENT-N-00766,2026-10-07T01:17:24+00:00,web_server,access_log,file_write,enterprise-server-12,5002,65,Routine log append,False
+ENT-N-00291,2026-10-07T01:38:38+00:00,employee_10,shared_docs,file_read,enterprise-server-06,4834,25,Routine document access,False
+ENT-N-00650,2026-10-07T01:45:12+00:00,workstation_4,internal_api,network_connection,enterprise-server-03,615,577,Routine internal connection,False
+ENT-N-00103,2026-10-07T02:17:42+00:00,employee_5,shared_docs,file_read,enterprise-server-01,3694,500,Routine document access,False
+ENT-N-00194,2026-10-07T02:28:51+00:00,web_server,access_log,file_write,enterprise-server-05,8034,736,Routine log append,False
+ENT-N-00138,2026-10-07T02:38:48+00:00,student_6,college_portal,http_request,enterprise-server-05,8322,710,Routine website request,False
+ENT-N-01081,2026-10-07T02:40:38+00:00,workstation_1,internal_domain,dns_query,enterprise-server-04,7773,214,Routine DNS lookup,False
+ENT-N-00278,2026-10-07T03:08:23+00:00,workstation_5,browser,process_start,enterprise-server-01,8362,712,Routine application start,False
+ENT-N-00948,2026-10-07T03:08:43+00:00,web_app,course_catalog,database_query,enterprise-server-08,3883,194,Routine catalog query,False
+ENT-N-00625,2026-10-07T03:17:16+00:00,workstation_1,internal_domain,dns_query,enterprise-server-04,5311,274,Routine DNS lookup,False
+ENT-N-00318,2026-10-07T03:39:27+00:00,web_app,course_catalog,database_query,enterprise-server-12,4567,364,Routine catalog query,False
+ENT-N-00942,2026-10-07T03:51:27+00:00,workstation_1,browser,process_start,enterprise-server-02,5745,829,Routine application start,False
+ENT-N-00220,2026-10-07T03:57:43+00:00,student_18,college_portal,http_request,enterprise-server-07,3720,84,Routine website request,False
+ENT-N-00706,2026-10-07T03:59:34+00:00,web_server,access_log,file_write,enterprise-server-12,767,821,Routine log append,False
+ENT-N-00325,2026-10-07T04:00:31+00:00,web_app,course_catalog,database_query,enterprise-server-02,8022,1,Routine catalog query,False
+ENT-N-00861,2026-10-07T04:00:47+00:00,employee_10,shared_docs,file_read,enterprise-server-05,4796,239,Routine document access,False
+ENT-N-00701,2026-10-07T04:26:46+00:00,backup_service,backup_storage,backup_job,enterprise-server-11,3024,364,Scheduled backup,False
+ENT-N-00323,2026-10-07T04:34:35+00:00,employee_9,intranet,login_success,enterprise-server-07,5806,180,Routine successful login,False
+ENT-N-00541,2026-10-07T04:34:51+00:00,web_server,access_log,file_write,enterprise-server-08,2084,661,Routine log append,False
+ENT-N-01147,2026-10-07T04:51:14+00:00,student_16,college_portal,http_request,enterprise-server-12,4889,28,Routine website request,False
+ENT-N-00228,2026-10-07T04:53:41+00:00,workstation_6,internal_api,network_connection,enterprise-server-03,2643,685,Routine internal connection,False
+ENT-N-00528,2026-10-07T05:01:49+00:00,employee_14,intranet,login_success,enterprise-server-09,1063,719,Routine successful login,False
+ENT-N-00379,2026-10-07T05:02:55+00:00,employee_1,shared_docs,file_read,enterprise-server-09,1564,500,Routine document access,False
+ENT-N-00449,2026-10-07T05:04:08+00:00,workstation_17,internal_api,network_connection,enterprise-server-11,6077,90,Routine internal connection,False
+ENT-N-00803,2026-10-07T05:08:08+00:00,workstation_7,internal_api,network_connection,enterprise-server-01,1010,313,Routine internal connection,False
+ENT-N-00954,2026-10-07T05:11:26+00:00,workstation_4,internal_api,network_connection,enterprise-server-02,1686,9,Routine internal connection,False
+ENT-N-00210,2026-10-07T05:11:44+00:00,workstation_9,internal_api,network_connection,enterprise-server-05,1216,400,Routine internal connection,False
+ENT-N-00165,2026-10-07T05:24:49+00:00,workstation_14,internal_domain,dns_query,enterprise-server-01,1425,798,Routine DNS lookup,False
+ENT-N-00767,2026-10-07T05:30:50+00:00,workstation_14,internal_domain,dns_query,enterprise-server-03,1098,804,Routine DNS lookup,False
+ENT-N-00785,2026-10-07T05:44:03+00:00,student_3,college_portal,http_request,enterprise-server-01,6756,566,Routine website request,False
+ENT-N-01164,2026-10-07T05:44:07+00:00,web_app,course_catalog,database_query,enterprise-server-11,3580,314,Routine catalog query,False
+ENT-N-00866,2026-10-07T05:45:17+00:00,web_server,access_log,file_write,enterprise-server-04,7312,889,Routine log append,False
+ENT-N-00806,2026-10-07T05:51:10+00:00,employee_16,intranet,login_success,enterprise-server-02,8406,393,Routine successful login,False
+ENT-N-00296,2026-10-07T05:54:10+00:00,web_app,course_catalog,database_query,enterprise-server-02,2798,575,Routine catalog query,False
+ENT-N-01135,2026-10-07T05:58:34+00:00,web_app,course_catalog,database_query,enterprise-server-05,5989,487,Routine catalog query,False
+ENT-N-00069,2026-10-07T06:00:29+00:00,backup_service,backup_storage,backup_job,enterprise-server-12,2932,475,Scheduled backup,False
+ENT-N-00304,2026-10-07T06:13:28+00:00,workstation_15,browser,process_start,enterprise-server-12,6647,288,Routine application start,False
+ENT-N-00554,2026-10-07T06:14:45+00:00,employee_4,shared_docs,file_read,enterprise-server-06,7602,183,Routine document access,False
+ENT-N-00815,2026-10-07T06:17:07+00:00,workstation_13,internal_domain,dns_query,enterprise-server-11,754,448,Routine DNS lookup,False
+ENT-N-00631,2026-10-07T06:21:15+00:00,student_6,college_portal,http_request,enterprise-server-10,6628,457,Routine website request,False
+ENT-N-00466,2026-10-07T06:21:59+00:00,web_server,access_log,file_write,enterprise-server-04,712,171,Routine log append,False
+ENT-N-00431,2026-10-07T06:22:02+00:00,workstation_10,internal_api,network_connection,enterprise-server-07,6819,806,Routine internal connection,False
+ENT-N-00219,2026-10-07T06:22:46+00:00,employee_2,shared_docs,file_read,enterprise-server-04,6462,356,Routine document access,False
+ENT-N-00263,2026-10-07T06:36:23+00:00,employee_5,intranet,login_success,enterprise-server-02,2098,50,Routine successful login,False
+ENT-N-00504,2026-10-07T06:37:01+00:00,employee_16,shared_docs,file_read,enterprise-server-03,1120,818,Routine document access,False
+ENT-N-01003,2026-10-07T06:37:50+00:00,employee_18,shared_docs,file_read,enterprise-server-08,1665,640,Routine document access,False
+ENT-N-00244,2026-10-07T06:39:26+00:00,employee_1,shared_docs,file_read,enterprise-server-08,2768,230,Routine document access,False
+ENT-N-00430,2026-10-07T07:05:39+00:00,web_app,course_catalog,database_query,enterprise-server-07,5090,354,Routine catalog query,False
+ENT-N-00411,2026-10-07T07:06:30+00:00,student_18,college_portal,http_request,enterprise-server-01,2357,305,Routine website request,False
+ENT-N-00176,2026-10-07T07:18:15+00:00,employee_17,intranet,login_success,enterprise-server-05,3828,319,Routine successful login,False
+ENT-N-00073,2026-10-07T07:25:05+00:00,workstation_5,internal_api,network_connection,enterprise-server-09,6935,868,Routine internal connection,False
+ENT-N-00659,2026-10-07T07:25:39+00:00,web_server,access_log,file_write,enterprise-server-10,8813,5,Routine log append,False
+ENT-N-01026,2026-10-07T07:27:28+00:00,workstation_11,internal_domain,dns_query,enterprise-server-03,1601,703,Routine DNS lookup,False
+ENT-N-00239,2026-10-07T07:47:44+00:00,backup_service,backup_storage,backup_job,enterprise-server-11,5201,178,Scheduled backup,False
+ENT-N-00447,2026-10-07T07:49:51+00:00,student_10,college_portal,http_request,enterprise-server-02,3334,567,Routine website request,False
+ENT-N-01134,2026-10-07T07:52:04+00:00,workstation_13,browser,process_start,enterprise-server-10,5082,420,Routine application start,False
+ENT-N-00134,2026-10-07T08:40:32+00:00,employee_10,shared_docs,file_read,enterprise-server-01,4095,844,Routine document access,False
+ENT-N-00662,2026-10-07T08:42:16+00:00,workstation_13,browser,process_start,enterprise-server-10,4010,133,Routine application start,False
+ENT-N-00052,2026-10-07T08:58:25+00:00,workstation_12,internal_domain,dns_query,enterprise-server-08,6048,53,Routine DNS lookup,False
+ENT-N-01175,2026-10-07T09:00:44+00:00,workstation_3,internal_api,network_connection,enterprise-server-08,2940,621,Routine internal connection,False
+ENT-N-00576,2026-10-07T09:12:58+00:00,workstation_16,internal_domain,dns_query,enterprise-server-11,6344,744,Routine DNS lookup,False
+ENT-N-00158,2026-10-07T09:19:42+00:00,employee_16,intranet,login_success,enterprise-server-08,1481,506,Routine successful login,False
+ENT-N-00044,2026-10-07T09:38:38+00:00,workstation_9,internal_domain,dns_query,enterprise-server-03,731,286,Routine DNS lookup,False
+ENT-N-00353,2026-10-07T09:43:31+00:00,workstation_2,browser,process_start,enterprise-server-03,6566,51,Routine application start,False
+ENT-N-00356,2026-10-07T09:56:34+00:00,workstation_15,internal_domain,dns_query,enterprise-server-01,8015,814,Routine DNS lookup,False
+ENT-N-00022,2026-10-07T10:04:24+00:00,workstation_14,internal_api,network_connection,enterprise-server-11,3240,35,Routine internal connection,False
+ENT-N-01044,2026-10-07T10:09:25+00:00,web_server,access_log,file_write,enterprise-server-03,3484,223,Routine log append,False
+ENT-N-00543,2026-10-07T10:13:45+00:00,workstation_6,internal_api,network_connection,enterprise-server-10,5691,632,Routine internal connection,False
+ENT-N-00469,2026-10-07T10:23:16+00:00,employee_10,intranet,login_success,enterprise-server-04,8644,337,Routine successful login,False
+ENT-N-00808,2026-10-07T10:25:38+00:00,employee_15,shared_docs,file_read,enterprise-server-09,6602,862,Routine document access,False
+ENT-N-00032,2026-10-07T10:28:46+00:00,web_server,access_log,file_write,enterprise-server-10,6624,776,Routine log append,False
+ENT-N-00245,2026-10-07T10:34:23+00:00,workstation_11,internal_api,network_connection,enterprise-server-08,2436,624,Routine internal connection,False
+ENT-N-00294,2026-10-07T10:35:44+00:00,employee_3,intranet,login_success,enterprise-server-09,1770,439,Routine successful login,False
+ENT-N-00672,2026-10-07T10:51:50+00:00,employee_8,intranet,login_success,enterprise-server-04,2942,513,Routine successful login,False
+ENT-N-00560,2026-10-07T11:10:52+00:00,web_server,access_log,file_write,enterprise-server-11,7537,569,Routine log append,False
+ENT-N-00850,2026-10-07T11:19:32+00:00,backup_service,backup_storage,backup_job,enterprise-server-11,8397,394,Scheduled backup,False
+ENT-N-00033,2026-10-07T11:52:20+00:00,employee_2,intranet,login_success,enterprise-server-06,4632,456,Routine successful login,False
+ENT-N-00303,2026-10-07T11:57:48+00:00,employee_1,intranet,login_success,enterprise-server-11,8756,124,Routine successful login,False
+ENT-N-00597,2026-10-07T12:16:16+00:00,workstation_16,browser,process_start,enterprise-server-09,8700,551,Routine application start,False
+ENT-N-01154,2026-10-07T12:25:20+00:00,student_12,college_portal,http_request,enterprise-server-11,3541,258,Routine website request,False
+ENT-N-00137,2026-10-07T12:40:17+00:00,student_9,college_portal,http_request,enterprise-server-01,1460,831,Routine website request,False
+ENT-N-00216,2026-10-07T12:41:55+00:00,workstation_15,browser,process_start,enterprise-server-07,1794,507,Routine application start,False
+ENT-N-00903,2026-10-07T12:47:00+00:00,web_server,access_log,file_write,enterprise-server-04,3220,639,Routine log append,False
+ENT-N-00758,2026-10-07T13:06:04+00:00,workstation_2,internal_domain,dns_query,enterprise-server-09,525,840,Routine DNS lookup,False
+ENT-N-00367,2026-10-07T13:07:52+00:00,workstation_10,browser,process_start,enterprise-server-07,2461,597,Routine application start,False
+ENT-N-01031,2026-10-07T13:10:21+00:00,employee_5,shared_docs,file_read,enterprise-server-05,4603,867,Routine document access,False
+ENT-N-00782,2026-10-07T13:26:02+00:00,student_6,college_portal,http_request,enterprise-server-09,579,782,Routine website request,False
+ENT-N-00065,2026-10-07T13:38:53+00:00,backup_service,backup_storage,backup_job,enterprise-server-03,3443,469,Scheduled backup,False
+ENT-N-00454,2026-10-07T13:44:26+00:00,backup_service,backup_storage,backup_job,enterprise-server-08,5200,181,Scheduled backup,False
+ENT-N-00656,2026-10-07T13:47:25+00:00,workstation_12,browser,process_start,enterprise-server-09,615,774,Routine application start,False
+ENT-N-01069,2026-10-07T14:10:44+00:00,employee_4,intranet,login_success,enterprise-server-02,8250,219,Routine successful login,False
+ENT-N-00599,2026-10-07T14:12:50+00:00,workstation_6,internal_api,network_connection,enterprise-server-10,497,275,Routine internal connection,False
+ENT-N-00019,2026-10-07T14:13:48+00:00,backup_service,backup_storage,backup_job,enterprise-server-07,3308,872,Scheduled backup,False
+ENT-N-00178,2026-10-07T14:18:18+00:00,student_13,college_portal,http_request,enterprise-server-02,8213,436,Routine website request,False
+ENT-N-00795,2026-10-07T14:47:24+00:00,web_server,access_log,file_write,enterprise-server-05,6592,493,Routine log append,False
+ENT-N-00199,2026-10-07T14:47:52+00:00,backup_service,backup_storage,backup_job,enterprise-server-07,6477,130,Scheduled backup,False
+ENT-N-00878,2026-10-07T14:47:55+00:00,workstation_14,internal_api,network_connection,enterprise-server-09,8343,795,Routine internal connection,False
+ENT-N-01047,2026-10-07T14:54:54+00:00,workstation_11,internal_api,network_connection,enterprise-server-06,8486,679,Routine internal connection,False
+ENT-N-00362,2026-10-07T14:55:03+00:00,web_app,course_catalog,database_query,enterprise-server-05,1394,835,Routine catalog query,False
+ENT-N-00358,2026-10-07T14:56:31+00:00,employee_6,intranet,login_success,enterprise-server-02,3922,523,Routine successful login,False
+ENT-N-00398,2026-10-07T15:13:10+00:00,web_app,course_catalog,database_query,enterprise-server-07,2527,748,Routine catalog query,False
+ENT-N-00025,2026-10-07T15:16:43+00:00,student_9,college_portal,http_request,enterprise-server-07,2417,557,Routine website request,False
+ENT-N-00798,2026-10-07T15:21:44+00:00,student_7,college_portal,http_request,enterprise-server-11,2174,415,Routine website request,False
+ENT-N-00899,2026-10-07T15:27:57+00:00,web_server,access_log,file_write,enterprise-server-04,5752,164,Routine log append,False
+ENT-N-00027,2026-10-07T15:43:35+00:00,workstation_17,internal_api,network_connection,enterprise-server-02,1671,284,Routine internal connection,False
+ENT-N-00115,2026-10-07T15:44:55+00:00,student_1,college_portal,http_request,enterprise-server-03,1219,375,Routine website request,False
+ENT-N-01079,2026-10-07T15:49:02+00:00,employee_15,shared_docs,file_read,enterprise-server-08,7809,334,Routine document access,False
+ENT-N-00809,2026-10-07T16:04:03+00:00,web_server,access_log,file_write,enterprise-server-05,8786,203,Routine log append,False
+ENT-N-01130,2026-10-07T16:06:32+00:00,employee_17,shared_docs,file_read,enterprise-server-06,5815,236,Routine document access,False
+ENT-N-00146,2026-10-07T16:28:05+00:00,student_15,college_portal,http_request,enterprise-server-06,7655,435,Routine website request,False
+ENT-N-00397,2026-10-07T16:33:09+00:00,web_server,access_log,file_write,enterprise-server-11,3005,386,Routine log append,False
+ENT-N-00688,2026-10-07T16:34:33+00:00,employee_12,shared_docs,file_read,enterprise-server-01,176,280,Routine document access,False
+ENT-N-00736,2026-10-07T16:42:09+00:00,workstation_15,browser,process_start,enterprise-server-01,1671,298,Routine application start,False
+ENT-N-00642,2026-10-07T16:50:41+00:00,web_server,access_log,file_write,enterprise-server-06,5119,452,Routine log append,False
+ENT-N-01141,2026-10-07T16:54:47+00:00,workstation_9,internal_api,network_connection,enterprise-server-05,1739,134,Routine internal connection,False
+ENT-N-00904,2026-10-07T17:01:42+00:00,workstation_8,internal_domain,dns_query,enterprise-server-08,6830,594,Routine DNS lookup,False
+ENT-N-00524,2026-10-07T17:02:14+00:00,backup_service,backup_storage,backup_job,enterprise-server-09,4777,238,Scheduled backup,False
+ENT-N-00400,2026-10-07T17:26:11+00:00,web_app,course_catalog,database_query,enterprise-server-02,8236,555,Routine catalog query,False
+ENT-N-00540,2026-10-07T17:29:07+00:00,student_18,college_portal,http_request,enterprise-server-09,7462,117,Routine website request,False
+ENT-N-01065,2026-10-07T17:56:50+00:00,web_server,access_log,file_write,enterprise-server-11,3781,24,Routine log append,False
+ENT-N-00665,2026-10-07T18:01:26+00:00,workstation_2,internal_domain,dns_query,enterprise-server-05,4215,827,Routine DNS lookup,False
+ENT-N-00374,2026-10-07T18:28:45+00:00,employee_11,shared_docs,file_read,enterprise-server-08,7183,5,Routine document access,False
+ENT-N-00675,2026-10-07T18:56:29+00:00,employee_8,shared_docs,file_read,enterprise-server-03,8412,660,Routine document access,False
+ENT-N-00821,2026-10-07T19:03:37+00:00,workstation_7,internal_domain,dns_query,enterprise-server-03,1078,182,Routine DNS lookup,False
+ENT-N-00946,2026-10-07T19:05:54+00:00,workstation_4,internal_domain,dns_query,enterprise-server-12,2290,5,Routine DNS lookup,False
+ENT-N-00546,2026-10-07T19:19:03+00:00,student_12,college_portal,http_request,enterprise-server-12,771,649,Routine website request,False
+ENT-N-00456,2026-10-07T19:23:18+00:00,workstation_5,internal_domain,dns_query,enterprise-server-01,4101,755,Routine DNS lookup,False
+ENT-N-00403,2026-10-07T19:23:19+00:00,workstation_5,internal_domain,dns_query,enterprise-server-10,5478,620,Routine DNS lookup,False
+ENT-N-00014,2026-10-07T19:29:27+00:00,backup_service,backup_storage,backup_job,enterprise-server-03,5723,17,Scheduled backup,False
+ENT-N-00006,2026-10-07T19:32:39+00:00,web_server,access_log,file_write,enterprise-server-11,2404,894,Routine log append,False
+ENT-N-00621,2026-10-07T19:33:53+00:00,employee_11,shared_docs,file_read,enterprise-server-07,7546,174,Routine document access,False
+ENT-N-01104,2026-10-07T19:35:10+00:00,employee_11,shared_docs,file_read,enterprise-server-07,7148,116,Routine document access,False
+ENT-N-00206,2026-10-07T20:07:31+00:00,employee_4,shared_docs,file_read,enterprise-server-05,4090,333,Routine document access,False
+ENT-N-00503,2026-10-07T20:24:37+00:00,workstation_4,browser,process_start,enterprise-server-01,4975,480,Routine application start,False
+ENT-N-00026,2026-10-07T20:31:42+00:00,workstation_9,internal_api,network_connection,enterprise-server-03,3770,733,Routine internal connection,False
+ENT-N-00824,2026-10-07T20:34:41+00:00,workstation_15,browser,process_start,enterprise-server-03,5436,742,Routine application start,False
+ENT-N-00407,2026-10-07T20:44:32+00:00,web_server,access_log,file_write,enterprise-server-06,1259,588,Routine log append,False
+ENT-N-00927,2026-10-07T20:59:01+00:00,web_server,access_log,file_write,enterprise-server-05,3610,655,Routine log append,False
+ENT-N-00572,2026-10-07T21:00:37+00:00,student_3,college_portal,http_request,enterprise-server-01,1977,752,Routine website request,False
+ENT-N-00414,2026-10-07T21:06:11+00:00,employee_6,intranet,login_success,enterprise-server-03,4939,358,Routine successful login,False
+ENT-N-00345,2026-10-07T21:31:46+00:00,student_8,college_portal,http_request,enterprise-server-03,2871,553,Routine website request,False
+ENT-N-00361,2026-10-07T21:39:42+00:00,web_app,course_catalog,database_query,enterprise-server-12,1158,177,Routine catalog query,False
+ENT-N-00266,2026-10-07T21:39:59+00:00,workstation_11,internal_api,network_connection,enterprise-server-03,651,203,Routine internal connection,False
+ENT-N-00635,2026-10-07T22:10:11+00:00,workstation_1,internal_api,network_connection,enterprise-server-11,812,232,Routine internal connection,False
+ENT-N-01021,2026-10-07T22:17:27+00:00,web_server,access_log,file_write,enterprise-server-10,8925,600,Routine log append,False
+ENT-N-00406,2026-10-07T22:48:29+00:00,backup_service,backup_storage,backup_job,enterprise-server-02,8809,288,Scheduled backup,False
+ENT-N-00844,2026-10-07T22:49:39+00:00,workstation_10,browser,process_start,enterprise-server-11,4742,498,Routine application start,False
+ENT-N-01002,2026-10-07T23:04:41+00:00,workstation_7,internal_domain,dns_query,enterprise-server-08,4480,48,Routine DNS lookup,False
+ENT-N-00537,2026-10-07T23:06:07+00:00,web_server,access_log,file_write,enterprise-server-12,1498,282,Routine log append,False
+ENT-N-00991,2026-10-07T23:13:18+00:00,workstation_5,browser,process_start,enterprise-server-09,3486,31,Routine application start,False
+ENT-N-00145,2026-10-07T23:36:40+00:00,employee_12,shared_docs,file_read,enterprise-server-10,6516,625,Routine document access,False
+ENT-N-00222,2026-10-07T23:41:20+00:00,web_app,course_catalog,database_query,enterprise-server-06,5367,877,Routine catalog query,False
+ENT-N-00796,2026-10-07T23:41:45+00:00,workstation_11,internal_api,network_connection,enterprise-server-10,8688,691,Routine internal connection,False
+ENT-N-00769,2026-10-07T23:43:18+00:00,workstation_14,internal_api,network_connection,enterprise-server-12,5130,610,Routine internal connection,False
+ENT-N-00548,2026-10-07T23:53:55+00:00,student_9,college_portal,http_request,enterprise-server-09,5791,576,Routine website request,False

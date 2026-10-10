@@ -1,0 +1,33 @@
+{
+  "events": 1188,
+  "ground_truth_attack_events": 8,
+  "detected_events": 8,
+  "true_positives": 8,
+  "false_positives": 0,
+  "false_negatives": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "attack_event_recall": 1.0,
+  "original_nodes": 74,
+  "reduced_nodes": 8,
+  "node_reduction_pct": 89.19,
+  "original_edges": 1188,
+  "reduced_edges": 8,
+  "edge_reduction_pct": 99.33,
+  "attack_events_retained_in_reduced_graph": 8,
+  "attack_event_retention_pct": 100.0,
+  "retained_attack_event_ids": [
+    "ENT-A-001",
+    "ENT-A-002",
+    "ENT-A-003",
+    "ENT-A-004",
+    "ENT-A-005",
+    "ENT-A-006",
+    "ENT-A-007",
+    "ENT-A-008"
+  ],
+  "analyst_time_to_insight_seconds": null,
+  "time_to_insight_note": "Measure with a controlled analyst task; null means no user-study time was supplied.",
+  "note": "Heuristic triage only; labels are used for evaluation, never for detector scoring."
+}

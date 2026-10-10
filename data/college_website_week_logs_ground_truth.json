@@ -1,0 +1,15 @@
+{
+  "scenario": "college_website_week_logs",
+  "synthetic": true,
+  "attack_event_ids": [
+    "COL-A-001",
+    "COL-A-002",
+    "COL-A-003",
+    "COL-A-004",
+    "COL-A-005",
+    "COL-A-006",
+    "COL-A-007"
+  ],
+  "attack_event_count": 7,
+  "notes": "Synthetic safe scenario; labels are for evaluation only."
+}

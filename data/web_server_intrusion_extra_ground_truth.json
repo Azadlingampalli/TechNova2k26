@@ -1,0 +1,17 @@
+{
+  "scenario": "web_server_intrusion_extra",
+  "synthetic": true,
+  "attack_event_ids": [
+    "WEB-A-001",
+    "WEB-A-002",
+    "WEB-A-003",
+    "WEB-A-004",
+    "WEB-A-005",
+    "WEB-A-006",
+    "WEB-A-007",
+    "WEB-A-008",
+    "WEB-A-009"
+  ],
+  "attack_event_count": 9,
+  "notes": "Synthetic safe testing data. Ground-truth labels are for evaluation only; do not use the label column as a detector input."
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "event_id": "LAT-A-001",
+    "timestamp": "2026-09-23 04:00:00+00:00",
+    "source_entity": "user_18",
+    "target_entity": "endpoint-01",
+    "technique_id": "T1110",
+    "technique": "Brute Force",
+    "confidence": "candidate",
+    "evidence_rationale": "Authentication-failure indicator; verify repeated attempts and source context.",
+    "evidence": "Repeated failed_login from unusual account",
+    "mitre_url": "https://attack.mitre.org/techniques/T1110/"
+  },
+  {
+    "event_id": "LAT-A-003",
+    "timestamp": "2026-09-23 04:01:05+00:00",
+    "source_entity": "powershell.exe",
+    "target_entity": "credential_cache",
+    "technique_id": "T1059.001",
+    "technique": "PowerShell",
+    "confidence": "candidate",
+    "evidence_rationale": "PowerShell/encoded-command indicator; verify process command line and parent.",
+    "evidence": "Credential access and password_dump indicator",
+    "mitre_url": "https://attack.mitre.org/techniques/T1059/001/"
+  },
+  {
+    "event_id": "LAT-A-003",
+    "timestamp": "2026-09-23 04:01:05+00:00",
+    "source_entity": "powershell.exe",
+    "target_entity": "credential_cache",
+    "technique_id": "T1003",
+    "technique": "OS Credential Dumping",
+    "confidence": "candidate",
+    "evidence_rationale": "Credential-dumping indicator; confirm with endpoint evidence.",
+    "evidence": "Credential access and password_dump indicator",
+    "mitre_url": "https://attack.mitre.org/techniques/T1003/"
+  },
+  {
+    "event_id": "LAT-A-004",
+    "timestamp": "2026-09-23 04:01:40+00:00",
+    "source_entity": "powershell.exe",
+    "target_entity": "admin_token",
+    "technique_id": "T1059.001",
+    "technique": "PowerShell",
+    "confidence": "candidate",
+    "evidence_rationale": "PowerShell/encoded-command indicator; verify process command line and parent.",
+    "evidence": "Privilege elevation and token access attempt",
+    "mitre_url": "https://attack.mitre.org/techniques/T1059/001/"
+  },
+  {
+    "event_id": "LAT-A-006",
+    "timestamp": "2026-09-23 04:03:10+00:00",
+    "source_entity": "user_18@endpoint-01",
+    "target_entity": "admin-jump-01",
+    "technique_id": "T1021",
+    "technique": "Remote Services",
+    "confidence": "candidate",
+    "evidence_rationale": "Remote-service indicator; confirm the service and remote execution context.",
+    "evidence": "Remote service activity suggests lateral movement",
+    "mitre_url": "https://attack.mitre.org/techniques/T1021/"
+  },
+  {
+    "event_id": "LAT-A-008",
+    "timestamp": "2026-09-23 04:05:00+00:00",
+    "source_entity": "powershell.exe",
+    "target_entity": "payroll_archive.zip",
+    "technique_id": "T1059.001",
+    "technique": "PowerShell",
+    "confidence": "candidate",
+    "evidence_rationale": "PowerShell/encoded-command indicator; verify process command line and parent.",
+    "evidence": "Sensitive payroll archive staging",
+    "mitre_url": "https://attack.mitre.org/techniques/T1059/001/"
+  },
+  {
+    "event_id": "LAT-A-008",
+    "timestamp": "2026-09-23 04:05:00+00:00",
+    "source_entity": "powershell.exe",
+    "target_entity": "payroll_archive.zip",
+    "technique_id": "T1560",
+    "technique": "Archive Collected Data",
+    "confidence": "candidate",
+    "evidence_rationale": "Archive/staging indicator; confirm that data was collected for transfer.",
+    "evidence": "Sensitive payroll archive staging",
+    "mitre_url": "https://attack.mitre.org/techniques/T1560/"
+  },
+  {
+    "event_id": "LAT-A-009",
+    "timestamp": "2026-09-23 04:05:55+00:00",
+    "source_entity": "powershell.exe",
+    "target_entity": "unknown_ip_192.0.2.88",
+    "technique_id": "T1059.001",
+    "technique": "PowerShell",
+    "confidence": "candidate",
+    "evidence_rationale": "PowerShell/encoded-command indicator; verify process command line and parent.",
+    "evidence": "Unusual external destination following staging",
+    "mitre_url": "https://attack.mitre.org/techniques/T1059/001/"
+  },
+  {
+    "event_id": "LAT-A-009",
+    "timestamp": "2026-09-23 04:05:55+00:00",
+    "source_entity": "powershell.exe",
+    "target_entity": "unknown_ip_192.0.2.88",
+    "technique_id": "T1560",
+    "technique": "Archive Collected Data",
+    "confidence": "candidate",
+    "evidence_rationale": "Archive/staging indicator; confirm that data was collected for transfer.",
+    "evidence": "Unusual external destination following staging",
+    "mitre_url": "https://attack.mitre.org/techniques/T1560/"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "scenario": "enterprise_endpoint_week_logs",
+  "synthetic": true,
+  "attack_event_ids": [
+    "ENT-A-001",
+    "ENT-A-002",
+    "ENT-A-003",
+    "ENT-A-004",
+    "ENT-A-005",
+    "ENT-A-006",
+    "ENT-A-007",
+    "ENT-A-008"
+  ],
+  "attack_event_count": 8,
+  "notes": "Synthetic safe scenario; labels are for evaluation only."
+}

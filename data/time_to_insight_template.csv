@@ -1,0 +1,1 @@
+scenario,analyst_id,mode,task_start_iso,task_end_iso,duration_seconds,task_completed,notes\ncompany,analyst_01,raw_logs,,,,,\ncompany,analyst_01,ransomtrace_ai,,,,,\ncollege_website,analyst_01,raw_logs,,,,,\ncollege_website,analyst_01,ransomtrace_ai,,,,,\nenterprise_endpoint,analyst_01,raw_logs,,,,,\nenterprise_endpoint,analyst_01,ransomtrace_ai,,,,,\n

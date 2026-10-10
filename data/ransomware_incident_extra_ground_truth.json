@@ -1,0 +1,17 @@
+{
+  "scenario": "ransomware_incident_extra",
+  "synthetic": true,
+  "attack_event_ids": [
+    "RAN-A-001",
+    "RAN-A-002",
+    "RAN-A-003",
+    "RAN-A-004",
+    "RAN-A-005",
+    "RAN-A-006",
+    "RAN-A-007",
+    "RAN-A-008",
+    "RAN-A-009"
+  ],
+  "attack_event_count": 9,
+  "notes": "Synthetic safe testing data. Ground-truth labels are for evaluation only; do not use the label column as a detector input."
+}

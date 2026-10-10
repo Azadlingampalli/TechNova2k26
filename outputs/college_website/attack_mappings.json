@@ -1,0 +1,62 @@
+[
+  {
+    "event_id": "COL-A-003",
+    "timestamp": "2026-10-01 07:12:00+00:00",
+    "source_entity": "web_server",
+    "target_entity": "php_webshell",
+    "technique_id": "T1505.003",
+    "technique": "Web Shell",
+    "confidence": "candidate",
+    "evidence_rationale": "Possible web-shell indicator; verify uploaded file and execution evidence.",
+    "evidence": "Possible web shell process",
+    "mitre_url": "https://attack.mitre.org/techniques/T1505/003/"
+  },
+  {
+    "event_id": "COL-A-004",
+    "timestamp": "2026-10-01 07:30:00+00:00",
+    "source_entity": "php_webshell",
+    "target_entity": "student_records",
+    "technique_id": "T1505.003",
+    "technique": "Web Shell",
+    "confidence": "candidate",
+    "evidence_rationale": "Possible web-shell indicator; verify uploaded file and execution evidence.",
+    "evidence": "Sensitive student records query",
+    "mitre_url": "https://attack.mitre.org/techniques/T1505/003/"
+  },
+  {
+    "event_id": "COL-A-005",
+    "timestamp": "2026-10-01 08:00:00+00:00",
+    "source_entity": "php_webshell",
+    "target_entity": "student_records_archive",
+    "technique_id": "T1560",
+    "technique": "Archive Collected Data",
+    "confidence": "candidate",
+    "evidence_rationale": "Archive/staging indicator; confirm that data was collected for transfer.",
+    "evidence": "Student record staging archive",
+    "mitre_url": "https://attack.mitre.org/techniques/T1560/"
+  },
+  {
+    "event_id": "COL-A-005",
+    "timestamp": "2026-10-01 08:00:00+00:00",
+    "source_entity": "php_webshell",
+    "target_entity": "student_records_archive",
+    "technique_id": "T1505.003",
+    "technique": "Web Shell",
+    "confidence": "candidate",
+    "evidence_rationale": "Possible web-shell indicator; verify uploaded file and execution evidence.",
+    "evidence": "Student record staging archive",
+    "mitre_url": "https://attack.mitre.org/techniques/T1505/003/"
+  },
+  {
+    "event_id": "COL-A-006",
+    "timestamp": "2026-10-01 08:12:00+00:00",
+    "source_entity": "student_records_archive",
+    "target_entity": "external_unknown_ip",
+    "technique_id": "T1560",
+    "technique": "Archive Collected Data",
+    "confidence": "candidate",
+    "evidence_rationale": "Archive/staging indicator; confirm that data was collected for transfer.",
+    "evidence": "Unusual outbound connection",
+    "mitre_url": "https://attack.mitre.org/techniques/T1560/"
+  }
+]

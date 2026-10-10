@@ -1,0 +1,122 @@
+[
+  {
+    "event_id": "COM-A-001",
+    "timestamp": "2026-10-01 03:00:00+00:00",
+    "source_entity": "unknown_ip_203.0.113.77",
+    "target_entity": "employee_7",
+    "technique_id": "T1110",
+    "technique": "Brute Force",
+    "confidence": "candidate",
+    "evidence_rationale": "Authentication-failure indicator; verify repeated attempts and source context.",
+    "evidence": "Repeated failed login attempts",
+    "mitre_url": "https://attack.mitre.org/techniques/T1110/"
+  },
+  {
+    "event_id": "COM-A-004",
+    "timestamp": "2026-10-01 04:00:00+00:00",
+    "source_entity": "employee_7",
+    "target_entity": "powershell_encoded",
+    "technique_id": "T1059.001",
+    "technique": "PowerShell",
+    "confidence": "candidate",
+    "evidence_rationale": "PowerShell/encoded-command indicator; verify process command line and parent.",
+    "evidence": "Encoded PowerShell command observed",
+    "mitre_url": "https://attack.mitre.org/techniques/T1059/001/"
+  },
+  {
+    "event_id": "COM-A-005",
+    "timestamp": "2026-10-01 04:12:00+00:00",
+    "source_entity": "powershell_encoded",
+    "target_entity": "customer_db",
+    "technique_id": "T1059.001",
+    "technique": "PowerShell",
+    "confidence": "candidate",
+    "evidence_rationale": "PowerShell/encoded-command indicator; verify process command line and parent.",
+    "evidence": "Sensitive customer database accessed",
+    "mitre_url": "https://attack.mitre.org/techniques/T1059/001/"
+  },
+  {
+    "event_id": "COM-A-006",
+    "timestamp": "2026-10-01 04:30:00+00:00",
+    "source_entity": "powershell_encoded",
+    "target_entity": "customer_db_archive",
+    "technique_id": "T1059.001",
+    "technique": "PowerShell",
+    "confidence": "candidate",
+    "evidence_rationale": "PowerShell/encoded-command indicator; verify process command line and parent.",
+    "evidence": "Sensitive data staging archive",
+    "mitre_url": "https://attack.mitre.org/techniques/T1059/001/"
+  },
+  {
+    "event_id": "COM-A-006",
+    "timestamp": "2026-10-01 04:30:00+00:00",
+    "source_entity": "powershell_encoded",
+    "target_entity": "customer_db_archive",
+    "technique_id": "T1560",
+    "technique": "Archive Collected Data",
+    "confidence": "candidate",
+    "evidence_rationale": "Archive/staging indicator; confirm that data was collected for transfer.",
+    "evidence": "Sensitive data staging archive",
+    "mitre_url": "https://attack.mitre.org/techniques/T1560/"
+  },
+  {
+    "event_id": "COM-A-007",
+    "timestamp": "2026-10-01 05:00:00+00:00",
+    "source_entity": "customer_db_archive",
+    "target_entity": "external_unknown_ip",
+    "technique_id": "T1560",
+    "technique": "Archive Collected Data",
+    "confidence": "candidate",
+    "evidence_rationale": "Archive/staging indicator; confirm that data was collected for transfer.",
+    "evidence": "Unusual external connection after staging",
+    "mitre_url": "https://attack.mitre.org/techniques/T1560/"
+  },
+  {
+    "event_id": "COM-A-008",
+    "timestamp": "2026-10-01 05:06:00+00:00",
+    "source_entity": "powershell_encoded",
+    "target_entity": "shadow_copy_delete.log",
+    "technique_id": "T1059.001",
+    "technique": "PowerShell",
+    "confidence": "candidate",
+    "evidence_rationale": "PowerShell/encoded-command indicator; verify process command line and parent.",
+    "evidence": "Shadow-copy deletion indicator",
+    "mitre_url": "https://attack.mitre.org/techniques/T1059/001/"
+  },
+  {
+    "event_id": "COM-A-008",
+    "timestamp": "2026-10-01 05:06:00+00:00",
+    "source_entity": "powershell_encoded",
+    "target_entity": "shadow_copy_delete.log",
+    "technique_id": "T1486",
+    "technique": "Data Encrypted for Impact",
+    "confidence": "candidate",
+    "evidence_rationale": "Encryption/ransomware-like indicator; verify file-operation evidence.",
+    "evidence": "Shadow-copy deletion indicator",
+    "mitre_url": "https://attack.mitre.org/techniques/T1486/"
+  },
+  {
+    "event_id": "COM-A-009",
+    "timestamp": "2026-10-01 05:18:00+00:00",
+    "source_entity": "powershell_encoded",
+    "target_entity": "shared_drive",
+    "technique_id": "T1059.001",
+    "technique": "PowerShell",
+    "confidence": "candidate",
+    "evidence_rationale": "PowerShell/encoded-command indicator; verify process command line and parent.",
+    "evidence": "Mass file encryption behavior",
+    "mitre_url": "https://attack.mitre.org/techniques/T1059/001/"
+  },
+  {
+    "event_id": "COM-A-009",
+    "timestamp": "2026-10-01 05:18:00+00:00",
+    "source_entity": "powershell_encoded",
+    "target_entity": "shared_drive",
+    "technique_id": "T1486",
+    "technique": "Data Encrypted for Impact",
+    "confidence": "candidate",
+    "evidence_rationale": "Encryption/ransomware-like indicator; verify file-operation evidence.",
+    "evidence": "Mass file encryption behavior",
+    "mitre_url": "https://attack.mitre.org/techniques/T1486/"
+  }
+]

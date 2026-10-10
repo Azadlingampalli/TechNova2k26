@@ -1,0 +1,86 @@
+[
+  {
+    "event_id": "WEB-A-001",
+    "timestamp": "2026-09-23 04:00:00+00:00",
+    "source_entity": "unknown_client_203.0.113.77",
+    "target_entity": "cms_login",
+    "technique_id": "T1110",
+    "technique": "Brute Force",
+    "confidence": "candidate",
+    "evidence_rationale": "Authentication-failure indicator; verify repeated attempts and source context.",
+    "evidence": "Repeated failed login attempts to CMS admin",
+    "mitre_url": "https://attack.mitre.org/techniques/T1110/"
+  },
+  {
+    "event_id": "WEB-A-002",
+    "timestamp": "2026-09-23 04:00:25+00:00",
+    "source_entity": "attacker_session",
+    "target_entity": "cms_dashboard",
+    "technique_id": "T1110",
+    "technique": "Brute Force",
+    "confidence": "candidate",
+    "evidence_rationale": "Authentication-failure indicator; verify repeated attempts and source context.",
+    "evidence": "Unusual admin login after auth_failure burst",
+    "mitre_url": "https://attack.mitre.org/techniques/T1110/"
+  },
+  {
+    "event_id": "WEB-A-004",
+    "timestamp": "2026-09-23 04:01:25+00:00",
+    "source_entity": "upload_endpoint",
+    "target_entity": "unexpected_file.php",
+    "technique_id": "T1505.003",
+    "technique": "Web Shell",
+    "confidence": "candidate",
+    "evidence_rationale": "Possible web-shell indicator; verify uploaded file and execution evidence.",
+    "evidence": "webshell unexpected_file.php uploaded to web root",
+    "mitre_url": "https://attack.mitre.org/techniques/T1505/003/"
+  },
+  {
+    "event_id": "WEB-A-005",
+    "timestamp": "2026-09-23 04:02:00+00:00",
+    "source_entity": "web_server",
+    "target_entity": "php_shell_process",
+    "technique_id": "T1505.003",
+    "technique": "Web Shell",
+    "confidence": "candidate",
+    "evidence_rationale": "Possible web-shell indicator; verify uploaded file and execution evidence.",
+    "evidence": "php webshell launched shell script",
+    "mitre_url": "https://attack.mitre.org/techniques/T1505/003/"
+  },
+  {
+    "event_id": "WEB-A-006",
+    "timestamp": "2026-09-23 04:02:35+00:00",
+    "source_entity": "php_shell_process",
+    "target_entity": "college-db-01",
+    "technique_id": "T1505.003",
+    "technique": "Web Shell",
+    "confidence": "candidate",
+    "evidence_rationale": "Possible web-shell indicator; verify uploaded file and execution evidence.",
+    "evidence": "Unusual server-to-database connection after webshell",
+    "mitre_url": "https://attack.mitre.org/techniques/T1505/003/"
+  },
+  {
+    "event_id": "WEB-A-008",
+    "timestamp": "2026-09-23 04:04:10+00:00",
+    "source_entity": "php_shell_process",
+    "target_entity": "archive_staging.zip",
+    "technique_id": "T1560",
+    "technique": "Archive Collected Data",
+    "confidence": "candidate",
+    "evidence_rationale": "Archive/staging indicator; confirm that data was collected for transfer.",
+    "evidence": "Sensitive data staging and archive compression",
+    "mitre_url": "https://attack.mitre.org/techniques/T1560/"
+  },
+  {
+    "event_id": "WEB-A-009",
+    "timestamp": "2026-09-23 04:05:05+00:00",
+    "source_entity": "php_shell_process",
+    "target_entity": "unknown_ip_203.0.113.99",
+    "technique_id": "T1041",
+    "technique": "Exfiltration Over C2 Channel",
+    "confidence": "candidate",
+    "evidence_rationale": "Possible transfer indicator; a network connection alone is insufficient evidence.",
+    "evidence": "External destination with possible data exfiltration",
+    "mitre_url": "https://attack.mitre.org/techniques/T1041/"
+  }
+]

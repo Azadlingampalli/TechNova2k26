@@ -1,0 +1,74 @@
+[
+  {
+    "event_id": "ENT-A-001",
+    "timestamp": "2026-10-01 10:00:00+00:00",
+    "source_entity": "unknown_ip_192.0.2.45",
+    "target_entity": "server_admin",
+    "technique_id": "T1110",
+    "technique": "Brute Force",
+    "confidence": "candidate",
+    "evidence_rationale": "Authentication-failure indicator; verify repeated attempts and source context.",
+    "evidence": "Multiple failed admin login attempts",
+    "mitre_url": "https://attack.mitre.org/techniques/T1110/"
+  },
+  {
+    "event_id": "ENT-A-003",
+    "timestamp": "2026-10-01 10:24:00+00:00",
+    "source_entity": "server_admin",
+    "target_entity": "cmd.exe_encoded",
+    "technique_id": "T1059",
+    "technique": "Command and Scripting Interpreter",
+    "confidence": "candidate",
+    "evidence_rationale": "Script or command execution indicator; confirm the interpreter and command.",
+    "evidence": "Encoded command interpreter launch",
+    "mitre_url": "https://attack.mitre.org/techniques/T1059/"
+  },
+  {
+    "event_id": "ENT-A-004",
+    "timestamp": "2026-10-01 10:36:00+00:00",
+    "source_entity": "cmd.exe_encoded",
+    "target_entity": "lsass_credentials",
+    "technique_id": "T1059",
+    "technique": "Command and Scripting Interpreter",
+    "confidence": "candidate",
+    "evidence_rationale": "Script or command execution indicator; confirm the interpreter and command.",
+    "evidence": "Credential dumping indicator",
+    "mitre_url": "https://attack.mitre.org/techniques/T1059/"
+  },
+  {
+    "event_id": "ENT-A-004",
+    "timestamp": "2026-10-01 10:36:00+00:00",
+    "source_entity": "cmd.exe_encoded",
+    "target_entity": "lsass_credentials",
+    "technique_id": "T1003",
+    "technique": "OS Credential Dumping",
+    "confidence": "candidate",
+    "evidence_rationale": "Credential-dumping indicator; confirm with endpoint evidence.",
+    "evidence": "Credential dumping indicator",
+    "mitre_url": "https://attack.mitre.org/techniques/T1003/"
+  },
+  {
+    "event_id": "ENT-A-007",
+    "timestamp": "2026-10-01 11:30:00+00:00",
+    "source_entity": "domain_admin",
+    "target_entity": "finance_archive",
+    "technique_id": "T1560",
+    "technique": "Archive Collected Data",
+    "confidence": "candidate",
+    "evidence_rationale": "Archive/staging indicator; confirm that data was collected for transfer.",
+    "evidence": "Archive of sensitive finance files",
+    "mitre_url": "https://attack.mitre.org/techniques/T1560/"
+  },
+  {
+    "event_id": "ENT-A-008",
+    "timestamp": "2026-10-01 12:00:00+00:00",
+    "source_entity": "finance_archive",
+    "target_entity": "external_unknown_ip",
+    "technique_id": "T1560",
+    "technique": "Archive Collected Data",
+    "confidence": "candidate",
+    "evidence_rationale": "Archive/staging indicator; confirm that data was collected for transfer.",
+    "evidence": "Unusual outbound network connection",
+    "mitre_url": "https://attack.mitre.org/techniques/T1560/"
+  }
+]

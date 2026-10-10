@@ -1,0 +1,20 @@
+{
+  "original": {
+    "nodes": 74,
+    "edges": 1188
+  },
+  "reduced": {
+    "nodes": 8,
+    "edges": 8
+  },
+  "kept_event_ids": [
+    "ENT-A-001",
+    "ENT-A-002",
+    "ENT-A-003",
+    "ENT-A-004",
+    "ENT-A-005",
+    "ENT-A-006",
+    "ENT-A-007",
+    "ENT-A-008"
+  ]
+}

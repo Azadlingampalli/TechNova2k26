@@ -1,0 +1,19 @@
+services:
+  mongo:
+    image: mongo:7
+    container_name: ransomtrace-mongo
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: ransomtrace_ai
+    volumes:
+      - ransomtrace_mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  ransomtrace_mongo_data:

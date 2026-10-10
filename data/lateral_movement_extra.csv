@@ -1,0 +1,720 @@
+event_id,timestamp,source_entity,target_entity,event_type,host,process_id,parent_process_id,details,label
+LAT-N-00663,2026-09-20T00:00:01+00:00,user_19,shared_folder7,file_read,endpoint-01,1202,1419,Routine shared folder access,False
+LAT-N-00038,2026-09-20T00:21:05+00:00,admin_7,patch_server7,network_connection,admin-jump-01,7635,2746,Routine software update connection,False
+LAT-N-00333,2026-09-20T00:21:58+00:00,user_13,shared_folder12,file_read,identity-01,5973,3156,Routine shared folder access,False
+LAT-N-00497,2026-09-20T00:30:27+00:00,admin_13,patch_server14,network_connection,admin-jump-01,291,1965,Routine software update connection,False
+LAT-N-00172,2026-09-20T00:38:05+00:00,employee_2,identity_service9,login_success,admin-jump-01,523,3078,Routine successful authentication,False
+LAT-N-00688,2026-09-20T00:54:37+00:00,host_22,internal_dns17,dns_query,endpoint-02,3160,3300,Routine internal DNS lookup,False
+LAT-N-00463,2026-09-20T00:55:02+00:00,host_24,internal_dns14,dns_query,identity-01,5791,3893,Routine internal DNS lookup,False
+LAT-N-00174,2026-09-20T00:58:28+00:00,user_20,shared_folder18,file_read,endpoint-01,4420,1525,Routine shared folder access,False
+LAT-N-00489,2026-09-20T01:25:32+00:00,admin_25,patch_server2,network_connection,fileserver-01,7248,2476,Routine software update connection,False
+LAT-N-00613,2026-09-20T01:32:06+00:00,endpoint_agent_18,edr_console5,network_connection,endpoint-02,5098,3676,Routine endpoint telemetry,False
+LAT-N-00697,2026-09-20T01:43:13+00:00,user_25,shared_folder1,file_read,identity-01,5376,2267,Routine shared folder access,False
+LAT-N-00305,2026-09-20T02:00:46+00:00,user_7,shared_folder18,file_read,endpoint-02,3064,553,Routine shared folder access,False
+LAT-N-00107,2026-09-20T02:29:33+00:00,employee_16,vpn_gateway15,login_success,admin-jump-01,997,2383,Routine VPN login,False
+LAT-N-00661,2026-09-20T02:55:01+00:00,admin_1,patch_server5,network_connection,endpoint-01,4711,127,Routine software update connection,False
+LAT-N-00377,2026-09-20T03:04:39+00:00,employee_3,vpn_gateway17,login_success,endpoint-02,545,3050,Routine VPN login,False
+LAT-N-00329,2026-09-20T03:20:38+00:00,user_9,shared_folder8,file_read,endpoint-01,8189,2781,Routine shared folder access,False
+LAT-N-00299,2026-09-20T03:41:43+00:00,user_4,shared_folder2,file_read,endpoint-01,7516,772,Routine shared folder access,False
+LAT-N-00167,2026-09-20T04:13:15+00:00,endpoint_agent_20,edr_console8,network_connection,endpoint-01,4822,2759,Routine endpoint telemetry,False
+LAT-N-00306,2026-09-20T04:26:11+00:00,host_7,internal_dns15,dns_query,endpoint-01,692,854,Routine internal DNS lookup,False
+LAT-N-00327,2026-09-20T04:36:42+00:00,employee_24,vpn_gateway15,login_success,endpoint-02,5824,1471,Routine VPN login,False
+LAT-N-00213,2026-09-20T04:41:28+00:00,employee_9,identity_service12,login_success,endpoint-02,8007,2122,Routine successful authentication,False
+LAT-N-00061,2026-09-20T04:54:54+00:00,endpoint_agent_6,edr_console3,network_connection,admin-jump-01,8964,3335,Routine endpoint telemetry,False
+LAT-N-00078,2026-09-20T04:57:40+00:00,service_account_16,scheduled_task5,process_start,fileserver-01,7478,1594,Routine scheduled service task,False
+LAT-N-00023,2026-09-20T05:03:21+00:00,admin_5,patch_server13,network_connection,endpoint-01,4926,2459,Routine software update connection,False
+LAT-N-00009,2026-09-20T05:03:35+00:00,employee_3,vpn_gateway5,login_success,identity-01,5672,1393,Routine VPN login,False
+LAT-N-00583,2026-09-20T05:33:17+00:00,admin_4,patch_server7,network_connection,endpoint-02,5128,1568,Routine software update connection,False
+LAT-N-00619,2026-09-20T05:40:57+00:00,endpoint_agent_4,edr_console6,network_connection,identity-01,8011,3743,Routine endpoint telemetry,False
+LAT-N-00094,2026-09-20T06:03:07+00:00,employee_6,identity_service4,login_success,admin-jump-01,7869,2751,Routine successful authentication,False
+LAT-N-00674,2026-09-20T06:42:25+00:00,employee_8,vpn_gateway5,login_success,fileserver-01,3793,2533,Routine VPN login,False
+LAT-N-00033,2026-09-20T06:48:30+00:00,employee_16,identity_service18,login_success,admin-jump-01,1497,1772,Routine successful authentication,False
+LAT-N-00016,2026-09-20T08:05:26+00:00,host_7,internal_dns11,dns_query,endpoint-01,7496,2443,Routine internal DNS lookup,False
+LAT-N-00550,2026-09-20T08:18:55+00:00,user_15,shared_folder15,file_read,endpoint-02,1035,1183,Routine shared folder access,False
+LAT-N-00434,2026-09-20T08:37:50+00:00,service_account_6,scheduled_task2,process_start,identity-01,3354,480,Routine scheduled service task,False
+LAT-N-00263,2026-09-20T08:53:22+00:00,admin_19,patch_server11,network_connection,fileserver-01,4317,2843,Routine software update connection,False
+LAT-N-00175,2026-09-20T09:14:05+00:00,host_14,internal_dns18,dns_query,fileserver-01,4230,3038,Routine internal DNS lookup,False
+LAT-N-00480,2026-09-20T09:29:50+00:00,admin_16,patch_server18,network_connection,endpoint-02,7557,2487,Routine software update connection,False
+LAT-N-00361,2026-09-20T09:34:03+00:00,admin_18,patch_server8,network_connection,fileserver-01,4091,469,Routine software update connection,False
+LAT-N-00081,2026-09-20T09:37:10+00:00,host_16,internal_dns2,dns_query,endpoint-01,7723,1180,Routine internal DNS lookup,False
+LAT-N-00401,2026-09-20T09:53:23+00:00,host_24,internal_dns17,dns_query,endpoint-01,8263,1895,Routine internal DNS lookup,False
+LAT-N-00640,2026-09-20T10:13:44+00:00,employee_22,vpn_gateway6,login_success,endpoint-02,3389,411,Routine VPN login,False
+LAT-N-00535,2026-09-20T10:16:32+00:00,service_account_19,scheduled_task2,process_start,endpoint-02,3612,2667,Routine scheduled service task,False
+LAT-N-00032,2026-09-20T10:18:57+00:00,user_13,shared_folder16,file_read,fileserver-01,5490,3812,Routine shared folder access,False
+LAT-N-00312,2026-09-20T10:39:20+00:00,service_account_5,scheduled_task3,process_start,identity-01,5324,1983,Routine scheduled service task,False
+LAT-N-00261,2026-09-20T10:58:51+00:00,employee_8,vpn_gateway4,login_success,fileserver-01,4331,3518,Routine VPN login,False
+LAT-N-00571,2026-09-20T11:22:25+00:00,service_account_4,scheduled_task5,process_start,identity-01,2940,117,Routine scheduled service task,False
+LAT-N-00274,2026-09-20T11:27:12+00:00,endpoint_agent_3,edr_console5,network_connection,fileserver-01,2066,2576,Routine endpoint telemetry,False
+LAT-N-00413,2026-09-20T11:49:17+00:00,endpoint_agent_22,edr_console7,network_connection,endpoint-02,8593,875,Routine endpoint telemetry,False
+LAT-N-00459,2026-09-20T11:51:45+00:00,employee_5,identity_service4,login_success,endpoint-01,974,2627,Routine successful authentication,False
+LAT-N-00646,2026-09-20T11:52:03+00:00,employee_9,identity_service15,login_success,endpoint-02,2489,2377,Routine successful authentication,False
+LAT-N-00100,2026-09-20T11:56:07+00:00,admin_11,patch_server8,network_connection,identity-01,8143,657,Routine software update connection,False
+LAT-N-00431,2026-09-20T12:01:20+00:00,employee_8,vpn_gateway10,login_success,fileserver-01,3585,1666,Routine VPN login,False
+LAT-N-00564,2026-09-20T12:40:45+00:00,user_17,shared_folder18,file_read,endpoint-01,6193,2839,Routine shared folder access,False
+LAT-N-00363,2026-09-20T12:48:12+00:00,endpoint_agent_8,edr_console12,network_connection,identity-01,1915,1098,Routine endpoint telemetry,False
+LAT-N-00001,2026-09-20T12:49:08+00:00,endpoint_agent_5,edr_console16,network_connection,fileserver-01,8059,1172,Routine endpoint telemetry,False
+LAT-N-00515,2026-09-20T13:01:49+00:00,admin_8,patch_server7,network_connection,fileserver-01,8552,3821,Routine software update connection,False
+LAT-N-00322,2026-09-20T13:09:53+00:00,endpoint_agent_25,edr_console1,network_connection,endpoint-02,8788,1029,Routine endpoint telemetry,False
+LAT-N-00352,2026-09-20T13:13:58+00:00,host_21,internal_dns8,dns_query,admin-jump-01,1452,1377,Routine internal DNS lookup,False
+LAT-N-00106,2026-09-20T13:38:05+00:00,user_9,shared_folder13,file_read,endpoint-02,2729,1717,Routine shared folder access,False
+LAT-N-00053,2026-09-20T13:51:26+00:00,user_22,shared_folder3,file_read,fileserver-01,1500,2866,Routine shared folder access,False
+LAT-N-00436,2026-09-20T14:03:57+00:00,host_3,internal_dns9,dns_query,fileserver-01,2929,3147,Routine internal DNS lookup,False
+LAT-N-00568,2026-09-20T14:11:33+00:00,admin_21,patch_server10,network_connection,endpoint-01,1401,902,Routine software update connection,False
+LAT-N-00110,2026-09-20T14:57:44+00:00,host_8,internal_dns15,dns_query,admin-jump-01,247,2816,Routine internal DNS lookup,False
+LAT-N-00452,2026-09-20T15:16:16+00:00,user_18,shared_folder14,file_read,identity-01,638,893,Routine shared folder access,False
+LAT-N-00673,2026-09-20T15:51:41+00:00,user_3,shared_folder14,file_read,identity-01,6493,3606,Routine shared folder access,False
+LAT-N-00567,2026-09-20T15:53:26+00:00,employee_5,vpn_gateway9,login_success,endpoint-01,8638,1604,Routine VPN login,False
+LAT-N-00602,2026-09-20T15:55:40+00:00,host_8,internal_dns15,dns_query,endpoint-02,7389,96,Routine internal DNS lookup,False
+LAT-N-00612,2026-09-20T15:59:43+00:00,user_16,shared_folder3,file_read,endpoint-02,6795,806,Routine shared folder access,False
+LAT-N-00529,2026-09-20T15:59:55+00:00,employee_25,identity_service17,login_success,identity-01,5643,3242,Routine successful authentication,False
+LAT-N-00250,2026-09-20T16:29:13+00:00,service_account_8,scheduled_task7,process_start,endpoint-02,2326,669,Routine scheduled service task,False
+LAT-N-00161,2026-09-20T16:37:40+00:00,endpoint_agent_10,edr_console13,network_connection,endpoint-01,5180,1619,Routine endpoint telemetry,False
+LAT-N-00052,2026-09-20T16:37:56+00:00,host_14,internal_dns7,dns_query,identity-01,7552,1650,Routine internal DNS lookup,False
+LAT-N-00039,2026-09-20T16:45:24+00:00,admin_11,patch_server2,network_connection,admin-jump-01,697,201,Routine software update connection,False
+LAT-N-00381,2026-09-20T16:50:56+00:00,host_4,internal_dns10,dns_query,admin-jump-01,7556,399,Routine internal DNS lookup,False
+LAT-N-00412,2026-09-20T17:40:06+00:00,employee_18,identity_service14,login_success,admin-jump-01,6277,2489,Routine successful authentication,False
+LAT-N-00060,2026-09-20T17:54:38+00:00,employee_6,vpn_gateway10,login_success,endpoint-02,6513,3746,Routine VPN login,False
+LAT-N-00330,2026-09-20T18:00:31+00:00,service_account_14,scheduled_task12,process_start,fileserver-01,5476,409,Routine scheduled service task,False
+LAT-N-00278,2026-09-20T18:07:27+00:00,employee_19,vpn_gateway1,login_success,identity-01,7852,3004,Routine VPN login,False
+LAT-N-00116,2026-09-20T18:24:28+00:00,admin_23,patch_server17,network_connection,fileserver-01,2391,3033,Routine software update connection,False
+LAT-N-00439,2026-09-20T18:25:54+00:00,admin_17,patch_server7,network_connection,admin-jump-01,7622,3289,Routine software update connection,False
+LAT-N-00216,2026-09-20T18:38:16+00:00,employee_10,vpn_gateway6,login_success,fileserver-01,3907,2291,Routine VPN login,False
+LAT-N-00645,2026-09-20T18:50:39+00:00,service_account_17,scheduled_task8,process_start,endpoint-01,3508,3424,Routine scheduled service task,False
+LAT-N-00134,2026-09-20T19:02:19+00:00,employee_6,vpn_gateway2,login_success,fileserver-01,7571,2085,Routine VPN login,False
+LAT-N-00228,2026-09-20T19:06:41+00:00,user_15,shared_folder15,file_read,identity-01,4240,32,Routine shared folder access,False
+LAT-N-00055,2026-09-20T19:14:54+00:00,host_18,internal_dns13,dns_query,endpoint-02,4378,1946,Routine internal DNS lookup,False
+LAT-N-00682,2026-09-20T19:37:13+00:00,endpoint_agent_3,edr_console4,network_connection,fileserver-01,4401,2254,Routine endpoint telemetry,False
+LAT-N-00321,2026-09-20T19:52:49+00:00,admin_7,patch_server5,network_connection,fileserver-01,6743,252,Routine software update connection,False
+LAT-N-00691,2026-09-20T20:17:16+00:00,admin_19,patch_server14,network_connection,endpoint-02,6557,3896,Routine software update connection,False
+LAT-N-00680,2026-09-20T20:39:28+00:00,user_25,shared_folder12,file_read,fileserver-01,6276,2318,Routine shared folder access,False
+LAT-N-00596,2026-09-20T21:37:29+00:00,service_account_11,scheduled_task1,process_start,endpoint-01,6226,3539,Routine scheduled service task,False
+LAT-N-00423,2026-09-20T21:51:42+00:00,admin_22,patch_server12,network_connection,fileserver-01,3354,2866,Routine software update connection,False
+LAT-N-00444,2026-09-20T22:06:29+00:00,employee_8,vpn_gateway18,login_success,endpoint-02,8149,614,Routine VPN login,False
+LAT-N-00269,2026-09-20T22:06:55+00:00,endpoint_agent_5,edr_console4,network_connection,identity-01,1474,3889,Routine endpoint telemetry,False
+LAT-N-00173,2026-09-20T22:09:12+00:00,employee_10,vpn_gateway12,login_success,admin-jump-01,5422,3801,Routine VPN login,False
+LAT-N-00296,2026-09-20T22:18:56+00:00,employee_22,identity_service10,login_success,endpoint-01,5613,2468,Routine successful authentication,False
+LAT-N-00677,2026-09-20T22:28:08+00:00,employee_6,identity_service2,login_success,endpoint-01,5182,3961,Routine successful authentication,False
+LAT-N-00036,2026-09-20T22:28:11+00:00,admin_23,patch_server14,network_connection,identity-01,5015,193,Routine software update connection,False
+LAT-N-00505,2026-09-20T23:00:02+00:00,employee_3,vpn_gateway12,login_success,endpoint-02,8481,1172,Routine VPN login,False
+LAT-N-00590,2026-09-20T23:14:18+00:00,endpoint_agent_11,edr_console7,network_connection,identity-01,3503,2246,Routine endpoint telemetry,False
+LAT-N-00122,2026-09-20T23:20:54+00:00,endpoint_agent_13,edr_console3,network_connection,admin-jump-01,4012,2532,Routine endpoint telemetry,False
+LAT-N-00233,2026-09-20T23:27:28+00:00,admin_19,patch_server1,network_connection,fileserver-01,491,2580,Routine software update connection,False
+LAT-N-00186,2026-09-20T23:28:25+00:00,employee_5,identity_service17,login_success,identity-01,3163,2298,Routine successful authentication,False
+LAT-N-00522,2026-09-20T23:32:50+00:00,user_20,shared_folder8,file_read,admin-jump-01,3780,3551,Routine shared folder access,False
+LAT-N-00650,2026-09-20T23:35:57+00:00,employee_14,identity_service5,login_success,fileserver-01,5295,3196,Routine successful authentication,False
+LAT-N-00098,2026-09-20T23:36:57+00:00,host_15,internal_dns13,dns_query,admin-jump-01,7902,1860,Routine internal DNS lookup,False
+LAT-N-00453,2026-09-21T00:02:06+00:00,employee_25,identity_service12,login_success,endpoint-02,5944,2908,Routine successful authentication,False
+LAT-N-00154,2026-09-21T00:21:54+00:00,host_20,internal_dns13,dns_query,endpoint-02,7061,618,Routine internal DNS lookup,False
+LAT-N-00002,2026-09-21T00:57:56+00:00,user_24,shared_folder17,file_read,endpoint-02,1185,1811,Routine shared folder access,False
+LAT-N-00672,2026-09-21T02:39:33+00:00,service_account_18,scheduled_task10,process_start,endpoint-02,5342,1173,Routine scheduled service task,False
+LAT-N-00284,2026-09-21T02:44:30+00:00,host_25,internal_dns7,dns_query,identity-01,2073,3645,Routine internal DNS lookup,False
+LAT-N-00280,2026-09-21T02:49:10+00:00,host_20,internal_dns16,dns_query,endpoint-01,5919,2121,Routine internal DNS lookup,False
+LAT-N-00024,2026-09-21T02:54:17+00:00,service_account_25,scheduled_task12,process_start,admin-jump-01,398,1327,Routine scheduled service task,False
+LAT-N-00582,2026-09-21T03:09:16+00:00,user_5,shared_folder3,file_read,fileserver-01,7543,3175,Routine shared folder access,False
+LAT-N-00251,2026-09-21T03:11:28+00:00,admin_1,patch_server17,network_connection,endpoint-02,8625,409,Routine software update connection,False
+LAT-N-00692,2026-09-21T03:16:46+00:00,endpoint_agent_12,edr_console10,network_connection,endpoint-01,2238,1322,Routine endpoint telemetry,False
+LAT-N-00309,2026-09-21T03:31:11+00:00,host_16,internal_dns11,dns_query,endpoint-02,3520,827,Routine internal DNS lookup,False
+LAT-N-00414,2026-09-21T03:36:05+00:00,employee_21,vpn_gateway7,login_success,fileserver-01,8500,468,Routine VPN login,False
+LAT-N-00288,2026-09-21T03:54:04+00:00,host_2,internal_dns6,dns_query,admin-jump-01,6435,2505,Routine internal DNS lookup,False
+LAT-N-00432,2026-09-21T04:57:56+00:00,user_1,shared_folder4,file_read,endpoint-01,2809,8,Routine shared folder access,False
+LAT-N-00342,2026-09-21T05:31:33+00:00,user_22,shared_folder7,file_read,identity-01,3445,1070,Routine shared folder access,False
+LAT-N-00244,2026-09-21T05:38:51+00:00,service_account_10,scheduled_task5,process_start,admin-jump-01,7796,932,Routine scheduled service task,False
+LAT-N-00495,2026-09-21T05:45:57+00:00,employee_22,vpn_gateway12,login_success,fileserver-01,2700,3572,Routine VPN login,False
+LAT-N-00513,2026-09-21T05:50:47+00:00,endpoint_agent_12,edr_console18,network_connection,endpoint-01,6303,3442,Routine endpoint telemetry,False
+LAT-N-00285,2026-09-21T05:51:22+00:00,endpoint_agent_5,edr_console14,network_connection,admin-jump-01,6887,3702,Routine endpoint telemetry,False
+LAT-N-00017,2026-09-21T05:57:08+00:00,endpoint_agent_4,edr_console11,network_connection,identity-01,2491,901,Routine endpoint telemetry,False
+LAT-N-00652,2026-09-21T06:16:26+00:00,service_account_14,scheduled_task7,process_start,identity-01,1063,2399,Routine scheduled service task,False
+LAT-N-00532,2026-09-21T06:18:04+00:00,employee_18,identity_service9,login_success,endpoint-02,3419,1050,Routine successful authentication,False
+LAT-N-00346,2026-09-21T06:27:09+00:00,user_17,shared_folder4,file_read,identity-01,3677,573,Routine shared folder access,False
+LAT-N-00471,2026-09-21T06:35:55+00:00,admin_18,patch_server17,network_connection,endpoint-01,7132,3488,Routine software update connection,False
+LAT-N-00686,2026-09-21T06:37:38+00:00,user_6,shared_folder8,file_read,identity-01,967,1885,Routine shared folder access,False
+LAT-N-00292,2026-09-21T06:41:41+00:00,host_9,internal_dns17,dns_query,endpoint-02,4544,133,Routine internal DNS lookup,False
+LAT-N-00357,2026-09-21T07:08:31+00:00,employee_9,identity_service8,login_success,endpoint-01,7107,2067,Routine successful authentication,False
+LAT-N-00018,2026-09-21T07:14:42+00:00,user_5,shared_folder11,file_read,fileserver-01,135,161,Routine shared folder access,False
+LAT-N-00537,2026-09-21T07:16:23+00:00,employee_6,vpn_gateway18,login_success,endpoint-01,338,2719,Routine VPN login,False
+LAT-N-00675,2026-09-21T07:18:23+00:00,employee_24,vpn_gateway13,login_success,endpoint-01,1804,3861,Routine VPN login,False
+LAT-N-00611,2026-09-21T07:19:17+00:00,employee_23,identity_service18,login_success,endpoint-01,2171,2575,Routine successful authentication,False
+LAT-N-00121,2026-09-21T07:19:52+00:00,endpoint_agent_8,edr_console8,network_connection,endpoint-02,2464,3571,Routine endpoint telemetry,False
+LAT-N-00449,2026-09-21T07:40:08+00:00,employee_22,vpn_gateway6,login_success,endpoint-01,1239,1988,Routine VPN login,False
+LAT-N-00372,2026-09-21T07:51:41+00:00,host_2,internal_dns4,dns_query,identity-01,1300,3188,Routine internal DNS lookup,False
+LAT-N-00614,2026-09-21T07:58:53+00:00,user_22,shared_folder10,file_read,endpoint-01,2195,1588,Routine shared folder access,False
+LAT-N-00242,2026-09-21T08:04:44+00:00,service_account_25,scheduled_task15,process_start,fileserver-01,6754,3143,Routine scheduled service task,False
+LAT-N-00699,2026-09-21T08:56:19+00:00,employee_4,identity_service10,login_success,fileserver-01,7093,2459,Routine successful authentication,False
+LAT-N-00058,2026-09-21T09:19:10+00:00,host_10,internal_dns10,dns_query,endpoint-02,3231,2590,Routine internal DNS lookup,False
+LAT-N-00560,2026-09-21T09:24:19+00:00,host_18,internal_dns14,dns_query,endpoint-02,2891,3763,Routine internal DNS lookup,False
+LAT-N-00501,2026-09-21T09:25:20+00:00,user_9,shared_folder9,file_read,identity-01,4300,176,Routine shared folder access,False
+LAT-N-00628,2026-09-21T10:01:11+00:00,user_15,shared_folder10,file_read,identity-01,2618,854,Routine shared folder access,False
+LAT-N-00119,2026-09-21T10:03:30+00:00,endpoint_agent_16,edr_console12,network_connection,endpoint-02,3352,96,Routine endpoint telemetry,False
+LAT-N-00475,2026-09-21T10:42:01+00:00,user_8,shared_folder7,file_read,identity-01,5472,3892,Routine shared folder access,False
+LAT-N-00165,2026-09-21T10:53:27+00:00,service_account_20,scheduled_task9,process_start,admin-jump-01,3840,2600,Routine scheduled service task,False
+LAT-N-00243,2026-09-21T11:11:15+00:00,endpoint_agent_25,edr_console16,network_connection,identity-01,5276,1651,Routine endpoint telemetry,False
+LAT-N-00232,2026-09-21T11:35:09+00:00,user_4,shared_folder11,file_read,fileserver-01,5968,676,Routine shared folder access,False
+LAT-N-00089,2026-09-21T11:49:24+00:00,service_account_25,scheduled_task17,process_start,endpoint-02,678,481,Routine scheduled service task,False
+LAT-N-00137,2026-09-21T11:53:36+00:00,service_account_5,scheduled_task4,process_start,admin-jump-01,4517,1375,Routine scheduled service task,False
+LAT-N-00088,2026-09-21T11:56:47+00:00,employee_1,vpn_gateway15,login_success,identity-01,6927,3686,Routine VPN login,False
+LAT-N-00201,2026-09-21T12:05:08+00:00,employee_11,vpn_gateway12,login_success,endpoint-01,1720,3081,Routine VPN login,False
+LAT-N-00083,2026-09-21T12:34:26+00:00,service_account_24,scheduled_task8,process_start,admin-jump-01,2613,3945,Routine scheduled service task,False
+LAT-N-00136,2026-09-21T12:43:11+00:00,employee_15,identity_service18,login_success,identity-01,563,1575,Routine successful authentication,False
+LAT-N-00068,2026-09-21T12:59:02+00:00,host_18,internal_dns12,dns_query,fileserver-01,8469,3814,Routine internal DNS lookup,False
+LAT-N-00666,2026-09-21T13:03:31+00:00,admin_2,patch_server8,network_connection,fileserver-01,3245,1701,Routine software update connection,False
+LAT-N-00014,2026-09-21T13:41:14+00:00,employee_9,vpn_gateway4,login_success,fileserver-01,872,3429,Routine VPN login,False
+LAT-N-00176,2026-09-21T13:42:49+00:00,service_account_11,scheduled_task16,process_start,identity-01,3090,1616,Routine scheduled service task,False
+LAT-N-00054,2026-09-21T14:04:49+00:00,endpoint_agent_14,edr_console6,network_connection,endpoint-02,295,3724,Routine endpoint telemetry,False
+LAT-N-00395,2026-09-21T14:05:39+00:00,employee_14,identity_service15,login_success,endpoint-01,892,3689,Routine successful authentication,False
+LAT-N-00350,2026-09-21T14:09:25+00:00,employee_3,identity_service11,login_success,endpoint-02,2578,1860,Routine successful authentication,False
+LAT-N-00647,2026-09-21T14:23:19+00:00,admin_25,patch_server7,network_connection,admin-jump-01,5407,3041,Routine software update connection,False
+LAT-N-00020,2026-09-21T14:35:06+00:00,host_18,internal_dns9,dns_query,endpoint-01,7254,2443,Routine internal DNS lookup,False
+LAT-N-00279,2026-09-21T14:37:50+00:00,endpoint_agent_9,edr_console14,network_connection,fileserver-01,2062,3073,Routine endpoint telemetry,False
+LAT-N-00380,2026-09-21T15:05:50+00:00,admin_18,patch_server18,network_connection,endpoint-02,5381,3782,Routine software update connection,False
+LAT-N-00086,2026-09-21T15:36:23+00:00,user_14,shared_folder17,file_read,identity-01,1052,3259,Routine shared folder access,False
+LAT-N-00481,2026-09-21T15:37:58+00:00,employee_6,identity_service15,login_success,endpoint-02,7134,325,Routine successful authentication,False
+LAT-N-00179,2026-09-21T15:46:21+00:00,employee_19,identity_service6,login_success,fileserver-01,457,205,Routine successful authentication,False
+LAT-N-00262,2026-09-21T15:59:46+00:00,employee_7,vpn_gateway12,login_success,endpoint-01,4263,2632,Routine VPN login,False
+LAT-N-00604,2026-09-21T16:27:37+00:00,service_account_17,scheduled_task12,process_start,identity-01,7809,3006,Routine scheduled service task,False
+LAT-N-00386,2026-09-21T16:35:25+00:00,service_account_22,scheduled_task1,process_start,fileserver-01,1857,3987,Routine scheduled service task,False
+LAT-N-00676,2026-09-21T16:41:07+00:00,employee_11,vpn_gateway10,login_success,endpoint-01,7534,2873,Routine VPN login,False
+LAT-N-00610,2026-09-21T16:46:38+00:00,user_20,shared_folder8,file_read,endpoint-01,2897,1675,Routine shared folder access,False
+LAT-N-00294,2026-09-21T16:52:38+00:00,user_16,shared_folder12,file_read,admin-jump-01,846,3295,Routine shared folder access,False
+LAT-N-00494,2026-09-21T18:03:23+00:00,endpoint_agent_9,edr_console18,network_connection,endpoint-01,3778,612,Routine endpoint telemetry,False
+LAT-N-00433,2026-09-21T18:19:27+00:00,employee_23,vpn_gateway9,login_success,admin-jump-01,2816,2083,Routine VPN login,False
+LAT-N-00579,2026-09-21T18:22:23+00:00,service_account_2,scheduled_task12,process_start,endpoint-01,3891,1834,Routine scheduled service task,False
+LAT-N-00665,2026-09-21T18:22:27+00:00,employee_14,vpn_gateway1,login_success,admin-jump-01,5460,3960,Routine VPN login,False
+LAT-N-00295,2026-09-21T18:33:33+00:00,service_account_2,scheduled_task4,process_start,identity-01,1231,1357,Routine scheduled service task,False
+LAT-N-00266,2026-09-21T18:48:47+00:00,admin_5,patch_server14,network_connection,endpoint-01,5723,429,Routine software update connection,False
+LAT-N-00066,2026-09-21T18:51:25+00:00,employee_14,vpn_gateway16,login_success,endpoint-02,4246,771,Routine VPN login,False
+LAT-N-00478,2026-09-21T18:52:12+00:00,endpoint_agent_25,edr_console15,network_connection,endpoint-02,3162,1951,Routine endpoint telemetry,False
+LAT-N-00623,2026-09-21T19:07:33+00:00,admin_12,patch_server15,network_connection,identity-01,7322,3751,Routine software update connection,False
+LAT-N-00539,2026-09-21T19:17:25+00:00,admin_13,patch_server6,network_connection,admin-jump-01,2246,2810,Routine software update connection,False
+LAT-N-00450,2026-09-21T19:58:38+00:00,host_5,internal_dns12,dns_query,fileserver-01,2813,1836,Routine internal DNS lookup,False
+LAT-N-00482,2026-09-21T20:14:53+00:00,user_20,shared_folder18,file_read,fileserver-01,8303,3391,Routine shared folder access,False
+LAT-N-00498,2026-09-21T20:14:57+00:00,host_5,internal_dns13,dns_query,fileserver-01,5393,3836,Routine internal DNS lookup,False
+LAT-N-00644,2026-09-21T20:30:06+00:00,employee_15,vpn_gateway1,login_success,identity-01,8918,3441,Routine VPN login,False
+LAT-N-00115,2026-09-21T21:18:06+00:00,employee_17,identity_service9,login_success,identity-01,6675,1371,Routine successful authentication,False
+LAT-N-00171,2026-09-21T21:41:52+00:00,service_account_20,scheduled_task15,process_start,identity-01,5216,2406,Routine scheduled service task,False
+LAT-N-00371,2026-09-21T21:47:33+00:00,service_account_13,scheduled_task11,process_start,endpoint-01,8717,1914,Routine scheduled service task,False
+LAT-N-00509,2026-09-21T22:26:45+00:00,employee_25,identity_service10,login_success,endpoint-02,2215,2973,Routine successful authentication,False
+LAT-N-00520,2026-09-21T22:42:33+00:00,host_11,internal_dns6,dns_query,endpoint-02,3593,1759,Routine internal DNS lookup,False
+LAT-N-00318,2026-09-21T22:59:29+00:00,endpoint_agent_5,edr_console3,network_connection,identity-01,1444,1621,Routine endpoint telemetry,False
+LAT-N-00696,2026-09-21T23:04:57+00:00,endpoint_agent_13,edr_console11,network_connection,identity-01,6013,2245,Routine endpoint telemetry,False
+LAT-N-00298,2026-09-21T23:44:27+00:00,endpoint_agent_9,edr_console15,network_connection,identity-01,8400,2284,Routine endpoint telemetry,False
+LAT-N-00461,2026-09-21T23:45:11+00:00,host_24,internal_dns6,dns_query,identity-01,4007,484,Routine internal DNS lookup,False
+LAT-N-00356,2026-09-21T23:46:13+00:00,user_25,shared_folder17,file_read,identity-01,1059,697,Routine shared folder access,False
+LAT-N-00270,2026-09-22T00:19:52+00:00,admin_10,patch_server3,network_connection,endpoint-02,7917,1406,Routine software update connection,False
+LAT-N-00258,2026-09-22T00:34:41+00:00,employee_8,vpn_gateway16,login_success,admin-jump-01,811,873,Routine VPN login,False
+LAT-N-00637,2026-09-22T01:20:57+00:00,service_account_13,scheduled_task10,process_start,admin-jump-01,6870,3727,Routine scheduled service task,False
+LAT-N-00553,2026-09-22T01:22:52+00:00,admin_24,patch_server15,network_connection,fileserver-01,1644,1213,Routine software update connection,False
+LAT-N-00324,2026-09-22T01:24:36+00:00,admin_1,patch_server2,network_connection,identity-01,6166,2536,Routine software update connection,False
+LAT-N-00566,2026-09-22T01:55:41+00:00,service_account_15,scheduled_task12,process_start,fileserver-01,2888,2381,Routine scheduled service task,False
+LAT-N-00347,2026-09-22T03:02:06+00:00,host_20,internal_dns14,dns_query,admin-jump-01,2103,2672,Routine internal DNS lookup,False
+LAT-N-00706,2026-09-22T03:09:50+00:00,service_account_6,scheduled_task13,process_start,admin-jump-01,2463,965,Routine scheduled service task,False
+LAT-N-00541,2026-09-22T03:51:15+00:00,endpoint_agent_6,edr_console7,network_connection,identity-01,2761,248,Routine endpoint telemetry,False
+LAT-N-00048,2026-09-22T03:56:32+00:00,service_account_11,scheduled_task17,process_start,fileserver-01,3879,1820,Routine scheduled service task,False
+LAT-N-00198,2026-09-22T03:58:53+00:00,service_account_16,scheduled_task18,process_start,admin-jump-01,2798,2198,Routine scheduled service task,False
+LAT-N-00605,2026-09-22T04:33:58+00:00,employee_19,identity_service18,login_success,identity-01,7861,3469,Routine successful authentication,False
+LAT-N-00473,2026-09-22T04:37:05+00:00,endpoint_agent_3,edr_console3,network_connection,admin-jump-01,5325,226,Routine endpoint telemetry,False
+LAT-N-00642,2026-09-22T05:07:57+00:00,endpoint_agent_17,edr_console17,network_connection,admin-jump-01,6636,702,Routine endpoint telemetry,False
+LAT-N-00192,2026-09-22T05:14:44+00:00,endpoint_agent_24,edr_console4,network_connection,admin-jump-01,5066,1961,Routine endpoint telemetry,False
+LAT-N-00133,2026-09-22T05:33:05+00:00,endpoint_agent_25,edr_console11,network_connection,fileserver-01,6629,381,Routine endpoint telemetry,False
+LAT-N-00622,2026-09-22T05:41:41+00:00,employee_3,identity_service10,login_success,endpoint-01,5761,742,Routine successful authentication,False
+LAT-N-00142,2026-09-22T05:51:37+00:00,host_18,internal_dns1,dns_query,endpoint-02,3245,2772,Routine internal DNS lookup,False
+LAT-N-00575,2026-09-22T06:11:51+00:00,user_15,shared_folder7,file_read,fileserver-01,6243,281,Routine shared folder access,False
+LAT-N-00045,2026-09-22T06:23:34+00:00,service_account_17,scheduled_task7,process_start,endpoint-02,8384,954,Routine scheduled service task,False
+LAT-N-00496,2026-09-22T06:34:48+00:00,endpoint_agent_25,edr_console1,network_connection,endpoint-01,4086,3735,Routine endpoint telemetry,False
+LAT-N-00337,2026-09-22T06:35:23+00:00,user_3,shared_folder17,file_read,endpoint-02,2148,1304,Routine shared folder access,False
+LAT-N-00409,2026-09-22T07:20:55+00:00,host_25,internal_dns11,dns_query,endpoint-01,5863,3961,Routine internal DNS lookup,False
+LAT-N-00390,2026-09-22T07:32:38+00:00,host_6,internal_dns7,dns_query,endpoint-02,3502,141,Routine internal DNS lookup,False
+LAT-N-00190,2026-09-22T07:52:31+00:00,employee_23,identity_service10,login_success,fileserver-01,2233,424,Routine successful authentication,False
+LAT-N-00378,2026-09-22T08:30:05+00:00,employee_3,identity_service4,login_success,identity-01,4795,3387,Routine successful authentication,False
+LAT-N-00150,2026-09-22T08:31:59+00:00,employee_18,identity_service15,login_success,endpoint-01,4842,2750,Routine successful authentication,False
+LAT-N-00087,2026-09-22T09:05:32+00:00,service_account_5,scheduled_task14,process_start,admin-jump-01,226,3777,Routine scheduled service task,False
+LAT-N-00256,2026-09-22T09:25:20+00:00,employee_17,identity_service9,login_success,identity-01,8643,278,Routine successful authentication,False
+LAT-N-00700,2026-09-22T09:30:44+00:00,employee_14,vpn_gateway12,login_success,admin-jump-01,3852,2268,Routine VPN login,False
+LAT-N-00576,2026-09-22T10:10:39+00:00,user_7,shared_folder6,file_read,endpoint-02,5682,57,Routine shared folder access,False
+LAT-N-00227,2026-09-22T10:17:13+00:00,employee_6,vpn_gateway6,login_success,endpoint-01,7452,2574,Routine VPN login,False
+LAT-N-00545,2026-09-22T10:21:06+00:00,endpoint_agent_25,edr_console18,network_connection,endpoint-01,4753,2173,Routine endpoint telemetry,False
+LAT-N-00289,2026-09-22T10:22:22+00:00,host_12,internal_dns13,dns_query,fileserver-01,5099,1064,Routine internal DNS lookup,False
+LAT-N-00704,2026-09-22T10:58:27+00:00,employee_19,identity_service14,login_success,admin-jump-01,3001,2176,Routine successful authentication,False
+LAT-N-00008,2026-09-22T11:29:08+00:00,host_19,internal_dns11,dns_query,endpoint-01,2758,2675,Routine internal DNS lookup,False
+LAT-N-00349,2026-09-22T11:56:48+00:00,employee_19,identity_service18,login_success,endpoint-01,711,1087,Routine successful authentication,False
+LAT-N-00197,2026-09-22T12:01:06+00:00,endpoint_agent_12,edr_console10,network_connection,identity-01,8368,3910,Routine endpoint telemetry,False
+LAT-N-00504,2026-09-22T12:02:23+00:00,user_5,shared_folder2,file_read,admin-jump-01,931,2613,Routine shared folder access,False
+LAT-N-00667,2026-09-22T12:36:45+00:00,admin_1,patch_server2,network_connection,endpoint-01,3276,929,Routine software update connection,False
+LAT-N-00051,2026-09-22T13:04:05+00:00,user_17,shared_folder6,file_read,identity-01,1117,1693,Routine shared folder access,False
+LAT-N-00701,2026-09-22T13:20:46+00:00,employee_13,identity_service18,login_success,endpoint-02,620,3621,Routine successful authentication,False
+LAT-N-00562,2026-09-22T13:26:54+00:00,service_account_4,scheduled_task12,process_start,endpoint-02,5020,1017,Routine scheduled service task,False
+LAT-N-00341,2026-09-22T13:59:06+00:00,user_13,shared_folder14,file_read,admin-jump-01,2296,1507,Routine shared folder access,False
+LAT-N-00028,2026-09-22T14:12:14+00:00,service_account_20,scheduled_task4,process_start,endpoint-02,3365,2169,Routine scheduled service task,False
+LAT-N-00406,2026-09-22T14:15:17+00:00,employee_15,vpn_gateway7,login_success,identity-01,3807,2765,Routine VPN login,False
+LAT-N-00448,2026-09-22T14:44:16+00:00,host_11,internal_dns6,dns_query,admin-jump-01,5363,980,Routine internal DNS lookup,False
+LAT-N-00407,2026-09-22T14:53:03+00:00,host_13,internal_dns14,dns_query,endpoint-02,1961,3789,Routine internal DNS lookup,False
+LAT-N-00391,2026-09-22T15:12:27+00:00,host_3,internal_dns17,dns_query,admin-jump-01,3004,2860,Routine internal DNS lookup,False
+LAT-N-00254,2026-09-22T15:24:15+00:00,user_7,shared_folder2,file_read,endpoint-01,2677,2121,Routine shared folder access,False
+LAT-N-00064,2026-09-22T15:27:50+00:00,admin_17,patch_server8,network_connection,identity-01,6727,1785,Routine software update connection,False
+LAT-N-00599,2026-09-22T15:58:55+00:00,endpoint_agent_12,edr_console9,network_connection,identity-01,2445,2914,Routine endpoint telemetry,False
+LAT-N-00056,2026-09-22T16:01:51+00:00,employee_20,vpn_gateway2,login_success,endpoint-01,7907,1736,Routine VPN login,False
+LAT-N-00046,2026-09-22T16:19:26+00:00,employee_4,vpn_gateway6,login_success,fileserver-01,5118,1870,Routine VPN login,False
+LAT-N-00485,2026-09-22T16:21:39+00:00,employee_4,vpn_gateway12,login_success,endpoint-02,7501,499,Routine VPN login,False
+LAT-N-00157,2026-09-22T16:26:20+00:00,user_21,shared_folder2,file_read,fileserver-01,3644,899,Routine shared folder access,False
+LAT-N-00092,2026-09-22T16:49:24+00:00,employee_11,vpn_gateway5,login_success,endpoint-02,8360,1411,Routine VPN login,False
+LAT-N-00057,2026-09-22T17:07:56+00:00,admin_7,patch_server7,network_connection,admin-jump-01,855,1908,Routine software update connection,False
+LAT-N-00589,2026-09-22T17:08:49+00:00,endpoint_agent_8,edr_console17,network_connection,endpoint-02,6782,752,Routine endpoint telemetry,False
+LAT-N-00601,2026-09-22T17:15:28+00:00,user_12,shared_folder3,file_read,fileserver-01,7307,2565,Routine shared folder access,False
+LAT-N-00683,2026-09-22T17:21:39+00:00,employee_10,identity_service8,login_success,endpoint-01,5775,92,Routine successful authentication,False
+LAT-N-00546,2026-09-22T17:45:03+00:00,employee_18,vpn_gateway1,login_success,endpoint-02,3623,2792,Routine VPN login,False
+LAT-N-00247,2026-09-22T18:11:10+00:00,service_account_13,scheduled_task5,process_start,identity-01,7785,3691,Routine scheduled service task,False
+LAT-N-00670,2026-09-22T18:29:26+00:00,employee_7,vpn_gateway9,login_success,endpoint-01,5063,1307,Routine VPN login,False
+LAT-N-00523,2026-09-22T18:35:44+00:00,service_account_6,scheduled_task9,process_start,fileserver-01,2771,1622,Routine scheduled service task,False
+LAT-N-00259,2026-09-22T18:44:16+00:00,employee_4,identity_service14,login_success,identity-01,4821,3662,Routine successful authentication,False
+LAT-N-00359,2026-09-22T19:26:36+00:00,service_account_15,scheduled_task2,process_start,identity-01,7751,3227,Routine scheduled service task,False
+LAT-N-00580,2026-09-22T19:31:00+00:00,user_14,shared_folder10,file_read,endpoint-02,987,2705,Routine shared folder access,False
+LAT-N-00493,2026-09-22T19:53:05+00:00,admin_24,patch_server8,network_connection,identity-01,2850,3911,Routine software update connection,False
+LAT-N-00125,2026-09-22T20:32:49+00:00,employee_16,identity_service17,login_success,fileserver-01,8554,842,Routine successful authentication,False
+LAT-N-00492,2026-09-22T20:43:49+00:00,user_10,shared_folder9,file_read,endpoint-01,1281,3548,Routine shared folder access,False
+LAT-N-00551,2026-09-22T21:07:51+00:00,endpoint_agent_3,edr_console7,network_connection,endpoint-01,3430,103,Routine endpoint telemetry,False
+LAT-N-00005,2026-09-22T21:11:40+00:00,user_6,shared_folder14,file_read,endpoint-02,3633,980,Routine shared folder access,False
+LAT-N-00138,2026-09-22T21:13:58+00:00,user_25,shared_folder11,file_read,endpoint-01,4552,3520,Routine shared folder access,False
+LAT-N-00679,2026-09-22T21:14:08+00:00,user_21,shared_folder1,file_read,admin-jump-01,7681,3174,Routine shared folder access,False
+LAT-N-00084,2026-09-22T21:20:04+00:00,employee_6,vpn_gateway7,login_success,identity-01,2014,726,Routine VPN login,False
+LAT-N-00538,2026-09-22T21:23:15+00:00,user_7,shared_folder9,file_read,fileserver-01,394,2091,Routine shared folder access,False
+LAT-N-00015,2026-09-22T21:24:30+00:00,employee_23,identity_service2,login_success,admin-jump-01,5821,3176,Routine successful authentication,False
+LAT-N-00487,2026-09-22T21:46:10+00:00,service_account_20,scheduled_task18,process_start,fileserver-01,7508,3267,Routine scheduled service task,False
+LAT-N-00454,2026-09-22T21:53:07+00:00,host_5,internal_dns15,dns_query,endpoint-02,8373,3647,Routine internal DNS lookup,False
+LAT-N-00632,2026-09-22T21:53:52+00:00,host_15,internal_dns10,dns_query,admin-jump-01,6412,910,Routine internal DNS lookup,False
+LAT-N-00408,2026-09-22T21:54:00+00:00,user_1,shared_folder3,file_read,endpoint-01,4206,1097,Routine shared folder access,False
+LAT-N-00127,2026-09-22T22:00:34+00:00,employee_18,identity_service4,login_success,endpoint-01,5124,3692,Routine successful authentication,False
+LAT-N-00508,2026-09-22T22:07:24+00:00,employee_2,identity_service11,login_success,fileserver-01,4633,1018,Routine successful authentication,False
+LAT-N-00376,2026-09-22T22:19:32+00:00,admin_17,patch_server15,network_connection,identity-01,3653,1576,Routine software update connection,False
+LAT-N-00477,2026-09-22T22:30:31+00:00,admin_23,patch_server1,network_connection,identity-01,6588,3731,Routine software update connection,False
+LAT-N-00126,2026-09-22T22:40:55+00:00,host_21,internal_dns2,dns_query,endpoint-02,273,3913,Routine internal DNS lookup,False
+LAT-N-00239,2026-09-22T23:08:46+00:00,user_1,shared_folder14,file_read,identity-01,599,3480,Routine shared folder access,False
+LAT-N-00375,2026-09-22T23:17:59+00:00,user_15,shared_folder1,file_read,admin-jump-01,317,567,Routine shared folder access,False
+LAT-N-00074,2026-09-22T23:25:10+00:00,user_6,shared_folder18,file_read,endpoint-02,7783,3359,Routine shared folder access,False
+LAT-N-00364,2026-09-23T00:06:10+00:00,employee_1,vpn_gateway4,login_success,endpoint-02,5885,2704,Routine VPN login,False
+LAT-N-00502,2026-09-23T00:13:01+00:00,employee_18,identity_service1,login_success,identity-01,454,1209,Routine successful authentication,False
+LAT-N-00608,2026-09-23T00:28:28+00:00,service_account_23,scheduled_task6,process_start,identity-01,1526,1097,Routine scheduled service task,False
+LAT-N-00214,2026-09-23T00:29:36+00:00,host_15,internal_dns4,dns_query,fileserver-01,1104,3441,Routine internal DNS lookup,False
+LAT-N-00671,2026-09-23T00:45:33+00:00,employee_17,identity_service11,login_success,identity-01,129,3355,Routine successful authentication,False
+LAT-N-00631,2026-09-23T00:47:35+00:00,endpoint_agent_13,edr_console2,network_connection,fileserver-01,4460,13,Routine endpoint telemetry,False
+LAT-N-00026,2026-09-23T01:03:45+00:00,host_20,internal_dns1,dns_query,admin-jump-01,278,2748,Routine internal DNS lookup,False
+LAT-N-00530,2026-09-23T01:35:24+00:00,admin_15,patch_server11,network_connection,admin-jump-01,8472,1358,Routine software update connection,False
+LAT-N-00156,2026-09-23T01:58:19+00:00,service_account_24,scheduled_task5,process_start,identity-01,3098,2450,Routine scheduled service task,False
+LAT-N-00597,2026-09-23T02:25:53+00:00,admin_23,patch_server15,network_connection,admin-jump-01,640,2525,Routine software update connection,False
+LAT-N-00219,2026-09-23T02:28:13+00:00,endpoint_agent_23,edr_console17,network_connection,admin-jump-01,4982,274,Routine endpoint telemetry,False
+LAT-N-00360,2026-09-23T02:36:50+00:00,user_21,shared_folder6,file_read,endpoint-01,1593,2756,Routine shared folder access,False
+LAT-N-00222,2026-09-23T02:52:58+00:00,employee_2,vpn_gateway7,login_success,identity-01,159,2518,Routine VPN login,False
+LAT-N-00004,2026-09-23T03:11:26+00:00,employee_13,vpn_gateway9,login_success,endpoint-02,1296,1317,Routine VPN login,False
+LAT-N-00636,2026-09-23T03:13:55+00:00,employee_15,vpn_gateway17,login_success,endpoint-01,8343,3229,Routine VPN login,False
+LAT-N-00203,2026-09-23T03:14:47+00:00,admin_19,patch_server16,network_connection,admin-jump-01,9000,919,Routine software update connection,False
+LAT-N-00234,2026-09-23T03:16:01+00:00,endpoint_agent_25,edr_console7,network_connection,admin-jump-01,6607,1170,Routine endpoint telemetry,False
+LAT-N-00626,2026-09-23T03:33:16+00:00,endpoint_agent_3,edr_console11,network_connection,endpoint-02,1948,3304,Routine endpoint telemetry,False
+LAT-N-00317,2026-09-23T03:48:44+00:00,user_21,shared_folder14,file_read,fileserver-01,5024,3352,Routine shared folder access,False
+LAT-A-001,2026-09-23T04:00:00+00:00,user_18,endpoint-01,login_failed,endpoint-01,7301,1,Repeated failed_login from unusual account,True
+LAT-A-002,2026-09-23T04:00:30+00:00,user_18,endpoint-01,login_success,endpoint-01,7301,1,Successful login after brute authentication attempts,True
+LAT-A-003,2026-09-23T04:01:05+00:00,powershell.exe,credential_cache,file_read,endpoint-01,7410,7301,Credential access and password_dump indicator,True
+LAT-A-004,2026-09-23T04:01:40+00:00,powershell.exe,admin_token,process_start,endpoint-01,7410,7301,Privilege elevation and token access attempt,True
+LAT-A-005,2026-09-23T04:02:25+00:00,endpoint-01,identity-01,network_connection,endpoint-01,7410,7301,Unusual connection to identity server,True
+LAT-A-006,2026-09-23T04:03:10+00:00,user_18@endpoint-01,admin-jump-01,remote_service_login,admin-jump-01,7500,7410,Remote service activity suggests lateral movement,True
+LAT-A-007,2026-09-23T04:04:05+00:00,admin-jump-01,fileserver-01,network_connection,admin-jump-01,7500,7410,Lateral movement from jump host to file server,True
+LAT-A-008,2026-09-23T04:05:00+00:00,powershell.exe,payroll_archive.zip,file_write,fileserver-01,7612,7500,Sensitive payroll archive staging,True
+LAT-A-009,2026-09-23T04:05:55+00:00,powershell.exe,unknown_ip_192.0.2.88,network_connection,fileserver-01,7612,7500,Unusual external destination following staging,True
+LAT-N-00047,2026-09-23T04:07:05+00:00,employee_19,vpn_gateway14,login_success,endpoint-02,6311,1131,Routine VPN login,False
+LAT-N-00249,2026-09-23T04:18:37+00:00,host_20,internal_dns14,dns_query,fileserver-01,5451,2554,Routine internal DNS lookup,False
+LAT-N-00542,2026-09-23T04:19:34+00:00,service_account_19,scheduled_task18,process_start,admin-jump-01,4915,3003,Routine scheduled service task,False
+LAT-N-00076,2026-09-23T04:34:12+00:00,endpoint_agent_3,edr_console17,network_connection,endpoint-01,6603,3165,Routine endpoint telemetry,False
+LAT-N-00420,2026-09-23T04:34:15+00:00,admin_23,patch_server13,network_connection,endpoint-01,4941,2886,Routine software update connection,False
+LAT-N-00229,2026-09-23T04:50:26+00:00,service_account_7,scheduled_task3,process_start,endpoint-01,1574,1684,Routine scheduled service task,False
+LAT-N-00668,2026-09-23T04:55:19+00:00,service_account_5,scheduled_task7,process_start,fileserver-01,6488,3004,Routine scheduled service task,False
+LAT-N-00195,2026-09-23T05:02:23+00:00,employee_22,vpn_gateway6,login_success,identity-01,5568,2834,Routine VPN login,False
+LAT-N-00245,2026-09-23T05:03:22+00:00,user_19,shared_folder13,file_read,admin-jump-01,169,2003,Routine shared folder access,False
+LAT-N-00382,2026-09-23T05:05:40+00:00,host_22,internal_dns13,dns_query,admin-jump-01,7853,3179,Routine internal DNS lookup,False
+LAT-N-00544,2026-09-23T05:07:17+00:00,host_17,internal_dns16,dns_query,admin-jump-01,3567,777,Routine internal DNS lookup,False
+LAT-N-00528,2026-09-23T05:13:15+00:00,employee_7,vpn_gateway7,login_success,endpoint-01,8850,1825,Routine VPN login,False
+LAT-N-00499,2026-09-23T05:26:46+00:00,service_account_25,scheduled_task16,process_start,endpoint-02,8522,2337,Routine scheduled service task,False
+LAT-N-00185,2026-09-23T06:01:11+00:00,endpoint_agent_3,edr_console4,network_connection,endpoint-02,5085,2284,Routine endpoint telemetry,False
+LAT-N-00184,2026-09-23T06:01:18+00:00,service_account_18,scheduled_task17,process_start,fileserver-01,4251,3982,Routine scheduled service task,False
+LAT-N-00130,2026-09-23T06:29:20+00:00,admin_15,patch_server17,network_connection,fileserver-01,6475,2498,Routine software update connection,False
+LAT-N-00427,2026-09-23T06:52:05+00:00,employee_8,identity_service8,login_success,admin-jump-01,8443,3164,Routine successful authentication,False
+LAT-N-00405,2026-09-23T06:55:26+00:00,service_account_22,scheduled_task18,process_start,endpoint-01,217,1658,Routine scheduled service task,False
+LAT-N-00421,2026-09-23T07:11:30+00:00,employee_20,vpn_gateway11,login_success,fileserver-01,2310,2691,Routine VPN login,False
+LAT-N-00416,2026-09-23T07:22:34+00:00,employee_12,identity_service14,login_success,endpoint-01,7716,1595,Routine successful authentication,False
+LAT-N-00362,2026-09-23T07:33:57+00:00,service_account_21,scheduled_task2,process_start,identity-01,8481,2083,Routine scheduled service task,False
+LAT-N-00563,2026-09-23T07:53:54+00:00,user_25,shared_folder13,file_read,endpoint-01,7391,2689,Routine shared folder access,False
+LAT-N-00291,2026-09-23T08:01:21+00:00,employee_12,vpn_gateway9,login_success,endpoint-02,7094,2148,Routine VPN login,False
+LAT-N-00479,2026-09-23T08:09:55+00:00,service_account_16,scheduled_task16,process_start,admin-jump-01,7479,2965,Routine scheduled service task,False
+LAT-N-00387,2026-09-23T08:16:06+00:00,endpoint_agent_23,edr_console16,network_connection,identity-01,6400,2823,Routine endpoint telemetry,False
+LAT-N-00554,2026-09-23T08:34:07+00:00,admin_1,patch_server13,network_connection,endpoint-01,8134,443,Routine software update connection,False
+LAT-N-00006,2026-09-23T08:36:38+00:00,host_7,internal_dns6,dns_query,identity-01,6271,2994,Routine internal DNS lookup,False
+LAT-N-00369,2026-09-23T09:18:01+00:00,endpoint_agent_6,edr_console18,network_connection,fileserver-01,7094,2274,Routine endpoint telemetry,False
+LAT-N-00225,2026-09-23T09:48:01+00:00,service_account_24,scheduled_task11,process_start,fileserver-01,7225,2444,Routine scheduled service task,False
+LAT-N-00022,2026-09-23T09:54:29+00:00,host_14,internal_dns12,dns_query,identity-01,4820,1439,Routine internal DNS lookup,False
+LAT-N-00460,2026-09-23T10:04:20+00:00,employee_1,vpn_gateway5,login_success,admin-jump-01,2528,1380,Routine VPN login,False
+LAT-N-00147,2026-09-23T10:08:09+00:00,admin_23,patch_server17,network_connection,endpoint-02,8427,2500,Routine software update connection,False
+LAT-N-00404,2026-09-23T10:23:13+00:00,admin_16,patch_server7,network_connection,endpoint-02,3537,1053,Routine software update connection,False
+LAT-N-00200,2026-09-23T10:41:42+00:00,service_account_16,scheduled_task9,process_start,endpoint-01,2619,1183,Routine scheduled service task,False
+LAT-N-00474,2026-09-23T11:33:37+00:00,admin_2,patch_server9,network_connection,endpoint-01,7299,3870,Routine software update connection,False
+LAT-N-00490,2026-09-23T11:37:28+00:00,host_21,internal_dns2,dns_query,fileserver-01,3674,1222,Routine internal DNS lookup,False
+LAT-N-00124,2026-09-23T11:52:44+00:00,user_12,shared_folder16,file_read,identity-01,1931,2067,Routine shared folder access,False
+LAT-N-00658,2026-09-23T12:17:14+00:00,admin_3,patch_server17,network_connection,admin-jump-01,1929,2063,Routine software update connection,False
+LAT-N-00044,2026-09-23T12:33:32+00:00,user_1,shared_folder8,file_read,endpoint-02,5978,3937,Routine shared folder access,False
+LAT-N-00141,2026-09-23T13:43:26+00:00,admin_21,patch_server6,network_connection,admin-jump-01,5276,7,Routine software update connection,False
+LAT-N-00236,2026-09-23T13:47:06+00:00,endpoint_agent_25,edr_console14,network_connection,endpoint-01,2792,1531,Routine endpoint telemetry,False
+LAT-N-00516,2026-09-23T13:47:15+00:00,admin_16,patch_server8,network_connection,admin-jump-01,1282,405,Routine software update connection,False
+LAT-N-00476,2026-09-23T13:56:21+00:00,admin_3,patch_server7,network_connection,endpoint-01,8673,693,Routine software update connection,False
+LAT-N-00507,2026-09-23T14:24:12+00:00,employee_23,vpn_gateway16,login_success,admin-jump-01,1247,725,Routine VPN login,False
+LAT-N-00451,2026-09-23T14:46:38+00:00,user_19,shared_folder18,file_read,endpoint-01,4152,342,Routine shared folder access,False
+LAT-N-00556,2026-09-23T15:24:28+00:00,host_23,internal_dns13,dns_query,identity-01,4865,540,Routine internal DNS lookup,False
+LAT-N-00630,2026-09-23T15:42:49+00:00,endpoint_agent_9,edr_console18,network_connection,endpoint-01,6349,3384,Routine endpoint telemetry,False
+LAT-N-00287,2026-09-23T16:00:31+00:00,admin_3,patch_server1,network_connection,endpoint-01,1699,1536,Routine software update connection,False
+LAT-N-00187,2026-09-23T16:07:35+00:00,service_account_12,scheduled_task4,process_start,fileserver-01,171,3890,Routine scheduled service task,False
+LAT-N-00570,2026-09-23T16:08:02+00:00,service_account_25,scheduled_task3,process_start,endpoint-01,2005,3577,Routine scheduled service task,False
+LAT-N-00224,2026-09-23T16:12:37+00:00,service_account_3,scheduled_task16,process_start,endpoint-02,7531,1740,Routine scheduled service task,False
+LAT-N-00286,2026-09-23T16:47:29+00:00,admin_23,patch_server15,network_connection,admin-jump-01,4294,675,Routine software update connection,False
+LAT-N-00594,2026-09-23T16:53:50+00:00,admin_16,patch_server4,network_connection,endpoint-02,8488,2667,Routine software update connection,False
+LAT-N-00252,2026-09-23T16:55:16+00:00,employee_5,identity_service10,login_success,endpoint-02,8615,427,Routine successful authentication,False
+LAT-N-00457,2026-09-23T17:16:58+00:00,host_11,internal_dns13,dns_query,fileserver-01,8378,1887,Routine internal DNS lookup,False
+LAT-N-00117,2026-09-23T17:18:51+00:00,admin_2,patch_server15,network_connection,endpoint-02,6055,2998,Routine software update connection,False
+LAT-N-00093,2026-09-23T17:19:22+00:00,host_24,internal_dns4,dns_query,fileserver-01,8552,1694,Routine internal DNS lookup,False
+LAT-N-00561,2026-09-23T17:25:37+00:00,endpoint_agent_18,edr_console9,network_connection,admin-jump-01,3906,3443,Routine endpoint telemetry,False
+LAT-N-00043,2026-09-23T17:37:09+00:00,employee_2,identity_service7,login_success,endpoint-02,4354,3878,Routine successful authentication,False
+LAT-N-00469,2026-09-23T17:40:28+00:00,host_10,internal_dns9,dns_query,endpoint-01,4848,2459,Routine internal DNS lookup,False
+LAT-N-00003,2026-09-23T18:11:08+00:00,user_16,shared_folder15,file_read,identity-01,806,1043,Routine shared folder access,False
+LAT-N-00681,2026-09-23T18:16:15+00:00,employee_19,identity_service4,login_success,admin-jump-01,372,1853,Routine successful authentication,False
+LAT-N-00012,2026-09-23T18:21:07+00:00,endpoint_agent_23,edr_console18,network_connection,endpoint-01,7019,3261,Routine endpoint telemetry,False
+LAT-N-00132,2026-09-23T18:22:44+00:00,admin_7,patch_server4,network_connection,fileserver-01,1270,754,Routine software update connection,False
+LAT-N-00584,2026-09-23T18:57:45+00:00,host_3,internal_dns12,dns_query,admin-jump-01,1768,3833,Routine internal DNS lookup,False
+LAT-N-00215,2026-09-23T19:08:18+00:00,admin_12,patch_server18,network_connection,endpoint-01,3390,1213,Routine software update connection,False
+LAT-N-00664,2026-09-23T19:10:47+00:00,employee_22,vpn_gateway16,login_success,fileserver-01,4863,3561,Routine VPN login,False
+LAT-N-00595,2026-09-23T19:34:27+00:00,admin_3,patch_server14,network_connection,admin-jump-01,8278,2963,Routine software update connection,False
+LAT-N-00547,2026-09-23T19:39:13+00:00,service_account_17,scheduled_task15,process_start,endpoint-02,150,540,Routine scheduled service task,False
+LAT-N-00383,2026-09-23T19:42:47+00:00,service_account_14,scheduled_task1,process_start,endpoint-01,5763,3141,Routine scheduled service task,False
+LAT-N-00050,2026-09-23T19:51:03+00:00,admin_16,patch_server8,network_connection,endpoint-02,7112,2108,Routine software update connection,False
+LAT-N-00315,2026-09-23T20:02:41+00:00,host_13,internal_dns6,dns_query,endpoint-01,5340,213,Routine internal DNS lookup,False
+LAT-N-00095,2026-09-23T20:15:54+00:00,service_account_8,scheduled_task5,process_start,endpoint-02,6007,1108,Routine scheduled service task,False
+LAT-N-00090,2026-09-23T20:38:58+00:00,employee_14,identity_service10,login_success,endpoint-01,987,556,Routine successful authentication,False
+LAT-N-00625,2026-09-23T20:39:56+00:00,admin_1,patch_server12,network_connection,endpoint-01,3761,563,Routine software update connection,False
+LAT-N-00466,2026-09-23T20:50:51+00:00,employee_12,identity_service15,login_success,identity-01,1087,478,Routine successful authentication,False
+LAT-N-00649,2026-09-23T20:52:53+00:00,employee_3,vpn_gateway18,login_success,fileserver-01,6287,731,Routine VPN login,False
+LAT-N-00441,2026-09-23T21:32:16+00:00,user_7,shared_folder7,file_read,endpoint-02,3632,176,Routine shared folder access,False
+LAT-N-00694,2026-09-23T21:35:41+00:00,endpoint_agent_4,edr_console11,network_connection,endpoint-02,2811,2980,Routine endpoint telemetry,False
+LAT-N-00370,2026-09-23T22:14:24+00:00,service_account_23,scheduled_task17,process_start,fileserver-01,6873,2105,Routine scheduled service task,False
+LAT-N-00034,2026-09-23T22:23:27+00:00,admin_20,patch_server9,network_connection,identity-01,6054,219,Routine software update connection,False
+LAT-N-00592,2026-09-23T22:25:48+00:00,employee_23,vpn_gateway12,login_success,admin-jump-01,3376,399,Routine VPN login,False
+LAT-N-00354,2026-09-23T22:57:35+00:00,admin_2,patch_server15,network_connection,admin-jump-01,1571,3995,Routine software update connection,False
+LAT-N-00678,2026-09-23T23:03:38+00:00,service_account_14,scheduled_task16,process_start,endpoint-01,564,3864,Routine scheduled service task,False
+LAT-N-00248,2026-09-23T23:07:36+00:00,employee_19,identity_service13,login_success,admin-jump-01,4560,1327,Routine successful authentication,False
+LAT-N-00218,2026-09-23T23:11:33+00:00,service_account_24,scheduled_task15,process_start,endpoint-01,4310,3026,Routine scheduled service task,False
+LAT-N-00388,2026-09-23T23:23:14+00:00,service_account_19,scheduled_task18,process_start,endpoint-02,2103,1680,Routine scheduled service task,False
+LAT-N-00313,2026-09-23T23:24:34+00:00,service_account_11,scheduled_task1,process_start,admin-jump-01,8113,2882,Routine scheduled service task,False
+LAT-N-00343,2026-09-23T23:26:31+00:00,service_account_12,scheduled_task5,process_start,identity-01,6188,3783,Routine scheduled service task,False
+LAT-N-00135,2026-09-24T00:15:56+00:00,service_account_8,scheduled_task5,process_start,identity-01,7045,1239,Routine scheduled service task,False
+LAT-N-00104,2026-09-24T00:18:34+00:00,employee_5,vpn_gateway8,login_success,endpoint-02,7103,256,Routine VPN login,False
+LAT-N-00552,2026-09-24T00:26:40+00:00,employee_14,vpn_gateway10,login_success,endpoint-02,4464,1179,Routine VPN login,False
+LAT-N-00633,2026-09-24T00:50:11+00:00,employee_12,vpn_gateway8,login_success,endpoint-02,1768,1679,Routine VPN login,False
+LAT-N-00101,2026-09-24T00:54:52+00:00,employee_2,vpn_gateway9,login_success,fileserver-01,6512,686,Routine VPN login,False
+LAT-N-00170,2026-09-24T00:59:54+00:00,endpoint_agent_25,edr_console12,network_connection,endpoint-02,8885,3881,Routine endpoint telemetry,False
+LAT-N-00385,2026-09-24T01:43:35+00:00,admin_16,patch_server16,network_connection,endpoint-02,277,1650,Routine software update connection,False
+LAT-N-00600,2026-09-24T01:59:43+00:00,service_account_4,scheduled_task15,process_start,fileserver-01,7507,2672,Routine scheduled service task,False
+LAT-N-00151,2026-09-24T02:37:03+00:00,user_15,shared_folder2,file_read,identity-01,8812,2242,Routine shared folder access,False
+LAT-N-00624,2026-09-24T02:39:30+00:00,employee_21,identity_service2,login_success,admin-jump-01,8970,3610,Routine successful authentication,False
+LAT-N-00573,2026-09-24T02:45:59+00:00,employee_7,vpn_gateway11,login_success,endpoint-02,6899,129,Routine VPN login,False
+LAT-N-00534,2026-09-24T02:47:52+00:00,service_account_22,scheduled_task12,process_start,admin-jump-01,1719,466,Routine scheduled service task,False
+LAT-N-00072,2026-09-24T02:50:45+00:00,user_5,shared_folder12,file_read,fileserver-01,8504,3542,Routine shared folder access,False
+LAT-N-00410,2026-09-24T02:57:55+00:00,service_account_1,scheduled_task11,process_start,identity-01,5884,3395,Routine scheduled service task,False
+LAT-N-00241,2026-09-24T03:13:22+00:00,employee_21,identity_service1,login_success,identity-01,4853,2045,Routine successful authentication,False
+LAT-N-00639,2026-09-24T03:21:33+00:00,endpoint_agent_3,edr_console1,network_connection,endpoint-02,875,2834,Routine endpoint telemetry,False
+LAT-N-00511,2026-09-24T03:22:43+00:00,admin_4,patch_server4,network_connection,endpoint-01,5472,1703,Routine software update connection,False
+LAT-N-00531,2026-09-24T03:23:51+00:00,user_5,shared_folder1,file_read,endpoint-02,5088,1838,Routine shared folder access,False
+LAT-N-00128,2026-09-24T03:32:03+00:00,employee_5,vpn_gateway7,login_success,endpoint-02,1475,3774,Routine VPN login,False
+LAT-N-00273,2026-09-24T04:08:36+00:00,endpoint_agent_5,edr_console15,network_connection,fileserver-01,3526,1460,Routine endpoint telemetry,False
+LAT-N-00212,2026-09-24T04:16:15+00:00,host_22,internal_dns18,dns_query,endpoint-01,4129,3267,Routine internal DNS lookup,False
+LAT-N-00393,2026-09-24T04:37:34+00:00,host_20,internal_dns2,dns_query,admin-jump-01,2341,1006,Routine internal DNS lookup,False
+LAT-N-00521,2026-09-24T06:39:36+00:00,host_5,internal_dns8,dns_query,identity-01,7419,3358,Routine internal DNS lookup,False
+LAT-N-00300,2026-09-24T06:53:42+00:00,employee_24,identity_service11,login_success,admin-jump-01,8015,2685,Routine successful authentication,False
+LAT-N-00402,2026-09-24T06:57:52+00:00,endpoint_agent_4,edr_console12,network_connection,endpoint-01,7269,29,Routine endpoint telemetry,False
+LAT-N-00077,2026-09-24T07:07:09+00:00,user_13,shared_folder2,file_read,endpoint-02,2803,2950,Routine shared folder access,False
+LAT-N-00392,2026-09-24T07:10:45+00:00,employee_20,vpn_gateway13,login_success,identity-01,3232,2860,Routine VPN login,False
+LAT-N-00067,2026-09-24T07:26:38+00:00,admin_5,patch_server4,network_connection,endpoint-01,127,1187,Routine software update connection,False
+LAT-N-00384,2026-09-24T07:56:13+00:00,admin_25,patch_server6,network_connection,endpoint-01,6316,2301,Routine software update connection,False
+LAT-N-00311,2026-09-24T08:33:35+00:00,user_2,shared_folder9,file_read,fileserver-01,4855,2723,Routine shared folder access,False
+LAT-N-00153,2026-09-24T08:44:51+00:00,user_5,shared_folder17,file_read,admin-jump-01,3213,1208,Routine shared folder access,False
+LAT-N-00641,2026-09-24T08:49:35+00:00,employee_2,vpn_gateway17,login_success,endpoint-02,6406,3887,Routine VPN login,False
+LAT-N-00062,2026-09-24T09:04:09+00:00,employee_5,vpn_gateway14,login_success,endpoint-02,1685,1342,Routine VPN login,False
+LAT-N-00484,2026-09-24T09:22:32+00:00,admin_16,patch_server8,network_connection,endpoint-01,3854,1520,Routine software update connection,False
+LAT-N-00400,2026-09-24T09:40:14+00:00,host_3,internal_dns17,dns_query,endpoint-01,1119,1741,Routine internal DNS lookup,False
+LAT-N-00447,2026-09-24T10:01:35+00:00,endpoint_agent_14,edr_console6,network_connection,identity-01,974,2,Routine endpoint telemetry,False
+LAT-N-00533,2026-09-24T10:18:35+00:00,employee_5,identity_service3,login_success,fileserver-01,119,1298,Routine successful authentication,False
+LAT-N-00160,2026-09-24T10:51:34+00:00,service_account_17,scheduled_task4,process_start,fileserver-01,3586,2233,Routine scheduled service task,False
+LAT-N-00525,2026-09-24T10:54:25+00:00,host_11,internal_dns15,dns_query,admin-jump-01,2995,3106,Routine internal DNS lookup,False
+LAT-N-00609,2026-09-24T11:22:01+00:00,admin_13,patch_server11,network_connection,endpoint-01,3639,1613,Routine software update connection,False
+LAT-N-00340,2026-09-24T11:33:50+00:00,endpoint_agent_9,edr_console5,network_connection,endpoint-01,1193,3596,Routine endpoint telemetry,False
+LAT-N-00338,2026-09-24T11:38:35+00:00,endpoint_agent_12,edr_console10,network_connection,identity-01,6341,2716,Routine endpoint telemetry,False
+LAT-N-00345,2026-09-24T11:53:48+00:00,user_5,shared_folder17,file_read,endpoint-02,4017,2455,Routine shared folder access,False
+LAT-N-00488,2026-09-24T11:59:22+00:00,host_21,internal_dns5,dns_query,admin-jump-01,179,3554,Routine internal DNS lookup,False
+LAT-N-00526,2026-09-24T12:19:07+00:00,user_19,shared_folder4,file_read,endpoint-02,2183,3881,Routine shared folder access,False
+LAT-N-00687,2026-09-24T12:42:04+00:00,employee_13,identity_service10,login_success,admin-jump-01,7726,928,Routine successful authentication,False
+LAT-N-00148,2026-09-24T13:07:44+00:00,employee_16,vpn_gateway16,login_success,endpoint-01,4812,146,Routine VPN login,False
+LAT-N-00301,2026-09-24T13:11:06+00:00,admin_18,patch_server6,network_connection,identity-01,5181,3886,Routine software update connection,False
+LAT-N-00517,2026-09-24T13:17:31+00:00,user_13,shared_folder6,file_read,identity-01,3141,2659,Routine shared folder access,False
+LAT-N-00446,2026-09-24T13:36:56+00:00,employee_13,vpn_gateway17,login_success,endpoint-01,7776,952,Routine VPN login,False
+LAT-N-00437,2026-09-24T14:05:05+00:00,employee_9,identity_service15,login_success,endpoint-02,7523,2960,Routine successful authentication,False
+LAT-N-00304,2026-09-24T14:05:25+00:00,employee_13,identity_service8,login_success,fileserver-01,5575,3442,Routine successful authentication,False
+LAT-N-00707,2026-09-24T14:28:58+00:00,employee_3,identity_service17,login_success,admin-jump-01,1282,947,Routine successful authentication,False
+LAT-N-00265,2026-09-24T15:02:29+00:00,user_6,shared_folder5,file_read,fileserver-01,3414,3556,Routine shared folder access,False
+LAT-N-00314,2026-09-24T15:11:07+00:00,employee_20,identity_service13,login_success,admin-jump-01,7759,2790,Routine successful authentication,False
+LAT-N-00290,2026-09-24T15:44:04+00:00,employee_21,identity_service6,login_success,fileserver-01,7640,1241,Routine successful authentication,False
+LAT-N-00091,2026-09-24T15:48:00+00:00,employee_6,vpn_gateway1,login_success,fileserver-01,7170,167,Routine VPN login,False
+LAT-N-00303,2026-09-24T15:49:23+00:00,employee_22,identity_service12,login_success,identity-01,6765,804,Routine successful authentication,False
+LAT-N-00445,2026-09-24T15:58:57+00:00,endpoint_agent_4,edr_console18,network_connection,endpoint-02,8574,796,Routine endpoint telemetry,False
+LAT-N-00220,2026-09-24T16:03:16+00:00,admin_2,patch_server5,network_connection,fileserver-01,2302,120,Routine software update connection,False
+LAT-N-00007,2026-09-24T16:03:36+00:00,employee_3,vpn_gateway13,login_success,admin-jump-01,5612,2785,Routine VPN login,False
+LAT-N-00209,2026-09-24T16:06:24+00:00,host_22,internal_dns13,dns_query,endpoint-01,8690,3656,Routine internal DNS lookup,False
+LAT-N-00397,2026-09-24T16:30:29+00:00,endpoint_agent_24,edr_console4,network_connection,endpoint-01,6802,1129,Routine endpoint telemetry,False
+LAT-N-00331,2026-09-24T16:49:39+00:00,endpoint_agent_21,edr_console16,network_connection,identity-01,4634,2726,Routine endpoint telemetry,False
+LAT-N-00163,2026-09-24T16:49:58+00:00,host_15,internal_dns8,dns_query,identity-01,3665,1069,Routine internal DNS lookup,False
+LAT-N-00199,2026-09-24T16:57:27+00:00,host_19,internal_dns4,dns_query,admin-jump-01,5527,1419,Routine internal DNS lookup,False
+LAT-N-00398,2026-09-24T17:00:08+00:00,host_18,internal_dns7,dns_query,identity-01,6642,2285,Routine internal DNS lookup,False
+LAT-N-00703,2026-09-24T17:15:03+00:00,employee_12,vpn_gateway16,login_success,endpoint-02,6894,2275,Routine VPN login,False
+LAT-N-00335,2026-09-24T17:15:35+00:00,service_account_13,scheduled_task6,process_start,identity-01,7532,3522,Routine scheduled service task,False
+LAT-N-00264,2026-09-24T17:31:49+00:00,host_22,internal_dns7,dns_query,identity-01,1581,2862,Routine internal DNS lookup,False
+LAT-N-00422,2026-09-24T17:34:43+00:00,employee_2,vpn_gateway2,login_success,endpoint-01,1012,1994,Routine VPN login,False
+LAT-N-00470,2026-09-24T17:41:25+00:00,endpoint_agent_25,edr_console9,network_connection,fileserver-01,5079,1793,Routine endpoint telemetry,False
+LAT-N-00635,2026-09-24T17:55:47+00:00,endpoint_agent_3,edr_console7,network_connection,endpoint-02,1241,879,Routine endpoint telemetry,False
+LAT-N-00443,2026-09-24T17:57:47+00:00,host_17,internal_dns16,dns_query,endpoint-01,5994,1404,Routine internal DNS lookup,False
+LAT-N-00365,2026-09-24T17:58:59+00:00,user_25,shared_folder15,file_read,endpoint-02,5703,1040,Routine shared folder access,False
+LAT-N-00281,2026-09-24T18:01:30+00:00,user_2,shared_folder2,file_read,admin-jump-01,3982,3079,Routine shared folder access,False
+LAT-N-00293,2026-09-24T18:06:43+00:00,user_11,shared_folder13,file_read,admin-jump-01,5763,2076,Routine shared folder access,False
+LAT-N-00591,2026-09-24T18:20:35+00:00,host_11,internal_dns8,dns_query,admin-jump-01,8374,2114,Routine internal DNS lookup,False
+LAT-N-00565,2026-09-24T18:32:43+00:00,admin_8,patch_server3,network_connection,endpoint-02,4359,2956,Routine software update connection,False
+LAT-N-00693,2026-09-24T18:53:10+00:00,employee_5,vpn_gateway12,login_success,fileserver-01,4646,3774,Routine VPN login,False
+LAT-N-00085,2026-09-24T19:03:54+00:00,service_account_23,scheduled_task8,process_start,endpoint-01,6373,2393,Routine scheduled service task,False
+LAT-N-00268,2026-09-24T19:25:36+00:00,user_21,shared_folder13,file_read,endpoint-01,1017,860,Routine shared folder access,False
+LAT-N-00419,2026-09-24T19:30:14+00:00,endpoint_agent_18,edr_console14,network_connection,endpoint-02,6164,1556,Routine endpoint telemetry,False
+LAT-N-00180,2026-09-24T19:52:31+00:00,user_5,shared_folder6,file_read,admin-jump-01,6134,437,Routine shared folder access,False
+LAT-N-00524,2026-09-24T20:13:14+00:00,service_account_12,scheduled_task12,process_start,endpoint-01,5007,2575,Routine scheduled service task,False
+LAT-N-00140,2026-09-24T20:33:48+00:00,user_13,shared_folder2,file_read,endpoint-02,1977,1751,Routine shared folder access,False
+LAT-N-00282,2026-09-24T20:35:29+00:00,employee_12,vpn_gateway6,login_success,fileserver-01,1526,1611,Routine VPN login,False
+LAT-N-00581,2026-09-24T20:44:19+00:00,host_2,internal_dns11,dns_query,identity-01,4969,742,Routine internal DNS lookup,False
+LAT-N-00467,2026-09-24T20:47:09+00:00,service_account_5,scheduled_task3,process_start,identity-01,2500,888,Routine scheduled service task,False
+LAT-N-00257,2026-09-24T20:53:21+00:00,endpoint_agent_24,edr_console18,network_connection,fileserver-01,4508,2073,Routine endpoint telemetry,False
+LAT-N-00334,2026-09-24T20:59:07+00:00,endpoint_agent_15,edr_console4,network_connection,fileserver-01,4422,1200,Routine endpoint telemetry,False
+LAT-N-00709,2026-09-24T21:05:55+00:00,service_account_7,scheduled_task6,process_start,endpoint-02,4436,2828,Routine scheduled service task,False
+LAT-N-00510,2026-09-24T21:08:30+00:00,employee_23,vpn_gateway1,login_success,endpoint-02,881,1797,Routine VPN login,False
+LAT-N-00320,2026-09-24T21:17:06+00:00,user_22,shared_folder12,file_read,endpoint-01,5352,3894,Routine shared folder access,False
+LAT-N-00030,2026-09-24T21:23:52+00:00,endpoint_agent_15,edr_console8,network_connection,endpoint-01,8957,1467,Routine endpoint telemetry,False
+LAT-N-00189,2026-09-24T21:23:55+00:00,service_account_11,scheduled_task1,process_start,endpoint-02,7669,3607,Routine scheduled service task,False
+LAT-N-00462,2026-09-24T21:24:30+00:00,employee_20,identity_service18,login_success,endpoint-02,7060,3952,Routine successful authentication,False
+LAT-N-00353,2026-09-24T21:35:40+00:00,service_account_3,scheduled_task8,process_start,fileserver-01,358,2829,Routine scheduled service task,False
+LAT-N-00627,2026-09-24T21:48:38+00:00,service_account_17,scheduled_task1,process_start,endpoint-01,663,377,Routine scheduled service task,False
+LAT-N-00455,2026-09-24T21:48:46+00:00,employee_24,identity_service2,login_success,identity-01,4590,2698,Routine successful authentication,False
+LAT-N-00543,2026-09-24T21:57:16+00:00,host_12,internal_dns3,dns_query,endpoint-01,6648,3273,Routine internal DNS lookup,False
+LAT-N-00207,2026-09-24T22:15:01+00:00,employee_17,identity_service8,login_success,endpoint-01,691,1466,Routine successful authentication,False
+LAT-N-00695,2026-09-24T22:24:00+00:00,endpoint_agent_10,edr_console17,network_connection,admin-jump-01,6600,2367,Routine endpoint telemetry,False
+LAT-N-00202,2026-09-24T22:28:29+00:00,endpoint_agent_19,edr_console11,network_connection,endpoint-01,6700,109,Routine endpoint telemetry,False
+LAT-N-00655,2026-09-24T23:23:45+00:00,admin_2,patch_server16,network_connection,endpoint-02,3968,3546,Routine software update connection,False
+LAT-N-00708,2026-09-24T23:32:34+00:00,endpoint_agent_11,edr_console14,network_connection,fileserver-01,1679,2742,Routine endpoint telemetry,False
+LAT-N-00540,2026-09-24T23:42:48+00:00,service_account_19,scheduled_task12,process_start,endpoint-02,3990,958,Routine scheduled service task,False
+LAT-N-00491,2026-09-24T23:46:32+00:00,endpoint_agent_14,edr_console4,network_connection,endpoint-01,3693,3329,Routine endpoint telemetry,False
+LAT-N-00143,2026-09-25T00:04:54+00:00,host_11,internal_dns4,dns_query,fileserver-01,4731,1785,Routine internal DNS lookup,False
+LAT-N-00660,2026-09-25T00:34:42+00:00,admin_16,patch_server12,network_connection,endpoint-01,4176,1625,Routine software update connection,False
+LAT-N-00638,2026-09-25T01:01:52+00:00,user_15,shared_folder10,file_read,fileserver-01,3302,2786,Routine shared folder access,False
+LAT-N-00178,2026-09-25T01:12:06+00:00,user_1,shared_folder8,file_read,admin-jump-01,3248,2131,Routine shared folder access,False
+LAT-N-00654,2026-09-25T01:25:27+00:00,user_9,shared_folder7,file_read,admin-jump-01,4829,981,Routine shared folder access,False
+LAT-N-00237,2026-09-25T01:55:11+00:00,host_19,internal_dns7,dns_query,admin-jump-01,3305,1399,Routine internal DNS lookup,False
+LAT-N-00417,2026-09-25T02:30:27+00:00,admin_25,patch_server7,network_connection,admin-jump-01,2377,2608,Routine software update connection,False
+LAT-N-00355,2026-09-25T02:31:15+00:00,endpoint_agent_19,edr_console18,network_connection,endpoint-02,7215,175,Routine endpoint telemetry,False
+LAT-N-00344,2026-09-25T02:36:08+00:00,user_8,shared_folder15,file_read,endpoint-01,197,2610,Routine shared folder access,False
+LAT-N-00403,2026-09-25T02:43:08+00:00,service_account_2,scheduled_task6,process_start,endpoint-02,5766,2993,Routine scheduled service task,False
+LAT-N-00559,2026-09-25T02:52:14+00:00,endpoint_agent_6,edr_console16,network_connection,endpoint-02,2127,1554,Routine endpoint telemetry,False
+LAT-N-00238,2026-09-25T02:56:56+00:00,user_10,shared_folder2,file_read,endpoint-02,1067,905,Routine shared folder access,False
+LAT-N-00500,2026-09-25T03:14:44+00:00,user_20,shared_folder14,file_read,admin-jump-01,5055,3365,Routine shared folder access,False
+LAT-N-00669,2026-09-25T03:20:02+00:00,employee_14,identity_service18,login_success,endpoint-01,4981,3626,Routine successful authentication,False
+LAT-N-00021,2026-09-25T03:22:43+00:00,user_10,shared_folder14,file_read,endpoint-01,2720,1645,Routine shared folder access,False
+LAT-N-00536,2026-09-25T03:37:06+00:00,user_14,shared_folder1,file_read,endpoint-02,3917,1740,Routine shared folder access,False
+LAT-N-00548,2026-09-25T03:39:24+00:00,employee_25,vpn_gateway1,login_success,endpoint-02,437,1958,Routine VPN login,False
+LAT-N-00339,2026-09-25T03:58:21+00:00,service_account_12,scheduled_task7,process_start,endpoint-02,2782,1403,Routine scheduled service task,False
+LAT-N-00656,2026-09-25T04:04:57+00:00,endpoint_agent_15,edr_console5,network_connection,endpoint-01,4333,1887,Routine endpoint telemetry,False
+LAT-N-00684,2026-09-25T04:24:08+00:00,admin_4,patch_server13,network_connection,fileserver-01,5968,3001,Routine software update connection,False
+LAT-N-00464,2026-09-25T04:28:50+00:00,user_23,shared_folder10,file_read,endpoint-01,1055,859,Routine shared folder access,False
+LAT-N-00577,2026-09-25T04:37:48+00:00,admin_15,patch_server15,network_connection,endpoint-01,5915,3700,Routine software update connection,False
+LAT-N-00113,2026-09-25T04:42:42+00:00,service_account_12,scheduled_task7,process_start,admin-jump-01,4638,3608,Routine scheduled service task,False
+LAT-N-00685,2026-09-25T05:02:29+00:00,endpoint_agent_3,edr_console16,network_connection,endpoint-02,6139,1101,Routine endpoint telemetry,False
+LAT-N-00607,2026-09-25T05:25:31+00:00,host_23,internal_dns16,dns_query,identity-01,6780,895,Routine internal DNS lookup,False
+LAT-N-00527,2026-09-25T06:23:06+00:00,employee_22,vpn_gateway18,login_success,fileserver-01,7111,1374,Routine VPN login,False
+LAT-N-00616,2026-09-25T06:25:45+00:00,employee_23,vpn_gateway12,login_success,endpoint-02,5957,415,Routine VPN login,False
+LAT-N-00221,2026-09-25T06:30:21+00:00,service_account_8,scheduled_task15,process_start,admin-jump-01,1288,3490,Routine scheduled service task,False
+LAT-N-00428,2026-09-25T06:36:52+00:00,service_account_5,scheduled_task7,process_start,endpoint-01,1377,2930,Routine scheduled service task,False
+LAT-N-00253,2026-09-25T07:14:33+00:00,admin_11,patch_server9,network_connection,admin-jump-01,6873,2774,Routine software update connection,False
+LAT-N-00702,2026-09-25T07:19:28+00:00,endpoint_agent_25,edr_console6,network_connection,admin-jump-01,5190,3028,Routine endpoint telemetry,False
+LAT-N-00073,2026-09-25T07:28:28+00:00,employee_11,vpn_gateway8,login_success,fileserver-01,6487,1839,Routine VPN login,False
+LAT-N-00379,2026-09-25T08:15:24+00:00,employee_7,vpn_gateway1,login_success,fileserver-01,2938,1132,Routine VPN login,False
+LAT-N-00690,2026-09-25T08:25:15+00:00,service_account_15,scheduled_task17,process_start,admin-jump-01,2661,1818,Routine scheduled service task,False
+LAT-N-00572,2026-09-25T08:27:40+00:00,user_21,shared_folder12,file_read,fileserver-01,2904,2788,Routine shared folder access,False
+LAT-N-00620,2026-09-25T08:57:49+00:00,endpoint_agent_8,edr_console4,network_connection,endpoint-01,7895,124,Routine endpoint telemetry,False
+LAT-N-00574,2026-09-25T09:12:14+00:00,user_12,shared_folder8,file_read,endpoint-02,7862,1460,Routine shared folder access,False
+LAT-N-00586,2026-09-25T09:12:34+00:00,endpoint_agent_18,edr_console18,network_connection,endpoint-02,8051,1679,Routine endpoint telemetry,False
+LAT-N-00323,2026-09-25T09:36:58+00:00,admin_12,patch_server12,network_connection,endpoint-02,936,652,Routine software update connection,False
+LAT-N-00705,2026-09-25T09:58:52+00:00,service_account_9,scheduled_task8,process_start,endpoint-01,7237,330,Routine scheduled service task,False
+LAT-N-00102,2026-09-25T10:15:31+00:00,host_18,internal_dns18,dns_query,endpoint-02,5454,327,Routine internal DNS lookup,False
+LAT-N-00027,2026-09-25T10:15:55+00:00,endpoint_agent_21,edr_console16,network_connection,endpoint-02,4207,2994,Routine endpoint telemetry,False
+LAT-N-00351,2026-09-25T10:22:45+00:00,service_account_12,scheduled_task18,process_start,fileserver-01,2257,1190,Routine scheduled service task,False
+LAT-N-00075,2026-09-25T10:28:00+00:00,endpoint_agent_16,edr_console10,network_connection,admin-jump-01,263,1601,Routine endpoint telemetry,False
+LAT-N-00112,2026-09-25T10:32:10+00:00,employee_5,vpn_gateway18,login_success,endpoint-01,3483,3442,Routine VPN login,False
+LAT-N-00065,2026-09-25T10:51:08+00:00,employee_23,identity_service17,login_success,endpoint-02,8067,265,Routine successful authentication,False
+LAT-N-00070,2026-09-25T11:03:34+00:00,user_23,shared_folder3,file_read,fileserver-01,4697,2926,Routine shared folder access,False
+LAT-N-00223,2026-09-25T11:17:01+00:00,endpoint_agent_20,edr_console3,network_connection,fileserver-01,6219,877,Routine endpoint telemetry,False
+LAT-N-00158,2026-09-25T11:21:02+00:00,employee_23,vpn_gateway12,login_success,endpoint-01,3001,3250,Routine VPN login,False
+LAT-N-00598,2026-09-25T11:23:31+00:00,employee_18,identity_service4,login_success,endpoint-02,5753,2469,Routine successful authentication,False
+LAT-N-00097,2026-09-25T11:50:07+00:00,endpoint_agent_10,edr_console10,network_connection,identity-01,5296,1554,Routine endpoint telemetry,False
+LAT-N-00368,2026-09-25T12:05:51+00:00,endpoint_agent_13,edr_console18,network_connection,admin-jump-01,3100,1753,Routine endpoint telemetry,False
+LAT-N-00019,2026-09-25T12:25:02+00:00,service_account_4,scheduled_task6,process_start,admin-jump-01,6784,234,Routine scheduled service task,False
+LAT-N-00206,2026-09-25T12:28:58+00:00,employee_2,identity_service13,login_success,admin-jump-01,3281,1893,Routine successful authentication,False
+LAT-N-00549,2026-09-25T12:29:56+00:00,service_account_2,scheduled_task17,process_start,endpoint-01,4301,1154,Routine scheduled service task,False
+LAT-N-00618,2026-09-25T12:44:19+00:00,employee_17,identity_service12,login_success,admin-jump-01,4034,3487,Routine successful authentication,False
+LAT-N-00103,2026-09-25T12:49:20+00:00,user_20,shared_folder2,file_read,fileserver-01,3341,1885,Routine shared folder access,False
+LAT-N-00149,2026-09-25T12:57:52+00:00,service_account_14,scheduled_task1,process_start,endpoint-01,1014,1150,Routine scheduled service task,False
+LAT-N-00013,2026-09-25T12:58:46+00:00,service_account_5,scheduled_task5,process_start,fileserver-01,2720,313,Routine scheduled service task,False
+LAT-N-00035,2026-09-25T13:01:59+00:00,host_20,internal_dns2,dns_query,endpoint-02,5832,518,Routine internal DNS lookup,False
+LAT-N-00226,2026-09-25T13:14:06+00:00,admin_16,patch_server6,network_connection,identity-01,2723,1372,Routine software update connection,False
+LAT-N-00146,2026-09-25T13:23:19+00:00,employee_18,vpn_gateway16,login_success,identity-01,1045,168,Routine VPN login,False
+LAT-N-00302,2026-09-25T13:38:28+00:00,admin_18,patch_server14,network_connection,endpoint-01,6697,301,Routine software update connection,False
+LAT-N-00029,2026-09-25T14:00:37+00:00,employee_23,identity_service5,login_success,admin-jump-01,6805,990,Routine successful authentication,False
+LAT-N-00587,2026-09-25T14:13:24+00:00,employee_11,identity_service10,login_success,endpoint-01,8571,2082,Routine successful authentication,False
+LAT-N-00585,2026-09-25T14:57:05+00:00,service_account_15,scheduled_task4,process_start,identity-01,8450,2425,Routine scheduled service task,False
+LAT-N-00518,2026-09-25T15:15:49+00:00,employee_18,vpn_gateway6,login_success,admin-jump-01,6006,2185,Routine VPN login,False
+LAT-N-00109,2026-09-25T15:16:29+00:00,user_15,shared_folder3,file_read,admin-jump-01,6838,3768,Routine shared folder access,False
+LAT-N-00440,2026-09-25T15:20:49+00:00,host_16,internal_dns17,dns_query,endpoint-02,8778,2015,Routine internal DNS lookup,False
+LAT-N-00310,2026-09-25T15:34:07+00:00,host_13,internal_dns10,dns_query,admin-jump-01,7954,894,Routine internal DNS lookup,False
+LAT-N-00415,2026-09-25T15:36:49+00:00,employee_3,vpn_gateway2,login_success,endpoint-01,5888,1073,Routine VPN login,False
+LAT-N-00069,2026-09-25T17:37:43+00:00,employee_13,vpn_gateway15,login_success,fileserver-01,1055,3099,Routine VPN login,False
+LAT-N-00129,2026-09-25T17:40:56+00:00,employee_21,vpn_gateway11,login_success,endpoint-02,1723,3545,Routine VPN login,False
+LAT-N-00169,2026-09-25T18:03:26+00:00,employee_8,identity_service17,login_success,endpoint-01,5921,895,Routine successful authentication,False
+LAT-N-00111,2026-09-25T18:15:42+00:00,admin_15,patch_server11,network_connection,endpoint-02,2998,2445,Routine software update connection,False
+LAT-N-00152,2026-09-25T18:17:57+00:00,user_8,shared_folder6,file_read,endpoint-01,4711,1473,Routine shared folder access,False
+LAT-N-00231,2026-09-25T18:21:10+00:00,host_10,internal_dns3,dns_query,fileserver-01,6212,203,Routine internal DNS lookup,False
+LAT-N-00426,2026-09-25T18:35:51+00:00,admin_7,patch_server13,network_connection,endpoint-02,3551,995,Routine software update connection,False
+LAT-N-00162,2026-09-25T18:37:37+00:00,host_14,internal_dns3,dns_query,endpoint-01,3499,220,Routine internal DNS lookup,False
+LAT-N-00442,2026-09-25T18:40:09+00:00,service_account_16,scheduled_task10,process_start,endpoint-02,6971,1590,Routine scheduled service task,False
+LAT-N-00041,2026-09-25T18:52:31+00:00,endpoint_agent_1,edr_console7,network_connection,endpoint-01,2068,1991,Routine endpoint telemetry,False
+LAT-N-00059,2026-09-25T18:57:29+00:00,admin_13,patch_server15,network_connection,endpoint-02,1035,3427,Routine software update connection,False
+LAT-N-00308,2026-09-25T19:02:35+00:00,host_21,internal_dns9,dns_query,identity-01,6195,2450,Routine internal DNS lookup,False
+LAT-N-00271,2026-09-25T19:55:33+00:00,user_7,shared_folder13,file_read,endpoint-02,2409,1049,Routine shared folder access,False
+LAT-N-00374,2026-09-25T19:57:50+00:00,admin_4,patch_server13,network_connection,endpoint-02,4746,137,Routine software update connection,False
+LAT-N-00629,2026-09-25T20:33:37+00:00,admin_17,patch_server16,network_connection,identity-01,3164,1796,Routine software update connection,False
+LAT-N-00465,2026-09-25T20:35:53+00:00,service_account_4,scheduled_task5,process_start,endpoint-01,2152,2858,Routine scheduled service task,False
+LAT-N-00099,2026-09-25T20:42:08+00:00,user_7,shared_folder7,file_read,endpoint-01,2060,2796,Routine shared folder access,False
+LAT-N-00131,2026-09-25T21:32:07+00:00,employee_16,identity_service5,login_success,fileserver-01,927,315,Routine successful authentication,False
+LAT-N-00025,2026-09-25T21:35:01+00:00,admin_2,patch_server5,network_connection,endpoint-01,3399,695,Routine software update connection,False
+LAT-N-00230,2026-09-25T21:54:17+00:00,user_12,shared_folder17,file_read,admin-jump-01,6402,2096,Routine shared folder access,False
+LAT-N-00011,2026-09-25T22:05:03+00:00,user_19,shared_folder11,file_read,identity-01,7196,2120,Routine shared folder access,False
+LAT-N-00399,2026-09-25T22:36:14+00:00,endpoint_agent_10,edr_console16,network_connection,endpoint-01,5900,1017,Routine endpoint telemetry,False
+LAT-N-00114,2026-09-25T22:52:28+00:00,admin_13,patch_server3,network_connection,identity-01,4262,3281,Routine software update connection,False
+LAT-N-00366,2026-09-26T00:03:48+00:00,employee_4,identity_service15,login_success,admin-jump-01,4935,2361,Routine successful authentication,False
+LAT-N-00145,2026-09-26T00:12:48+00:00,host_23,internal_dns15,dns_query,identity-01,6464,257,Routine internal DNS lookup,False
+LAT-N-00277,2026-09-26T00:37:57+00:00,employee_6,identity_service10,login_success,identity-01,4129,274,Routine successful authentication,False
+LAT-N-00063,2026-09-26T00:48:38+00:00,host_16,internal_dns6,dns_query,endpoint-02,3905,3260,Routine internal DNS lookup,False
+LAT-N-00071,2026-09-26T01:22:52+00:00,host_4,internal_dns10,dns_query,endpoint-02,3499,1857,Routine internal DNS lookup,False
+LAT-N-00662,2026-09-26T01:27:02+00:00,service_account_11,scheduled_task1,process_start,fileserver-01,711,3066,Routine scheduled service task,False
+LAT-N-00503,2026-09-26T01:31:23+00:00,admin_1,patch_server15,network_connection,endpoint-01,4690,598,Routine software update connection,False
+LAT-N-00367,2026-09-26T01:38:01+00:00,host_13,internal_dns13,dns_query,identity-01,2318,2559,Routine internal DNS lookup,False
+LAT-N-00512,2026-09-26T01:51:01+00:00,user_24,shared_folder16,file_read,identity-01,1277,1294,Routine shared folder access,False
+LAT-N-00177,2026-09-26T02:53:40+00:00,endpoint_agent_2,edr_console9,network_connection,admin-jump-01,3431,1523,Routine endpoint telemetry,False
+LAT-N-00166,2026-09-26T03:28:51+00:00,user_20,shared_folder18,file_read,admin-jump-01,2403,105,Routine shared folder access,False
+LAT-N-00328,2026-09-26T03:33:54+00:00,service_account_25,scheduled_task13,process_start,admin-jump-01,5567,2235,Routine scheduled service task,False
+LAT-N-00348,2026-09-26T04:24:11+00:00,user_16,shared_folder5,file_read,fileserver-01,7569,3799,Routine shared folder access,False
+LAT-N-00689,2026-09-26T04:30:41+00:00,admin_15,patch_server11,network_connection,fileserver-01,6026,3718,Routine software update connection,False
+LAT-N-00049,2026-09-26T04:31:06+00:00,endpoint_agent_20,edr_console6,network_connection,endpoint-01,1546,2764,Routine endpoint telemetry,False
+LAT-N-00260,2026-09-26T05:16:06+00:00,admin_5,patch_server3,network_connection,endpoint-01,8722,3911,Routine software update connection,False
+LAT-N-00010,2026-09-26T05:16:19+00:00,employee_1,identity_service6,login_success,fileserver-01,8259,1197,Routine successful authentication,False
+LAT-N-00031,2026-09-26T06:04:55+00:00,employee_24,vpn_gateway9,login_success,endpoint-01,3647,3411,Routine VPN login,False
+LAT-N-00105,2026-09-26T06:09:03+00:00,user_10,shared_folder6,file_read,fileserver-01,129,3514,Routine shared folder access,False
+LAT-N-00558,2026-09-26T06:13:16+00:00,host_9,internal_dns15,dns_query,endpoint-02,5278,2050,Routine internal DNS lookup,False
+LAT-N-00555,2026-09-26T06:34:23+00:00,employee_23,vpn_gateway18,login_success,fileserver-01,4240,3360,Routine VPN login,False
+LAT-N-00506,2026-09-26T07:08:29+00:00,host_2,internal_dns17,dns_query,identity-01,5558,916,Routine internal DNS lookup,False
+LAT-N-00698,2026-09-26T07:09:25+00:00,host_25,internal_dns3,dns_query,fileserver-01,6160,712,Routine internal DNS lookup,False
+LAT-N-00042,2026-09-26T07:33:54+00:00,employee_18,identity_service6,login_success,fileserver-01,500,1996,Routine successful authentication,False
+LAT-N-00210,2026-09-26T07:41:51+00:00,admin_19,patch_server2,network_connection,endpoint-02,7636,3832,Routine software update connection,False
+LAT-N-00396,2026-09-26T07:52:12+00:00,service_account_17,scheduled_task12,process_start,endpoint-01,8458,663,Routine scheduled service task,False
+LAT-N-00191,2026-09-26T08:04:30+00:00,service_account_21,scheduled_task5,process_start,fileserver-01,914,2975,Routine scheduled service task,False
+LAT-N-00483,2026-09-26T08:05:15+00:00,service_account_2,scheduled_task16,process_start,identity-01,1679,2767,Routine scheduled service task,False
+LAT-N-00519,2026-09-26T08:05:38+00:00,host_22,internal_dns5,dns_query,admin-jump-01,185,467,Routine internal DNS lookup,False
+LAT-N-00336,2026-09-26T08:05:44+00:00,host_21,internal_dns11,dns_query,admin-jump-01,5880,2603,Routine internal DNS lookup,False
+LAT-N-00657,2026-09-26T08:05:59+00:00,admin_12,patch_server2,network_connection,endpoint-02,5206,3078,Routine software update connection,False
+LAT-N-00389,2026-09-26T08:15:21+00:00,endpoint_agent_17,edr_console1,network_connection,fileserver-01,5979,3385,Routine endpoint telemetry,False
+LAT-N-00458,2026-09-26T08:18:23+00:00,user_3,shared_folder9,file_read,fileserver-01,3147,1090,Routine shared folder access,False
+LAT-N-00120,2026-09-26T09:10:24+00:00,endpoint_agent_20,edr_console17,network_connection,identity-01,7476,697,Routine endpoint telemetry,False
+LAT-N-00297,2026-09-26T09:24:51+00:00,employee_24,identity_service4,login_success,endpoint-01,2128,1036,Routine successful authentication,False
+LAT-N-00205,2026-09-26T09:32:45+00:00,employee_16,identity_service4,login_success,endpoint-01,5961,297,Routine successful authentication,False
+LAT-N-00079,2026-09-26T09:33:22+00:00,host_5,internal_dns12,dns_query,endpoint-02,1596,3993,Routine internal DNS lookup,False
+LAT-N-00456,2026-09-26T09:40:52+00:00,admin_13,patch_server15,network_connection,endpoint-01,1567,233,Routine software update connection,False
+LAT-N-00430,2026-09-26T09:49:54+00:00,endpoint_agent_6,edr_console15,network_connection,endpoint-02,7006,2854,Routine endpoint telemetry,False
+LAT-N-00593,2026-09-26T10:00:08+00:00,endpoint_agent_11,edr_console12,network_connection,endpoint-01,5116,3650,Routine endpoint telemetry,False
+LAT-N-00164,2026-09-26T10:05:46+00:00,admin_20,patch_server18,network_connection,admin-jump-01,228,1945,Routine software update connection,False
+LAT-N-00429,2026-09-26T10:10:48+00:00,employee_13,identity_service14,login_success,endpoint-02,5526,941,Routine successful authentication,False
+LAT-N-00468,2026-09-26T10:18:35+00:00,employee_12,vpn_gateway4,login_success,admin-jump-01,2723,93,Routine VPN login,False
+LAT-N-00255,2026-09-26T10:39:40+00:00,endpoint_agent_10,edr_console1,network_connection,fileserver-01,8593,3869,Routine endpoint telemetry,False
+LAT-N-00040,2026-09-26T10:53:40+00:00,employee_2,identity_service14,login_success,identity-01,6759,2228,Routine successful authentication,False
+LAT-N-00438,2026-09-26T11:09:54+00:00,host_15,internal_dns9,dns_query,admin-jump-01,787,911,Routine internal DNS lookup,False
+LAT-N-00155,2026-09-26T11:11:18+00:00,employee_11,vpn_gateway1,login_success,admin-jump-01,8402,669,Routine VPN login,False
+LAT-N-00118,2026-09-26T11:28:00+00:00,user_8,shared_folder10,file_read,endpoint-01,2694,1500,Routine shared folder access,False
+LAT-N-00246,2026-09-26T11:48:33+00:00,employee_4,vpn_gateway4,login_success,endpoint-01,7238,455,Routine VPN login,False
+LAT-N-00181,2026-09-26T11:56:33+00:00,employee_2,vpn_gateway13,login_success,admin-jump-01,956,2229,Routine VPN login,False
+LAT-N-00424,2026-09-26T12:24:09+00:00,endpoint_agent_4,edr_console5,network_connection,endpoint-02,5782,2062,Routine endpoint telemetry,False
+LAT-N-00193,2026-09-26T12:48:53+00:00,host_10,internal_dns4,dns_query,endpoint-01,1959,2031,Routine internal DNS lookup,False
+LAT-N-00307,2026-09-26T12:56:22+00:00,user_13,shared_folder5,file_read,identity-01,1217,1889,Routine shared folder access,False
+LAT-N-00418,2026-09-26T13:00:54+00:00,employee_10,identity_service3,login_success,endpoint-02,7095,2318,Routine successful authentication,False
+LAT-N-00659,2026-09-26T13:01:08+00:00,admin_22,patch_server12,network_connection,endpoint-01,7956,2029,Routine software update connection,False
+LAT-N-00275,2026-09-26T13:01:28+00:00,employee_9,vpn_gateway4,login_success,endpoint-01,1762,179,Routine VPN login,False
+LAT-N-00603,2026-09-26T13:04:10+00:00,admin_17,patch_server5,network_connection,identity-01,4761,2860,Routine software update connection,False
+LAT-N-00486,2026-09-26T13:17:11+00:00,endpoint_agent_18,edr_console9,network_connection,endpoint-02,1726,557,Routine endpoint telemetry,False
+LAT-N-00235,2026-09-26T14:23:00+00:00,host_7,internal_dns6,dns_query,endpoint-02,7865,1719,Routine internal DNS lookup,False
+LAT-N-00326,2026-09-26T14:26:04+00:00,employee_15,identity_service4,login_success,identity-01,1596,3239,Routine successful authentication,False
+LAT-N-00283,2026-09-26T14:42:04+00:00,user_14,shared_folder4,file_read,identity-01,1563,2279,Routine shared folder access,False
+LAT-N-00648,2026-09-26T14:54:34+00:00,service_account_5,scheduled_task2,process_start,endpoint-01,8152,613,Routine scheduled service task,False
+LAT-N-00267,2026-09-26T15:00:52+00:00,user_23,shared_folder2,file_read,endpoint-02,1850,1122,Routine shared folder access,False
+LAT-N-00139,2026-09-26T15:06:39+00:00,admin_19,patch_server16,network_connection,admin-jump-01,8193,107,Routine software update connection,False
+LAT-N-00358,2026-09-26T15:09:06+00:00,employee_12,vpn_gateway9,login_success,endpoint-02,7049,3772,Routine VPN login,False
+LAT-N-00472,2026-09-26T15:13:19+00:00,employee_11,identity_service12,login_success,fileserver-01,5070,3835,Routine successful authentication,False
+LAT-N-00578,2026-09-26T15:21:21+00:00,employee_11,identity_service12,login_success,identity-01,6132,2884,Routine successful authentication,False
+LAT-N-00332,2026-09-26T15:24:32+00:00,admin_11,patch_server6,network_connection,admin-jump-01,6693,3662,Routine software update connection,False
+LAT-N-00204,2026-09-26T15:59:16+00:00,employee_24,identity_service3,login_success,admin-jump-01,3211,3954,Routine successful authentication,False
+LAT-N-00144,2026-09-26T16:03:06+00:00,admin_23,patch_server9,network_connection,identity-01,7121,985,Routine software update connection,False
+LAT-N-00651,2026-09-26T16:13:52+00:00,service_account_13,scheduled_task7,process_start,identity-01,5206,3839,Routine scheduled service task,False
+LAT-N-00643,2026-09-26T16:35:29+00:00,admin_1,patch_server10,network_connection,endpoint-01,4019,782,Routine software update connection,False
+LAT-N-00108,2026-09-26T16:44:23+00:00,admin_15,patch_server9,network_connection,endpoint-01,2780,2092,Routine software update connection,False
+LAT-N-00208,2026-09-26T16:53:17+00:00,employee_7,vpn_gateway13,login_success,endpoint-01,8722,3518,Routine VPN login,False
+LAT-N-00183,2026-09-26T17:02:20+00:00,service_account_22,scheduled_task4,process_start,endpoint-02,4353,635,Routine scheduled service task,False
+LAT-N-00196,2026-09-26T17:14:42+00:00,admin_6,patch_server6,network_connection,fileserver-01,2473,3759,Routine software update connection,False
+LAT-N-00319,2026-09-26T17:23:47+00:00,endpoint_agent_16,edr_console12,network_connection,endpoint-01,935,2774,Routine endpoint telemetry,False
+LAT-N-00159,2026-09-26T17:33:55+00:00,service_account_2,scheduled_task10,process_start,endpoint-02,7056,1452,Routine scheduled service task,False
+LAT-N-00276,2026-09-26T17:37:01+00:00,endpoint_agent_20,edr_console12,network_connection,admin-jump-01,8165,3553,Routine endpoint telemetry,False
+LAT-N-00123,2026-09-26T17:44:49+00:00,admin_2,patch_server18,network_connection,identity-01,1177,3390,Routine software update connection,False
+LAT-N-00316,2026-09-26T17:46:39+00:00,service_account_21,scheduled_task5,process_start,endpoint-02,5646,556,Routine scheduled service task,False
+LAT-N-00411,2026-09-26T17:55:49+00:00,host_13,internal_dns18,dns_query,fileserver-01,8511,2621,Routine internal DNS lookup,False
+LAT-N-00240,2026-09-26T17:59:45+00:00,host_18,internal_dns6,dns_query,admin-jump-01,3456,710,Routine internal DNS lookup,False
+LAT-N-00211,2026-09-26T18:04:29+00:00,employee_17,vpn_gateway9,login_success,fileserver-01,5814,760,Routine VPN login,False
+LAT-N-00514,2026-09-26T18:24:11+00:00,host_19,internal_dns18,dns_query,fileserver-01,6420,1620,Routine internal DNS lookup,False
+LAT-N-00096,2026-09-26T18:25:10+00:00,host_20,internal_dns11,dns_query,identity-01,782,3117,Routine internal DNS lookup,False
+LAT-N-00617,2026-09-26T19:26:18+00:00,service_account_11,scheduled_task10,process_start,fileserver-01,397,1443,Routine scheduled service task,False
+LAT-N-00168,2026-09-26T19:30:36+00:00,employee_7,identity_service4,login_success,identity-01,3663,506,Routine successful authentication,False
+LAT-N-00373,2026-09-26T19:33:01+00:00,admin_25,patch_server15,network_connection,endpoint-02,4717,3902,Routine software update connection,False
+LAT-N-00188,2026-09-26T19:37:33+00:00,admin_11,patch_server17,network_connection,admin-jump-01,2924,1214,Routine software update connection,False
+LAT-N-00615,2026-09-26T19:37:48+00:00,employee_13,identity_service17,login_success,endpoint-02,4801,1299,Routine successful authentication,False
+LAT-N-00325,2026-09-26T19:50:36+00:00,service_account_23,scheduled_task17,process_start,identity-01,7017,2992,Routine scheduled service task,False
+LAT-N-00557,2026-09-26T19:57:26+00:00,service_account_14,scheduled_task7,process_start,identity-01,4315,3165,Routine scheduled service task,False
+LAT-N-00394,2026-09-26T20:03:25+00:00,admin_3,patch_server16,network_connection,identity-01,4769,3337,Routine software update connection,False
+LAT-N-00569,2026-09-26T20:26:11+00:00,admin_17,patch_server15,network_connection,admin-jump-01,5575,3038,Routine software update connection,False
+LAT-N-00710,2026-09-26T21:06:20+00:00,host_12,internal_dns8,dns_query,fileserver-01,8950,3481,Routine internal DNS lookup,False
+LAT-N-00425,2026-09-26T21:11:58+00:00,employee_18,vpn_gateway18,login_success,admin-jump-01,2263,312,Routine VPN login,False
+LAT-N-00634,2026-09-26T21:18:44+00:00,admin_22,patch_server4,network_connection,identity-01,8208,3150,Routine software update connection,False
+LAT-N-00653,2026-09-26T21:20:08+00:00,user_16,shared_folder9,file_read,endpoint-01,4383,1336,Routine shared folder access,False
+LAT-N-00217,2026-09-26T21:36:16+00:00,user_19,shared_folder11,file_read,identity-01,3942,1580,Routine shared folder access,False
+LAT-N-00272,2026-09-26T21:38:44+00:00,user_14,shared_folder3,file_read,endpoint-01,6522,110,Routine shared folder access,False
+LAT-N-00182,2026-09-26T22:14:12+00:00,host_21,internal_dns9,dns_query,endpoint-02,4927,2114,Routine internal DNS lookup,False
+LAT-N-00606,2026-09-26T22:15:33+00:00,service_account_23,scheduled_task8,process_start,identity-01,6645,2988,Routine scheduled service task,False
+LAT-N-00621,2026-09-26T22:26:40+00:00,service_account_2,scheduled_task6,process_start,identity-01,5966,70,Routine scheduled service task,False
+LAT-N-00080,2026-09-26T22:27:17+00:00,admin_10,patch_server5,network_connection,fileserver-01,4969,76,Routine software update connection,False
+LAT-N-00588,2026-09-26T22:41:44+00:00,endpoint_agent_8,edr_console6,network_connection,endpoint-02,761,210,Routine endpoint telemetry,False
+LAT-N-00194,2026-09-26T22:56:09+00:00,employee_19,vpn_gateway10,login_success,fileserver-01,1355,1671,Routine VPN login,False
+LAT-N-00435,2026-09-26T23:01:06+00:00,employee_6,identity_service12,login_success,admin-jump-01,6719,166,Routine successful authentication,False
+LAT-N-00037,2026-09-26T23:32:19+00:00,endpoint_agent_10,edr_console11,network_connection,admin-jump-01,4261,1428,Routine endpoint telemetry,False
+LAT-N-00082,2026-09-26T23:59:10+00:00,user_16,shared_folder1,file_read,endpoint-01,8131,2443,Routine shared folder access,False

@@ -1,0 +1,17 @@
+{
+  "scenario": "lateral_movement_extra",
+  "synthetic": true,
+  "attack_event_ids": [
+    "LAT-A-001",
+    "LAT-A-002",
+    "LAT-A-003",
+    "LAT-A-004",
+    "LAT-A-005",
+    "LAT-A-006",
+    "LAT-A-007",
+    "LAT-A-008",
+    "LAT-A-009"
+  ],
+  "attack_event_count": 9,
+  "notes": "Synthetic safe testing data. Ground-truth labels are for evaluation only; do not use the label column as a detector input."
+}

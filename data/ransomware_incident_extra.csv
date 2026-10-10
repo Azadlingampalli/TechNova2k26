@@ -1,0 +1,730 @@
+event_id,timestamp,source_entity,target_entity,event_type,host,process_id,parent_process_id,details,label
+RAN-N-00421,2026-09-20T00:05:29+00:00,office_app_15,printer_queue6,file_write,corp-fs-01,2509,997,Routine print job output,False
+RAN-N-00330,2026-09-20T00:15:17+00:00,office_app_17,printer_queue13,file_write,corp-ws-01,2339,1800,Routine print job output,False
+RAN-N-00664,2026-09-20T00:17:59+00:00,office_app_10,printer_queue4,file_write,corp-ws-02,3734,1410,Routine print job output,False
+RAN-N-00295,2026-09-20T00:18:11+00:00,office_app_6,printer_queue13,file_write,corp-srv-02,3626,310,Routine print job output,False
+RAN-N-00524,2026-09-20T00:22:30+00:00,employee_3,identity_service1,login_success,corp-ws-01,6889,335,Successful corporate login,False
+RAN-N-00197,2026-09-20T00:59:47+00:00,employee_4,shared_docs4,file_read,corp-ws-02,2255,3239,Routine document access,False
+RAN-N-00714,2026-09-20T01:02:23+00:00,endpoint_agent_22,security_console15,network_connection,corp-ws-01,8492,26,Routine telemetry upload,False
+RAN-N-00175,2026-09-20T01:46:57+00:00,endpoint_agent_14,security_console2,network_connection,corp-ws-01,548,2031,Routine telemetry upload,False
+RAN-N-00443,2026-09-20T02:05:48+00:00,employee_10,identity_service10,login_success,corp-srv-02,4976,1562,Successful corporate login,False
+RAN-N-00402,2026-09-20T02:13:52+00:00,backup_agent_15,backup_store8,file_write,corp-fs-01,3450,2479,Scheduled backup file write,False
+RAN-N-00637,2026-09-20T02:26:12+00:00,workstation_3,internal_dns15,dns_query,corp-srv-02,414,2336,Routine DNS lookup,False
+RAN-N-00513,2026-09-20T02:26:21+00:00,employee_8,identity_service9,login_success,corp-ws-02,8633,2832,Successful corporate login,False
+RAN-N-00422,2026-09-20T02:50:25+00:00,endpoint_agent_1,security_console12,network_connection,corp-ws-02,2750,1015,Routine telemetry upload,False
+RAN-N-00336,2026-09-20T03:03:21+00:00,browser_16,intranet8,http_request,corp-ws-02,7888,2662,Routine intranet request,False
+RAN-N-00677,2026-09-20T03:31:53+00:00,workstation_22,internal_dns11,dns_query,corp-ws-02,2715,753,Routine DNS lookup,False
+RAN-N-00269,2026-09-20T03:43:55+00:00,browser_2,intranet12,http_request,corp-srv-02,7605,1263,Routine intranet request,False
+RAN-N-00708,2026-09-20T04:00:02+00:00,browser_24,intranet15,http_request,corp-srv-02,5551,2372,Routine intranet request,False
+RAN-N-00094,2026-09-20T04:20:03+00:00,employee_1,identity_service2,login_success,corp-fs-01,4264,3605,Successful corporate login,False
+RAN-N-00180,2026-09-20T04:23:58+00:00,office_app_16,printer_queue9,file_write,corp-ws-02,5060,1046,Routine print job output,False
+RAN-N-00517,2026-09-20T04:26:52+00:00,office_app_14,printer_queue8,file_write,corp-ws-01,7799,2219,Routine print job output,False
+RAN-N-00560,2026-09-20T04:28:51+00:00,workstation_15,internal_dns10,dns_query,corp-ws-02,5588,2992,Routine DNS lookup,False
+RAN-N-00549,2026-09-20T05:16:24+00:00,employee_25,identity_service13,login_success,corp-ws-01,1684,1357,Successful corporate login,False
+RAN-N-00393,2026-09-20T05:25:58+00:00,employee_11,identity_service6,login_success,corp-srv-02,2497,1646,Successful corporate login,False
+RAN-N-00663,2026-09-20T05:34:12+00:00,backup_agent_3,backup_store2,file_write,corp-ws-01,1538,1260,Scheduled backup file write,False
+RAN-N-00444,2026-09-20T05:43:09+00:00,backup_agent_13,backup_store12,file_write,corp-fs-01,8903,3125,Scheduled backup file write,False
+RAN-N-00037,2026-09-20T05:49:32+00:00,workstation_12,internal_dns2,dns_query,corp-srv-02,3416,292,Routine DNS lookup,False
+RAN-N-00544,2026-09-20T05:52:22+00:00,workstation_8,internal_dns18,dns_query,corp-ws-02,3935,3470,Routine DNS lookup,False
+RAN-N-00456,2026-09-20T06:39:50+00:00,office_app_13,printer_queue9,file_write,corp-ws-02,2355,622,Routine print job output,False
+RAN-N-00681,2026-09-20T07:03:17+00:00,employee_21,shared_docs17,file_read,corp-ws-01,5395,3789,Routine document access,False
+RAN-N-00424,2026-09-20T07:05:49+00:00,employee_22,identity_service15,login_success,corp-fs-01,8012,1311,Successful corporate login,False
+RAN-N-00246,2026-09-20T07:08:16+00:00,workstation_1,internal_dns18,dns_query,corp-ws-01,5383,3871,Routine DNS lookup,False
+RAN-N-00626,2026-09-20T07:12:22+00:00,office_app_2,printer_queue8,file_write,corp-fs-01,5991,1942,Routine print job output,False
+RAN-N-00485,2026-09-20T07:16:10+00:00,employee_20,shared_docs3,file_read,corp-srv-02,3205,84,Routine document access,False
+RAN-N-00315,2026-09-20T07:24:34+00:00,backup_agent_10,backup_store17,file_write,corp-ws-02,4648,121,Scheduled backup file write,False
+RAN-N-00129,2026-09-20T07:25:08+00:00,employee_6,shared_docs13,file_read,corp-ws-02,4382,2272,Routine document access,False
+RAN-N-00478,2026-09-20T07:26:02+00:00,workstation_19,internal_dns15,dns_query,corp-ws-02,8066,1832,Routine DNS lookup,False
+RAN-N-00064,2026-09-20T07:39:17+00:00,backup_agent_24,backup_store11,file_write,corp-fs-01,3841,3566,Scheduled backup file write,False
+RAN-N-00566,2026-09-20T08:00:51+00:00,backup_agent_25,backup_store3,file_write,corp-fs-01,5764,185,Scheduled backup file write,False
+RAN-N-00263,2026-09-20T09:34:23+00:00,browser_2,intranet16,http_request,corp-srv-02,1392,844,Routine intranet request,False
+RAN-N-00632,2026-09-20T09:51:05+00:00,office_app_7,printer_queue18,file_write,corp-fs-01,7107,761,Routine print job output,False
+RAN-N-00583,2026-09-20T10:03:23+00:00,office_app_21,printer_queue9,file_write,corp-ws-01,6215,1823,Routine print job output,False
+RAN-N-00555,2026-09-20T10:26:43+00:00,employee_2,shared_docs11,file_read,corp-srv-02,6997,1243,Routine document access,False
+RAN-N-00530,2026-09-20T10:38:54+00:00,employee_19,shared_docs2,file_read,corp-srv-02,7393,1486,Routine document access,False
+RAN-N-00121,2026-09-20T10:41:07+00:00,workstation_16,internal_dns8,dns_query,corp-srv-02,7052,2442,Routine DNS lookup,False
+RAN-N-00360,2026-09-20T11:29:32+00:00,endpoint_agent_14,security_console8,network_connection,corp-fs-01,2255,2806,Routine telemetry upload,False
+RAN-N-00646,2026-09-20T11:33:51+00:00,browser_15,intranet1,http_request,corp-ws-01,319,2638,Routine intranet request,False
+RAN-N-00688,2026-09-20T11:36:51+00:00,employee_2,shared_docs7,file_read,corp-ws-02,6198,3603,Routine document access,False
+RAN-N-00219,2026-09-20T11:42:41+00:00,browser_11,intranet17,http_request,corp-ws-01,5347,3304,Routine intranet request,False
+RAN-N-00217,2026-09-20T11:45:08+00:00,backup_agent_3,backup_store11,file_write,corp-fs-01,3170,1368,Scheduled backup file write,False
+RAN-N-00273,2026-09-20T11:47:10+00:00,employee_16,identity_service12,login_success,corp-srv-02,4119,1024,Successful corporate login,False
+RAN-N-00386,2026-09-20T11:51:37+00:00,browser_16,intranet8,http_request,corp-srv-02,2196,2880,Routine intranet request,False
+RAN-N-00629,2026-09-20T11:57:19+00:00,workstation_9,internal_dns18,dns_query,corp-ws-02,1935,1470,Routine DNS lookup,False
+RAN-N-00326,2026-09-20T12:09:13+00:00,browser_23,intranet2,http_request,corp-ws-02,8255,3092,Routine intranet request,False
+RAN-N-00353,2026-09-20T12:21:52+00:00,endpoint_agent_25,security_console6,network_connection,corp-fs-01,1221,853,Routine telemetry upload,False
+RAN-N-00115,2026-09-20T12:29:02+00:00,backup_agent_25,backup_store17,file_write,corp-fs-01,8014,816,Scheduled backup file write,False
+RAN-N-00235,2026-09-20T12:35:22+00:00,endpoint_agent_6,security_console17,network_connection,corp-fs-01,5881,725,Routine telemetry upload,False
+RAN-N-00008,2026-09-20T12:55:54+00:00,backup_agent_12,backup_store3,file_write,corp-ws-02,2886,830,Scheduled backup file write,False
+RAN-N-00410,2026-09-20T13:03:33+00:00,backup_agent_14,backup_store16,file_write,corp-ws-01,1451,1115,Scheduled backup file write,False
+RAN-N-00304,2026-09-20T13:04:41+00:00,employee_18,identity_service4,login_success,corp-srv-02,5928,748,Successful corporate login,False
+RAN-N-00547,2026-09-20T13:10:04+00:00,office_app_10,printer_queue16,file_write,corp-ws-01,7250,358,Routine print job output,False
+RAN-N-00364,2026-09-20T13:21:07+00:00,endpoint_agent_22,security_console18,network_connection,corp-fs-01,1480,2166,Routine telemetry upload,False
+RAN-N-00418,2026-09-20T13:26:28+00:00,employee_4,shared_docs8,file_read,corp-ws-01,8524,2009,Routine document access,False
+RAN-N-00153,2026-09-20T13:44:48+00:00,browser_23,intranet18,http_request,corp-fs-01,1727,1483,Routine intranet request,False
+RAN-N-00600,2026-09-20T14:53:02+00:00,employee_12,shared_docs7,file_read,corp-fs-01,1990,2269,Routine document access,False
+RAN-N-00716,2026-09-20T14:56:15+00:00,employee_17,shared_docs11,file_read,corp-fs-01,1648,3036,Routine document access,False
+RAN-N-00652,2026-09-20T15:13:08+00:00,browser_17,intranet9,http_request,corp-ws-01,2347,249,Routine intranet request,False
+RAN-N-00412,2026-09-20T15:14:50+00:00,workstation_19,internal_dns17,dns_query,corp-ws-02,230,1149,Routine DNS lookup,False
+RAN-N-00395,2026-09-20T15:27:37+00:00,office_app_1,printer_queue7,file_write,corp-ws-01,7023,2181,Routine print job output,False
+RAN-N-00261,2026-09-20T15:33:28+00:00,browser_7,intranet14,http_request,corp-ws-01,1564,2816,Routine intranet request,False
+RAN-N-00512,2026-09-20T15:58:50+00:00,employee_23,identity_service17,login_success,corp-srv-02,161,218,Successful corporate login,False
+RAN-N-00141,2026-09-20T16:05:56+00:00,employee_9,shared_docs3,file_read,corp-ws-02,716,3375,Routine document access,False
+RAN-N-00489,2026-09-20T16:07:13+00:00,office_app_8,printer_queue2,file_write,corp-fs-01,6049,2513,Routine print job output,False
+RAN-N-00070,2026-09-20T16:14:06+00:00,endpoint_agent_13,security_console5,network_connection,corp-srv-02,3368,1422,Routine telemetry upload,False
+RAN-N-00563,2026-09-20T16:29:23+00:00,browser_23,intranet7,http_request,corp-srv-02,2526,2765,Routine intranet request,False
+RAN-N-00537,2026-09-20T16:31:42+00:00,workstation_6,internal_dns18,dns_query,corp-srv-02,6717,3380,Routine DNS lookup,False
+RAN-N-00148,2026-09-20T16:41:16+00:00,employee_23,identity_service7,login_success,corp-ws-02,937,875,Successful corporate login,False
+RAN-N-00275,2026-09-20T17:05:19+00:00,office_app_10,printer_queue7,file_write,corp-ws-02,3600,1604,Routine print job output,False
+RAN-N-00045,2026-09-20T17:10:27+00:00,employee_5,shared_docs18,file_read,corp-srv-02,786,2811,Routine document access,False
+RAN-N-00613,2026-09-20T18:05:01+00:00,workstation_14,internal_dns4,dns_query,corp-ws-02,5035,1826,Routine DNS lookup,False
+RAN-N-00297,2026-09-20T18:18:56+00:00,employee_17,shared_docs10,file_read,corp-ws-02,8283,1151,Routine document access,False
+RAN-N-00511,2026-09-20T18:33:32+00:00,endpoint_agent_20,security_console3,network_connection,corp-srv-02,1830,3614,Routine telemetry upload,False
+RAN-N-00135,2026-09-20T18:39:04+00:00,browser_2,intranet15,http_request,corp-ws-02,7938,3929,Routine intranet request,False
+RAN-N-00665,2026-09-20T19:14:38+00:00,backup_agent_8,backup_store11,file_write,corp-ws-02,1850,2378,Scheduled backup file write,False
+RAN-N-00183,2026-09-20T19:16:56+00:00,employee_9,shared_docs2,file_read,corp-fs-01,5631,3289,Routine document access,False
+RAN-N-00620,2026-09-20T19:32:43+00:00,employee_10,shared_docs5,file_read,corp-srv-02,7228,3795,Routine document access,False
+RAN-N-00614,2026-09-20T20:05:48+00:00,employee_9,shared_docs7,file_read,corp-srv-02,6607,1021,Routine document access,False
+RAN-N-00014,2026-09-20T20:07:36+00:00,office_app_8,printer_queue15,file_write,corp-ws-01,5660,3703,Routine print job output,False
+RAN-N-00481,2026-09-20T20:08:41+00:00,employee_18,shared_docs4,file_read,corp-fs-01,5817,3517,Routine document access,False
+RAN-N-00575,2026-09-20T20:13:48+00:00,employee_5,identity_service11,login_success,corp-ws-02,984,2211,Successful corporate login,False
+RAN-N-00497,2026-09-20T20:13:59+00:00,backup_agent_5,backup_store12,file_write,corp-ws-01,319,3357,Scheduled backup file write,False
+RAN-N-00212,2026-09-20T20:14:15+00:00,office_app_9,printer_queue10,file_write,corp-srv-02,8687,2994,Routine print job output,False
+RAN-N-00099,2026-09-20T20:16:36+00:00,employee_15,shared_docs13,file_read,corp-fs-01,6406,3143,Routine document access,False
+RAN-N-00196,2026-09-20T20:25:30+00:00,employee_2,shared_docs14,file_read,corp-ws-02,6319,477,Routine document access,False
+RAN-N-00257,2026-09-20T21:13:38+00:00,endpoint_agent_12,security_console17,network_connection,corp-ws-02,4920,2662,Routine telemetry upload,False
+RAN-N-00002,2026-09-20T21:28:14+00:00,office_app_24,printer_queue7,file_write,corp-ws-01,2539,1974,Routine print job output,False
+RAN-N-00414,2026-09-20T21:59:22+00:00,employee_3,identity_service3,login_success,corp-ws-01,8854,1423,Successful corporate login,False
+RAN-N-00415,2026-09-20T21:59:50+00:00,employee_24,identity_service15,login_success,corp-ws-02,2382,2349,Successful corporate login,False
+RAN-N-00556,2026-09-20T22:05:35+00:00,workstation_20,internal_dns10,dns_query,corp-fs-01,3998,1050,Routine DNS lookup,False
+RAN-N-00540,2026-09-20T22:12:33+00:00,employee_25,identity_service5,login_success,corp-srv-02,8506,2388,Successful corporate login,False
+RAN-N-00083,2026-09-20T22:21:45+00:00,office_app_11,printer_queue7,file_write,corp-srv-02,8636,3277,Routine print job output,False
+RAN-N-00486,2026-09-20T22:28:09+00:00,backup_agent_5,backup_store3,file_write,corp-srv-02,5636,3030,Scheduled backup file write,False
+RAN-N-00598,2026-09-20T22:29:57+00:00,employee_15,shared_docs11,file_read,corp-ws-02,2630,1540,Routine document access,False
+RAN-N-00090,2026-09-20T22:59:25+00:00,endpoint_agent_15,security_console12,network_connection,corp-srv-02,6628,1239,Routine telemetry upload,False
+RAN-N-00528,2026-09-20T23:07:08+00:00,office_app_13,printer_queue7,file_write,corp-ws-02,8174,2858,Routine print job output,False
+RAN-N-00654,2026-09-20T23:26:14+00:00,employee_11,shared_docs17,file_read,corp-ws-02,3217,3274,Routine document access,False
+RAN-N-00505,2026-09-20T23:36:46+00:00,employee_18,identity_service8,login_success,corp-ws-01,8003,2568,Successful corporate login,False
+RAN-N-00088,2026-09-20T23:57:53+00:00,workstation_25,internal_dns3,dns_query,corp-ws-01,7539,2301,Routine DNS lookup,False
+RAN-N-00245,2026-09-21T00:25:34+00:00,endpoint_agent_16,security_console14,network_connection,corp-ws-02,6703,1757,Routine telemetry upload,False
+RAN-N-00283,2026-09-21T00:36:14+00:00,office_app_24,printer_queue9,file_write,corp-srv-02,6702,3073,Routine print job output,False
+RAN-N-00209,2026-09-21T00:42:24+00:00,endpoint_agent_6,security_console15,network_connection,corp-fs-01,3274,2848,Routine telemetry upload,False
+RAN-N-00666,2026-09-21T00:48:55+00:00,endpoint_agent_10,security_console18,network_connection,corp-ws-02,6609,3980,Routine telemetry upload,False
+RAN-N-00649,2026-09-21T01:33:29+00:00,workstation_23,internal_dns7,dns_query,corp-srv-02,5410,2693,Routine DNS lookup,False
+RAN-N-00274,2026-09-21T02:21:13+00:00,backup_agent_23,backup_store17,file_write,corp-ws-01,928,2055,Scheduled backup file write,False
+RAN-N-00011,2026-09-21T02:45:50+00:00,workstation_23,internal_dns4,dns_query,corp-srv-02,1500,1201,Routine DNS lookup,False
+RAN-N-00518,2026-09-21T02:46:06+00:00,browser_16,intranet11,http_request,corp-srv-02,6794,967,Routine intranet request,False
+RAN-N-00203,2026-09-21T02:47:09+00:00,office_app_14,printer_queue6,file_write,corp-ws-02,3166,3,Routine print job output,False
+RAN-N-00104,2026-09-21T03:10:14+00:00,endpoint_agent_10,security_console16,network_connection,corp-ws-02,5808,2497,Routine telemetry upload,False
+RAN-N-00012,2026-09-21T03:19:19+00:00,backup_agent_1,backup_store3,file_write,corp-ws-02,2944,2878,Scheduled backup file write,False
+RAN-N-00167,2026-09-21T03:31:42+00:00,backup_agent_13,backup_store14,file_write,corp-srv-02,1506,2612,Scheduled backup file write,False
+RAN-N-00474,2026-09-21T04:06:22+00:00,office_app_2,printer_queue7,file_write,corp-srv-02,5753,2573,Routine print job output,False
+RAN-N-00557,2026-09-21T04:32:01+00:00,employee_2,identity_service6,login_success,corp-ws-01,2279,2473,Successful corporate login,False
+RAN-N-00398,2026-09-21T04:32:35+00:00,endpoint_agent_11,security_console11,network_connection,corp-srv-02,3233,1113,Routine telemetry upload,False
+RAN-N-00319,2026-09-21T04:33:05+00:00,browser_4,intranet1,http_request,corp-srv-02,5247,789,Routine intranet request,False
+RAN-N-00237,2026-09-21T04:55:56+00:00,endpoint_agent_9,security_console5,network_connection,corp-srv-02,1399,311,Routine telemetry upload,False
+RAN-N-00712,2026-09-21T05:04:12+00:00,office_app_6,printer_queue10,file_write,corp-srv-02,3125,36,Routine print job output,False
+RAN-N-00200,2026-09-21T05:54:55+00:00,endpoint_agent_10,security_console11,network_connection,corp-srv-02,4146,3399,Routine telemetry upload,False
+RAN-N-00397,2026-09-21T05:55:12+00:00,endpoint_agent_24,security_console4,network_connection,corp-ws-01,847,1215,Routine telemetry upload,False
+RAN-N-00461,2026-09-21T06:20:20+00:00,employee_22,shared_docs13,file_read,corp-srv-02,6751,1745,Routine document access,False
+RAN-N-00471,2026-09-21T06:23:46+00:00,endpoint_agent_23,security_console15,network_connection,corp-ws-01,816,1488,Routine telemetry upload,False
+RAN-N-00053,2026-09-21T06:35:14+00:00,backup_agent_20,backup_store6,file_write,corp-ws-02,6901,3238,Scheduled backup file write,False
+RAN-N-00373,2026-09-21T06:41:00+00:00,workstation_22,internal_dns9,dns_query,corp-ws-02,1758,444,Routine DNS lookup,False
+RAN-N-00333,2026-09-21T06:42:32+00:00,office_app_4,printer_queue8,file_write,corp-srv-02,8356,2024,Routine print job output,False
+RAN-N-00413,2026-09-21T06:46:32+00:00,endpoint_agent_25,security_console11,network_connection,corp-srv-02,8874,3403,Routine telemetry upload,False
+RAN-N-00102,2026-09-21T06:58:32+00:00,employee_10,shared_docs1,file_read,corp-ws-02,1408,1876,Routine document access,False
+RAN-N-00054,2026-09-21T07:14:45+00:00,backup_agent_17,backup_store7,file_write,corp-ws-01,532,1014,Scheduled backup file write,False
+RAN-N-00230,2026-09-21T07:37:06+00:00,workstation_15,internal_dns6,dns_query,corp-fs-01,5091,2412,Routine DNS lookup,False
+RAN-N-00195,2026-09-21T07:46:58+00:00,employee_9,identity_service12,login_success,corp-ws-02,4243,783,Successful corporate login,False
+RAN-N-00300,2026-09-21T07:50:24+00:00,employee_8,identity_service3,login_success,corp-ws-02,5878,2908,Successful corporate login,False
+RAN-N-00466,2026-09-21T07:51:41+00:00,backup_agent_25,backup_store3,file_write,corp-ws-01,191,447,Scheduled backup file write,False
+RAN-N-00173,2026-09-21T08:06:19+00:00,backup_agent_6,backup_store4,file_write,corp-ws-02,4124,2365,Scheduled backup file write,False
+RAN-N-00375,2026-09-21T08:12:32+00:00,employee_21,identity_service18,login_success,corp-ws-02,7282,1372,Successful corporate login,False
+RAN-N-00520,2026-09-21T08:17:38+00:00,office_app_15,printer_queue3,file_write,corp-ws-02,715,2502,Routine print job output,False
+RAN-N-00683,2026-09-21T08:21:24+00:00,backup_agent_14,backup_store17,file_write,corp-ws-02,8435,2886,Scheduled backup file write,False
+RAN-N-00499,2026-09-21T08:23:33+00:00,employee_21,identity_service18,login_success,corp-fs-01,1335,3181,Successful corporate login,False
+RAN-N-00224,2026-09-21T08:45:51+00:00,employee_17,shared_docs7,file_read,corp-fs-01,6625,1940,Routine document access,False
+RAN-N-00177,2026-09-21T09:05:06+00:00,employee_21,identity_service9,login_success,corp-srv-02,6502,506,Successful corporate login,False
+RAN-N-00030,2026-09-21T09:12:46+00:00,employee_16,identity_service7,login_success,corp-srv-02,5883,1170,Successful corporate login,False
+RAN-N-00347,2026-09-21T09:28:16+00:00,backup_agent_10,backup_store16,file_write,corp-srv-02,4747,3558,Scheduled backup file write,False
+RAN-N-00396,2026-09-21T09:31:58+00:00,employee_25,identity_service10,login_success,corp-srv-02,8181,3117,Successful corporate login,False
+RAN-N-00381,2026-09-21T09:32:41+00:00,endpoint_agent_23,security_console10,network_connection,corp-srv-02,8418,3013,Routine telemetry upload,False
+RAN-N-00403,2026-09-21T09:41:12+00:00,browser_10,intranet11,http_request,corp-ws-02,8410,67,Routine intranet request,False
+RAN-N-00506,2026-09-21T09:44:59+00:00,browser_10,intranet12,http_request,corp-fs-01,6812,2451,Routine intranet request,False
+RAN-N-00406,2026-09-21T10:29:54+00:00,employee_15,identity_service4,login_success,corp-ws-02,6566,1965,Successful corporate login,False
+RAN-N-00169,2026-09-21T10:35:03+00:00,employee_23,identity_service11,login_success,corp-srv-02,957,3131,Successful corporate login,False
+RAN-N-00259,2026-09-21T10:47:55+00:00,browser_8,intranet18,http_request,corp-srv-02,6397,1608,Routine intranet request,False
+RAN-N-00569,2026-09-21T11:27:45+00:00,workstation_12,internal_dns16,dns_query,corp-srv-02,740,3703,Routine DNS lookup,False
+RAN-N-00258,2026-09-21T11:42:01+00:00,employee_16,identity_service9,login_success,corp-ws-02,2838,2220,Successful corporate login,False
+RAN-N-00578,2026-09-21T11:55:00+00:00,employee_13,shared_docs7,file_read,corp-ws-02,7263,1862,Routine document access,False
+RAN-N-00452,2026-09-21T12:13:08+00:00,employee_5,shared_docs13,file_read,corp-ws-02,6282,1029,Routine document access,False
+RAN-N-00162,2026-09-21T13:05:39+00:00,employee_9,identity_service10,login_success,corp-srv-02,3353,1839,Successful corporate login,False
+RAN-N-00305,2026-09-21T13:50:32+00:00,workstation_12,internal_dns1,dns_query,corp-fs-01,5308,1092,Routine DNS lookup,False
+RAN-N-00128,2026-09-21T13:57:30+00:00,employee_19,identity_service3,login_success,corp-ws-02,7470,197,Successful corporate login,False
+RAN-N-00145,2026-09-21T14:19:30+00:00,employee_20,identity_service6,login_success,corp-fs-01,1286,3096,Successful corporate login,False
+RAN-N-00680,2026-09-21T14:22:05+00:00,office_app_11,printer_queue17,file_write,corp-srv-02,3381,1965,Routine print job output,False
+RAN-N-00361,2026-09-21T14:35:07+00:00,workstation_8,internal_dns14,dns_query,corp-ws-01,665,2301,Routine DNS lookup,False
+RAN-N-00374,2026-09-21T14:47:47+00:00,endpoint_agent_2,security_console15,network_connection,corp-ws-02,4164,184,Routine telemetry upload,False
+RAN-N-00633,2026-09-21T14:56:16+00:00,browser_6,intranet10,http_request,corp-ws-02,8763,1953,Routine intranet request,False
+RAN-N-00226,2026-09-21T15:16:23+00:00,workstation_8,internal_dns1,dns_query,corp-fs-01,5654,1589,Routine DNS lookup,False
+RAN-N-00426,2026-09-21T15:17:30+00:00,backup_agent_7,backup_store15,file_write,corp-ws-02,6725,2004,Scheduled backup file write,False
+RAN-N-00205,2026-09-21T15:20:57+00:00,browser_25,intranet2,http_request,corp-srv-02,8770,3790,Routine intranet request,False
+RAN-N-00597,2026-09-21T16:38:25+00:00,office_app_4,printer_queue10,file_write,corp-fs-01,4987,2667,Routine print job output,False
+RAN-N-00502,2026-09-21T16:39:56+00:00,workstation_2,internal_dns15,dns_query,corp-ws-02,4125,428,Routine DNS lookup,False
+RAN-N-00323,2026-09-21T16:59:09+00:00,backup_agent_19,backup_store3,file_write,corp-ws-02,611,2593,Scheduled backup file write,False
+RAN-N-00380,2026-09-21T17:03:28+00:00,employee_20,identity_service4,login_success,corp-srv-02,6950,13,Successful corporate login,False
+RAN-N-00344,2026-09-21T17:11:54+00:00,employee_2,identity_service1,login_success,corp-srv-02,4523,2898,Successful corporate login,False
+RAN-N-00442,2026-09-21T17:28:49+00:00,employee_12,identity_service6,login_success,corp-srv-02,6283,2319,Successful corporate login,False
+RAN-N-00127,2026-09-21T17:29:04+00:00,backup_agent_1,backup_store6,file_write,corp-ws-02,1768,1464,Scheduled backup file write,False
+RAN-N-00447,2026-09-21T18:19:31+00:00,endpoint_agent_6,security_console18,network_connection,corp-ws-01,2709,703,Routine telemetry upload,False
+RAN-N-00548,2026-09-21T18:24:12+00:00,browser_20,intranet15,http_request,corp-fs-01,7866,3243,Routine intranet request,False
+RAN-N-00542,2026-09-21T18:46:18+00:00,endpoint_agent_9,security_console10,network_connection,corp-fs-01,2859,2137,Routine telemetry upload,False
+RAN-N-00136,2026-09-21T19:10:01+00:00,browser_10,intranet9,http_request,corp-ws-01,8840,2870,Routine intranet request,False
+RAN-N-00074,2026-09-21T19:49:01+00:00,browser_21,intranet1,http_request,corp-ws-01,5109,1479,Routine intranet request,False
+RAN-N-00482,2026-09-21T20:04:29+00:00,office_app_22,printer_queue8,file_write,corp-ws-02,7202,1335,Routine print job output,False
+RAN-N-00154,2026-09-21T20:41:00+00:00,office_app_12,printer_queue4,file_write,corp-ws-01,684,2547,Routine print job output,False
+RAN-N-00190,2026-09-21T21:07:13+00:00,employee_4,identity_service13,login_success,corp-ws-02,407,3198,Successful corporate login,False
+RAN-N-00199,2026-09-21T21:43:43+00:00,backup_agent_19,backup_store5,file_write,corp-ws-01,172,2316,Scheduled backup file write,False
+RAN-N-00558,2026-09-21T21:51:54+00:00,office_app_9,printer_queue2,file_write,corp-fs-01,7208,1268,Routine print job output,False
+RAN-N-00150,2026-09-21T21:52:47+00:00,backup_agent_4,backup_store1,file_write,corp-fs-01,6379,1452,Scheduled backup file write,False
+RAN-N-00538,2026-09-21T21:57:13+00:00,employee_22,shared_docs14,file_read,corp-srv-02,2894,1579,Routine document access,False
+RAN-N-00460,2026-09-21T22:06:57+00:00,employee_16,shared_docs8,file_read,corp-srv-02,4273,2635,Routine document access,False
+RAN-N-00052,2026-09-21T22:16:10+00:00,employee_16,identity_service1,login_success,corp-fs-01,6775,1754,Successful corporate login,False
+RAN-N-00607,2026-09-21T22:29:37+00:00,office_app_17,printer_queue1,file_write,corp-ws-01,3994,1561,Routine print job output,False
+RAN-N-00617,2026-09-21T22:39:48+00:00,backup_agent_20,backup_store12,file_write,corp-ws-02,8499,3261,Scheduled backup file write,False
+RAN-N-00636,2026-09-21T22:54:00+00:00,browser_16,intranet11,http_request,corp-srv-02,1377,2385,Routine intranet request,False
+RAN-N-00340,2026-09-21T23:05:45+00:00,browser_2,intranet1,http_request,corp-ws-01,7572,1262,Routine intranet request,False
+RAN-N-00404,2026-09-21T23:15:37+00:00,workstation_9,internal_dns6,dns_query,corp-ws-01,5796,3915,Routine DNS lookup,False
+RAN-N-00160,2026-09-21T23:34:56+00:00,office_app_2,printer_queue3,file_write,corp-ws-01,5908,2433,Routine print job output,False
+RAN-N-00069,2026-09-21T23:36:35+00:00,workstation_1,internal_dns14,dns_query,corp-fs-01,6589,2953,Routine DNS lookup,False
+RAN-N-00440,2026-09-22T00:04:22+00:00,endpoint_agent_3,security_console11,network_connection,corp-fs-01,8178,1587,Routine telemetry upload,False
+RAN-N-00193,2026-09-22T00:08:48+00:00,endpoint_agent_21,security_console8,network_connection,corp-fs-01,6231,1512,Routine telemetry upload,False
+RAN-N-00106,2026-09-22T00:22:04+00:00,endpoint_agent_3,security_console16,network_connection,corp-srv-02,5119,537,Routine telemetry upload,False
+RAN-N-00536,2026-09-22T00:29:11+00:00,workstation_5,internal_dns3,dns_query,corp-ws-02,6020,1395,Routine DNS lookup,False
+RAN-N-00277,2026-09-22T00:44:01+00:00,browser_16,intranet9,http_request,corp-ws-02,8583,902,Routine intranet request,False
+RAN-N-00656,2026-09-22T01:01:39+00:00,backup_agent_15,backup_store5,file_write,corp-ws-01,456,2413,Scheduled backup file write,False
+RAN-N-00356,2026-09-22T01:08:35+00:00,browser_2,intranet2,http_request,corp-srv-02,7640,3981,Routine intranet request,False
+RAN-N-00238,2026-09-22T01:16:07+00:00,office_app_16,printer_queue3,file_write,corp-srv-02,4462,3607,Routine print job output,False
+RAN-N-00653,2026-09-22T01:31:21+00:00,employee_7,identity_service12,login_success,corp-ws-01,2737,2798,Successful corporate login,False
+RAN-N-00131,2026-09-22T01:35:02+00:00,backup_agent_3,backup_store4,file_write,corp-ws-01,4526,1352,Scheduled backup file write,False
+RAN-N-00134,2026-09-22T01:40:20+00:00,office_app_24,printer_queue8,file_write,corp-ws-01,7244,3783,Routine print job output,False
+RAN-N-00624,2026-09-22T01:48:02+00:00,browser_3,intranet13,http_request,corp-ws-02,6874,723,Routine intranet request,False
+RAN-N-00260,2026-09-22T02:08:29+00:00,workstation_4,internal_dns1,dns_query,corp-fs-01,2008,1713,Routine DNS lookup,False
+RAN-N-00696,2026-09-22T02:36:03+00:00,workstation_2,internal_dns16,dns_query,corp-fs-01,966,2141,Routine DNS lookup,False
+RAN-N-00004,2026-09-22T02:41:34+00:00,browser_7,intranet11,http_request,corp-ws-01,5571,2253,Routine intranet request,False
+RAN-N-00056,2026-09-22T03:06:51+00:00,browser_5,intranet7,http_request,corp-ws-01,4255,1861,Routine intranet request,False
+RAN-N-00089,2026-09-22T03:10:08+00:00,workstation_4,internal_dns10,dns_query,corp-ws-01,3068,1157,Routine DNS lookup,False
+RAN-N-00168,2026-09-22T03:15:55+00:00,workstation_18,internal_dns13,dns_query,corp-ws-02,8386,1333,Routine DNS lookup,False
+RAN-N-00020,2026-09-22T03:40:05+00:00,workstation_1,internal_dns11,dns_query,corp-fs-01,7415,2958,Routine DNS lookup,False
+RAN-N-00483,2026-09-22T04:32:23+00:00,browser_8,intranet12,http_request,corp-ws-01,8511,224,Routine intranet request,False
+RAN-N-00321,2026-09-22T04:43:34+00:00,browser_4,intranet8,http_request,corp-ws-01,4196,751,Routine intranet request,False
+RAN-N-00130,2026-09-22T04:53:58+00:00,office_app_3,printer_queue9,file_write,corp-fs-01,5556,3529,Routine print job output,False
+RAN-N-00561,2026-09-22T05:06:48+00:00,backup_agent_17,backup_store2,file_write,corp-fs-01,3538,3870,Scheduled backup file write,False
+RAN-N-00449,2026-09-22T05:15:04+00:00,browser_18,intranet17,http_request,corp-fs-01,748,769,Routine intranet request,False
+RAN-N-00704,2026-09-22T06:51:32+00:00,workstation_3,internal_dns2,dns_query,corp-ws-02,2605,1248,Routine DNS lookup,False
+RAN-N-00634,2026-09-22T06:57:36+00:00,backup_agent_11,backup_store12,file_write,corp-fs-01,6101,2678,Scheduled backup file write,False
+RAN-N-00584,2026-09-22T06:59:29+00:00,employee_20,identity_service6,login_success,corp-ws-01,876,1565,Successful corporate login,False
+RAN-N-00508,2026-09-22T07:01:21+00:00,browser_23,intranet1,http_request,corp-srv-02,6576,3483,Routine intranet request,False
+RAN-N-00202,2026-09-22T07:10:52+00:00,employee_16,identity_service12,login_success,corp-fs-01,6512,2186,Successful corporate login,False
+RAN-N-00105,2026-09-22T07:28:50+00:00,backup_agent_4,backup_store13,file_write,corp-ws-01,2080,2237,Scheduled backup file write,False
+RAN-N-00690,2026-09-22T07:45:43+00:00,workstation_1,internal_dns17,dns_query,corp-srv-02,3975,545,Routine DNS lookup,False
+RAN-N-00188,2026-09-22T07:47:21+00:00,browser_3,intranet18,http_request,corp-ws-02,5659,3947,Routine intranet request,False
+RAN-N-00659,2026-09-22T07:56:40+00:00,workstation_11,internal_dns12,dns_query,corp-ws-02,5261,729,Routine DNS lookup,False
+RAN-N-00392,2026-09-22T08:07:04+00:00,backup_agent_3,backup_store2,file_write,corp-ws-01,8638,134,Scheduled backup file write,False
+RAN-N-00437,2026-09-22T08:16:00+00:00,backup_agent_21,backup_store10,file_write,corp-fs-01,4517,3181,Scheduled backup file write,False
+RAN-N-00337,2026-09-22T08:32:12+00:00,browser_21,intranet5,http_request,corp-ws-01,550,3099,Routine intranet request,False
+RAN-N-00085,2026-09-22T09:00:58+00:00,office_app_25,printer_queue11,file_write,corp-fs-01,1272,3192,Routine print job output,False
+RAN-N-00022,2026-09-22T09:13:00+00:00,office_app_9,printer_queue2,file_write,corp-ws-01,4689,3163,Routine print job output,False
+RAN-N-00640,2026-09-22T09:24:03+00:00,backup_agent_14,backup_store6,file_write,corp-fs-01,6930,3524,Scheduled backup file write,False
+RAN-N-00312,2026-09-22T09:27:17+00:00,employee_24,shared_docs9,file_read,corp-ws-01,300,2831,Routine document access,False
+RAN-N-00317,2026-09-22T10:00:42+00:00,employee_7,shared_docs18,file_read,corp-ws-01,7696,214,Routine document access,False
+RAN-N-00017,2026-09-22T10:08:16+00:00,employee_3,shared_docs15,file_read,corp-srv-02,5810,1139,Routine document access,False
+RAN-N-00234,2026-09-22T10:27:46+00:00,office_app_9,printer_queue8,file_write,corp-srv-02,1632,1248,Routine print job output,False
+RAN-N-00527,2026-09-22T10:29:17+00:00,employee_20,identity_service7,login_success,corp-ws-02,440,1874,Successful corporate login,False
+RAN-N-00236,2026-09-22T10:29:44+00:00,employee_3,identity_service13,login_success,corp-srv-02,6295,1602,Successful corporate login,False
+RAN-N-00270,2026-09-22T11:02:45+00:00,employee_25,identity_service9,login_success,corp-ws-01,2171,1512,Successful corporate login,False
+RAN-N-00122,2026-09-22T11:16:46+00:00,workstation_23,internal_dns15,dns_query,corp-ws-01,7532,2978,Routine DNS lookup,False
+RAN-N-00641,2026-09-22T11:25:00+00:00,endpoint_agent_22,security_console14,network_connection,corp-ws-02,3842,2740,Routine telemetry upload,False
+RAN-N-00100,2026-09-22T11:27:38+00:00,employee_9,identity_service15,login_success,corp-fs-01,3063,546,Successful corporate login,False
+RAN-N-00019,2026-09-22T11:31:33+00:00,browser_2,intranet2,http_request,corp-ws-02,5815,2122,Routine intranet request,False
+RAN-N-00299,2026-09-22T11:33:24+00:00,workstation_7,internal_dns12,dns_query,corp-ws-01,3285,1680,Routine DNS lookup,False
+RAN-N-00355,2026-09-22T11:35:12+00:00,employee_5,shared_docs6,file_read,corp-srv-02,212,1865,Routine document access,False
+RAN-N-00098,2026-09-22T11:38:20+00:00,workstation_23,internal_dns3,dns_query,corp-ws-02,4109,2570,Routine DNS lookup,False
+RAN-N-00348,2026-09-22T11:44:03+00:00,browser_8,intranet4,http_request,corp-ws-02,7389,3329,Routine intranet request,False
+RAN-N-00606,2026-09-22T12:27:28+00:00,workstation_14,internal_dns14,dns_query,corp-fs-01,6826,904,Routine DNS lookup,False
+RAN-N-00579,2026-09-22T13:08:07+00:00,workstation_7,internal_dns12,dns_query,corp-ws-02,6485,2875,Routine DNS lookup,False
+RAN-N-00133,2026-09-22T13:12:35+00:00,browser_2,intranet17,http_request,corp-ws-02,6957,598,Routine intranet request,False
+RAN-N-00050,2026-09-22T13:38:37+00:00,workstation_16,internal_dns1,dns_query,corp-srv-02,1208,980,Routine DNS lookup,False
+RAN-N-00430,2026-09-22T13:46:54+00:00,employee_24,identity_service3,login_success,corp-ws-02,6736,3530,Successful corporate login,False
+RAN-N-00638,2026-09-22T13:48:34+00:00,workstation_1,internal_dns12,dns_query,corp-srv-02,5702,537,Routine DNS lookup,False
+RAN-N-00138,2026-09-22T13:54:17+00:00,backup_agent_10,backup_store8,file_write,corp-srv-02,4601,1328,Scheduled backup file write,False
+RAN-N-00142,2026-09-22T13:55:03+00:00,office_app_3,printer_queue14,file_write,corp-ws-01,5879,1469,Routine print job output,False
+RAN-N-00240,2026-09-22T13:58:26+00:00,workstation_16,internal_dns9,dns_query,corp-ws-01,6756,3139,Routine DNS lookup,False
+RAN-N-00164,2026-09-22T14:17:58+00:00,employee_12,shared_docs4,file_read,corp-fs-01,4040,560,Routine document access,False
+RAN-N-00001,2026-09-22T14:19:41+00:00,browser_11,intranet14,http_request,corp-fs-01,2250,2963,Routine intranet request,False
+RAN-N-00066,2026-09-22T14:20:32+00:00,office_app_2,printer_queue5,file_write,corp-srv-02,2750,2944,Routine print job output,False
+RAN-N-00507,2026-09-22T14:22:02+00:00,office_app_12,printer_queue10,file_write,corp-srv-02,3113,82,Routine print job output,False
+RAN-N-00615,2026-09-22T14:23:43+00:00,workstation_16,internal_dns1,dns_query,corp-ws-02,6163,3778,Routine DNS lookup,False
+RAN-N-00358,2026-09-22T14:32:07+00:00,employee_25,shared_docs16,file_read,corp-ws-01,8221,2983,Routine document access,False
+RAN-N-00342,2026-09-22T14:38:22+00:00,employee_1,identity_service1,login_success,corp-fs-01,3575,1172,Successful corporate login,False
+RAN-N-00198,2026-09-22T14:50:39+00:00,workstation_1,internal_dns15,dns_query,corp-srv-02,3299,2895,Routine DNS lookup,False
+RAN-N-00477,2026-09-22T15:29:03+00:00,employee_15,identity_service7,login_success,corp-ws-02,3718,1503,Successful corporate login,False
+RAN-N-00316,2026-09-22T15:35:37+00:00,backup_agent_3,backup_store7,file_write,corp-fs-01,5127,1028,Scheduled backup file write,False
+RAN-N-00399,2026-09-22T15:44:19+00:00,backup_agent_21,backup_store1,file_write,corp-srv-02,8009,2772,Scheduled backup file write,False
+RAN-N-00673,2026-09-22T15:50:30+00:00,office_app_12,printer_queue13,file_write,corp-ws-02,7763,1720,Routine print job output,False
+RAN-N-00504,2026-09-22T15:53:25+00:00,endpoint_agent_3,security_console12,network_connection,corp-ws-01,5280,667,Routine telemetry upload,False
+RAN-N-00086,2026-09-22T15:58:03+00:00,employee_25,identity_service4,login_success,corp-ws-01,2289,574,Successful corporate login,False
+RAN-N-00010,2026-09-22T16:17:37+00:00,backup_agent_18,backup_store1,file_write,corp-ws-02,7711,3035,Scheduled backup file write,False
+RAN-N-00158,2026-09-22T16:33:36+00:00,employee_12,shared_docs6,file_read,corp-ws-02,5868,3478,Routine document access,False
+RAN-N-00280,2026-09-22T16:43:06+00:00,employee_1,identity_service17,login_success,corp-srv-02,232,1773,Successful corporate login,False
+RAN-N-00265,2026-09-22T17:20:33+00:00,employee_3,shared_docs5,file_read,corp-fs-01,2287,1474,Routine document access,False
+RAN-N-00618,2026-09-22T18:19:20+00:00,endpoint_agent_19,security_console4,network_connection,corp-ws-01,1614,2444,Routine telemetry upload,False
+RAN-N-00049,2026-09-22T18:20:07+00:00,endpoint_agent_2,security_console1,network_connection,corp-ws-02,5471,3814,Routine telemetry upload,False
+RAN-N-00041,2026-09-22T18:22:14+00:00,employee_11,identity_service3,login_success,corp-ws-01,635,3193,Successful corporate login,False
+RAN-N-00417,2026-09-22T18:23:21+00:00,workstation_11,internal_dns8,dns_query,corp-fs-01,4599,1598,Routine DNS lookup,False
+RAN-N-00658,2026-09-22T18:28:00+00:00,backup_agent_3,backup_store16,file_write,corp-srv-02,279,233,Scheduled backup file write,False
+RAN-N-00251,2026-09-22T18:28:14+00:00,endpoint_agent_3,security_console15,network_connection,corp-fs-01,2487,2013,Routine telemetry upload,False
+RAN-N-00339,2026-09-22T18:35:54+00:00,browser_25,intranet4,http_request,corp-srv-02,2294,1171,Routine intranet request,False
+RAN-N-00301,2026-09-22T18:42:48+00:00,backup_agent_14,backup_store14,file_write,corp-srv-02,4313,1484,Scheduled backup file write,False
+RAN-N-00660,2026-09-22T18:44:59+00:00,browser_1,intranet7,http_request,corp-srv-02,3506,2691,Routine intranet request,False
+RAN-N-00204,2026-09-22T19:07:57+00:00,backup_agent_24,backup_store18,file_write,corp-ws-01,4828,1700,Scheduled backup file write,False
+RAN-N-00308,2026-09-22T19:26:27+00:00,browser_15,intranet2,http_request,corp-fs-01,2057,3059,Routine intranet request,False
+RAN-N-00250,2026-09-22T19:31:32+00:00,backup_agent_7,backup_store16,file_write,corp-srv-02,4112,2281,Scheduled backup file write,False
+RAN-N-00389,2026-09-22T19:32:36+00:00,employee_3,shared_docs18,file_read,corp-ws-01,1688,3180,Routine document access,False
+RAN-N-00215,2026-09-22T19:55:40+00:00,browser_22,intranet9,http_request,corp-fs-01,8344,1436,Routine intranet request,False
+RAN-N-00318,2026-09-22T19:57:09+00:00,workstation_13,internal_dns5,dns_query,corp-srv-02,6464,3942,Routine DNS lookup,False
+RAN-N-00662,2026-09-22T20:04:32+00:00,workstation_2,internal_dns11,dns_query,corp-srv-02,7052,1070,Routine DNS lookup,False
+RAN-N-00034,2026-09-22T20:07:59+00:00,endpoint_agent_22,security_console7,network_connection,corp-srv-02,7097,3285,Routine telemetry upload,False
+RAN-N-00294,2026-09-22T20:11:01+00:00,employee_12,shared_docs5,file_read,corp-ws-01,6691,1555,Routine document access,False
+RAN-N-00119,2026-09-22T20:17:30+00:00,browser_3,intranet6,http_request,corp-ws-01,2450,2228,Routine intranet request,False
+RAN-N-00605,2026-09-22T20:22:44+00:00,workstation_19,internal_dns16,dns_query,corp-ws-02,5109,2975,Routine DNS lookup,False
+RAN-N-00139,2026-09-22T20:41:13+00:00,employee_7,shared_docs6,file_read,corp-fs-01,1379,552,Routine document access,False
+RAN-N-00059,2026-09-22T20:52:51+00:00,office_app_24,printer_queue9,file_write,corp-ws-02,1052,2006,Routine print job output,False
+RAN-N-00671,2026-09-22T21:15:42+00:00,office_app_13,printer_queue18,file_write,corp-ws-01,303,3286,Routine print job output,False
+RAN-N-00445,2026-09-22T21:26:20+00:00,office_app_9,printer_queue14,file_write,corp-ws-01,3206,1946,Routine print job output,False
+RAN-N-00282,2026-09-22T21:44:33+00:00,backup_agent_8,backup_store7,file_write,corp-ws-01,7495,2543,Scheduled backup file write,False
+RAN-N-00320,2026-09-22T21:55:39+00:00,office_app_17,printer_queue2,file_write,corp-srv-02,5424,2687,Routine print job output,False
+RAN-N-00143,2026-09-22T22:16:17+00:00,employee_13,shared_docs17,file_read,corp-srv-02,8884,1720,Routine document access,False
+RAN-N-00529,2026-09-22T22:34:06+00:00,endpoint_agent_3,security_console3,network_connection,corp-srv-02,7219,1682,Routine telemetry upload,False
+RAN-N-00717,2026-09-22T23:09:58+00:00,employee_11,shared_docs16,file_read,corp-ws-02,570,2051,Routine document access,False
+RAN-N-00496,2026-09-22T23:48:14+00:00,employee_16,shared_docs2,file_read,corp-ws-01,1002,2965,Routine document access,False
+RAN-N-00044,2026-09-23T00:08:18+00:00,office_app_1,printer_queue6,file_write,corp-ws-02,832,2461,Routine print job output,False
+RAN-N-00207,2026-09-23T00:58:16+00:00,browser_10,intranet11,http_request,corp-ws-01,5299,3728,Routine intranet request,False
+RAN-N-00112,2026-09-23T01:06:37+00:00,office_app_5,printer_queue15,file_write,corp-ws-02,2992,971,Routine print job output,False
+RAN-N-00118,2026-09-23T01:07:03+00:00,employee_19,shared_docs16,file_read,corp-fs-01,3539,547,Routine document access,False
+RAN-N-00702,2026-09-23T01:11:45+00:00,workstation_3,internal_dns3,dns_query,corp-ws-01,2422,1964,Routine DNS lookup,False
+RAN-N-00408,2026-09-23T01:34:32+00:00,employee_2,identity_service8,login_success,corp-srv-02,3512,3638,Successful corporate login,False
+RAN-N-00675,2026-09-23T01:35:10+00:00,backup_agent_18,backup_store3,file_write,corp-srv-02,5497,1406,Scheduled backup file write,False
+RAN-N-00596,2026-09-23T01:35:34+00:00,employee_5,shared_docs16,file_read,corp-fs-01,855,2347,Routine document access,False
+RAN-N-00113,2026-09-23T01:54:18+00:00,employee_3,shared_docs14,file_read,corp-fs-01,173,2193,Routine document access,False
+RAN-N-00303,2026-09-23T01:59:08+00:00,office_app_19,printer_queue18,file_write,corp-ws-01,2791,72,Routine print job output,False
+RAN-N-00013,2026-09-23T02:35:15+00:00,workstation_14,internal_dns8,dns_query,corp-fs-01,2144,3617,Routine DNS lookup,False
+RAN-N-00331,2026-09-23T02:37:54+00:00,employee_5,identity_service13,login_success,corp-srv-02,3888,2372,Successful corporate login,False
+RAN-N-00621,2026-09-23T02:38:47+00:00,workstation_24,internal_dns4,dns_query,corp-fs-01,6105,881,Routine DNS lookup,False
+RAN-N-00382,2026-09-23T02:49:44+00:00,employee_25,shared_docs2,file_read,corp-ws-01,4292,2717,Routine document access,False
+RAN-N-00186,2026-09-23T02:59:13+00:00,workstation_3,internal_dns10,dns_query,corp-ws-02,6560,317,Routine DNS lookup,False
+RAN-N-00222,2026-09-23T03:09:01+00:00,employee_24,identity_service16,login_success,corp-ws-02,7420,2643,Successful corporate login,False
+RAN-N-00453,2026-09-23T03:22:42+00:00,endpoint_agent_16,security_console7,network_connection,corp-ws-01,4139,2395,Routine telemetry upload,False
+RAN-N-00369,2026-09-23T03:23:59+00:00,employee_4,shared_docs15,file_read,corp-ws-02,4433,2309,Routine document access,False
+RAN-N-00411,2026-09-23T03:24:13+00:00,employee_3,identity_service3,login_success,corp-fs-01,1150,1637,Successful corporate login,False
+RAN-N-00385,2026-09-23T03:24:17+00:00,endpoint_agent_11,security_console7,network_connection,corp-ws-01,492,2916,Routine telemetry upload,False
+RAN-N-00416,2026-09-23T03:26:11+00:00,employee_23,identity_service8,login_success,corp-ws-02,7284,436,Successful corporate login,False
+RAN-N-00107,2026-09-23T03:26:16+00:00,browser_22,intranet3,http_request,corp-fs-01,1848,807,Routine intranet request,False
+RAN-N-00082,2026-09-23T03:37:57+00:00,backup_agent_1,backup_store4,file_write,corp-fs-01,1354,3894,Scheduled backup file write,False
+RAN-N-00254,2026-09-23T03:52:41+00:00,employee_3,shared_docs4,file_read,corp-srv-02,3974,2485,Routine document access,False
+RAN-N-00124,2026-09-23T03:53:16+00:00,employee_22,shared_docs16,file_read,corp-fs-01,6382,3911,Routine document access,False
+RAN-A-001,2026-09-23T04:00:00+00:00,employee_7,email_attachment_42,file_read,corp-ws-01,3201,112,User opened suspicious invoice attachment,True
+RAN-A-002,2026-09-23T04:00:35+00:00,invoice.doc,powershell.exe,process_start,corp-ws-01,4210,3201,powershell encoded command execution from invoice document,True
+RAN-A-003,2026-09-23T04:01:10+00:00,powershell.exe,credential_dump.dat,file_write,corp-ws-01,4210,3201,credential access indicator; LSASS password dump attempt,True
+RAN-A-004,2026-09-23T04:01:45+00:00,powershell.exe,unknown_ip_198.51.100.42,network_connection,corp-ws-01,4210,3201,unusual external destination after script execution,True
+RAN-A-005,2026-09-23T04:02:40+00:00,powershell.exe,finance_share,file_read,corp-ws-01,4210,3201,Accessed sensitive payroll and customer_db files,True
+RAN-A-006,2026-09-23T04:03:40+00:00,powershell.exe,archive_staging.zip,file_write,corp-ws-01,4210,3201,Sensitive data staging and archive compression,True
+RAN-A-007,2026-09-23T04:04:50+00:00,powershell.exe,corp-fs-01,network_connection,corp-ws-01,4210,3201,Lateral movement attempt toward file server,True
+RAN-A-008,2026-09-23T04:06:00+00:00,encryptor.exe,finance_share,file_write,corp-fs-01,5110,4210,ransomware mass_file encryption behavior,True
+RAN-N-00208,2026-09-23T04:06:33+00:00,browser_21,intranet3,http_request,corp-ws-01,408,1394,Routine intranet request,False
+RAN-A-009,2026-09-23T04:07:00+00:00,encryptor.exe,shadow_copy,process_start,corp-fs-01,5110,4210,ransomware attempted shadow_copy deletion,True
+RAN-N-00174,2026-09-23T04:08:54+00:00,employee_3,shared_docs3,file_read,corp-ws-02,1251,2482,Routine document access,False
+RAN-N-00592,2026-09-23T04:58:28+00:00,office_app_24,printer_queue14,file_write,corp-srv-02,665,2788,Routine print job output,False
+RAN-N-00362,2026-09-23T05:05:57+00:00,employee_16,identity_service16,login_success,corp-ws-02,4340,3372,Successful corporate login,False
+RAN-N-00040,2026-09-23T05:23:45+00:00,employee_5,shared_docs18,file_read,corp-fs-01,4489,759,Routine document access,False
+RAN-N-00651,2026-09-23T05:33:17+00:00,employee_3,identity_service10,login_success,corp-ws-01,5285,2228,Successful corporate login,False
+RAN-N-00227,2026-09-23T05:34:35+00:00,workstation_18,internal_dns12,dns_query,corp-ws-01,8703,2142,Routine DNS lookup,False
+RAN-N-00024,2026-09-23T05:54:12+00:00,endpoint_agent_10,security_console11,network_connection,corp-ws-01,7081,533,Routine telemetry upload,False
+RAN-N-00255,2026-09-23T06:45:16+00:00,office_app_10,printer_queue5,file_write,corp-fs-01,1049,1967,Routine print job output,False
+RAN-N-00349,2026-09-23T06:46:21+00:00,office_app_10,printer_queue4,file_write,corp-ws-02,3801,3052,Routine print job output,False
+RAN-N-00079,2026-09-23T06:49:19+00:00,employee_24,identity_service15,login_success,corp-ws-02,3484,2251,Successful corporate login,False
+RAN-N-00291,2026-09-23T07:11:32+00:00,employee_15,shared_docs18,file_read,corp-ws-02,402,3724,Routine document access,False
+RAN-N-00715,2026-09-23T07:20:50+00:00,endpoint_agent_18,security_console9,network_connection,corp-ws-02,4589,434,Routine telemetry upload,False
+RAN-N-00491,2026-09-23T07:39:02+00:00,office_app_14,printer_queue2,file_write,corp-srv-02,2219,2784,Routine print job output,False
+RAN-N-00309,2026-09-23T07:46:09+00:00,employee_15,identity_service17,login_success,corp-srv-02,8327,3073,Successful corporate login,False
+RAN-N-00703,2026-09-23T07:59:21+00:00,employee_6,identity_service4,login_success,corp-ws-02,1107,182,Successful corporate login,False
+RAN-N-00192,2026-09-23T08:13:41+00:00,backup_agent_8,backup_store13,file_write,corp-ws-02,5155,3230,Scheduled backup file write,False
+RAN-N-00591,2026-09-23T08:13:56+00:00,employee_7,shared_docs9,file_read,corp-ws-02,1285,2371,Routine document access,False
+RAN-N-00057,2026-09-23T08:17:35+00:00,employee_19,identity_service12,login_success,corp-ws-02,4527,1650,Successful corporate login,False
+RAN-N-00498,2026-09-23T08:32:49+00:00,office_app_18,printer_queue13,file_write,corp-ws-01,4379,1080,Routine print job output,False
+RAN-N-00033,2026-09-23T09:00:18+00:00,office_app_2,printer_queue6,file_write,corp-ws-02,7320,3649,Routine print job output,False
+RAN-N-00669,2026-09-23T09:04:46+00:00,backup_agent_18,backup_store13,file_write,corp-ws-01,3844,3078,Scheduled backup file write,False
+RAN-N-00695,2026-09-23T09:23:25+00:00,employee_21,identity_service17,login_success,corp-fs-01,7462,2982,Successful corporate login,False
+RAN-N-00123,2026-09-23T09:30:38+00:00,browser_1,intranet11,http_request,corp-srv-02,5418,3704,Routine intranet request,False
+RAN-N-00539,2026-09-23T09:33:10+00:00,employee_14,shared_docs10,file_read,corp-fs-01,6693,3420,Routine document access,False
+RAN-N-00325,2026-09-23T09:33:19+00:00,employee_16,identity_service12,login_success,corp-ws-01,4487,1933,Successful corporate login,False
+RAN-N-00247,2026-09-23T09:34:24+00:00,office_app_14,printer_queue2,file_write,corp-srv-02,4370,1330,Routine print job output,False
+RAN-N-00668,2026-09-23T09:44:55+00:00,workstation_3,internal_dns2,dns_query,corp-ws-02,6825,3209,Routine DNS lookup,False
+RAN-N-00625,2026-09-23T10:05:06+00:00,browser_17,intranet6,http_request,corp-fs-01,5078,3553,Routine intranet request,False
+RAN-N-00073,2026-09-23T10:18:55+00:00,workstation_18,internal_dns9,dns_query,corp-srv-02,2019,2682,Routine DNS lookup,False
+RAN-N-00619,2026-09-23T10:24:16+00:00,browser_12,intranet13,http_request,corp-ws-01,8907,741,Routine intranet request,False
+RAN-N-00110,2026-09-23T10:34:23+00:00,office_app_1,printer_queue3,file_write,corp-ws-01,605,3299,Routine print job output,False
+RAN-N-00253,2026-09-23T10:43:08+00:00,workstation_25,internal_dns14,dns_query,corp-ws-02,6632,3934,Routine DNS lookup,False
+RAN-N-00713,2026-09-23T10:45:14+00:00,employee_24,shared_docs12,file_read,corp-ws-02,3231,845,Routine document access,False
+RAN-N-00140,2026-09-23T10:58:17+00:00,browser_12,intranet8,http_request,corp-ws-01,5713,2909,Routine intranet request,False
+RAN-N-00189,2026-09-23T11:06:47+00:00,employee_16,shared_docs1,file_read,corp-fs-01,2659,3827,Routine document access,False
+RAN-N-00359,2026-09-23T11:16:08+00:00,workstation_9,internal_dns14,dns_query,corp-fs-01,8513,731,Routine DNS lookup,False
+RAN-N-00296,2026-09-23T11:29:08+00:00,browser_10,intranet6,http_request,corp-fs-01,3935,1465,Routine intranet request,False
+RAN-N-00036,2026-09-23T11:31:11+00:00,workstation_12,internal_dns5,dns_query,corp-srv-02,2030,2495,Routine DNS lookup,False
+RAN-N-00571,2026-09-23T11:44:40+00:00,office_app_13,printer_queue7,file_write,corp-ws-02,6318,944,Routine print job output,False
+RAN-N-00679,2026-09-23T11:46:28+00:00,office_app_22,printer_queue11,file_write,corp-ws-02,5277,1785,Routine print job output,False
+RAN-N-00429,2026-09-23T11:47:27+00:00,employee_21,shared_docs4,file_read,corp-srv-02,3307,624,Routine document access,False
+RAN-N-00686,2026-09-23T12:38:03+00:00,endpoint_agent_20,security_console18,network_connection,corp-srv-02,6590,2837,Routine telemetry upload,False
+RAN-N-00091,2026-09-23T13:37:19+00:00,backup_agent_13,backup_store18,file_write,corp-fs-01,5045,339,Scheduled backup file write,False
+RAN-N-00433,2026-09-23T13:39:33+00:00,employee_23,shared_docs8,file_read,corp-ws-02,694,1805,Routine document access,False
+RAN-N-00144,2026-09-23T13:43:23+00:00,endpoint_agent_4,security_console14,network_connection,corp-ws-02,4746,87,Routine telemetry upload,False
+RAN-N-00718,2026-09-23T13:48:15+00:00,workstation_9,internal_dns7,dns_query,corp-fs-01,4975,3267,Routine DNS lookup,False
+RAN-N-00233,2026-09-23T13:49:14+00:00,employee_22,shared_docs18,file_read,corp-ws-02,6932,3021,Routine document access,False
+RAN-N-00370,2026-09-23T14:52:38+00:00,endpoint_agent_20,security_console14,network_connection,corp-ws-02,6854,3000,Routine telemetry upload,False
+RAN-N-00009,2026-09-23T14:57:43+00:00,employee_9,shared_docs17,file_read,corp-srv-02,8451,2809,Routine document access,False
+RAN-N-00292,2026-09-23T15:00:54+00:00,endpoint_agent_14,security_console16,network_connection,corp-srv-02,1974,1945,Routine telemetry upload,False
+RAN-N-00284,2026-09-23T15:45:39+00:00,backup_agent_22,backup_store7,file_write,corp-fs-01,7947,778,Scheduled backup file write,False
+RAN-N-00032,2026-09-23T15:48:39+00:00,workstation_9,internal_dns1,dns_query,corp-ws-01,6258,3760,Routine DNS lookup,False
+RAN-N-00468,2026-09-23T16:04:47+00:00,employee_2,identity_service14,login_success,corp-srv-02,5313,1117,Successful corporate login,False
+RAN-N-00562,2026-09-23T16:19:54+00:00,workstation_21,internal_dns13,dns_query,corp-fs-01,7990,2986,Routine DNS lookup,False
+RAN-N-00551,2026-09-23T16:26:47+00:00,workstation_9,internal_dns7,dns_query,corp-srv-02,5573,1049,Routine DNS lookup,False
+RAN-N-00035,2026-09-23T16:34:58+00:00,employee_8,shared_docs9,file_read,corp-fs-01,2898,1863,Routine document access,False
+RAN-N-00595,2026-09-23T16:40:16+00:00,backup_agent_9,backup_store12,file_write,corp-srv-02,860,1807,Scheduled backup file write,False
+RAN-N-00446,2026-09-23T16:47:15+00:00,employee_13,identity_service1,login_success,corp-ws-02,3260,2075,Successful corporate login,False
+RAN-N-00377,2026-09-23T16:53:06+00:00,backup_agent_1,backup_store8,file_write,corp-ws-02,4211,1730,Scheduled backup file write,False
+RAN-N-00231,2026-09-23T16:53:24+00:00,workstation_4,internal_dns11,dns_query,corp-srv-02,5292,3182,Routine DNS lookup,False
+RAN-N-00187,2026-09-23T17:17:41+00:00,workstation_1,internal_dns17,dns_query,corp-ws-01,3972,3822,Routine DNS lookup,False
+RAN-N-00628,2026-09-23T17:35:18+00:00,workstation_11,internal_dns2,dns_query,corp-ws-02,8955,1917,Routine DNS lookup,False
+RAN-N-00476,2026-09-23T18:03:08+00:00,backup_agent_10,backup_store7,file_write,corp-ws-01,8473,973,Scheduled backup file write,False
+RAN-N-00248,2026-09-23T18:08:26+00:00,office_app_15,printer_queue11,file_write,corp-srv-02,1941,444,Routine print job output,False
+RAN-N-00697,2026-09-23T18:17:07+00:00,backup_agent_19,backup_store10,file_write,corp-srv-02,6564,1413,Scheduled backup file write,False
+RAN-N-00376,2026-09-23T18:23:14+00:00,office_app_19,printer_queue18,file_write,corp-srv-02,7496,3788,Routine print job output,False
+RAN-N-00436,2026-09-23T18:49:00+00:00,employee_10,shared_docs11,file_read,corp-srv-02,3524,2341,Routine document access,False
+RAN-N-00678,2026-09-23T18:52:50+00:00,employee_21,identity_service14,login_success,corp-srv-02,7898,2736,Successful corporate login,False
+RAN-N-00691,2026-09-23T19:04:25+00:00,office_app_20,printer_queue11,file_write,corp-ws-01,906,79,Routine print job output,False
+RAN-N-00021,2026-09-23T19:08:42+00:00,workstation_8,internal_dns16,dns_query,corp-srv-02,7994,3295,Routine DNS lookup,False
+RAN-N-00218,2026-09-23T20:01:55+00:00,workstation_12,internal_dns2,dns_query,corp-ws-02,4706,3606,Routine DNS lookup,False
+RAN-N-00519,2026-09-23T20:18:13+00:00,endpoint_agent_2,security_console18,network_connection,corp-ws-01,8562,1493,Routine telemetry upload,False
+RAN-N-00354,2026-09-23T20:48:35+00:00,workstation_22,internal_dns13,dns_query,corp-fs-01,8479,710,Routine DNS lookup,False
+RAN-N-00434,2026-09-23T20:51:36+00:00,employee_20,identity_service5,login_success,corp-ws-01,3428,3014,Successful corporate login,False
+RAN-N-00029,2026-09-23T20:53:15+00:00,backup_agent_18,backup_store2,file_write,corp-fs-01,3996,2473,Scheduled backup file write,False
+RAN-N-00570,2026-09-23T21:10:56+00:00,browser_10,intranet7,http_request,corp-ws-02,2211,1809,Routine intranet request,False
+RAN-N-00038,2026-09-23T21:19:05+00:00,office_app_24,printer_queue12,file_write,corp-srv-02,2418,552,Routine print job output,False
+RAN-N-00062,2026-09-23T21:25:23+00:00,employee_8,identity_service18,login_success,corp-fs-01,7880,2277,Successful corporate login,False
+RAN-N-00182,2026-09-23T21:36:35+00:00,backup_agent_23,backup_store16,file_write,corp-ws-02,3416,1625,Scheduled backup file write,False
+RAN-N-00387,2026-09-23T21:40:26+00:00,workstation_8,internal_dns5,dns_query,corp-srv-02,3719,401,Routine DNS lookup,False
+RAN-N-00455,2026-09-23T22:21:23+00:00,endpoint_agent_2,security_console15,network_connection,corp-ws-01,707,1817,Routine telemetry upload,False
+RAN-N-00178,2026-09-23T22:25:00+00:00,workstation_1,internal_dns3,dns_query,corp-fs-01,7825,719,Routine DNS lookup,False
+RAN-N-00384,2026-09-23T22:25:24+00:00,workstation_5,internal_dns16,dns_query,corp-fs-01,5112,1692,Routine DNS lookup,False
+RAN-N-00400,2026-09-23T22:26:17+00:00,employee_18,identity_service6,login_success,corp-ws-01,3907,203,Successful corporate login,False
+RAN-N-00559,2026-09-23T22:32:50+00:00,browser_2,intranet5,http_request,corp-ws-02,8393,3338,Routine intranet request,False
+RAN-N-00067,2026-09-23T22:52:56+00:00,endpoint_agent_14,security_console2,network_connection,corp-ws-01,8838,3862,Routine telemetry upload,False
+RAN-N-00266,2026-09-23T23:03:21+00:00,workstation_4,internal_dns1,dns_query,corp-ws-02,3452,3174,Routine DNS lookup,False
+RAN-N-00543,2026-09-23T23:37:47+00:00,employee_2,shared_docs5,file_read,corp-srv-02,7483,2366,Routine document access,False
+RAN-N-00366,2026-09-24T00:20:38+00:00,browser_20,intranet18,http_request,corp-ws-01,311,3794,Routine intranet request,False
+RAN-N-00058,2026-09-24T00:30:56+00:00,workstation_10,internal_dns10,dns_query,corp-ws-02,5703,2179,Routine DNS lookup,False
+RAN-N-00554,2026-09-24T00:34:21+00:00,employee_23,identity_service17,login_success,corp-ws-02,8291,2501,Successful corporate login,False
+RAN-N-00419,2026-09-24T00:38:33+00:00,employee_2,shared_docs6,file_read,corp-ws-01,329,2027,Routine document access,False
+RAN-N-00242,2026-09-24T00:47:54+00:00,employee_11,shared_docs3,file_read,corp-ws-02,6003,2656,Routine document access,False
+RAN-N-00458,2026-09-24T01:06:04+00:00,backup_agent_7,backup_store12,file_write,corp-srv-02,2863,3643,Scheduled backup file write,False
+RAN-N-00701,2026-09-24T01:40:46+00:00,employee_25,identity_service13,login_success,corp-fs-01,3331,780,Successful corporate login,False
+RAN-N-00612,2026-09-24T01:49:37+00:00,office_app_3,printer_queue5,file_write,corp-ws-01,2660,1478,Routine print job output,False
+RAN-N-00335,2026-09-24T01:50:13+00:00,backup_agent_22,backup_store3,file_write,corp-fs-01,2741,2271,Scheduled backup file write,False
+RAN-N-00165,2026-09-24T02:32:27+00:00,employee_2,shared_docs18,file_read,corp-fs-01,8960,1799,Routine document access,False
+RAN-N-00689,2026-09-24T02:38:25+00:00,workstation_1,internal_dns2,dns_query,corp-fs-01,7618,3834,Routine DNS lookup,False
+RAN-N-00338,2026-09-24T03:12:43+00:00,endpoint_agent_9,security_console2,network_connection,corp-ws-01,1355,1786,Routine telemetry upload,False
+RAN-N-00643,2026-09-24T03:15:43+00:00,office_app_17,printer_queue5,file_write,corp-ws-01,7437,2954,Routine print job output,False
+RAN-N-00126,2026-09-24T03:21:55+00:00,employee_4,shared_docs15,file_read,corp-ws-01,2045,3998,Routine document access,False
+RAN-N-00341,2026-09-24T03:28:46+00:00,office_app_5,printer_queue1,file_write,corp-fs-01,8676,3918,Routine print job output,False
+RAN-N-00576,2026-09-24T03:30:28+00:00,backup_agent_8,backup_store17,file_write,corp-ws-02,5531,107,Scheduled backup file write,False
+RAN-N-00027,2026-09-24T04:02:16+00:00,employee_18,shared_docs10,file_read,corp-srv-02,2767,2177,Routine document access,False
+RAN-N-00281,2026-09-24T04:33:24+00:00,workstation_11,internal_dns4,dns_query,corp-fs-01,4092,1192,Routine DNS lookup,False
+RAN-N-00159,2026-09-24T04:34:44+00:00,employee_20,identity_service16,login_success,corp-ws-01,4414,3793,Successful corporate login,False
+RAN-N-00463,2026-09-24T04:35:35+00:00,employee_21,identity_service5,login_success,corp-ws-01,3620,2616,Successful corporate login,False
+RAN-N-00328,2026-09-24T04:39:13+00:00,employee_6,shared_docs3,file_read,corp-fs-01,5167,547,Routine document access,False
+RAN-N-00667,2026-09-24T04:40:19+00:00,employee_6,shared_docs13,file_read,corp-ws-02,1133,2976,Routine document access,False
+RAN-N-00211,2026-09-24T04:40:53+00:00,employee_10,identity_service17,login_success,corp-ws-02,8091,3144,Successful corporate login,False
+RAN-N-00343,2026-09-24T04:42:40+00:00,employee_17,identity_service7,login_success,corp-ws-01,3788,3448,Successful corporate login,False
+RAN-N-00454,2026-09-24T04:43:27+00:00,employee_9,shared_docs17,file_read,corp-ws-02,3907,3081,Routine document access,False
+RAN-N-00585,2026-09-24T05:11:14+00:00,office_app_15,printer_queue9,file_write,corp-fs-01,3334,2252,Routine print job output,False
+RAN-N-00228,2026-09-24T05:30:36+00:00,office_app_9,printer_queue3,file_write,corp-fs-01,3174,3015,Routine print job output,False
+RAN-N-00577,2026-09-24T05:38:39+00:00,backup_agent_25,backup_store6,file_write,corp-srv-02,4419,1425,Scheduled backup file write,False
+RAN-N-00647,2026-09-24T05:38:45+00:00,workstation_8,internal_dns2,dns_query,corp-ws-01,7338,3568,Routine DNS lookup,False
+RAN-N-00711,2026-09-24T05:50:59+00:00,endpoint_agent_11,security_console18,network_connection,corp-ws-01,2136,3832,Routine telemetry upload,False
+RAN-N-00488,2026-09-24T06:21:43+00:00,workstation_2,internal_dns10,dns_query,corp-ws-01,6261,3653,Routine DNS lookup,False
+RAN-N-00206,2026-09-24T06:25:10+00:00,office_app_3,printer_queue15,file_write,corp-ws-02,6552,3773,Routine print job output,False
+RAN-N-00692,2026-09-24T07:18:18+00:00,office_app_22,printer_queue12,file_write,corp-ws-02,799,1418,Routine print job output,False
+RAN-N-00593,2026-09-24T08:09:14+00:00,employee_14,shared_docs8,file_read,corp-ws-02,6326,2029,Routine document access,False
+RAN-N-00003,2026-09-24T08:29:39+00:00,employee_11,identity_service10,login_success,corp-ws-01,126,3670,Successful corporate login,False
+RAN-N-00279,2026-09-24T08:54:02+00:00,browser_20,intranet13,http_request,corp-ws-01,2926,2066,Routine intranet request,False
+RAN-N-00201,2026-09-24T08:57:38+00:00,office_app_12,printer_queue10,file_write,corp-ws-01,7790,3206,Routine print job output,False
+RAN-N-00546,2026-09-24T09:00:28+00:00,workstation_7,internal_dns2,dns_query,corp-ws-02,1444,2030,Routine DNS lookup,False
+RAN-N-00075,2026-09-24T09:05:24+00:00,employee_16,identity_service14,login_success,corp-ws-01,6290,2262,Successful corporate login,False
+RAN-N-00644,2026-09-24T09:42:12+00:00,browser_18,intranet13,http_request,corp-fs-01,5676,221,Routine intranet request,False
+RAN-N-00533,2026-09-24T09:45:40+00:00,browser_5,intranet15,http_request,corp-fs-01,5463,217,Routine intranet request,False
+RAN-N-00097,2026-09-24T10:04:26+00:00,office_app_21,printer_queue13,file_write,corp-ws-01,7773,175,Routine print job output,False
+RAN-N-00532,2026-09-24T10:16:01+00:00,backup_agent_18,backup_store2,file_write,corp-fs-01,2786,1834,Scheduled backup file write,False
+RAN-N-00249,2026-09-24T10:17:19+00:00,workstation_6,internal_dns2,dns_query,corp-srv-02,2807,2020,Routine DNS lookup,False
+RAN-N-00262,2026-09-24T10:17:43+00:00,office_app_3,printer_queue8,file_write,corp-ws-01,4663,2701,Routine print job output,False
+RAN-N-00682,2026-09-24T10:23:55+00:00,employee_4,shared_docs15,file_read,corp-srv-02,4958,3720,Routine document access,False
+RAN-N-00220,2026-09-24T10:36:19+00:00,endpoint_agent_5,security_console15,network_connection,corp-srv-02,3628,3550,Routine telemetry upload,False
+RAN-N-00329,2026-09-24T11:17:01+00:00,browser_23,intranet9,http_request,corp-ws-01,693,450,Routine intranet request,False
+RAN-N-00523,2026-09-24T11:31:23+00:00,endpoint_agent_2,security_console17,network_connection,corp-srv-02,2698,1325,Routine telemetry upload,False
+RAN-N-00438,2026-09-24T11:46:50+00:00,browser_8,intranet7,http_request,corp-ws-01,4334,3386,Routine intranet request,False
+RAN-N-00286,2026-09-24T12:02:38+00:00,endpoint_agent_22,security_console9,network_connection,corp-ws-01,1641,3265,Routine telemetry upload,False
+RAN-N-00611,2026-09-24T12:11:56+00:00,office_app_24,printer_queue7,file_write,corp-ws-02,2983,2859,Routine print job output,False
+RAN-N-00572,2026-09-24T12:31:05+00:00,backup_agent_25,backup_store17,file_write,corp-ws-01,7602,1425,Scheduled backup file write,False
+RAN-N-00137,2026-09-24T12:37:20+00:00,endpoint_agent_12,security_console6,network_connection,corp-fs-01,6329,2579,Routine telemetry upload,False
+RAN-N-00103,2026-09-24T12:51:22+00:00,employee_20,identity_service8,login_success,corp-ws-02,4314,1300,Successful corporate login,False
+RAN-N-00298,2026-09-24T12:56:33+00:00,browser_7,intranet9,http_request,corp-fs-01,2526,2243,Routine intranet request,False
+RAN-N-00268,2026-09-24T13:50:16+00:00,backup_agent_5,backup_store8,file_write,corp-ws-01,4196,1467,Scheduled backup file write,False
+RAN-N-00179,2026-09-24T14:09:47+00:00,office_app_16,printer_queue7,file_write,corp-ws-02,7949,1511,Routine print job output,False
+RAN-N-00379,2026-09-24T14:17:24+00:00,employee_8,identity_service5,login_success,corp-ws-01,1588,271,Successful corporate login,False
+RAN-N-00116,2026-09-24T14:26:51+00:00,browser_4,intranet11,http_request,corp-srv-02,8231,2831,Routine intranet request,False
+RAN-N-00243,2026-09-24T14:44:01+00:00,employee_12,shared_docs15,file_read,corp-fs-01,6834,1658,Routine document access,False
+RAN-N-00441,2026-09-24T14:54:06+00:00,employee_11,identity_service1,login_success,corp-srv-02,1774,1964,Successful corporate login,False
+RAN-N-00588,2026-09-24T15:03:52+00:00,backup_agent_20,backup_store3,file_write,corp-ws-01,1272,545,Scheduled backup file write,False
+RAN-N-00500,2026-09-24T15:44:45+00:00,employee_12,identity_service18,login_success,corp-ws-01,7568,2358,Successful corporate login,False
+RAN-N-00095,2026-09-24T15:45:32+00:00,employee_24,shared_docs11,file_read,corp-ws-02,3516,1393,Routine document access,False
+RAN-N-00068,2026-09-24T15:52:07+00:00,employee_3,shared_docs12,file_read,corp-fs-01,2555,2132,Routine document access,False
+RAN-N-00350,2026-09-24T15:59:40+00:00,endpoint_agent_1,security_console13,network_connection,corp-ws-01,6787,3160,Routine telemetry upload,False
+RAN-N-00313,2026-09-24T16:09:03+00:00,backup_agent_18,backup_store3,file_write,corp-fs-01,6758,3599,Scheduled backup file write,False
+RAN-N-00470,2026-09-24T16:14:07+00:00,endpoint_agent_13,security_console12,network_connection,corp-srv-02,6195,3049,Routine telemetry upload,False
+RAN-N-00687,2026-09-24T16:23:08+00:00,workstation_16,internal_dns10,dns_query,corp-ws-01,6904,1096,Routine DNS lookup,False
+RAN-N-00194,2026-09-24T16:38:47+00:00,workstation_3,internal_dns4,dns_query,corp-srv-02,2009,1154,Routine DNS lookup,False
+RAN-N-00603,2026-09-24T16:47:56+00:00,endpoint_agent_6,security_console1,network_connection,corp-srv-02,1398,2618,Routine telemetry upload,False
+RAN-N-00390,2026-09-24T17:33:58+00:00,office_app_5,printer_queue13,file_write,corp-ws-01,8749,3299,Routine print job output,False
+RAN-N-00394,2026-09-24T18:30:31+00:00,endpoint_agent_5,security_console3,network_connection,corp-ws-01,2645,2098,Routine telemetry upload,False
+RAN-N-00367,2026-09-24T18:40:38+00:00,backup_agent_13,backup_store10,file_write,corp-fs-01,4440,1058,Scheduled backup file write,False
+RAN-N-00565,2026-09-24T18:59:26+00:00,browser_5,intranet9,http_request,corp-fs-01,6597,3457,Routine intranet request,False
+RAN-N-00464,2026-09-24T19:34:28+00:00,office_app_1,printer_queue16,file_write,corp-ws-01,3457,2628,Routine print job output,False
+RAN-N-00005,2026-09-24T20:17:15+00:00,workstation_7,internal_dns16,dns_query,corp-ws-02,7292,884,Routine DNS lookup,False
+RAN-N-00564,2026-09-24T20:18:08+00:00,employee_6,shared_docs9,file_read,corp-srv-02,4918,3506,Routine document access,False
+RAN-N-00146,2026-09-24T20:18:42+00:00,workstation_17,internal_dns4,dns_query,corp-ws-01,5168,2437,Routine DNS lookup,False
+RAN-N-00322,2026-09-24T20:55:21+00:00,employee_13,identity_service14,login_success,corp-ws-02,7530,2027,Successful corporate login,False
+RAN-N-00372,2026-09-24T20:56:19+00:00,employee_4,shared_docs10,file_read,corp-srv-02,4563,2359,Routine document access,False
+RAN-N-00699,2026-09-24T21:05:42+00:00,office_app_22,printer_queue7,file_write,corp-fs-01,4640,3870,Routine print job output,False
+RAN-N-00515,2026-09-24T21:22:15+00:00,browser_12,intranet13,http_request,corp-ws-01,3963,671,Routine intranet request,False
+RAN-N-00719,2026-09-24T21:23:36+00:00,backup_agent_22,backup_store18,file_write,corp-ws-02,5919,115,Scheduled backup file write,False
+RAN-N-00288,2026-09-24T21:26:22+00:00,office_app_17,printer_queue13,file_write,corp-ws-01,6007,254,Routine print job output,False
+RAN-N-00293,2026-09-24T21:26:33+00:00,employee_2,identity_service7,login_success,corp-ws-01,1134,3129,Successful corporate login,False
+RAN-N-00378,2026-09-24T21:37:58+00:00,browser_19,intranet2,http_request,corp-fs-01,4172,2599,Routine intranet request,False
+RAN-N-00042,2026-09-24T22:25:15+00:00,backup_agent_7,backup_store6,file_write,corp-ws-02,3956,3824,Scheduled backup file write,False
+RAN-N-00635,2026-09-24T22:37:38+00:00,office_app_2,printer_queue9,file_write,corp-ws-02,8165,2935,Routine print job output,False
+RAN-N-00604,2026-09-24T22:47:23+00:00,employee_16,shared_docs12,file_read,corp-ws-02,4239,516,Routine document access,False
+RAN-N-00176,2026-09-24T22:53:12+00:00,browser_17,intranet18,http_request,corp-ws-01,248,1934,Routine intranet request,False
+RAN-N-00166,2026-09-24T22:57:08+00:00,workstation_12,internal_dns9,dns_query,corp-srv-02,5028,1790,Routine DNS lookup,False
+RAN-N-00216,2026-09-24T22:57:27+00:00,employee_21,shared_docs6,file_read,corp-fs-01,6847,2966,Routine document access,False
+RAN-N-00025,2026-09-24T22:58:15+00:00,endpoint_agent_9,security_console10,network_connection,corp-fs-01,5529,2669,Routine telemetry upload,False
+RAN-N-00060,2026-09-24T23:12:23+00:00,backup_agent_10,backup_store9,file_write,corp-srv-02,8517,447,Scheduled backup file write,False
+RAN-N-00627,2026-09-24T23:12:27+00:00,workstation_12,internal_dns13,dns_query,corp-ws-01,3257,3430,Routine DNS lookup,False
+RAN-N-00039,2026-09-24T23:21:27+00:00,endpoint_agent_17,security_console2,network_connection,corp-ws-01,893,645,Routine telemetry upload,False
+RAN-N-00152,2026-09-24T23:33:28+00:00,endpoint_agent_25,security_console16,network_connection,corp-fs-01,8289,2364,Routine telemetry upload,False
+RAN-N-00589,2026-09-24T23:33:58+00:00,employee_2,identity_service15,login_success,corp-fs-01,8485,400,Successful corporate login,False
+RAN-N-00490,2026-09-24T23:52:36+00:00,employee_21,shared_docs17,file_read,corp-ws-01,136,3972,Routine document access,False
+RAN-N-00108,2026-09-24T23:57:50+00:00,employee_17,shared_docs17,file_read,corp-fs-01,6667,485,Routine document access,False
+RAN-N-00473,2026-09-24T23:58:25+00:00,employee_12,shared_docs17,file_read,corp-fs-01,820,699,Routine document access,False
+RAN-N-00706,2026-09-25T00:09:36+00:00,employee_13,shared_docs11,file_read,corp-fs-01,8088,44,Routine document access,False
+RAN-N-00705,2026-09-25T00:18:02+00:00,browser_19,intranet5,http_request,corp-srv-02,6027,3174,Routine intranet request,False
+RAN-N-00063,2026-09-25T00:36:51+00:00,employee_17,identity_service14,login_success,corp-fs-01,2537,3073,Successful corporate login,False
+RAN-N-00055,2026-09-25T00:50:17+00:00,browser_16,intranet3,http_request,corp-ws-01,3244,3295,Routine intranet request,False
+RAN-N-00252,2026-09-25T00:56:54+00:00,backup_agent_21,backup_store11,file_write,corp-ws-01,5948,3494,Scheduled backup file write,False
+RAN-N-00648,2026-09-25T01:04:39+00:00,workstation_23,internal_dns7,dns_query,corp-ws-01,3682,1592,Routine DNS lookup,False
+RAN-N-00076,2026-09-25T01:24:51+00:00,office_app_7,printer_queue7,file_write,corp-fs-01,2926,3433,Routine print job output,False
+RAN-N-00516,2026-09-25T01:29:20+00:00,office_app_24,printer_queue13,file_write,corp-srv-02,7956,1661,Routine print job output,False
+RAN-N-00221,2026-09-25T01:43:33+00:00,endpoint_agent_9,security_console11,network_connection,corp-ws-01,7852,2773,Routine telemetry upload,False
+RAN-N-00007,2026-09-25T01:44:33+00:00,office_app_17,printer_queue11,file_write,corp-ws-02,8942,1524,Routine print job output,False
+RAN-N-00545,2026-09-25T01:49:22+00:00,office_app_4,printer_queue3,file_write,corp-srv-02,7768,2763,Routine print job output,False
+RAN-N-00346,2026-09-25T02:00:04+00:00,office_app_5,printer_queue14,file_write,corp-fs-01,7421,2264,Routine print job output,False
+RAN-N-00256,2026-09-25T02:21:44+00:00,backup_agent_18,backup_store5,file_write,corp-fs-01,4990,1862,Scheduled backup file write,False
+RAN-N-00334,2026-09-25T02:51:42+00:00,backup_agent_13,backup_store14,file_write,corp-ws-01,712,1790,Scheduled backup file write,False
+RAN-N-00553,2026-09-25T03:05:29+00:00,endpoint_agent_6,security_console8,network_connection,corp-ws-01,1269,468,Routine telemetry upload,False
+RAN-N-00015,2026-09-25T03:13:55+00:00,employee_7,identity_service15,login_success,corp-ws-02,7801,3255,Successful corporate login,False
+RAN-N-00698,2026-09-25T03:15:37+00:00,backup_agent_8,backup_store10,file_write,corp-ws-02,6101,2771,Scheduled backup file write,False
+RAN-N-00080,2026-09-25T03:23:16+00:00,workstation_8,internal_dns3,dns_query,corp-ws-01,8393,1365,Routine DNS lookup,False
+RAN-N-00409,2026-09-25T03:30:32+00:00,endpoint_agent_1,security_console11,network_connection,corp-ws-01,8838,2250,Routine telemetry upload,False
+RAN-N-00132,2026-09-25T03:40:03+00:00,backup_agent_20,backup_store8,file_write,corp-ws-02,1107,3609,Scheduled backup file write,False
+RAN-N-00435,2026-09-25T03:46:02+00:00,endpoint_agent_16,security_console16,network_connection,corp-srv-02,3918,3625,Routine telemetry upload,False
+RAN-N-00535,2026-09-25T04:20:34+00:00,backup_agent_13,backup_store11,file_write,corp-srv-02,1061,2091,Scheduled backup file write,False
+RAN-N-00048,2026-09-25T04:52:34+00:00,office_app_13,printer_queue18,file_write,corp-ws-02,8186,3694,Routine print job output,False
+RAN-N-00645,2026-09-25T05:27:13+00:00,workstation_16,internal_dns2,dns_query,corp-ws-02,4682,1877,Routine DNS lookup,False
+RAN-N-00016,2026-09-25T06:04:58+00:00,workstation_6,internal_dns9,dns_query,corp-fs-01,5086,1248,Routine DNS lookup,False
+RAN-N-00586,2026-09-25T06:05:37+00:00,employee_20,identity_service13,login_success,corp-ws-02,3141,3901,Successful corporate login,False
+RAN-N-00541,2026-09-25T06:49:21+00:00,workstation_5,internal_dns18,dns_query,corp-ws-01,5257,3581,Routine DNS lookup,False
+RAN-N-00307,2026-09-25T07:02:12+00:00,employee_11,identity_service8,login_success,corp-ws-02,2598,2667,Successful corporate login,False
+RAN-N-00568,2026-09-25T07:35:28+00:00,browser_25,intranet10,http_request,corp-ws-02,914,3072,Routine intranet request,False
+RAN-N-00401,2026-09-25T07:38:50+00:00,backup_agent_9,backup_store17,file_write,corp-ws-01,4055,119,Scheduled backup file write,False
+RAN-N-00623,2026-09-25T07:50:43+00:00,office_app_1,printer_queue17,file_write,corp-fs-01,7997,119,Routine print job output,False
+RAN-N-00581,2026-09-25T08:05:03+00:00,employee_8,shared_docs18,file_read,corp-ws-01,2844,2213,Routine document access,False
+RAN-N-00608,2026-09-25T08:32:38+00:00,employee_6,shared_docs16,file_read,corp-srv-02,3777,1040,Routine document access,False
+RAN-N-00120,2026-09-25T08:50:06+00:00,workstation_14,internal_dns8,dns_query,corp-fs-01,1276,1509,Routine DNS lookup,False
+RAN-N-00345,2026-09-25T08:52:33+00:00,browser_9,intranet18,http_request,corp-fs-01,759,2952,Routine intranet request,False
+RAN-N-00573,2026-09-25T09:22:37+00:00,browser_13,intranet11,http_request,corp-srv-02,5068,254,Routine intranet request,False
+RAN-N-00332,2026-09-25T09:40:33+00:00,employee_7,identity_service3,login_success,corp-fs-01,4468,1357,Successful corporate login,False
+RAN-N-00232,2026-09-25T09:46:48+00:00,employee_24,shared_docs7,file_read,corp-srv-02,7981,3336,Routine document access,False
+RAN-N-00526,2026-09-25T09:47:02+00:00,employee_21,shared_docs3,file_read,corp-srv-02,3683,81,Routine document access,False
+RAN-N-00278,2026-09-25T10:31:20+00:00,backup_agent_1,backup_store12,file_write,corp-ws-02,5601,3500,Scheduled backup file write,False
+RAN-N-00521,2026-09-25T10:49:39+00:00,employee_1,identity_service12,login_success,corp-ws-02,8279,2137,Successful corporate login,False
+RAN-N-00006,2026-09-25T11:09:36+00:00,endpoint_agent_22,security_console8,network_connection,corp-ws-02,4901,2441,Routine telemetry upload,False
+RAN-N-00043,2026-09-25T11:13:46+00:00,workstation_13,internal_dns6,dns_query,corp-srv-02,3001,1661,Routine DNS lookup,False
+RAN-N-00172,2026-09-25T11:26:35+00:00,endpoint_agent_23,security_console11,network_connection,corp-ws-02,8081,1565,Routine telemetry upload,False
+RAN-N-00480,2026-09-25T11:52:06+00:00,endpoint_agent_21,security_console14,network_connection,corp-ws-02,4567,2916,Routine telemetry upload,False
+RAN-N-00046,2026-09-25T12:11:17+00:00,employee_7,shared_docs12,file_read,corp-ws-02,7895,673,Routine document access,False
+RAN-N-00427,2026-09-25T12:46:41+00:00,browser_3,intranet12,http_request,corp-ws-01,8138,2332,Routine intranet request,False
+RAN-N-00465,2026-09-25T13:02:05+00:00,employee_22,identity_service17,login_success,corp-ws-02,5658,2034,Successful corporate login,False
+RAN-N-00676,2026-09-25T13:25:34+00:00,employee_3,shared_docs12,file_read,corp-ws-01,8564,3245,Routine document access,False
+RAN-N-00514,2026-09-25T13:34:48+00:00,endpoint_agent_20,security_console12,network_connection,corp-srv-02,1428,1041,Routine telemetry upload,False
+RAN-N-00109,2026-09-25T13:42:37+00:00,browser_20,intranet7,http_request,corp-fs-01,3364,1518,Routine intranet request,False
+RAN-N-00710,2026-09-25T13:49:14+00:00,endpoint_agent_9,security_console16,network_connection,corp-ws-01,1073,3753,Routine telemetry upload,False
+RAN-N-00031,2026-09-25T14:01:50+00:00,employee_13,identity_service16,login_success,corp-ws-01,8079,1728,Successful corporate login,False
+RAN-N-00657,2026-09-25T14:23:11+00:00,employee_7,shared_docs8,file_read,corp-srv-02,6545,149,Routine document access,False
+RAN-N-00185,2026-09-25T14:45:42+00:00,backup_agent_14,backup_store3,file_write,corp-ws-01,8150,1202,Scheduled backup file write,False
+RAN-N-00290,2026-09-25T14:56:09+00:00,browser_23,intranet10,http_request,corp-fs-01,2074,2765,Routine intranet request,False
+RAN-N-00642,2026-09-25T15:27:53+00:00,employee_10,identity_service7,login_success,corp-ws-02,1760,1847,Successful corporate login,False
+RAN-N-00602,2026-09-25T15:30:39+00:00,employee_15,identity_service5,login_success,corp-srv-02,1084,3293,Successful corporate login,False
+RAN-N-00425,2026-09-25T15:34:33+00:00,endpoint_agent_16,security_console11,network_connection,corp-srv-02,4167,3912,Routine telemetry upload,False
+RAN-N-00574,2026-09-25T15:47:15+00:00,office_app_2,printer_queue11,file_write,corp-ws-01,7758,1105,Routine print job output,False
+RAN-N-00674,2026-09-25T15:47:27+00:00,browser_9,intranet14,http_request,corp-srv-02,6897,2862,Routine intranet request,False
+RAN-N-00324,2026-09-25T15:53:22+00:00,backup_agent_16,backup_store6,file_write,corp-srv-02,214,2701,Scheduled backup file write,False
+RAN-N-00601,2026-09-25T16:04:36+00:00,backup_agent_17,backup_store16,file_write,corp-fs-01,6330,3545,Scheduled backup file write,False
+RAN-N-00028,2026-09-25T16:21:32+00:00,endpoint_agent_1,security_console5,network_connection,corp-ws-02,7899,1280,Routine telemetry upload,False
+RAN-N-00694,2026-09-25T16:25:25+00:00,office_app_18,printer_queue5,file_write,corp-ws-02,6741,1816,Routine print job output,False
+RAN-N-00051,2026-09-25T16:31:20+00:00,endpoint_agent_7,security_console8,network_connection,corp-fs-01,971,1087,Routine telemetry upload,False
+RAN-N-00271,2026-09-25T17:29:12+00:00,endpoint_agent_6,security_console11,network_connection,corp-ws-02,2205,1905,Routine telemetry upload,False
+RAN-N-00616,2026-09-25T17:47:03+00:00,employee_15,identity_service11,login_success,corp-fs-01,389,390,Successful corporate login,False
+RAN-N-00525,2026-09-25T18:03:25+00:00,employee_4,shared_docs10,file_read,corp-ws-02,2784,1178,Routine document access,False
+RAN-N-00599,2026-09-25T18:32:59+00:00,employee_2,shared_docs11,file_read,corp-fs-01,1354,2775,Routine document access,False
+RAN-N-00487,2026-09-25T18:33:57+00:00,browser_1,intranet13,http_request,corp-fs-01,3120,3731,Routine intranet request,False
+RAN-N-00151,2026-09-25T19:02:44+00:00,endpoint_agent_19,security_console17,network_connection,corp-ws-01,145,2518,Routine telemetry upload,False
+RAN-N-00241,2026-09-25T19:10:23+00:00,employee_9,identity_service12,login_success,corp-fs-01,4565,2464,Successful corporate login,False
+RAN-N-00061,2026-09-25T19:22:13+00:00,backup_agent_24,backup_store13,file_write,corp-ws-02,678,1961,Scheduled backup file write,False
+RAN-N-00267,2026-09-25T19:27:39+00:00,endpoint_agent_22,security_console10,network_connection,corp-ws-01,4677,1664,Routine telemetry upload,False
+RAN-N-00311,2026-09-25T19:33:23+00:00,endpoint_agent_10,security_console4,network_connection,corp-srv-02,242,1911,Routine telemetry upload,False
+RAN-N-00084,2026-09-25T20:27:03+00:00,browser_1,intranet7,http_request,corp-ws-02,8933,1397,Routine intranet request,False
+RAN-N-00363,2026-09-25T20:34:44+00:00,office_app_5,printer_queue5,file_write,corp-ws-01,3651,637,Routine print job output,False
+RAN-N-00405,2026-09-25T20:54:38+00:00,employee_23,shared_docs7,file_read,corp-srv-02,3435,3504,Routine document access,False
+RAN-N-00693,2026-09-25T21:22:42+00:00,employee_17,identity_service15,login_success,corp-ws-01,5620,2629,Successful corporate login,False
+RAN-N-00439,2026-09-25T21:29:48+00:00,office_app_25,printer_queue8,file_write,corp-ws-02,5990,652,Routine print job output,False
+RAN-N-00610,2026-09-25T21:46:29+00:00,office_app_7,printer_queue8,file_write,corp-srv-02,965,2489,Routine print job output,False
+RAN-N-00550,2026-09-25T22:10:06+00:00,workstation_8,internal_dns3,dns_query,corp-ws-01,3225,1591,Routine DNS lookup,False
+RAN-N-00351,2026-09-25T22:25:22+00:00,office_app_18,printer_queue14,file_write,corp-ws-01,7550,3761,Routine print job output,False
+RAN-N-00276,2026-09-25T22:33:37+00:00,endpoint_agent_11,security_console16,network_connection,corp-ws-01,5108,74,Routine telemetry upload,False
+RAN-N-00428,2026-09-25T22:34:28+00:00,employee_2,shared_docs9,file_read,corp-ws-01,911,173,Routine document access,False
+RAN-N-00047,2026-09-25T22:34:50+00:00,backup_agent_5,backup_store12,file_write,corp-ws-01,1026,2091,Scheduled backup file write,False
+RAN-N-00092,2026-09-25T22:44:04+00:00,employee_4,identity_service7,login_success,corp-ws-02,8209,1244,Successful corporate login,False
+RAN-N-00368,2026-09-25T22:44:22+00:00,employee_8,shared_docs15,file_read,corp-ws-01,233,1031,Routine document access,False
+RAN-N-00170,2026-09-25T22:54:16+00:00,office_app_13,printer_queue11,file_write,corp-srv-02,5926,3897,Routine print job output,False
+RAN-N-00072,2026-09-25T22:54:52+00:00,office_app_17,printer_queue10,file_write,corp-ws-01,7083,2154,Routine print job output,False
+RAN-N-00472,2026-09-25T22:57:09+00:00,office_app_1,printer_queue5,file_write,corp-srv-02,603,1354,Routine print job output,False
+RAN-N-00264,2026-09-25T23:01:34+00:00,backup_agent_4,backup_store7,file_write,corp-ws-02,4901,3081,Scheduled backup file write,False
+RAN-N-00492,2026-09-25T23:11:06+00:00,backup_agent_16,backup_store7,file_write,corp-srv-02,4291,3496,Scheduled backup file write,False
+RAN-N-00365,2026-09-26T00:09:09+00:00,endpoint_agent_25,security_console3,network_connection,corp-ws-01,4610,459,Routine telemetry upload,False
+RAN-N-00503,2026-09-26T00:25:23+00:00,employee_20,shared_docs2,file_read,corp-srv-02,7436,3591,Routine document access,False
+RAN-N-00531,2026-09-26T00:31:58+00:00,employee_18,identity_service11,login_success,corp-ws-02,2934,3203,Successful corporate login,False
+RAN-N-00371,2026-09-26T00:41:23+00:00,endpoint_agent_19,security_console12,network_connection,corp-fs-01,2070,2048,Routine telemetry upload,False
+RAN-N-00289,2026-09-26T01:00:19+00:00,employee_15,identity_service14,login_success,corp-ws-02,2108,1932,Successful corporate login,False
+RAN-N-00650,2026-09-26T01:08:42+00:00,browser_13,intranet1,http_request,corp-ws-01,426,514,Routine intranet request,False
+RAN-N-00078,2026-09-26T01:26:22+00:00,employee_13,shared_docs10,file_read,corp-ws-02,5222,3199,Routine document access,False
+RAN-N-00117,2026-09-26T01:37:02+00:00,office_app_21,printer_queue15,file_write,corp-ws-01,5828,1978,Routine print job output,False
+RAN-N-00431,2026-09-26T01:40:42+00:00,office_app_15,printer_queue9,file_write,corp-srv-02,101,1931,Routine print job output,False
+RAN-N-00495,2026-09-26T01:45:37+00:00,office_app_23,printer_queue11,file_write,corp-srv-02,8946,3784,Routine print job output,False
+RAN-N-00510,2026-09-26T01:52:19+00:00,backup_agent_4,backup_store18,file_write,corp-ws-01,303,3124,Scheduled backup file write,False
+RAN-N-00580,2026-09-26T02:33:39+00:00,employee_3,identity_service1,login_success,corp-fs-01,4271,1057,Successful corporate login,False
+RAN-N-00700,2026-09-26T02:36:32+00:00,employee_17,identity_service8,login_success,corp-srv-02,1111,2288,Successful corporate login,False
+RAN-N-00451,2026-09-26T02:39:21+00:00,backup_agent_6,backup_store3,file_write,corp-srv-02,325,1490,Scheduled backup file write,False
+RAN-N-00462,2026-09-26T03:09:19+00:00,backup_agent_10,backup_store18,file_write,corp-ws-02,832,939,Scheduled backup file write,False
+RAN-N-00191,2026-09-26T03:15:06+00:00,endpoint_agent_17,security_console16,network_connection,corp-ws-02,693,1850,Routine telemetry upload,False
+RAN-N-00114,2026-09-26T03:21:01+00:00,employee_3,identity_service3,login_success,corp-ws-02,4136,1781,Successful corporate login,False
+RAN-N-00709,2026-09-26T03:27:39+00:00,backup_agent_4,backup_store15,file_write,corp-fs-01,5346,3287,Scheduled backup file write,False
+RAN-N-00493,2026-09-26T03:39:51+00:00,browser_3,intranet5,http_request,corp-srv-02,3293,3018,Routine intranet request,False
+RAN-N-00494,2026-09-26T03:58:58+00:00,workstation_16,internal_dns3,dns_query,corp-ws-01,2172,373,Routine DNS lookup,False
+RAN-N-00661,2026-09-26T04:17:09+00:00,employee_7,identity_service1,login_success,corp-fs-01,1229,1915,Successful corporate login,False
+RAN-N-00065,2026-09-26T04:21:47+00:00,employee_8,identity_service8,login_success,corp-ws-02,7488,760,Successful corporate login,False
+RAN-N-00156,2026-09-26T04:42:55+00:00,office_app_25,printer_queue15,file_write,corp-ws-02,6881,1211,Routine print job output,False
+RAN-N-00594,2026-09-26T04:50:12+00:00,office_app_6,printer_queue11,file_write,corp-fs-01,4220,2251,Routine print job output,False
+RAN-N-00534,2026-09-26T04:51:44+00:00,backup_agent_22,backup_store2,file_write,corp-srv-02,5814,2742,Scheduled backup file write,False
+RAN-N-00306,2026-09-26T05:18:48+00:00,office_app_3,printer_queue5,file_write,corp-fs-01,7899,2748,Routine print job output,False
+RAN-N-00590,2026-09-26T05:22:35+00:00,office_app_21,printer_queue4,file_write,corp-fs-01,5396,2762,Routine print job output,False
+RAN-N-00101,2026-09-26T05:41:00+00:00,employee_8,identity_service4,login_success,corp-srv-02,853,2700,Successful corporate login,False
+RAN-N-00391,2026-09-26T06:04:28+00:00,employee_6,identity_service17,login_success,corp-ws-01,1588,297,Successful corporate login,False
+RAN-N-00302,2026-09-26T06:49:44+00:00,employee_3,identity_service4,login_success,corp-fs-01,1073,1845,Successful corporate login,False
+RAN-N-00229,2026-09-26T07:01:28+00:00,employee_19,identity_service16,login_success,corp-srv-02,8526,2060,Successful corporate login,False
+RAN-N-00420,2026-09-26T07:03:45+00:00,office_app_11,printer_queue3,file_write,corp-fs-01,4918,3601,Routine print job output,False
+RAN-N-00077,2026-09-26T07:12:40+00:00,employee_10,shared_docs5,file_read,corp-ws-01,4732,1604,Routine document access,False
+RAN-N-00023,2026-09-26T07:46:54+00:00,endpoint_agent_21,security_console6,network_connection,corp-fs-01,8791,1436,Routine telemetry upload,False
+RAN-N-00149,2026-09-26T07:59:36+00:00,workstation_11,internal_dns16,dns_query,corp-ws-02,8473,3942,Routine DNS lookup,False
+RAN-N-00125,2026-09-26T08:06:22+00:00,office_app_2,printer_queue5,file_write,corp-fs-01,2099,2113,Routine print job output,False
+RAN-N-00018,2026-09-26T08:11:56+00:00,employee_24,shared_docs18,file_read,corp-srv-02,4487,1169,Routine document access,False
+RAN-N-00609,2026-09-26T08:31:46+00:00,employee_21,identity_service12,login_success,corp-fs-01,7093,732,Successful corporate login,False
+RAN-N-00314,2026-09-26T09:10:53+00:00,browser_1,intranet1,http_request,corp-srv-02,336,3843,Routine intranet request,False
+RAN-N-00672,2026-09-26T09:19:30+00:00,backup_agent_16,backup_store13,file_write,corp-srv-02,6582,719,Scheduled backup file write,False
+RAN-N-00469,2026-09-26T09:31:19+00:00,workstation_13,internal_dns12,dns_query,corp-fs-01,3100,3520,Routine DNS lookup,False
+RAN-N-00184,2026-09-26T09:31:51+00:00,backup_agent_22,backup_store11,file_write,corp-srv-02,6423,3292,Scheduled backup file write,False
+RAN-N-00407,2026-09-26T09:36:38+00:00,backup_agent_19,backup_store12,file_write,corp-fs-01,7360,3075,Scheduled backup file write,False
+RAN-N-00720,2026-09-26T09:42:08+00:00,employee_1,shared_docs18,file_read,corp-ws-02,269,1446,Routine document access,False
+RAN-N-00357,2026-09-26T09:44:34+00:00,endpoint_agent_9,security_console18,network_connection,corp-fs-01,2196,1159,Routine telemetry upload,False
+RAN-N-00383,2026-09-26T09:59:12+00:00,backup_agent_11,backup_store15,file_write,corp-fs-01,2553,193,Scheduled backup file write,False
+RAN-N-00457,2026-09-26T10:14:46+00:00,backup_agent_11,backup_store18,file_write,corp-srv-02,3387,2895,Scheduled backup file write,False
+RAN-N-00630,2026-09-26T11:00:08+00:00,endpoint_agent_25,security_console4,network_connection,corp-fs-01,3307,3828,Routine telemetry upload,False
+RAN-N-00087,2026-09-26T11:12:14+00:00,backup_agent_18,backup_store12,file_write,corp-srv-02,8795,858,Scheduled backup file write,False
+RAN-N-00501,2026-09-26T11:35:22+00:00,backup_agent_11,backup_store8,file_write,corp-fs-01,5823,440,Scheduled backup file write,False
+RAN-N-00582,2026-09-26T11:37:58+00:00,browser_13,intranet7,http_request,corp-fs-01,6667,1287,Routine intranet request,False
+RAN-N-00707,2026-09-26T11:51:19+00:00,endpoint_agent_20,security_console17,network_connection,corp-fs-01,5083,2072,Routine telemetry upload,False
+RAN-N-00352,2026-09-26T11:52:13+00:00,endpoint_agent_11,security_console17,network_connection,corp-fs-01,4212,1541,Routine telemetry upload,False
+RAN-N-00552,2026-09-26T12:02:26+00:00,backup_agent_1,backup_store15,file_write,corp-srv-02,4092,2681,Scheduled backup file write,False
+RAN-N-00244,2026-09-26T12:03:29+00:00,endpoint_agent_17,security_console18,network_connection,corp-ws-01,4714,631,Routine telemetry upload,False
+RAN-N-00587,2026-09-26T12:07:18+00:00,browser_17,intranet7,http_request,corp-ws-02,1656,1639,Routine intranet request,False
+RAN-N-00479,2026-09-26T12:11:47+00:00,employee_22,shared_docs6,file_read,corp-ws-02,6235,123,Routine document access,False
+RAN-N-00214,2026-09-26T12:12:00+00:00,employee_21,identity_service12,login_success,corp-ws-01,2309,1036,Successful corporate login,False
+RAN-N-00147,2026-09-26T12:41:47+00:00,endpoint_agent_4,security_console2,network_connection,corp-ws-01,2191,632,Routine telemetry upload,False
+RAN-N-00157,2026-09-26T13:12:25+00:00,workstation_20,internal_dns1,dns_query,corp-ws-02,1778,2637,Routine DNS lookup,False
+RAN-N-00567,2026-09-26T13:33:29+00:00,backup_agent_7,backup_store6,file_write,corp-fs-01,2843,227,Scheduled backup file write,False
+RAN-N-00171,2026-09-26T13:56:32+00:00,workstation_14,internal_dns5,dns_query,corp-srv-02,4282,57,Routine DNS lookup,False
+RAN-N-00155,2026-09-26T14:01:39+00:00,browser_23,intranet15,http_request,corp-ws-02,2883,1031,Routine intranet request,False
+RAN-N-00213,2026-09-26T14:27:16+00:00,employee_15,shared_docs2,file_read,corp-srv-02,2091,3271,Routine document access,False
+RAN-N-00287,2026-09-26T14:57:47+00:00,browser_15,intranet13,http_request,corp-srv-02,5338,1754,Routine intranet request,False
+RAN-N-00071,2026-09-26T15:15:26+00:00,employee_2,shared_docs14,file_read,corp-srv-02,1459,295,Routine document access,False
+RAN-N-00448,2026-09-26T15:23:25+00:00,office_app_19,printer_queue17,file_write,corp-fs-01,6655,1666,Routine print job output,False
+RAN-N-00223,2026-09-26T16:17:16+00:00,browser_10,intranet11,http_request,corp-ws-01,8967,3610,Routine intranet request,False
+RAN-N-00432,2026-09-26T16:17:49+00:00,employee_21,identity_service9,login_success,corp-ws-02,2543,2096,Successful corporate login,False
+RAN-N-00423,2026-09-26T16:41:33+00:00,browser_1,intranet14,http_request,corp-ws-02,7847,3483,Routine intranet request,False
+RAN-N-00388,2026-09-26T17:07:20+00:00,office_app_17,printer_queue5,file_write,corp-ws-01,2146,598,Routine print job output,False
+RAN-N-00096,2026-09-26T17:55:06+00:00,workstation_7,internal_dns2,dns_query,corp-ws-01,4520,318,Routine DNS lookup,False
+RAN-N-00509,2026-09-26T18:13:00+00:00,employee_11,identity_service4,login_success,corp-srv-02,4579,3624,Successful corporate login,False
+RAN-N-00310,2026-09-26T18:24:20+00:00,workstation_20,internal_dns15,dns_query,corp-ws-01,3120,2713,Routine DNS lookup,False
+RAN-N-00181,2026-09-26T18:24:28+00:00,office_app_1,printer_queue12,file_write,corp-ws-01,901,1314,Routine print job output,False
+RAN-N-00225,2026-09-26T18:39:17+00:00,employee_18,identity_service18,login_success,corp-srv-02,8513,3465,Successful corporate login,False
+RAN-N-00272,2026-09-26T18:58:12+00:00,workstation_15,internal_dns2,dns_query,corp-ws-02,2893,1768,Routine DNS lookup,False
+RAN-N-00459,2026-09-26T19:02:20+00:00,employee_9,identity_service3,login_success,corp-ws-01,5157,2646,Successful corporate login,False
+RAN-N-00631,2026-09-26T19:42:12+00:00,endpoint_agent_6,security_console14,network_connection,corp-ws-02,5890,3006,Routine telemetry upload,False
+RAN-N-00163,2026-09-26T20:07:16+00:00,employee_24,shared_docs10,file_read,corp-ws-01,5951,122,Routine document access,False
+RAN-N-00450,2026-09-26T20:14:59+00:00,employee_9,shared_docs11,file_read,corp-ws-01,444,3107,Routine document access,False
+RAN-N-00467,2026-09-26T20:18:06+00:00,office_app_11,printer_queue5,file_write,corp-fs-01,1547,2575,Routine print job output,False
+RAN-N-00285,2026-09-26T20:47:21+00:00,employee_17,identity_service7,login_success,corp-ws-02,310,1237,Successful corporate login,False
+RAN-N-00111,2026-09-26T20:56:25+00:00,backup_agent_12,backup_store16,file_write,corp-ws-01,7423,1000,Scheduled backup file write,False
+RAN-N-00639,2026-09-26T21:02:28+00:00,browser_24,intranet14,http_request,corp-fs-01,3420,2311,Routine intranet request,False
+RAN-N-00327,2026-09-26T21:05:07+00:00,backup_agent_11,backup_store5,file_write,corp-ws-01,8512,2321,Scheduled backup file write,False
+RAN-N-00081,2026-09-26T21:13:40+00:00,employee_24,shared_docs17,file_read,corp-srv-02,1917,3423,Routine document access,False
+RAN-N-00622,2026-09-26T21:15:40+00:00,workstation_10,internal_dns7,dns_query,corp-fs-01,7366,1410,Routine DNS lookup,False
+RAN-N-00522,2026-09-26T21:21:26+00:00,backup_agent_5,backup_store2,file_write,corp-srv-02,933,3513,Scheduled backup file write,False
+RAN-N-00026,2026-09-26T21:26:35+00:00,office_app_8,printer_queue12,file_write,corp-fs-01,4689,3163,Routine print job output,False
+RAN-N-00684,2026-09-26T21:27:02+00:00,browser_1,intranet17,http_request,corp-ws-01,2774,1561,Routine intranet request,False
+RAN-N-00655,2026-09-26T21:28:51+00:00,employee_11,identity_service12,login_success,corp-fs-01,1354,834,Successful corporate login,False
+RAN-N-00239,2026-09-26T21:33:15+00:00,employee_19,shared_docs8,file_read,corp-srv-02,5551,307,Routine document access,False
+RAN-N-00475,2026-09-26T22:03:19+00:00,employee_2,shared_docs4,file_read,corp-ws-01,4680,1264,Routine document access,False
+RAN-N-00484,2026-09-26T22:09:35+00:00,endpoint_agent_2,security_console4,network_connection,corp-srv-02,8290,2922,Routine telemetry upload,False
+RAN-N-00161,2026-09-26T22:15:27+00:00,workstation_14,internal_dns15,dns_query,corp-fs-01,2019,1521,Routine DNS lookup,False
+RAN-N-00093,2026-09-26T22:27:23+00:00,office_app_10,printer_queue1,file_write,corp-fs-01,8835,3108,Routine print job output,False
+RAN-N-00210,2026-09-26T22:34:30+00:00,browser_13,intranet10,http_request,corp-ws-02,5175,582,Routine intranet request,False
+RAN-N-00685,2026-09-26T22:48:55+00:00,endpoint_agent_21,security_console14,network_connection,corp-ws-01,2315,386,Routine telemetry upload,False
+RAN-N-00670,2026-09-26T23:23:46+00:00,backup_agent_10,backup_store1,file_write,corp-ws-01,1480,1940,Scheduled backup file write,False
