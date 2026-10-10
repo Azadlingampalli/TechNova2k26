@@ -23,7 +23,7 @@ except ImportError:  # optional during source-only development
     TEXT = "text"
     PyMongoError = Exception
 
-MONGODB_URI = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
+MONGODB_URI = os.getenv("MONGODB_URI", "mongodb+srv://azadlingampalli_db_user:MEzEc7qAren63U2a@cluster0.ctb4ll7.mongodb.net")
 MONGODB_DATABASE = os.getenv("MONGODB_DATABASE", "ransomtrace_ai")
 _client = None
 
