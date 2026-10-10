@@ -21,7 +21,7 @@ from src.summarize import build_summary, summary_markdown
 from src.storage import connection_status, save_analysis, list_runs, search_events
 
 ROOT = Path(__file__).parent
-st.set_page_config(page_title="RansomTrace AI | Incident Workbench", page_icon="🛡️", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Provenance AI | Incident Workbench", page_icon="🛡️", layout="wide", initial_sidebar_state="expanded")
 
 st.markdown("""
 <style>
@@ -32,7 +32,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🛡️ RansomTrace AI")
+st.title("🛡️ Provenance AI")
 st.markdown('<div class="rt-subtitle">Incident reconstruction workbench · provenance graphs · evidence-linked findings · investigation history</div>', unsafe_allow_html=True)
 
 
